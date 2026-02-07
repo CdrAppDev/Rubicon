@@ -1,0 +1,54 @@
+hypotheses:
+  - id: H1
+    problem: "Due diligence teams must manually review thousands of unstructured documents under tight deal timelines, making thorough analysis impractical within the time available"
+    evidence_signals:
+      - "Value prop: 'Enterprise-grade AI associate trained to analyze vast volumes of documents from data rooms, virtual deal rooms, and business systems'"
+      - "Testimonial: 'accelerated due diligence' — implies current process is too slow"
+      - "Testimonial: 'significantly cutting operational costs' — implies current process is expensive"
+      - "Feature: AI-assisted forensic analysis — implies manual forensic analysis is the baseline"
+    falsifiable: true
+
+  - id: H2
+    problem: "Financial anomalies and risk signals buried in deal documents go undetected during due diligence because reviewers cannot systematically cross-reference information across large document sets"
+    evidence_signals:
+      - "Feature: 'AI-assisted forensic analysis to build financial timelines, audit trails, and surface anomalies'"
+      - "Value prop: 'reduce risk' — implies risk is currently missed"
+      - "Feature: anomaly surfacing — implies anomalies currently go unsurfaced"
+    falsifiable: true
+
+  - id: H3
+    problem: "Finding specific information across thousands of unstructured pages in deal data rooms requires excessive time, leading to incomplete analysis or missed findings"
+    evidence_signals:
+      - "Feature: 'Instantly searches thousands of unstructured document pages across multiple sources'"
+      - "Feature: 'Delivers concise answers with source citations' — implies analysts currently read through documents to find answers"
+      - "Pain point listed: 'Information access across thousands of documents'"
+    falsifiable: true
+
+  - id: H4
+    problem: "Due diligence work across analysts, legal teams, and leadership is fragmented, resulting in inconsistent risk assessments and duplicated review effort"
+    evidence_signals:
+      - "Feature: 'Shared workspaces across teams'"
+      - "Feature: 'AI-generated summaries for consistency and confidence in deal workflows' — 'consistency' implies current inconsistency"
+      - "Testimonial: 'supporting analysts, legal team, and leadership' — multiple distinct roles involved"
+    falsifiable: true
+
+  - id: H5
+    problem: "Portfolio managers lack continuous visibility into portfolio company health between formal reporting periods, creating blind spots for emerging risks"
+    evidence_signals:
+      - "Target audience: 'Investors/Portfolio managers (monitoring companies 24/7)'"
+      - "The 24/7 framing implies current monitoring is periodic, not continuous"
+    falsifiable: true
+
+  - id: H6
+    problem: "Startups preparing for investor due diligence spend excessive founder time organizing documents and responding to information requests, diverting attention from building the business"
+    evidence_signals:
+      - "Target audience: 'Start-ups (seeking to raise capital and communicate with investors)'"
+      - "Feature: document organization and search — implies current document preparation is manual and burdensome"
+      - "Two-sided positioning (investors AND startups) implies both sides of the deal feel friction"
+    falsifiable: true
+
+input_provenance:
+  type: "website"
+  url: "https://www.getrubicon.com/"
+  date_accessed: "2026-02-07"
+  extraction_notes: "Read homepage content via WebFetch. Site covers AI-powered due diligence for both investors and startups. Content included features, value propositions, target audiences, one testimonial, and security/compliance positioning."

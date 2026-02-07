@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problem Thesis: Rubicon</title>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --card: #12121a;
+      --border: #2a2a3a;
+      --text: #f0f0f5;
+      --muted: #8888aa;
+      --accent: #9966ff;
+      --accent-dim: rgba(153, 102, 255, 0.15);
+      --red: #ff4466;
+      --red-dim: rgba(255, 68, 102, 0.12);
+      --green: #44cc88;
+      --amber: #ffaa33;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    .container { max-width: 920px; margin: 0 auto; padding: 48px 24px 80px; }
+
+    /* Header */
+    h1 { font-size: 2.25rem; margin-bottom: 4px; letter-spacing: -0.02em; }
+    .subtitle { color: var(--muted); margin-bottom: 48px; font-size: 1rem; }
+
+    /* Section headers */
+    h2 { font-size: 1.3rem; color: var(--accent); margin: 56px 0 20px; letter-spacing: 0.02em; text-transform: uppercase; font-weight: 600; }
+    h3 { font-size: 1.1rem; margin: 28px 0 12px; color: var(--text); }
+
+    /* Problem statement */
+    .statement {
+      font-size: 1.35rem;
+      padding: 28px 32px;
+      background: var(--card);
+      border-left: 4px solid var(--accent);
+      margin: 24px 0;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    /* Cards */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 12px 0;
+    }
+    .card strong { display: block; margin-bottom: 8px; color: var(--accent); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .card .stat { font-size: 1.6rem; font-weight: 700; margin-bottom: 6px; }
+    .card p { color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+
+    /* Grid */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+
+    /* Evidence grid — special 2-col for large cards */
+    .evidence-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 16px; }
+
+    /* Stakeholder cards */
+    .stakeholder { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin: 12px 0; }
+    .stakeholder h4 { color: var(--accent); font-size: 1rem; margin-bottom: 8px; }
+    .stakeholder p { color: var(--muted); font-size: 0.9rem; }
+    .stakeholder .detail { color: var(--text); font-size: 0.95rem; margin-top: 8px; }
+
+    /* Quotes */
+    .quote {
+      border-left: 2px solid var(--accent);
+      padding: 12px 0 12px 20px;
+      margin: 20px 0;
+      font-style: italic;
+      color: var(--text);
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+    .quote .source { color: var(--muted); font-size: 0.85rem; font-style: normal; margin-top: 6px; }
+
+    /* Case studies */
+    .case-study {
+      background: var(--red-dim);
+      border: 1px solid rgba(255, 68, 102, 0.25);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 12px 0;
+    }
+    .case-study h4 { color: var(--red); font-size: 0.95rem; margin-bottom: 8px; }
+    .case-study p { font-size: 0.9rem; color: var(--muted); line-height: 1.5; }
+
+    /* First principles */
+    .principle {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 24px;
+      margin: 16px 0;
+    }
+    .principle .pid { color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+    .principle .pstatement { font-size: 1rem; font-weight: 500; margin-bottom: 12px; line-height: 1.45; }
+    .principle .pevidence { color: var(--muted); font-size: 0.85rem; margin-bottom: 8px; line-height: 1.5; }
+    .principle .pimplication { color: var(--green); font-size: 0.85rem; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+    /* Jobs */
+    .job {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 12px 0;
+    }
+    .job .jid { color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
+    .job .jstatement { font-size: 0.95rem; margin-bottom: 8px; }
+    .job .jdone { color: var(--green); font-size: 0.85rem; }
+    .job-emotional { border-left: 3px solid var(--amber); }
+    .job-social { border-left: 3px solid var(--accent); }
+
+    /* Narrative sections */
+    .narrative { color: var(--muted); font-size: 0.95rem; line-height: 1.65; margin: 12px 0; }
+    .narrative strong { color: var(--text); }
+
+    /* Links */
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Gate */
+    .gate {
+      text-align: center;
+      padding: 48px 32px;
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      margin-top: 64px;
+      background: var(--accent-dim);
+    }
+    .gate h2 { margin-top: 0; }
+    .gate p { font-size: 1.2rem; margin-top: 8px; }
+
+    /* Dividers */
+    .divider { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px 60px; }
+      h1 { font-size: 1.6rem; }
+      .statement { font-size: 1.1rem; padding: 20px; }
+      .grid, .grid-3, .evidence-grid { grid-template-columns: 1fr; }
+      .card .stat { font-size: 1.3rem; }
+    }
+
+    /* Collapsible theme sections */
+    .theme-header { cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; margin-top: 12px; }
+    .theme-header h4 { color: var(--text); font-size: 0.95rem; margin: 0; }
+    .theme-header .toggle { color: var(--muted); font-size: 0.8rem; }
+    .theme-quotes { padding: 0 20px 16px; background: var(--card); border: 1px solid var(--border); border-top: 0; border-radius: 0 0 8px 8px; margin-top: -1px; }
+    .theme-quotes.collapsed { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Rubicon</h1>
+    <p class="subtitle">Problem Thesis &mdash; Gate Review</p>
+
+    <!-- ===== PROBLEM STATEMENT ===== -->
+    <section>
+      <h2>The Problem</h2>
+      <p class="statement">Due diligence fails because cross-document synthesis of thousands of unstructured pages within deal-driven timelines exceeds the biological limits of human cognition &mdash; and every layer of the current system, from VDR storage to organizational structure to deal incentives, is architecturally incapable of closing the gap.</p>
+    </section>
+
+    <!-- ===== WHO SUFFERS ===== -->
+    <section>
+      <h2>Who Suffers</h2>
+      <div class="grid">
+        <div class="stakeholder">
+          <h4>Deal Teams</h4>
+          <p>PE associates, IB analysts, Big Law attorneys, Big 4 consultants</p>
+          <p class="detail">8&ndash;10+ parallel workstreams. 5,000&ndash;50,000+ pages per data room. 500+ contracts requiring 3,750 attorney hours for complete review. Traditional DD examines only 5&ndash;10% of contracts.</p>
+          <p class="source">(<a href="https://investordatarooms.com/virtual-data-rooms-for-ma/">InvestorDataRooms.com</a>; <a href="https://www.v7labs.com/blog/best-ai-data-rooms-for-due-diligence">Spellbook/V7 Labs</a>; <a href="https://www.sirion.ai/library/contract-ai/ai-due-diligence/">Sirion.ai</a>)</p>
+        </div>
+        <div class="stakeholder">
+          <h4>Investment Committees</h4>
+          <p>Principals, partners, IC members</p>
+          <p class="detail">The IC memo is the sole forced synthesis point &mdash; written by a junior deal team member under time pressure. No platform provides cross-workstream analytical synthesis.</p>
+          <p class="source">(Stanford/Addepar; Cross-Workstream Synthesis research, 2025)</p>
+        </div>
+        <div class="stakeholder">
+          <h4>Portfolio Managers &amp; LPs</h4>
+          <p>Operating partners, fund managers, limited partners</p>
+          <p class="detail">Decisions made on data 3&ndash;6 months old. 46% rely exclusively on Excel. 18,000+ companies in exit backlog. Record 110 PE-backed bankruptcies in 2024.</p>
+          <p class="source">(<a href="https://institutionalinvestor.com/article/b1bdt7701vdfpk/Private-Equity-Luddites-Cling-to-Excel">Preqin</a>; <a href="https://neoform.partners/mckinsey-global-private-markets-report-2025/">McKinsey</a>; S&amp;P Global)</p>
+        </div>
+        <div class="stakeholder">
+          <h4>Target Company Management</h4>
+          <p>CEOs, CFOs, founders preparing for sale or fundraise</p>
+          <p class="detail">CEO/CFO at 30 hours/week during DD. 7&ndash;12 parallel buyer workstreams. DD past 90 days drops closure probability below 50%. Business performance visibly suffers.</p>
+          <p class="source">(<a href="https://silminds.com/a-fast-track-timeline-for-sell-side-due-diligence/">SilMinds</a>; <a href="https://www.business-sale.com/insights/for-buyers/hitting-the-due-diligence-timeframe-sweet-spot-228241">Business Sale Report</a>)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EVIDENCE ===== -->
+    <section>
+      <h2>Evidence</h2>
+
+      <h3>Prevalence</h3>
+      <div class="grid-3">
+        <div class="card">
+          <strong>Unstructured Data</strong>
+          <div class="stat">80&ndash;90%</div>
+          <p>of enterprise data is unstructured, growing 3x faster than structured data</p>
+          <p class="source"><a href="https://www.geekwire.com/sponsor-post/unstructured-data-organizations-best-kept-secret/">Gartner/IDC, 2023&ndash;2025</a></p>
+        </div>
+        <div class="card">
+          <strong>AI Adoption</strong>
+          <div class="stat">16%</div>
+          <p>of M&amp;A professionals currently use GenAI in due diligence</p>
+          <p class="source"><a href="https://www.investmentbankingcouncil.org/blog/competitive-benchmarks-strengthening-manda-due-diligence">IBCA, 2024</a></p>
+        </div>
+        <div class="card">
+          <strong>Self-Assessment</strong>
+          <div class="stat">83%</div>
+          <p>of PE leaders say their DD approach has substantial room for improvement</p>
+          <p class="source"><a href="https://www.accenture.com/us-en/insights/strategy/private-equity-due-diligence">Accenture, June 2024</a></p>
+        </div>
+      </div>
+
+      <h3>Severity</h3>
+      <div class="grid-3">
+        <div class="card">
+          <strong>Document Volume</strong>
+          <div class="stat">5K&ndash;50K+</div>
+          <p>pages per mid-market data room; 174 document types for legal DD alone</p>
+          <p class="source"><a href="https://investordatarooms.com/virtual-data-rooms-for-ma/">InvestorDataRooms.com</a>; <a href="https://pro.bloomberglaw.com/insights/contracts/ma-due-diligence-checklist/">Bloomberg Law</a></p>
+        </div>
+        <div class="card">
+          <strong>Time Investment</strong>
+          <div class="stat">6 weeks</div>
+          <p>for a team of 10; deal duration up 48% from 2021&ndash;2024</p>
+          <p class="source"><a href="https://etonvs.com/transaction-valuation-advisory/financial-due-diligence/">Eton Venture Services</a>; <a href="https://www.datasite.com/en/resources/insights/expert-spotlight-strategies-for-due-diligence-and-deal-success">Datasite</a></p>
+        </div>
+        <div class="card">
+          <strong>Q&amp;A Burden</strong>
+          <div class="stat">90%</div>
+          <p>of questions take 6+ interactions to resolve; Q&amp;A consumes up to 70% of deal time</p>
+          <p class="source"><a href="https://www.ansarada.com/due-diligence/process">Ansarada, 2025</a></p>
+        </div>
+      </div>
+
+      <h3>Cognitive Science</h3>
+      <div class="grid">
+        <div class="card">
+          <strong>Inattentional Blindness</strong>
+          <div class="stat">83%</div>
+          <p>of radiologists missed a gorilla 48x larger than a lung nodule; eye-tracking confirmed most looked directly at it</p>
+          <p class="source">Drew, V&otilde; &amp; Wolfe, 2013</p>
+        </div>
+        <div class="card">
+          <strong>Reviewer Agreement</strong>
+          <div class="stat">28%</div>
+          <p>agreement between two independent document review teams on 5,000 M&amp;A documents; $14M human review outperformed by automated systems</p>
+          <p class="source">Roitblat, Kershaw &amp; Oot, 2010</p>
+        </div>
+        <div class="card">
+          <strong>Cognitive Load</strong>
+          <div class="stat">6x</div>
+          <p>collapse in detection rates under high cognitive load (8% vs 47% under low load)</p>
+          <p class="source">Simons et al., 2024</p>
+        </div>
+        <div class="card">
+          <strong>Time Pressure</strong>
+          <p>Time-pressured auditors maintain quantitative accuracy but filter out qualitative fraud indicators. System 2 processing preferentially impaired under load.</p>
+          <p class="source">Braun, 2000; Croskerry, 2009/2013</p>
+        </div>
+      </div>
+
+      <h3>Post-Close Failures</h3>
+      <div class="grid-3">
+        <div class="card">
+          <strong>Claim Frequency</strong>
+          <div class="stat">30&ndash;38%</div>
+          <p>of private M&amp;A deals generate at least one post-close indemnification claim</p>
+          <p class="source"><a href="https://www.srsacquiom.com/our-insights/post-closing-indemnification/">SRS Acquiom, 2020/2022</a></p>
+        </div>
+        <div class="card">
+          <strong>Audited Targets</strong>
+          <div class="stat">84%</div>
+          <p>of financial statement breach claims involve companies with audited financials; the information existed &mdash; synthesis failed</p>
+          <p class="source"><a href="https://sspins.com/did-you-know-series-2023-rwi-claims-reports-and-analysis/">Euclid Transactional, 2023</a></p>
+        </div>
+        <div class="card">
+          <strong>RWI Losses</strong>
+          <div class="stat">80%</div>
+          <p>of all dollars insurers pay come from 3 categories: financial statements (37%), material contracts (31%), compliance (12%) &mdash; all requiring cross-document analysis</p>
+          <p class="source">Aon, 2025</p>
+        </div>
+      </div>
+
+      <h3>Case Studies: When Cross-Reference Fails</h3>
+      <div class="evidence-grid">
+        <div class="case-study">
+          <h4>Valeant / Salix &mdash; $14.5B (2015)</h4>
+          <p>Financial statements showed strong revenue. Wholesaler inventory showed 5&ndash;9 months excess. Prescription data showed flat demand. Cross-referencing all three reveals channel stuffing. Allergan&rsquo;s team caught it and walked away. Valeant&rsquo;s did not.</p>
+        </div>
+        <div class="case-study">
+          <h4>GE / Alstom &mdash; $10.6B (2015)</h4>
+          <p>Alstom&rsquo;s own annual report warned of &ldquo;excess capacity in developed markets.&rdquo; GE&rsquo;s models projected robust demand. Result: $23B writedown &mdash; more than double the purchase price.</p>
+        </div>
+        <div class="case-study">
+          <h4>Marriott / Starwood &mdash; $13.6B (2016)</h4>
+          <p>Prior breach disclosure, legacy IT documentation, and 383M guest records existed in separate workstreams reviewed by different teams. Result: &pound;18.4M in fines, $1B+ revenue losses.</p>
+        </div>
+        <div class="case-study">
+          <h4>Bayer / Monsanto &mdash; $63B (2018)</h4>
+          <p>Public IARC carcinogen classification + internal MDL discovery documents + DD &ldquo;limited exclusively to memoranda by a US law firm.&rdquo; Result: $10B+ settlements, 67,000+ lawsuits.</p>
+        </div>
+        <div class="case-study">
+          <h4>BofA / Countrywide &mdash; $2.5B (2008)</h4>
+          <p>Formal Loan Program Guides vs. internal &ldquo;shadow guidelines&rdquo; showing 15% underwriting exceptions. 60-person DD team, 90 days. Result: $60B+ in post-close losses.</p>
+        </div>
+        <div class="case-study">
+          <h4>Kraft Heinz &mdash; 2015 merger</h4>
+          <p>Goodwill allocation increased 4.9% despite declining pro forma sales. SEC revealed $208M in fictitious cost savings. Result: $15.4B impairment.</p>
+        </div>
+      </div>
+      <p class="narrative" style="margin-top:16px;"><strong>The EBITDA-multiplier effect:</strong> Claims seeking multiple-based damages rose from 5% in 2020 to 32% in 2024 (<a href="https://www.fasken.com/en/knowledge/2025/10/trends-in-representations-and-warranties-insurance">Fasken/Aon</a>). A $2M error at 10x EBITDA becomes a $20M claim. Every missed cross-reference is exponentially more costly than five years ago.</p>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== WHY IT PERSISTS ===== -->
+    <section>
+      <h2>Why It Persists</h2>
+
+      <div class="card" style="border-left: 3px solid var(--red);">
+        <strong>VDRs Solved Security, Not Intelligence</strong>
+        <p>Virtual data rooms remain &ldquo;passive digital filing cabinets&rdquo; (<a href="https://www.v7labs.com/blog/best-ai-data-rooms-for-due-diligence">V7 Labs, 2025</a>). No major VDR offers native cross-document analysis. All four major platforms feature Excel export as a core Q&amp;A capability &mdash; an implicit admission their native interfaces are insufficient.</p>
+      </div>
+
+      <div class="card" style="border-left: 3px solid var(--red);">
+        <strong>AI Tools Face a &ldquo;Trust Stack&rdquo; of Barriers</strong>
+        <p>Stanford RegLab found legal AI tools hallucinate 17&ndash;34%. 41% of lawyers require 100% accuracy (<a href="#">Thomson Reuters</a>). Deal data is MNPI. SOC 2 takes 6&ndash;12 months; deals close in 4&ndash;6 weeks. ABA Opinion 512: uncritical AI reliance is &ldquo;almost certainly malpractice.&rdquo; Virtually every first-wave legal AI company has been acquired or shut down: RAVN, eBrevia, Kira, Seal, ROSS, Evisort, Eigen.</p>
+      </div>
+
+      <div class="card" style="border-left: 3px solid var(--red);">
+        <strong>Deal Incentives Suppress Disconfirming Evidence</strong>
+        <p>DD &ldquo;seldom leads managers to kill potential acquisitions, even when the deals are deeply flawed&rdquo; (Harvard Business Review). No-undisclosed-liabilities claims more than doubled between 2022 and 2024, linked to &ldquo;decreased buyer diligence in the competitive 2021 M&amp;A market&rdquo; (<a href="https://www.srsacquiom.com/our-insights/ma-claims-undisclosed-liabilities-earnouts/">SRS Acquiom</a>).</p>
+      </div>
+
+      <div class="card" style="border-left: 3px solid var(--red);">
+        <strong>Organizational Design Guarantees Silos</strong>
+        <p>8&ndash;10+ parallel workstreams by necessity. No lateral relations exist across them (Galbraith, 1974). The deal coordinator lacks authority to compel cross-workstream sharing. Full-team meetings convene only 2&ndash;4 times during the process.</p>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== FIRST PRINCIPLES ===== -->
+    <section>
+      <h2>First Principles</h2>
+
+      <div class="principle">
+        <div class="pid">P1 &mdash; Cognitive Degradation</div>
+        <div class="pstatement">Human cognitive capacity for cross-referencing information degrades predictably with document volume and time pressure &mdash; and expertise does not protect.</div>
+        <div class="pevidence">83% radiologist miss rate (Drew et al., 2013). 28% reviewer agreement (Roitblat et al., 2010). System 2 preferentially impaired under load (Croskerry). No experience-level protection (Krupat et al., 2017). Working memory ~4&plusmn;1 items (Cowan, 2001).</div>
+        <div class="pimplication">&rarr; Solution must augment human processing capacity. The human role must shift from reading/finding to judging/deciding.</div>
+      </div>
+
+      <div class="principle">
+        <div class="pid">P2 &mdash; Structurally Unstructured</div>
+        <div class="pstatement">DD information is structurally unstructured &mdash; documents lack machine-readable organization by design, and no team can impose structure fast enough within deal timelines.</div>
+        <div class="pevidence">500+ contracts at 5&ndash;10 hours each (<a href="https://www.v7labs.com/blog/best-ai-data-rooms-for-due-diligence">Spellbook/V7 Labs</a>). 174 document types (<a href="https://pro.bloomberglaw.com/insights/contracts/ma-due-diligence-checklist/">Bloomberg Law</a>). Disclosure schedules in Word with 12+ drafts. Only 5&ndash;10% of contracts examined.</div>
+        <div class="pimplication">&rarr; Solution must transform unstructured content into queryable, cross-referenceable knowledge automatically.</div>
+      </div>
+
+      <div class="principle">
+        <div class="pid">P3 &mdash; Deal-Driven Timelines</div>
+        <div class="pstatement">DD timelines are set by deal dynamics, not by work volume.</div>
+        <div class="pevidence">30&ndash;90 day windows regardless of volume. Closure probability drops below 50% past 90 days (<a href="https://www.business-sale.com/insights/for-buyers/hitting-the-due-diligence-timeframe-sweet-spot-228241">Business Sale Report</a>). CEO/CFO at 30 hours/week (<a href="https://silminds.com/a-fast-track-timeline-for-sell-side-due-diligence/">SilMinds</a>). Deal duration up 48% despite technology improvements (<a href="https://www.datasite.com/en/resources/insights/expert-spotlight-strategies-for-due-diligence-and-deal-success">Datasite</a>).</div>
+        <div class="pimplication">&rarr; Solution must compress analysis time to fit deal-driven windows. Speed is a hard constraint, not a nice-to-have.</div>
+      </div>
+
+      <div class="principle">
+        <div class="pid">P4 &mdash; Cross-Document Value</div>
+        <div class="pstatement">The analytical value in DD comes from connections between documents, not from any individual document in isolation &mdash; and no tool currently provides cross-document or cross-workstream synthesis.</div>
+        <div class="pevidence">84% of breach claims involve audited targets (<a href="https://sspins.com/did-you-know-series-2023-rwi-claims-reports-and-analysis/">Euclid</a>). 80% of RWI losses from 3 cross-document categories (Aon). 8 case studies of missed cross-references. IC memo is the sole synthesis point (Stanford/Addepar).</div>
+        <div class="pimplication">&rarr; Solution must enable cross-document analysis as a first-class capability. Information architecture must be relational, not per-document.</div>
+      </div>
+
+      <div class="principle">
+        <div class="pid">P5 &mdash; Structural Silo Failure</div>
+        <div class="pstatement">DD requires domain-specific expertise across multiple disciplines, structurally preventing synthesis &mdash; and organizational theory predicts this failure as inevitable.</div>
+        <div class="pevidence">8&ndash;10+ parallel workstreams. W&amp;I claims reveal 5 most commonly missed cross-workstream interactions. 9/11 Commission: 23 missed opportunities from structural fragmentation (Zegart, 2007). I-PASS reduced handoff errors 30&ndash;47% (Starmer et al., NEJM).</div>
+        <div class="pimplication">&rarr; Solution must provide a shared analytical layer that synthesizes across workstreams without requiring cross-domain expertise from any single user.</div>
+      </div>
+
+      <div class="principle">
+        <div class="pid">P6 &mdash; Confirmation Bias</div>
+        <div class="pstatement">Deal incentive structures create systematic bias toward confirming the investment thesis rather than detecting disconfirming evidence.</div>
+        <div class="pevidence">DD &ldquo;seldom leads managers to kill deals, even deeply flawed ones&rdquo; (HBR). Confirmation bias survives audit controls (Cassell et al., 2022). WMD Commission: hypothesis &ldquo;no longer subject to scrutiny.&rdquo; RWI claim rates spike after competitive markets (<a href="https://www.fasken.com/en/knowledge/2025/10/trends-in-representations-and-warranties-insurance">Fasken</a>; <a href="https://www.srsacquiom.com/our-insights/ma-claims-undisclosed-liabilities-earnouts/">SRS Acquiom</a>).</div>
+        <div class="pimplication">&rarr; System must surface disconfirming evidence prominently. Automated detection removes the incentive problem.</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== JOBS TO BE DONE ===== -->
+    <section>
+      <h2>Jobs to Be Done</h2>
+
+      <h3>Functional</h3>
+
+      <div class="job">
+        <div class="jid">J1 &mdash; Document Prioritization</div>
+        <div class="jstatement">When reviewing a data room with thousands of documents under a tight deal deadline, identify which documents contain the key risks, terms, and obligations.</div>
+        <div class="jdone">&check; Done when: most relevant documents surfaced and prioritized within hours</div>
+      </div>
+
+      <div class="job">
+        <div class="jid">J2 &mdash; Cross-Document Verification</div>
+        <div class="jstatement">When finding a claim or figure in one document, verify it against every other relevant document in the data room to detect inconsistencies or anomalies.</div>
+        <div class="jdone">&check; Done when: all cross-references identified; inconsistencies flagged with specific locations and page numbers</div>
+      </div>
+
+      <div class="job">
+        <div class="jid">J3 &mdash; Cross-Workstream Synthesis</div>
+        <div class="jstatement">When multiple DD workstreams run in parallel, see what each team has found and whether findings connect or conflict.</div>
+        <div class="jdone">&check; Done when: integrated view of all workstreams; no team&rsquo;s blind spot becomes the deal&rsquo;s blind spot</div>
+      </div>
+
+      <div class="job">
+        <div class="jid">J4 &mdash; Portfolio Monitoring</div>
+        <div class="jstatement">When monitoring a portfolio company between formal reporting periods, know if something material has changed.</div>
+        <div class="jdone">&check; Done when: real-time awareness of material changes as they happen, not months after</div>
+      </div>
+
+      <div class="job">
+        <div class="jid">J5 &mdash; Sell-Side Readiness</div>
+        <div class="jstatement">When preparing for DD during a sale, have documents organized and information requests answered quickly.</div>
+        <div class="jdone">&check; Done when: standard requests answered in minutes; management time measured in hours/week, not a second full-time job</div>
+      </div>
+
+      <div class="job">
+        <div class="jid">J6 &mdash; Q&amp;A Coordination</div>
+        <div class="jstatement">When answering buyer questions spanning multiple workstreams, route questions to the right people and track answers without Excel trackers and email chains.</div>
+        <div class="jdone">&check; Done when: automated routing, duplicate detection, full audit trail; verbal findings integrated</div>
+      </div>
+
+      <h3>Emotional</h3>
+
+      <div class="job job-emotional">
+        <div class="jid">E1</div>
+        <div class="jstatement">Feel confident I haven&rsquo;t missed something critical that will surface after the deal closes.</div>
+      </div>
+
+      <div class="job job-emotional">
+        <div class="jid">E2</div>
+        <div class="jstatement">Feel like my analytical judgment matters, not just my ability to read documents and fill spreadsheets.</div>
+      </div>
+
+      <div class="job job-emotional">
+        <div class="jid">E3</div>
+        <div class="jstatement">Feel in control of the sale/fundraising process rather than drowning in information requests.</div>
+      </div>
+
+      <h3>Social</h3>
+
+      <div class="job job-social">
+        <div class="jid">S1</div>
+        <div class="jstatement">Be seen as thorough and diligent by investment committee, deal partners, and co-investors.</div>
+      </div>
+
+      <div class="job job-social">
+        <div class="jid">S2</div>
+        <div class="jstatement">Be seen as well-prepared and professional by potential buyers/investors, so DD builds confidence rather than eroding it.</div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== CUSTOMER VOICE ===== -->
+    <section>
+      <h2>Customer Voice</h2>
+      <p class="narrative">86 verbatim quotes across 10 themes. Selected highlights below.</p>
+
+      <!-- Theme 1 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 1: The Crushing Weight of Manual Review</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes">
+        <div class="quote">
+          &ldquo;During the due diligence/benchmarking/data analysis part of it I wanted to kill myself. Sounds like just a hell of a lot of pain in the ass work.&rdquo;
+          <p class="source">&mdash; Wall Street Oasis, IB analyst</p>
+        </div>
+        <div class="quote">
+          &ldquo;We burn out our best junior talent by forcing them to spend their weekend manually keying numbers from PDFs into Excel, praying they don&rsquo;t transpose a digit in the EBITDA bridge due to sleep deprivation.&rdquo;
+          <p class="source">&mdash; V7 Labs, 2025</p>
+        </div>
+        <div class="quote">
+          &ldquo;Diligence reviews often come with familiar pain points: hundreds or thousands of agreements, inconsistent document sets, and a tight deadline. Associates spend hours combing through contracts to find key clauses, and then manually copy them into a spreadsheet or chart.&rdquo;
+          <p class="source">&mdash; Andrew Johnston, Harvey AI</p>
+        </div>
+      </div>
+
+      <!-- Theme 2 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 2: Search as Needle-in-a-Haystack</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;While DataSite offers a secure environment for document sharing, the process of reviewing files is frustratingly slow. Navigating through files one by one is time-consuming, especially in larger data rooms with hundreds or thousands of documents.&rdquo;
+          <p class="source">&mdash; Capterra, Datasite user review</p>
+        </div>
+        <div class="quote">
+          &ldquo;Disclosure schedules may be the death of me.&rdquo;
+          <p class="source">&mdash; Glassdoor, Big Law community</p>
+        </div>
+      </div>
+
+      <!-- Theme 3 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 3: Herding Cats Across Teams</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;It&rsquo;s definitely like herding cats. Upwards of 100 people, between advisors and internal folks. I believe, fundamentally, that time kills deals; so you have to be as efficient as possible.&rdquo;
+          <p class="source">&mdash; Rob Humble, SVP Strategy, IAS</p>
+        </div>
+        <div class="quote">
+          &ldquo;Firms and their advisers tend to structure diligence as a series of discrete questions about the target company&rsquo;s strategy, its commercial prowess or its cost structure, as if those things had no connection to each other. Often they do not compare notes or share intelligence.&rdquo;
+          <p class="source">&mdash; Bain &amp; Company, Global M&amp;A Report 2020</p>
+        </div>
+        <div class="quote">
+          &ldquo;How does your firm manage diligence request lists coming from all corners of the buyside? It seems to be common place for all workstreams to just pass excel sheets back and forth which is so unorganized / inefficient and driving me insane.&rdquo;
+          <p class="source">&mdash; Wall Street Oasis, first-year analyst</p>
+        </div>
+      </div>
+
+      <!-- Theme 4 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 4: Missing What Matters</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;You would be shocked by how little due diligence we perform.&rdquo;
+          <p class="source">&mdash; VC founding partner, IntegrityRisk International, 2022</p>
+        </div>
+        <div class="quote">
+          &ldquo;Due diligence all too often becomes an exercise in verifying the target&rsquo;s financial statements rather than conducting a fair analysis of the deal&rsquo;s strategic logic. Seldom does the process lead managers to kill potential acquisitions, even when the deals are deeply flawed.&rdquo;
+          <p class="source">&mdash; Harvard Business Review</p>
+        </div>
+        <div class="quote">
+          &ldquo;If this buyer did not appreciate the facts it now claims were fraudulently concealed from it, that incognizance was the product of its own reckless failure to observe what was right in front of it.&rdquo;
+          <p class="source">&mdash; Vice Chancellor Slights, Delaware Chancery, Arwood v. AW Site Services (2022)</p>
+        </div>
+      </div>
+
+      <!-- Theme 5 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 5: Portfolio Monitoring in the Dark</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;In effect, investors are flying blind at precisely the time when vigilance matters most.&rdquo;
+          <p class="source">&mdash; MSCI Research, 2024&ndash;2025</p>
+        </div>
+        <div class="quote">
+          &ldquo;Once the oversight ended, then it was party time for Steward.&rdquo;
+          <p class="source">&mdash; John McDonough, Harvard Professor, on Steward Health Care/Cerberus (PBS, 2024)</p>
+        </div>
+        <div class="quote">
+          &ldquo;None of this administrative work makes me a better investor. My core skill is to find good companies to invest in.&rdquo;
+          <p class="source">&mdash; J.B. Handley, Bochi Investments (via Carta)</p>
+        </div>
+      </div>
+
+      <!-- Theme 6 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 6: The Sell-Side Burden</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;I have been advising middle market companies on M&amp;A for nearly twenty years and nearly all founders hold themselves together well during the process only to break during the due diligence.&rdquo;
+          <p class="source">&mdash; M&amp;A advisor, Quora (20 years experience)</p>
+        </div>
+        <div class="quote">
+          &ldquo;Most would rather give birth, have to run into a burning building to save a kitten, or have all of their teeth pulled. At least the pain would be over much faster.&rdquo;
+          <p class="source">&mdash; DocSend, founder testimonial</p>
+        </div>
+        <div class="quote">
+          &ldquo;Selling your business and running your business are two full-time jobs. Something is bound to slip at the wrong time.&rdquo;
+          <p class="source">&mdash; G-Squared Partners</p>
+        </div>
+      </div>
+
+      <!-- Theme 7 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 7: Tools That Create New Problems</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;What a horrible experience. The due diligence process is stressful enough &mdash; Intralinks totally compounded this stress.&rdquo;
+          <p class="source">&mdash; Capterra, Intralinks user review</p>
+        </div>
+        <div class="quote">
+          &ldquo;A VDR often becomes a passive digital filing cabinet. Analysts and lawyers still pour countless hours into reading and summarizing documents manually.&rdquo;
+          <p class="source">&mdash; V7 Labs, 2025</p>
+        </div>
+      </div>
+
+      <!-- Theme 8 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 8: AI Trust Deficit</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;It only requires a couple of inaccurate results for legal teams to lose faith in a new tool entirely.&rdquo;
+          <p class="source">&mdash; SpotDraft, via Artificial Lawyer</p>
+        </div>
+        <div class="quote">
+          &ldquo;We piloted a general-purpose legal AI tool to a subset of our lawyer bench. We assumed our lawyers, who are smart, tech-forward professionals, would figure out how to extract value from it. We were wrong. Adoption stalled within weeks.&rdquo;
+          <p class="source">&mdash; Axiom Law</p>
+        </div>
+        <div class="quote">
+          &ldquo;Lawyers&rsquo; uncritical reliance on content created by a GAI tool is risky &mdash; and almost certainly malpractice.&rdquo;
+          <p class="source">&mdash; NCBE Bar Examiner, citing ABA Opinion 512 (July 2024)</p>
+        </div>
+      </div>
+
+      <!-- Theme 9 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 9: The Q&amp;A Coordination Nightmare</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;There is nothing more frustrating than receiving requests for the same documents from multiple parties, leading to inconvenient repetitive work.&rdquo;
+          <p class="source">&mdash; Marsha Lewis, DealRoom</p>
+        </div>
+        <div class="quote">
+          &ldquo;Speed, communications, transparency, and coordination are key drivers of effective diligence, and these demand more robust tools than spreadsheets and emails.&rdquo;
+          <p class="source">&mdash; M&amp;A Leadership Council</p>
+        </div>
+      </div>
+
+      <!-- Theme 10 -->
+      <div class="theme-header" onclick="this.nextElementSibling.classList.toggle('collapsed')">
+        <h4>Theme 10: The Structural Impossibility of Cross-Workstream Synthesis</h4>
+        <span class="toggle">&darr;</span>
+      </div>
+      <div class="theme-quotes collapsed">
+        <div class="quote">
+          &ldquo;The biggest impediment to all-source analysis &mdash; to a greater likelihood of connecting the dots &mdash; is the human or systemic resistance to sharing information.&rdquo;
+          <p class="source">&mdash; 9/11 Commission Report, 2004</p>
+        </div>
+        <div class="quote">
+          &ldquo;The volume and complexity of what we know has exceeded our individual ability to deliver its benefits correctly, safely, or reliably.&rdquo;
+          <p class="source">&mdash; Atul Gawande, The Checklist Manifesto</p>
+        </div>
+        <div class="quote">
+          &ldquo;Companies that operate as a collection of silos commit the cardinal sin of underperforming relative to the resources they have invested.&rdquo;
+          <p class="source">&mdash; Morten Hansen, collaboration research</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== EVIDENCE SUMMARY TABLE ===== -->
+    <section>
+      <h2>Evidence Summary</h2>
+      <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:0.85rem;">
+          <thead>
+            <tr style="border-bottom:2px solid var(--border);text-align:left;">
+              <th style="padding:10px;color:var(--accent);">Category</th>
+              <th style="padding:10px;color:var(--accent);">Finding</th>
+              <th style="padding:10px;color:var(--accent);">Source</th>
+            </tr>
+          </thead>
+          <tbody style="color:var(--muted);">
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Prevalence</td><td style="padding:8px 10px;">80&ndash;90% of enterprise data is unstructured</td><td style="padding:8px 10px;">Gartner/IDC</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Prevalence</td><td style="padding:8px 10px;">Only 16% use GenAI in DD</td><td style="padding:8px 10px;">IBCA, 2024</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Prevalence</td><td style="padding:8px 10px;">83% of PE leaders say DD needs improvement</td><td style="padding:8px 10px;">Accenture, 2024</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Cognitive</td><td style="padding:8px 10px;">83% of radiologists miss obvious anomalies under load</td><td style="padding:8px 10px;">Drew et al., 2013</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Cognitive</td><td style="padding:8px 10px;">28% reviewer agreement on document relevance</td><td style="padding:8px 10px;">Roitblat et al., 2010</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Severity</td><td style="padding:8px 10px;">5K&ndash;50K+ pages; teams of 10 for 6 weeks</td><td style="padding:8px 10px;">InvestorDataRooms; Eton</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Severity</td><td style="padding:8px 10px;">90% of Q&amp;A takes 6+ interactions</td><td style="padding:8px 10px;">Ansarada</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Post-Close</td><td style="padding:8px 10px;">30&ndash;38% of deals generate claims</td><td style="padding:8px 10px;">SRS Acquiom</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Post-Close</td><td style="padding:8px 10px;">84% of breach claims involve audited targets</td><td style="padding:8px 10px;">Euclid, 2023</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Post-Close</td><td style="padding:8px 10px;">80% of RWI losses from cross-document categories</td><td style="padding:8px 10px;">Aon, 2025</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Post-Close</td><td style="padding:8px 10px;">70&ndash;75% of acquisitions fail to create value</td><td style="padding:8px 10px;">Fortune/Lev &amp; Gu</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Synthesis</td><td style="padding:8px 10px;">No platform provides cross-workstream synthesis</td><td style="padding:8px 10px;">Research, 2025</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Synthesis</td><td style="padding:8px 10px;">I-PASS reduced handoff errors 30&ndash;47%</td><td style="padding:8px 10px;">Starmer et al., NEJM</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Portfolio</td><td style="padding:8px 10px;">Record 110 PE bankruptcies in 2024</td><td style="padding:8px 10px;">S&amp;P Global</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Portfolio</td><td style="padding:8px 10px;">46% rely exclusively on Excel for monitoring</td><td style="padding:8px 10px;">Preqin, 2017</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">AI Barriers</td><td style="padding:8px 10px;">Legal AI hallucination rate: 17&ndash;34%</td><td style="padding:8px 10px;">Stanford RegLab</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">AI Barriers</td><td style="padding:8px 10px;">Every first-wave legal AI company acquired/shut down</td><td style="padding:8px 10px;">Industry analysis</td></tr>
+            <tr style="border-bottom:1px solid var(--border);"><td style="padding:8px 10px;">Sell-Side</td><td style="padding:8px 10px;">DD is &ldquo;a second full-time job&rdquo; for 90&ndash;120 days</td><td style="padding:8px 10px;">IEI Advisors</td></tr>
+            <tr><td style="padding:8px 10px;">Solutions</td><td style="padding:8px 10px;">All 4 VDR Q&amp;A modules lack cross-referencing; all feature Excel export</td><td style="padding:8px 10px;">Q&amp;A research, 2025</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== GATE ===== -->
+    <section class="gate">
+      <h2>Gate Question</h2>
+      <p>Is this problem real, significant, and worth solving?</p>
+      <p class="narrative" style="margin-top: 24px; text-align: left;">
+        <strong>Evidence base:</strong> 100+ third-party sources spanning cognitive science, insurance claims data, organizational theory, intelligence analysis, medical safety, legal practice, and practitioner testimony. 86 verbatim quotes. 8 post-close case studies. 6 first principles with denial tests. 6 functional jobs with done states. Validation status: <strong style="color: var(--green);">PASS</strong>.
+      </p>
+    </section>
+
+    <p style="text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 48px;">
+      Generated by Venture Forge &mdash; Problem Workspace v5.0
+    </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+functional_jobs:
+  - id: J1
+    statement: "When I'm reviewing a data room with thousands of documents under a tight deal deadline, I want to identify which documents contain the key risks, terms, and obligations, so I can focus my analysis time on what actually matters"
+    done_state: "The most relevant documents are surfaced and prioritized within hours; I know what to read first and what can be deprioritized"
+    evidence:
+      - "'Reviewing files is frustratingly slow. Navigating through files one by one is time-consuming, especially in larger data rooms with hundreds or thousands of documents' (Capterra, Datasite review)"
+      - "'95% of relevant information in just 10% of total documentation' (Imprima/Kumo, 2025)"
+      - "'You don't have time to get much else done until late at night. This is when the burnout phase begins' (Wall Street Oasis)"
+      - "Traditional DD examines only 5-10% of the contract population, missing material obligations by design (Sirion.ai, 2026)"
+      - "500+ contracts per deal require 5-10 hours each for manual review — 3,750 attorney hours for a complete mid-market review (Spellbook/V7 Labs, 2025)"
+      - "83% of radiologists missed a gorilla 48x larger than what they searched for — satisfaction of search means finding one target reduces detection of others (Drew et al., 2013)"
+
+  - id: J2
+    statement: "When I find a claim or figure in one document, I want to verify it against every other relevant document in the data room, so I can detect inconsistencies or anomalies before they become post-close surprises"
+    done_state: "All cross-references identified and reconciled; inconsistencies flagged with specific document locations and page numbers"
+    evidence:
+      - "84% of financial statement breach claims involve companies with audited financials — individual review missed cross-document connections (Euclid Transactional, 2023)"
+      - "Financial statements (37%), material contracts (31%), compliance with laws (12%) = 80% of all RWI losses paid — all categories requiring cross-document analysis (Aon, 2025)"
+      - "Valeant/Salix: financial statements + wholesaler inventory + IMS Health prescription data — any one unremarkable, cross-referencing revealed channel stuffing. Allergan's team caught it; Valeant's didn't (2015)"
+      - "BofA/Countrywide: formal Loan Program Guides vs internal 'shadow guidelines' showing 15% underwriting exceptions — $60B+ in post-close losses (2008)"
+      - "GE/Alstom: target's own annual report footnote warned of excess capacity while acquirer's models projected growth — $23B writedown (2015)"
+      - "EBITDA-multiplier effect: claims seeking multiple-based damages rose from 5% in 2020 to 32% in 2024 — a $2M error at 10x becomes $20M (Fasken/Aon)"
+      - "Caterpillar discovered fraud at Siwei only after closing, when physical inventory was reconciled against accounting records (2013)"
+
+  - id: J3
+    statement: "When multiple DD workstreams are running in parallel, I want to see what each team has found and whether their findings connect or conflict, so I can identify risks that span workstreams before the deal closes"
+    done_state: "Integrated view of findings across all workstreams; cross-cutting risks explicitly flagged; no one team's blind spot becomes the deal's blind spot"
+    evidence:
+      - "No current platform provides meaningful cross-workstream analytical synthesis (Cross-Workstream Synthesis research, 2025)"
+      - "The IC memo is the sole forced synthesis point in the entire DD process — structurally compromised by author bias, format constraints, and translation gaps (Stanford/Addepar study)"
+      - "W&I claims reveal 5 most commonly missed cross-workstream interactions, ranked by frequency and impact (Cross-Workstream Synthesis research, 2025)"
+      - "9/11 Commission: FBI 'lacked the capacity to know what it knows'; 23 missed opportunities due to structural problems, not individual failures (Zegart, 2007)"
+      - "I-PASS structured handoff program reduced medical errors 23% and preventable adverse events 30-47% — structured synthesis works (Starmer et al., NEJM)"
+      - "'The diligence teams you're hiring are only keyed in on one aspect of the deal. Need people who have a better view of everything' (Wall Street Oasis)"
+      - "Bain: 'Firms tend to structure diligence as discrete questions as if those things had no connection to each other'; advisers 'do not compare notes or share intelligence' (2020)"
+      - "Carlile's knowledge boundaries: syntactic, semantic, and pragmatic barriers exist at every cross-workstream boundary; DD provides no process to overcome any of them (2004)"
+
+  - id: J4
+    statement: "When I'm monitoring a portfolio company between formal reporting periods, I want to know if something material has changed, so I can act before a quarterly report tells me it's too late"
+    done_state: "Real-time awareness of material changes — financial deterioration, operational disruption, regulatory action, leadership departures — as they happen, not months after"
+    evidence:
+      - "Steward Health Care: Cerberus extracted $800M+; federal inspectors cited 'immediate jeopardy' 32 times 2019-2024; filed for Chapter 11 with $9.2B in liabilities — 'Once oversight ended, it was party time' (PBS/Harvard, 2024)"
+      - "Envision Healthcare/KKR: EBITDA collapsed from $1B+ to $250M as No Surprises Act undermined core business model; KKR's $3.5B equity wiped out (2023)"
+      - "Record 110 PE-backed bankruptcies in 2024; PE/VC companies accounted for 30% of all US bankruptcy filings (S&P Global)"
+      - "30,000+ portfolio companies, $3.7T unrealized value, data chain breaks at every link with 3-6 month total lag (Portfolio Monitoring research, 2025)"
+      - "Operating partners oversee 20-50+ companies but can deeply engage with only 3-6 through board seats (Private Capital Global)"
+      - "74% of LPs want live or daily portfolio updates but get quarterly PDFs months late (CSC, 2025)"
+      - "Interest coverage ratios dropped to 2.4x EBITDA — lowest since 2008 — while $300B in leveraged loans due by year-end 2025 (Bain, 2024)"
+      - "'Investors are flying blind at precisely the time when vigilance matters most' (MSCI Research, 2024-2025)"
+
+  - id: J5
+    statement: "When I'm preparing my company for due diligence during a sale process, I want to have all documents organized and information requests answered quickly, so I can respond to buyers without the process consuming my ability to run the business"
+    done_state: "Complete, organized data room that can serve any buyer's questions; responses to standard DD requests take minutes, not days; management time on DD is measured in hours per week, not a second full-time job"
+    evidence:
+      - "CEO/CFO involvement reaches up to 30 hours per week during DD phases — leaving almost no bandwidth for normal operations (Sampford Advisors/SilMinds, 2025)"
+      - "DD becomes 'a second full-time job' for 90-120 days (IEI Advisors, 2025)"
+      - "1,000+ documents per data room, 174 distinct document types for legal DD alone, assembled by a team of 6 (Bloomberg Law; Ansarada; Colonnade Advisors)"
+      - "7-12 parallel DD workstreams generate separate request lists; 10-20 buyers during ad hoc diligence (Vista Point Advisors; EY)"
+      - "9.5% of global M&A deals leaked in 2024 — 16-year high (SS&C Intralinks/Bayes Business School)"
+      - "Business performance visibly suffers during DD — management attention drifts, customer confidence erodes, staff turnover increases (Business Sale Report case studies)"
+      - "~10% of large deals canceled annually; sunk costs of 1-10% of deal value if deal fails (McKinsey, 2019; Firmex)"
+      - "When DD runs past 90 days, probability of closure drops below 50% — creating a paradox where thoroughness kills the deal (Business Sale Report, 2015)"
+
+  - id: J6
+    statement: "When I'm answering buyer diligence questions that span multiple workstreams and require coordination across my team, I want questions routed to the right people and answers tracked without drowning in Excel trackers and email chains"
+    done_state: "Q&A coordination happens automatically; questions reach the right SME without manual routing; duplicate questions are detected; all answers tracked with full audit trail; verbal findings from management presentations and expert calls are integrated"
+    evidence:
+      - "90% of questions take 6+ interactions to answer, traversing a multi-hop chain: buyer advisor → VDR → sell-side banker → company management → SME → back (Ansarada)"
+      - "38% of Q&A actions involve getting answers reviewed and approved before disclosure (Ansarada)"
+      - "Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons including universal compatibility, flexibility, cross-platform coordination, reporting gaps, senior stakeholder access, and cross-referencing (Q&A Bottleneck research, 2025)"
+      - "Verbal findings from management presentations and expert calls remain structurally disconnected from document-based Q&A workflow (Q&A Bottleneck research, 2025)"
+      - "All 4 major VDR Q&A modules lack intelligent cross-referencing, external tool integration, and SLA timers (Q&A Bottleneck research, 2025)"
+      - "'There is nothing more frustrating than receiving requests for the same documents from multiple parties, leading to inconvenient repetitive work' (DealRoom/Marsha Lewis)"
+
+emotional_jobs:
+  - id: E1
+    statement: "Feel confident that I haven't missed something critical that will surface after the deal closes"
+    evidence:
+      - "'You would be shocked by how little due diligence we perform' — VC founding partner (IntegrityRisk International, 2022)"
+      - "30-38% of private M&A deals generate post-close indemnification claims (SRS Acquiom, 2022)"
+      - "Two independent review teams agreed only 28% of the time on document relevance — DD outcomes are partly a function of which lawyer reviews (Roitblat et al., 2010; Donnelly et al., 2019)"
+      - "Satisfaction of search: finding one abnormality reduces detection of subsequent ones by up to one-third (Berbaum et al., 1990; Adamo et al., 2021)"
+      - "Additional information primarily increases analysts' confidence without proportionally improving accuracy — dangerous gap between perceived and actual quality (Heuer, 1999/CIA)"
+
+  - id: E2
+    statement: "Feel like my analytical judgment matters, not just my ability to read documents and fill spreadsheets"
+    evidence:
+      - "'The bread and butter of what analysts and associates do is really grunt work, Excel monkey work that should be done at the snap of a finger' (Osman Ghandour, Soal Lab)"
+      - "'Before AI, analysts spent 90% of their time crunching numbers and only 10% on strategic judgment' (Copia Wealth Studios, 2025)"
+      - "Associate attrition reached 20% in 2024, departing within 4 years instead of historical 5 (NALP Foundation)"
+      - "'We burn out our best junior talent by forcing them to spend their weekend manually keying numbers from PDFs into Excel, praying they don't transpose a digit in the EBITDA bridge due to sleep deprivation' (V7 Labs)"
+
+  - id: E3
+    statement: "Feel in control of the sale/fundraising process rather than drowning in information requests while trying to run a company"
+    evidence:
+      - "'Nearly all founders hold themselves together well during the process only to break during the due diligence' (M&A advisor, Quora, 20 years experience)"
+      - "'The M&A sale process is typically all-consuming. It's very distracting from a business operational standpoint. From the business operator's standpoint, it's also seemingly chaotic' (Justin Pinto, Orrick)"
+      - "Deal fatigue causes parties to 'feel frustrated, helpless, or exhausted' — leading to 'incomplete critical information, either knowingly or unknowingly' (Corporate Finance Institute)"
+      - "'Selling your business and running your business are two full-time jobs. Something is bound to slip at the wrong time' (G-Squared Partners)"
+
+social_jobs:
+  - id: S1
+    statement: "Be seen as thorough and diligent by investment committee, deal partners, and co-investors"
+    evidence:
+      - "'100+ page info packs to show IC and participating lenders and co-investors that you're running hard on diligence' (Wall Street Oasis)"
+      - "'83% of PE leaders say their approach has substantial room for improvement' (Accenture, 2024)"
+      - "IC memo process is 'arduous and friction-filled'; 97% of professional investors have a formal IC memo process (Stanford/Addepar)"
+
+  - id: S2
+    statement: "Be seen as well-prepared and professional by potential buyers/investors, so due diligence builds confidence rather than eroding it"
+    evidence:
+      - "'If you're not properly prepared, DD can be disruptive, intrusive, time consuming and derail your entire deal process' (Paul Hauck, ICT Strategic Consulting)"
+      - "'Fast answers don't just move the timeline along, they show that the seller is serious and ready to close. Delayed responses can make buyers nervous' (Lake Country Advisors)"
+      - "In a documented case, a PE buyer's 'cumbersome and poorly coordinated' DD effort caused the seller to cancel the deal and go with a different acquirer (DealRoom/Kison Patel)"

@@ -1,0 +1,122 @@
+principles:
+  - id: P1
+    statement: "Human cognitive capacity for cross-referencing information degrades predictably with document volume and time pressure, producing systematically worse decisions — and expertise does not protect against this degradation"
+    evidence:
+      - "83% of radiologists failed to see a gorilla image 48x larger than a lung nodule while performing routine detection tasks; eye-tracking confirmed most looked directly at it (Drew, Võ & Wolfe, 2013)"
+      - "Two independent document review teams agreed on relevance determinations only 28% of the time in an M&A-context Second Request ($14M, 100-hour weeks); automated systems outperformed both (Roitblat, Kershaw & Oot, 2010)"
+      - "Nine lawyers conducting simulated DD review of 50 contracts agreed on general location of relevant material but did not agree on extent — DD outcomes are partly a function of which lawyer reviews (Donnelly et al., 2019)"
+      - "Time-pressured auditors maintained accuracy on quantitative tick-mark documentation but filtered out qualitative indicators of potential fraud — the earliest effects of time pressure (Braun, 2000)"
+      - "Under high-load conditions, only 8% of participants noticed unexpected objects versus 47% under low load — a sixfold decrease in detection capacity (Simons et al., 2024)"
+      - "No significant differences in diagnostic accuracy across medical students, residents, and faculty on complex vignettes requiring resistance to premature closure — experience did not protect (Krupat et al., 2017)"
+      - "Working memory capacity is approximately 4±1 items, revised downward from Miller's 7±2; decision performance falls when information cues exceed approximately 10 items (Iselin, 1989; Cowan, 2001)"
+      - "Inverted U-shaped relationship between information load and decision quality under time pressure (Hahn, Lawson & Young, 1992)"
+      - "System 2 (analytical) processing is preferentially impaired under cognitive load, forcing reliance on fast, heuristic-driven System 1 — DD conditions maximize this impairment (Croskerry, 2009/2013)"
+      - "Expertise increases certain biases — experts engage in more selective attention, develop stronger expectations from prior experience that blind them to unexpected findings (Dror, 2020)"
+      - "DD overlooks as much as 50% of potential merger value; inadequate in more than 40% of deals (McKinsey, 2010)"
+      - "84% of financial statement breach claims involve companies with audited financials — even professional review fails at scale (Euclid Transactional, 2023)"
+    denial_test: "If cognitive capacity didn't degrade under these conditions, then 83% of radiologists would not miss an anomaly 48x the size of what they're looking for, two professional review teams would agree more than 28% of the time, and experience would produce measurable accuracy improvements — none of which the evidence supports."
+    derivations:
+      - "Solution must augment human processing capacity at scale, not just present documents faster"
+      - "The human role must shift from reading/finding to judging/deciding — System 2 analytical processing must be preserved for high-value decisions"
+      - "System must surface connections and anomalies that humans cannot cognitively maintain across thousands of pages"
+      - "Expertise cannot be the solution — the system must catch what experts miss because of expertise (satisfaction of search, premature closure, confirmation bias)"
+
+  - id: P2
+    statement: "Due diligence information is structurally unstructured — the documents that must be analyzed lack machine-readable organization by design, and no individual or team can impose structure fast enough within deal timelines"
+    evidence:
+      - "80-90% of all enterprise data is unstructured, growing 3x faster than structured data (Gartner/IDC, 2023-2025)"
+      - "500+ contracts per deal require manual review at 5-10 hours per contract — 3,750 attorney hours for a complete mid-market review (Spellbook/V7 Labs, 2025)"
+      - "174 distinct document types for legal DD alone (Bloomberg Law)"
+      - "Disclosure schedules are created entirely in Microsoft Word, go through 12+ drafts, and no dedicated management software exists for them (Arnold & Porter; Harroch/VantagePoint)"
+      - "Only 14% of deals expressly address disclosure schedule updates between signing and closing; 81% are silent (ABA Private Target Deal Points Study, 2023)"
+      - "Open source code found in 99% of M&A transactions with a mean of 2,778 components per deal; license conflicts in 85%, unpatched vulnerabilities in 96% (Black Duck, 2025)"
+      - "Only 26% of companies use mostly automated methods to analyze their content (IDC/Box, 2023)"
+      - "VDRs are 'passive digital filing cabinets' — they store documents securely but don't help users understand them (V7 Labs, 2025)"
+      - "Traditional DD examines only 5-10% of the contract population, missing material obligations by design (Sirion.ai, 2026)"
+      - "AI tools assume structured input; DD data rooms contain decades-old faxed contracts, handwritten amendments, mislabeled files, and documents in multiple languages — organizing data for legal tech can take more time than the analysis itself (Artificial Lawyer, 2025)"
+    denial_test: "If DD information were structured, keyword search would reliably find relevant content, cross-referencing would be trivial, disclosure schedules could be managed in databases instead of Word documents, and traditional DD could examine 100% of contracts instead of 5-10%. None of these holds."
+    derivations:
+      - "Solution must transform unstructured content into queryable, cross-referenceable knowledge"
+      - "Ingestion and structuring must happen automatically — humans cannot be the structuring layer given 500+ contracts and 174 document types"
+      - "System must handle messy real-world documents (scanned PDFs, handwritten amendments, watermarked files), not just clean data"
+      - "Disclosure schedule management represents a particularly high-value application given that no technology exists for this artifact"
+
+  - id: P3
+    statement: "Due diligence timelines are set by deal dynamics — competitive pressure, exclusivity periods, regulatory deadlines — not by the volume of work required"
+    evidence:
+      - "DD windows are 30-90 days regardless of document volume (industry consensus)"
+      - "CEO and CFO involvement reaches up to 30 hours per week during DD phases, leaving almost no bandwidth for normal operations (Sampford Advisors/SilMinds, 2025)"
+      - "When DD runs past 90 days in an SME acquisition, the probability of deal closure drops below 50% (Business Sale Report, 2015)"
+      - "ODD professionals feel 'under duress to approve managers despite risks uncovered' due to time constraints (SBAI, 2024)"
+      - "'Thorough due diligence was impractical' during 2021 deal boom (SRS Acquiom, 2025)"
+      - "Deal duration increased 48% from 6.9 months (2021) to 10.2 months (2024) despite technology improvements (Datasite, 2025)"
+      - "SOC 2 Type II certification takes 6-12 months; law firm AI tool vetting involves policy committees, security audits, and pilot phases — deals close in 4-6 weeks (AI Adoption Barriers research, 2025)"
+      - "Lower-middle market closings stretched from 45 days post-LOI (2021) to 60-90 days, while buyers demand deeper scrutiny (TKO Miller, 2025)"
+      - "'Time kills deals; so you have to be as efficient as possible' (Rob Humble, SVP Strategy, IAS)"
+    denial_test: "If timelines were set by work volume, teams would extend DD when documents increase. But they don't — deal competition forces fixed windows, and probability of closure drops below 50% past 90 days. The timeline is a hard constraint imposed by deal dynamics, not a flexible parameter."
+    derivations:
+      - "Solution must compress analysis time to fit within deal-driven windows, not extend them"
+      - "Speed of insight delivery is a hard constraint, not a nice-to-have"
+      - "The system must produce usable analysis within hours or days, not weeks"
+      - "Security vetting and onboarding must be compatible with deal timelines — a tool that takes 6 months to certify cannot serve a market that operates in 6-week sprints"
+
+  - id: P4
+    statement: "The analytical value in due diligence comes from connections between documents, not from any individual document in isolation — and no tool or process currently provides cross-document or cross-workstream synthesis"
+    evidence:
+      - "84% of financial statement breach claims involve audited targets — individual documents were professionally reviewed but connections between them were missed (Euclid Transactional, 2023)"
+      - "Financial statements (37%), material contracts (31%), and compliance with laws (12%) account for 80% of all RWI losses — all categories requiring cross-document analysis (Aon, 2025)"
+      - "Valeant/Salix: financial statements showed strong revenue growth; wholesaler inventory reports showed 5-9 months excess; IMS Health showed flat demand — any one document unremarkable, cross-referencing all three revealed channel stuffing (2015)"
+      - "GE/Alstom: Alstom's own annual report contained a footnote warning of excess capacity while GE's financial models projected robust demand — $23B writedown resulted (2015)"
+      - "Marriott/Starwood: prior breach disclosure + legacy IT infrastructure + 383M guest records existed in separate workstreams reviewed by different teams — £18.4M in fines, $1B+ estimated revenue losses (2016)"
+      - "Bayer/Monsanto: public IARC classification + Monsanto internal documents in MDL discovery + Bayer's own DD limited to law firm memoranda = $10B+ settlements across 67,000+ lawsuits (2018)"
+      - "BofA/Countrywide: formal Loan Program Guides vs internal 'shadow guidelines' showing 15% underwriting exceptions — cross-referencing formal vs actual practices would have prevented $60B+ in losses (2008)"
+      - "No current platform provides meaningful cross-workstream analytical synthesis — DealCloud and 4Degrees are CRMs; VDRs focus on document security; DealRoom/Midaxo track process efficiency, not substantive findings (Cross-Workstream Synthesis research, 2025)"
+      - "The IC memo is the sole forced synthesis point in the entire DD process — and it is written by a junior-to-mid-level deal team member under time pressure and incentive misalignment (Stanford/Addepar study)"
+      - "The 9/11 Commission documented that FBI 'lacked the capacity to know what it knows' — the system was blinking red but cross-agency synthesis never happened; 23 opportunities missed (2004)"
+      - "I-PASS structured handoff program reduced medical errors 23% and preventable adverse events 30% across 9 hospitals; broader 32-hospital study showed 47% reduction — structured synthesis works (Starmer et al., NEJM)"
+    denial_test: "If individual document review were sufficient, audited companies would have fewer post-close claims than unaudited ones. But they have more — because the audit reviewed each document individually while missing the connections between them. If cross-workstream synthesis existed, the IC memo would not be the only forced synthesis point."
+    derivations:
+      - "Solution must enable cross-document analysis as a first-class capability, not single-document extraction"
+      - "System must detect inconsistencies, missing references, and contradictions across the entire document set"
+      - "Information architecture must be relational, not per-document"
+      - "Cross-workstream synthesis must be a built-in feature, not dependent on a single human author (the IC memo model is structurally compromised)"
+      - "Structured handoff protocols (analogous to medical I-PASS) between DD workstreams could dramatically reduce synthesis failures"
+
+  - id: P5
+    statement: "Due diligence requires domain-specific expertise across multiple disciplines, which structurally prevents any single person or team from synthesizing findings across all domains — and organizational theory predicts this failure as inevitable"
+    evidence:
+      - "Standard DD involves 8-10+ parallel workstreams: finance, legal, tax, IT, HR, commercial, operations, environmental, insurance, integration (Altrata/Deloitte, 2024-2025)"
+      - "Legal DD alone involves 5-6 separate sub-teams: corporate M&A, contract, employment, litigation, regulatory, and tax attorneys (Colonnade Advisors)"
+      - "W&I claims reveal 5 most commonly missed cross-workstream interactions: revenue quality ↔ contract terms ↔ channel health; IT/cyber ↔ regulatory ↔ customer value; litigation tail ↔ financial valuation; culture/HR ↔ commercial projections ↔ synergy estimates; tax structure ↔ legal entity ↔ financial reporting (Cross-Workstream Synthesis research, 2025)"
+      - "The most inaccurate areas of DD are integration roadmaps, revenue synergies, and people issues — all requiring cross-team coordination (Bain, 2023)"
+      - "Carlile's knowledge boundaries framework: syntactic (different terminology), semantic (different interpretations), and pragmatic (different interests) barriers exist at every cross-workstream boundary — current DD provides no process to overcome any of them (Carlile, 2004)"
+      - "Galbraith's information processing theory: DD uses self-contained task units to reduce processing demands, but this comes at the cost of integration; no lateral relations exist across workstreams (Galbraith, 1974)"
+      - "Hansen's collaboration barriers: not-invented-here, hoarding, search, and transfer barriers all apply to DD workstreams — 'companies that operate as a collection of silos commit the cardinal sin of underperforming relative to resources invested' (Hansen)"
+      - "Perrow's Normal Accidents theory: in interactively complex, tightly coupled systems, catastrophic failures are inevitable — DD is interactively complex (cross-workstream dependencies) and tightly coupled (deal timelines) (Perrow, 1984)"
+      - "Amy Zegart's study found the CIA and FBI missed 23 opportunities to disrupt the 9/11 plot due to 'structural problems, cultural pathologies, and perverse incentive systems' — the exact pattern of DD (Zegart, 2007)"
+      - "HP/Autonomy involved 7 advisory firms with documented communication breakdown; financial DD consisted of roughly 6 hours of conference calls (Computer Weekly, 2015; UK High Court, 2025)"
+    denial_test: "If a single team could cover all domains, cross-workstream synthesis would be automatic and the 5 most common claim categories (all requiring cross-domain analysis) would not dominate W&I losses. But specialization is inherent — legal review requires lawyers, financial review requires accountants, IT review requires technologists — and organizational theory predicts that differentiation without integration guarantees failure."
+    derivations:
+      - "Solution must provide a shared analytical layer that synthesizes across workstreams without requiring cross-domain expertise from any single user"
+      - "System must translate domain-specific findings into a common risk framework"
+      - "The platform must function as the 'lateral relation' that Galbraith identifies as missing — bridging self-contained workstream silos"
+      - "Cross-workstream risk detection must be automated, not dependent on ad hoc coordination between advisory firms"
+
+  - id: P6
+    statement: "Deal incentive structures create systematic bias toward confirming the investment thesis rather than detecting disconfirming evidence"
+    evidence:
+      - "Competitive pressures, short-term financial reporting incentives, and agency problems are associated with less DD — the conditions that characterize heated deal markets (Wangerin, Contemporary Accounting Research, 2019)"
+      - "Auditors with experience on low-risk clients failed to adequately respond when risk levels increased — confirmation bias survives audit quality control processes (Cassell, Dearden, Rosser & Shipman, 2022)"
+      - "Time pressure specifically promotes confirmation of client assertions — auditors become less likely to attend to disconfirming evidence (Durkin & Rose, 2025)"
+      - "WMD Commission found analysts took a reasonable initial hypothesis and converted it into 'a premise that was no longer subject to scrutiny'; IC was 'dead wrong in almost all pre-war judgments' (Robb-Silberman, 2005)"
+      - "IC memo authors 'have the ability to put their thumb on the scale by de-emphasizing or omitting certain details'; junior staff writing for senior staff who control compensation 'respond to entirely different incentives' (Stanford/Addepar study)"
+      - "DD 'seldom leads managers to kill potential acquisitions, even when the deals are deeply flawed'; becomes 'an exercise in verifying the target's financial statements rather than conducting a fair analysis of the deal's strategic logic' (Harvard Business Review)"
+      - "RWI claim rate with insurance (18%) is 'markedly higher than the rate of post-closing claims in the absence of RWI', attributed partly to 'less thorough buyer due diligence in reliance on the RWI policy' (Fasken, 2025)"
+      - "No undisclosed liabilities claims more than doubled between 2022 and 2024, linked to 'decreased buyer due diligence in the competitive 2021 M&A market' (SRS Acquiom, 2024)"
+      - "'Fear of missing out' on the next Google pressures VCs to cut corners, shorten periods they conduct due diligence, and eliminate usual protections (IntegrityRisk International, 2022)"
+    denial_test: "If deal incentives were neutral toward outcomes, DD would kill deals at rates proportional to the frequency of material problems. But DD 'seldom leads managers to kill acquisitions, even deeply flawed ones' (HBR), and claim rates spike after competitive deal markets — proving that incentives systematically suppress disconfirming evidence."
+    derivations:
+      - "System must surface disconfirming evidence as prominently as confirming evidence — red flags cannot be buried in volume"
+      - "Automated anomaly detection removes the incentive problem — the system has no deal fever, no compensation tied to closing"
+      - "Risk assessments must be structured so that suppressing negative findings requires active override, not passive omission"
+      - "The platform must be designed for the IC and LP audience, not just the deal team — transparency by default"

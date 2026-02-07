@@ -1,0 +1,259 @@
+prevalence:
+  - claim: "80-90% of all enterprise data is unstructured, growing 3x faster than structured data"
+    source: "Gartner/IDC"
+    date: "2023-2025"
+    url: "https://www.geekwire.com/sponsor-post/unstructured-data-organizations-best-kept-secret/"
+
+  - claim: "Only 26% of companies use mostly automated methods to analyze their content"
+    source: "IDC/Box"
+    date: "2023"
+    url: "https://blog.box.com/90-your-data-unstructured-and-its-full-untapped-value"
+
+  - claim: "Only 16% of M&A professionals currently use generative AI in due diligence"
+    source: "Investment Banking Council of America"
+    date: "2024"
+    url: "https://www.investmentbankingcouncil.org/blog/competitive-benchmarks-strengthening-manda-due-diligence"
+
+  - claim: "83% of PE leaders say their DD approach has substantial room for improvement"
+    source: "Accenture"
+    date: "June 2024"
+    url: "https://www.accenture.com/us-en/insights/strategy/private-equity-due-diligence"
+
+  - claim: "500+ contracts per deal require manual review at 5-10 hours per contract"
+    source: "Spellbook/V7 Labs"
+    date: "2025"
+    url: "https://www.v7labs.com/blog/best-ai-data-rooms-for-due-diligence"
+
+  - claim: "174 distinct document types for legal DD alone"
+    source: "Bloomberg Law"
+    date: "2025"
+    url: "https://pro.bloomberglaw.com/insights/contracts/ma-due-diligence-checklist/"
+
+  - claim: "Only 18% of organizations can take advantage of unstructured data"
+    source: "Deloitte"
+    date: "2019"
+    url: "https://www.geekwire.com/sponsor-post/unstructured-data-organizations-best-kept-secret/"
+
+  - claim: "AI adoption for M&A doubled to 45% in 2025, meaning 55% still operate without AI"
+    source: "Bain & Company"
+    date: "2025"
+    url: "https://www.bain.com/insights/looking-back-m-and-a-report-2026/"
+
+  - claim: "30,000+ portfolio companies held by PE, $3.7 trillion in unrealized value"
+    source: "Industry data/McKinsey"
+    date: "2025"
+
+  - claim: "Disclosure schedules created entirely in Microsoft Word with 12+ drafts; no dedicated management software exists"
+    source: "Arnold & Porter/Harroch (VantagePoint Capital Partners)"
+    date: "2025"
+
+severity:
+  - claim: "Mid-market M&A data rooms contain 5,000-50,000+ pages of documents"
+    source: "InvestorDataRooms.com"
+    date: "2025"
+    url: "https://investordatarooms.com/virtual-data-rooms-for-ma/"
+
+  - claim: "A team of 10 spends approximately 6 weeks on due diligence for a single deal"
+    source: "Eton Venture Services"
+    date: "2025"
+    url: "https://etonvs.com/transaction-valuation-advisory/financial-due-diligence/"
+
+  - claim: "Average deal time on Datasite increased from 6.9 months (2021) to 10.2 months (2024) — 48% increase"
+    source: "Datasite"
+    date: "May 2025"
+    url: "https://www.datasite.com/en/resources/insights/expert-spotlight-strategies-for-due-diligence-and-deal-success"
+
+  - claim: "Traditional DD examines only 5-10% of the contract population, missing material obligations by design"
+    source: "Sirion.ai"
+    date: "January 2026"
+    url: "https://www.sirion.ai/library/contract-ai/ai-due-diligence/"
+
+  - claim: "83% of radiologists failed to see a gorilla image 48x larger than a lung nodule during routine detection"
+    source: "Drew, Võ & Wolfe"
+    date: "2013"
+
+  - claim: "Two independent document review teams agreed on relevance only 28% of the time in an M&A-context review"
+    source: "Roitblat, Kershaw & Oot"
+    date: "2010"
+
+  - claim: "Nine lawyers conducting simulated DD disagreed on extent of relevant material in 50 contracts"
+    source: "Donnelly et al."
+    date: "2019"
+
+  - claim: "Time-pressured auditors maintained quantitative accuracy but filtered out qualitative fraud indicators"
+    source: "Braun"
+    date: "2000"
+
+  - claim: "Under high cognitive load, detection rates collapse sixfold — 8% vs 47% under low load"
+    source: "Simons et al."
+    date: "2024"
+
+  - claim: "CEO/CFO involvement reaches up to 30 hours per week during DD phases"
+    source: "Sampford Advisors/SilMinds"
+    date: "2025"
+    url: "https://silminds.com/a-fast-track-timeline-for-sell-side-due-diligence/"
+
+  - claim: "90% of Q&A questions take 6+ interactions to answer"
+    source: "Ansarada"
+    date: "2025"
+    url: "https://www.ansarada.com/due-diligence/process"
+
+  - claim: "38% of Q&A actions involve approval before disclosure"
+    source: "Ansarada"
+    date: "2025"
+
+  - claim: "DD becomes 'a second full-time job' for 90-120 days"
+    source: "IEI Advisors"
+    date: "2025"
+    url: "https://www.ieiadvisors.com/post/how-to-get-through-due-diligence-when-selling-your-business"
+
+  - claim: "Operating partners oversee 20-50+ companies but can deeply engage with only 3-6 through board seats"
+    source: "Private Capital Global"
+    date: "2025"
+
+  - claim: "Portfolio data in PMS is often 30-45 days old by the time it is reconciled"
+    source: "V7 Labs"
+    date: "2025"
+
+  - claim: "PE exit backlog reached 18,000+ companies held beyond traditional horizon; average hold 6.7-8.5 years"
+    source: "McKinsey"
+    date: "February 2025"
+    url: "https://neoform.partners/mckinsey-global-private-markets-report-2025/"
+
+  - claim: "When DD runs past 90 days in an SME acquisition, probability of closure drops below 50%"
+    source: "Business Sale Report"
+    date: "2015"
+    url: "https://www.business-sale.com/insights/for-buyers/hitting-the-due-diligence-timeframe-sweet-spot-228241"
+
+consequences:
+  - claim: "30-38% of private M&A deals experience at least one post-close indemnification claim"
+    source: "SRS Acquiom"
+    date: "2020/2022"
+    url: "https://www.srsacquiom.com/our-insights/post-closing-indemnification/"
+
+  - claim: "Financial statements (37%), material contracts (31%), compliance with laws (12%) = 80% of all RWI losses"
+    source: "Aon"
+    date: "2025"
+
+  - claim: "84% of financial statement breach claims involve companies with audited financials; 90% of paid losses from audited deals"
+    source: "Euclid Transactional"
+    date: "2023-2024"
+    url: "https://sspins.com/did-you-know-series-2023-rwi-claims-reports-and-analysis/"
+
+  - claim: "Claims seeking EBITDA-multiple damages rose from 5% in 2020 to 32% in 2024"
+    source: "Fasken/Aon"
+    date: "2024-2025"
+    url: "https://www.fasken.com/en/knowledge/2025/10/trends-in-representations-and-warranties-insurance"
+
+  - claim: "No undisclosed liabilities claims more than doubled between 2022 and 2024"
+    source: "SRS Acquiom"
+    date: "2024"
+    url: "https://www.srsacquiom.com/our-insights/ma-claims-undisclosed-liabilities-earnouts/"
+
+  - claim: "70-75% of acquisitions fail to create shareholder value across 40,000 deals over 40 years"
+    source: "Fortune/Baruch Lev & Feng Gu"
+    date: "November 2024"
+    url: "https://fortune.com/2024/11/13/we-analyzed-40000-mergers-acquisitions-ma-deals-over-40-years-why-70-75-percent-fail-leadership-finance/"
+
+  - claim: "60% of executives attribute deal failure to poor due diligence"
+    source: "Bain & Company"
+    date: "2020"
+    url: "https://www.bain.com/insights/due-diligence-global-ma-report-2020/"
+
+  - claim: "Record 110 PE-backed company bankruptcies in 2024; PE/VC companies = 30% of all US bankruptcy filings"
+    source: "S&P Global"
+    date: "2024"
+
+  - claim: "Steward Health Care: $9.2B in liabilities, largest hospital bankruptcy in US history after monitoring ended"
+    source: "PBS/Harvard/Brookings"
+    date: "2024"
+
+  - claim: "Envision Healthcare/KKR: EBITDA collapsed from $1B+ to $250M; $3.5B equity wiped out"
+    source: "Wall Street Journal"
+    date: "2023"
+
+  - claim: "H.I.G. Capital: $25M False Claims settlement — largest ever involving a PE firm — despite majority board control"
+    source: "Massachusetts Attorney General"
+    date: "October 2021"
+
+  - claim: "9.5% of global M&A deals leaked in 2024 — 16-year high"
+    source: "SS&C Intralinks/Bayes Business School"
+    date: "2025"
+    url: "https://www.intralinks.com/resources/blog/why-ma-leaks-hit-16-year-high"
+
+  - claim: "~10% of large M&A deals are canceled every year"
+    source: "McKinsey"
+    date: "2019"
+    url: "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/done-deal-why-many-large-transactions-fail-to-cross-the-finish-line"
+
+  - claim: "Delaware Chancery (Arwood v. AW Site Services): 'data room access does not equal data room analysis' — buyer's failure to synthesize what was in front of it"
+    source: "Delaware Court of Chancery"
+    date: "2022"
+
+current_solutions:
+  - claim: "46% of private capital fund managers rely exclusively on Excel for portfolio monitoring"
+    source: "Preqin"
+    date: "2017"
+    url: "https://institutionalinvestor.com/article/b1bdt7701vdfpk/Private-Equity-Luddites-Cling-to-Excel"
+
+  - claim: "54% of PE portfolio companies use email with attachment to respond to data requests"
+    source: "PwC"
+    date: "2022"
+    url: "https://www.pwc.com/us/en/industries/financial-services/library/private-equity-data-analytics.html"
+
+  - claim: "No current platform provides meaningful cross-workstream analytical synthesis"
+    source: "Cross-Workstream Synthesis research"
+    date: "2025"
+
+  - claim: "All 4 major VDR Q&A modules lack intelligent cross-referencing, external tool integration, and SLA timers; all feature Excel export"
+    source: "Q&A Bottleneck research"
+    date: "2025"
+
+  - claim: "Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons"
+    source: "Q&A Bottleneck research"
+    date: "2025"
+
+  - claim: "Stanford RegLab found leading legal AI tools hallucinate 17-34% of the time"
+    source: "Stanford Law School"
+    date: "2025"
+
+  - claim: "41% of lawyers require 100% accuracy before using AI without human review"
+    source: "Thomson Reuters"
+    date: "2025"
+
+  - claim: "95% of AI pilots across industries fail to deliver measurable business impact"
+    source: "MIT"
+    date: "2025"
+
+  - claim: "Virtually every first-wave legal AI company acquired or shut down: RAVN, eBrevia, Kira, Seal, ROSS, Evisort, Eigen"
+    source: "Industry analysis"
+    date: "2025"
+
+  - claim: "SOC 2 Type II certification takes 6-12 months; deals close in 4-6 weeks — timeline mismatch blocks adoption"
+    source: "AI Adoption Barriers research"
+    date: "2025"
+
+  - claim: "ABA Opinion 512: uncritical AI reliance is 'almost certainly malpractice'"
+    source: "ABA/NCBE"
+    date: "July 2024"
+
+  - claim: "Billable hour conflict: AI that makes DD faster directly reduces law firm revenue; only 9% observed AFA increases despite 39% predicting them"
+    source: "Bloomberg Law"
+    date: "2025"
+
+  - claim: "IC memo is the sole forced synthesis point — structurally compromised by author bias, format constraints, and translation gaps"
+    source: "Stanford/Addepar study"
+    date: "2025"
+
+  - claim: "Kira Systems accuracy 'not good enough to trust 90+%, currently just a review aide'"
+    source: "G2 user review"
+    date: "2025"
+    url: "https://www.g2.com/products/kira-systems/reviews"
+
+  - claim: "Luminance usability rated 1.5/5 in independent review"
+    source: "Nevada State Bar"
+    date: "2025"
+
+  - claim: "74% of LPs want live or daily portfolio updates but get quarterly PDFs months late"
+    source: "CSC"
+    date: "2025"
