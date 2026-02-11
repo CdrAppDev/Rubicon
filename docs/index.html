@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubicon</title>
+  <style>
+    :root {
+      --bg: #09090b;
+      --bg-card: #111113;
+      --bg-card-hover: #1a1a1d;
+      --accent: #8b5cf6;
+      --accent-light: #a78bfa;
+      --accent-glow: rgba(139, 92, 246, 0.10);
+      --text: #e0e0e0;
+      --text-secondary: #a1a1aa;
+      --text-muted: #71717a;
+      --border: rgba(255, 255, 255, 0.08);
+      --green: #22c55e;
+      --green-bg: rgba(34, 197, 94, 0.10);
+      --green-border: rgba(34, 197, 94, 0.35);
+      --amber: #f59e0b;
+      --amber-bg: rgba(245, 158, 11, 0.10);
+      --amber-border: rgba(245, 158, 11, 0.35);
+      --gray: #404040;
+      --gray-bg: rgba(64, 64, 64, 0.15);
+      --gray-border: rgba(64, 64, 64, 0.4);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(9, 9, 11, 0.85);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      font-weight: 700; font-size: 0.95rem;
+      color: var(--text); text-decoration: none; letter-spacing: -0.01em;
+    }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a {
+      color: var(--text-muted); text-decoration: none;
+      font-size: 0.85rem; font-weight: 500; transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a.active { color: var(--accent-light); }
+
+    /* Hero */
+    .hero {
+      padding: 9rem 2rem 4rem; text-align: center;
+    }
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 800; letter-spacing: -0.03em; line-height: 1.05;
+      margin-bottom: 0.75rem;
+    }
+    .hero .tagline {
+      font-size: 1.2rem; color: var(--accent-light);
+      font-weight: 500; margin-bottom: 0.5rem;
+    }
+    .hero .desc {
+      font-size: 1rem; color: var(--text-secondary);
+      max-width: 520px; margin: 0 auto;
+    }
+
+    /* Pipeline */
+    .pipeline-section { padding: 2rem 2rem 4rem; }
+    .pipeline-section h2 {
+      text-align: center; font-size: 0.75rem;
+      text-transform: uppercase; letter-spacing: 0.15em;
+      color: var(--text-muted); font-weight: 600; margin-bottom: 2.5rem;
+    }
+    .pipeline {
+      display: flex; align-items: center; justify-content: center;
+      gap: 0; flex-wrap: wrap; max-width: 900px; margin: 0 auto;
+    }
+    .pipeline-node {
+      display: flex; flex-direction: column; align-items: center; gap: 0.6rem;
+      position: relative;
+    }
+    .pipeline-dot {
+      width: 44px; height: 44px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem; font-weight: 700;
+      border: 2px solid var(--gray);
+      background: var(--gray-bg);
+      color: var(--gray);
+      transition: all 0.3s;
+    }
+    .pipeline-dot.complete {
+      border-color: var(--green); background: var(--green-bg); color: var(--green);
+    }
+    .pipeline-dot.current {
+      border-color: var(--amber); background: var(--amber-bg); color: var(--amber);
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.25);
+      animation: pulse-amber 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-amber {
+      0%, 100% { box-shadow: 0 0 12px rgba(245, 158, 11, 0.20); }
+      50% { box-shadow: 0 0 24px rgba(245, 158, 11, 0.40); }
+    }
+    .pipeline-label {
+      font-size: 0.75rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em;
+      color: var(--gray);
+    }
+    .pipeline-label.complete { color: var(--green); }
+    .pipeline-label.current { color: var(--amber); }
+    .pipeline-status {
+      font-size: 0.6rem; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .pipeline-status.complete { color: var(--green); }
+    .pipeline-status.current { color: var(--amber); }
+    .pipeline-line {
+      width: 48px; height: 2px; background: var(--gray);
+      margin: 0 4px; align-self: flex-start; margin-top: 21px;
+    }
+    .pipeline-line.done { background: var(--green); }
+    .pipeline-line.active {
+      background: linear-gradient(90deg, var(--green), var(--amber));
+    }
+
+    /* Cards */
+    .cards-section { padding: 2rem 2rem 6rem; }
+    .cards-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 1.5rem; max-width: 900px; margin: 0 auto;
+    }
+    .workspace-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem;
+      text-decoration: none; color: inherit;
+      transition: background 0.2s, border-color 0.2s, transform 0.2s;
+      display: flex; flex-direction: column; gap: 1rem;
+      position: relative; overflow: hidden;
+    }
+    .workspace-card:hover {
+      background: var(--bg-card-hover);
+      transform: translateY(-2px);
+    }
+    .workspace-card.complete { border-color: var(--green-border); }
+    .workspace-card.complete::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 3px; background: var(--green);
+    }
+    .workspace-card.review { border-color: var(--amber-border); }
+    .workspace-card.review::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0;
+      height: 3px; background: var(--amber);
+    }
+    .card-header {
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .card-title {
+      font-size: 1.35rem; font-weight: 700; letter-spacing: -0.01em;
+    }
+    .card-badge {
+      font-size: 0.65rem; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 0.25rem 0.65rem; border-radius: 5px;
+    }
+    .card-badge.complete {
+      background: var(--green-bg); color: var(--green);
+      border: 1px solid var(--green-border);
+    }
+    .card-badge.review {
+      background: var(--amber-bg); color: var(--amber);
+      border: 1px solid var(--amber-border);
+    }
+    .card-gate {
+      font-size: 0.9rem; color: var(--text-secondary);
+      font-style: italic; line-height: 1.5;
+    }
+    .card-metrics {
+      display: grid; grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem; margin-top: 0.25rem;
+    }
+    .metric {
+      background: rgba(255,255,255,0.03);
+      border-radius: 8px; padding: 0.6rem 0.75rem;
+    }
+    .metric-value {
+      font-size: 1.1rem; font-weight: 700; letter-spacing: -0.01em;
+    }
+    .metric-value.green { color: var(--green); }
+    .metric-value.accent { color: var(--accent-light); }
+    .metric-label {
+      font-size: 0.65rem; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .card-cta {
+      font-size: 0.8rem; color: var(--accent-light);
+      margin-top: auto; font-weight: 500;
+    }
+    .workspace-card:hover .card-cta { text-decoration: underline; }
+
+    /* Footer */
+    footer {
+      padding: 3rem 2rem; text-align: center;
+      border-top: 1px solid var(--border);
+    }
+    footer p {
+      font-size: 0.8rem; color: var(--text-muted);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero { padding: 7rem 1.25rem 3rem; }
+      .hero h1 { font-size: 2.25rem; }
+      .pipeline { gap: 0; }
+      .pipeline-line { width: 24px; }
+      .pipeline-dot { width: 36px; height: 36px; font-size: 0.85rem; }
+      .pipeline-label { font-size: 0.65rem; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .cards-section, .pipeline-section { padding-left: 1.25rem; padding-right: 1.25rem; }
+    }
+    @media (max-width: 480px) {
+      .pipeline-line { width: 12px; }
+      .pipeline-dot { width: 32px; height: 32px; font-size: 0.8rem; }
+      .pipeline-label { font-size: 0.6rem; }
+      .pipeline-status { font-size: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Rubicon</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="problem.html">Problem</a></li>
+    <li><a href="market.html">Market</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>Rubicon</h1>
+  <p class="tagline">M&amp;A Due Diligence Intelligence</p>
+  <p class="desc">Cross-document synthesis and risk detection for deal teams, replacing manual review with structured analytical intelligence.</p>
+</section>
+
+<!-- Pipeline -->
+<section class="pipeline-section">
+  <h2>Venture Pipeline</h2>
+  <div class="pipeline">
+    <div class="pipeline-node">
+      <div class="pipeline-dot complete">&#10003;</div>
+      <span class="pipeline-label complete">Problem</span>
+      <span class="pipeline-status complete">Complete</span>
+    </div>
+    <div class="pipeline-line done"></div>
+    <div class="pipeline-node">
+      <div class="pipeline-dot current">2</div>
+      <span class="pipeline-label current">Market</span>
+      <span class="pipeline-status current">Gate Review</span>
+    </div>
+    <div class="pipeline-line active"></div>
+    <div class="pipeline-node">
+      <div class="pipeline-dot">3</div>
+      <span class="pipeline-label">Solution</span>
+      <span class="pipeline-status">Upcoming</span>
+    </div>
+    <div class="pipeline-line"></div>
+    <div class="pipeline-node">
+      <div class="pipeline-dot">4</div>
+      <span class="pipeline-label">Design</span>
+      <span class="pipeline-status">Upcoming</span>
+    </div>
+    <div class="pipeline-line"></div>
+    <div class="pipeline-node">
+      <div class="pipeline-dot">5</div>
+      <span class="pipeline-label">Launch</span>
+      <span class="pipeline-status">Upcoming</span>
+    </div>
+  </div>
+</section>
+
+<!-- Workspace Cards -->
+<section class="cards-section">
+  <div class="cards-grid">
+    <a href="problem.html" class="workspace-card complete">
+      <div class="card-header">
+        <span class="card-title">Problem</span>
+        <span class="card-badge complete">Complete &mdash; Proceed</span>
+      </div>
+      <p class="card-gate">&ldquo;Is this problem real and severe?&rdquo;</p>
+      <div class="card-metrics">
+        <div class="metric">
+          <div class="metric-value green">6/6</div>
+          <div class="metric-label">Hypotheses</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value green">6</div>
+          <div class="metric-label">First Principles</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value accent">100+</div>
+          <div class="metric-label">Sources</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value accent">86</div>
+          <div class="metric-label">Verbatim Quotes</div>
+        </div>
+      </div>
+      <span class="card-cta">View Problem Thesis &rarr;</span>
+    </a>
+
+    <a href="market.html" class="workspace-card review">
+      <div class="card-header">
+        <span class="card-title">Market</span>
+        <span class="card-badge review">Gate Review</span>
+      </div>
+      <p class="card-gate">&ldquo;Is there a reachable market where we can win?&rdquo;</p>
+      <div class="card-metrics">
+        <div class="metric">
+          <div class="metric-value accent">19/19</div>
+          <div class="metric-label">Hypotheses</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value accent">407</div>
+          <div class="metric-label">Citations</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value accent">89</div>
+          <div class="metric-label">Evidence Entries</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value green">24/24</div>
+          <div class="metric-label">Checks Pass</div>
+        </div>
+      </div>
+      <span class="card-cta">View Market Thesis &rarr;</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Rubicon &mdash; Venture Forge &mdash; February 2026</p>
+</footer>
+
+</body>
+</html>
