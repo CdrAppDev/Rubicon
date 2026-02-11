@@ -1,0 +1,254 @@
+version: "1.0.0"
+workspace: market
+
+hypotheses:
+  # --- Market Size ---
+
+  - id: M1
+    category: market_size
+    statement: "There are 50,000+ deal teams globally executing M&A due diligence annually, each processing 5,000-50,000 pages per deal within 30-90 day windows"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Severity: Mid-market data rooms contain 5,000-50,000+ pages (InvestorDataRooms.com, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Severity: A team of 10 spends approximately 6 weeks on DD per deal (Eton Venture Services, 2025)"
+      - source_file: "thesis.md"
+        reference: "Who Suffers: PE associates, IB analysts, Big Law attorneys, Big 4 consultants — 8-10+ parallel workstreams per deal"
+    falsifiable: true
+
+  - id: M2
+    category: market_size
+    statement: "30,000+ PE portfolio companies require ongoing monitoring, with each fund's operating partners overseeing 20-50+ companies but deeply engaging with only 3-6"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Prevalence: 30,000+ portfolio companies held by PE, $3.7 trillion in unrealized value (Industry data/McKinsey, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Severity: Operating partners oversee 20-50+ companies but can deeply engage with only 3-6 through board seats (Private Capital Global, 2025)"
+      - source_file: "jobs.yaml"
+        reference: "J4: Know if something material changed between reporting periods"
+    falsifiable: true
+
+  - id: M3
+    category: market_size
+    statement: "Each mid-market deal generates 500+ contracts requiring review, with complete manual review consuming 3,750+ attorney hours — and traditional DD examines only 5-10% of the contract population"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Prevalence: 500+ contracts per deal require manual review at 5-10 hours per contract (Spellbook/V7 Labs, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Severity: Traditional DD examines only 5-10% of the contract population (Sirion.ai, 2026)"
+      - source_file: "first-principles.yaml"
+        reference: "P2: 174 distinct document types for legal DD alone (Bloomberg Law)"
+    falsifiable: true
+
+  - id: M4
+    category: market_size
+    statement: "The sell-side DD market includes every company undergoing a sale, fundraise, or capital event, with CEO/CFO involvement reaching 30 hours/week for 90-120 days per transaction"
+    evidence_from_problem:
+      - source_file: "jobs.yaml"
+        reference: "J5: Prepare company for DD during a sale so management time is hours/week not a second full-time job"
+      - source_file: "evidence.yaml"
+        reference: "Severity: CEO/CFO involvement reaches up to 30 hours per week during DD (Sampford Advisors/SilMinds, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Severity: DD becomes 'a second full-time job' for 90-120 days (IEI Advisors, 2025)"
+    falsifiable: true
+
+  # --- Customer Segments ---
+
+  - id: C1
+    category: customer_segments
+    statement: "Buy-side deal teams (PE associates, IB analysts) are a distinct buyer group because they execute the cross-document synthesis job (J2) and cross-workstream integration job (J3) under deal-driven time pressure with no dedicated tooling"
+    evidence_from_problem:
+      - source_file: "thesis.md"
+        reference: "Who Suffers: Deal teams — PE associates, IB analysts, Big Law attorneys, Big 4 consultants — bear the direct operational burden"
+      - source_file: "jobs.yaml"
+        reference: "J2: Verify claims across documents; J3: See integrated findings across workstreams"
+      - source_file: "customer-voice.md"
+        reference: "Theme 1: 'during the due diligence/benchmarking/data analysis part of it I wanted to kill myself' (WSO, IB analyst)"
+    falsifiable: true
+
+  - id: C2
+    category: customer_segments
+    statement: "Investment committee members and principals are a distinct buyer group from deal teams because they execute the synthesis-judgment job (deciding on deals) but receive information only through the structurally compromised IC memo"
+    evidence_from_problem:
+      - source_file: "thesis.md"
+        reference: "Who Suffers: Investment committees and principals face the synthesis problem most acutely — IC memo is the sole forced synthesis point"
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: IC memo is the sole forced synthesis point — structurally compromised by author bias (Stanford/Addepar study)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 4: 'in reality the PE diligence process can be skewed especially in time-sensitive or competitive processes' (WSO, PE professional)"
+    falsifiable: true
+
+  - id: C3
+    category: customer_segments
+    statement: "Sell-side management teams (CEOs, CFOs undergoing a sale) are a distinct buyer group because they execute the preparation and response jobs (J5, J6) — mirror-image of the buy-side burden — with fundamentally different done states"
+    evidence_from_problem:
+      - source_file: "thesis.md"
+        reference: "Who Suffers: Target company management endures the mirror image of the investor burden — 30 hrs/week for 90-120 days"
+      - source_file: "jobs.yaml"
+        reference: "J5: Have documents organized and requests answered quickly; J6: Route questions and track answers without Excel/email"
+      - source_file: "customer-voice.md"
+        reference: "Theme 6: 'nearly all founders hold themselves together well during the process only to break during the due diligence' (M&A advisor, 20 years)"
+    falsifiable: true
+
+  - id: C4
+    category: customer_segments
+    statement: "Portfolio monitoring teams (operating partners, fund analysts) are a distinct buyer group because they execute the continuous monitoring job (J4) on 20-50+ companies with 3-6 month data lag, a fundamentally different workflow from deal-based DD"
+    evidence_from_problem:
+      - source_file: "thesis.md"
+        reference: "Who Suffers: Portfolio managers and LPs suffer a related but distinct monitoring crisis — 46% rely on Excel, 54% transmit via email"
+      - source_file: "jobs.yaml"
+        reference: "J4: Know if something material has changed between formal reporting periods"
+      - source_file: "customer-voice.md"
+        reference: "Theme 5: 'investors are flying blind at precisely the time when vigilance matters most' (MSCI Research)"
+    falsifiable: true
+
+  - id: C5
+    category: customer_segments
+    statement: "W&I insurance underwriters are a distinct downstream buyer group because they need independent verification of DD quality to price risk, and RWI claim rates (18%) suggest current DD quality is insufficient for underwriting confidence"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Consequences: RWI claim rate with insurance (18%) is 'markedly higher' than without (Fasken, 2025)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 4: 'Underwriters do not want to hear we got a representation to cover that matter, they want to understand your independent diligence' (Clifford Chance, 2024)"
+      - source_file: "thesis.md"
+        reference: "Why It Persists: RWI claim rates with insurance attributed partly to less thorough buyer DD in reliance on policy"
+    falsifiable: true
+
+  # --- Competitive Position ---
+
+  - id: CP1
+    category: competitive_position
+    statement: "VDRs (Datasite, Intralinks, Ansarada, iDeals) serve the document-security job but fail to complete the cross-document synthesis job (J2) because they are architecturally passive filing cabinets with no analytical capability"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: All 4 major VDR Q&A modules lack intelligent cross-referencing, external tool integration, and SLA timers"
+      - source_file: "thesis.md"
+        reference: "Why It Persists: VDRs solved security, not intelligence — no major VDR offers native cross-document analysis"
+      - source_file: "customer-voice.md"
+        reference: "Theme 7: 'A VDR often becomes a passive digital filing cabinet. Analysts and lawyers still pour countless hours into reading and summarizing documents manually' (V7 Labs)"
+    falsifiable: true
+
+  - id: CP2
+    category: competitive_position
+    statement: "First-wave legal AI tools (RAVN, eBrevia, Kira, Seal, ROSS, Evisort, Eigen) failed to survive as standalone products because they addressed single-document extraction without solving cross-document synthesis, and hallucination rates of 17-34% made them untrustable for high-stakes DD"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: Virtually every first-wave legal AI company acquired or shut down (Industry analysis, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: Stanford RegLab found leading legal AI tools hallucinate 17-34% (Stanford, 2025)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 8: 'It only requires a couple of inaccurate results for legal teams to lose faith in a new tool entirely' (SpotDraft/Artificial Lawyer)"
+    falsifiable: true
+
+  - id: CP3
+    category: competitive_position
+    statement: "Excel trackers and email chains persist as the default cross-workstream coordination tool despite being universally acknowledged as inadequate, because no existing tool bridges the gap between VDR document storage and analytical synthesis"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons (Q&A Bottleneck research, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: 46% of fund managers rely exclusively on Excel (Preqin, 2017)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 9: 'How does your firm manage diligence request lists coming from all corners of the buyside? It seems to be common place for all workstreams to just pass excel sheets back and forth' (WSO, first-year analyst)"
+    falsifiable: true
+
+  - id: CP4
+    category: competitive_position
+    statement: "No current platform provides cross-workstream analytical synthesis — DealCloud and 4Degrees are CRMs, VDRs focus on document security, DealRoom/Midaxo track process efficiency — leaving the highest-value DD job (J3) completely unserved"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: No current platform provides meaningful cross-workstream analytical synthesis (Cross-Workstream Synthesis research, 2025)"
+      - source_file: "first-principles.yaml"
+        reference: "P4: The analytical value comes from connections between documents, not individual documents in isolation"
+      - source_file: "first-principles.yaml"
+        reference: "P5: Organizational theory predicts synthesis failure as inevitable without a shared analytical layer"
+    falsifiable: true
+
+  - id: CP5
+    category: competitive_position
+    statement: "SOC 2 certification requirements (6-12 months) create a structural adoption barrier that protects incumbents, because deals close in 4-6 weeks and firms cannot onboard uncertified tools handling MNPI within deal timelines"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: SOC 2 Type II certification takes 6-12 months; deals close in 4-6 weeks (AI Adoption Barriers research, 2025)"
+      - source_file: "first-principles.yaml"
+        reference: "P3: Security vetting and onboarding must be compatible with deal timelines"
+      - source_file: "customer-voice.md"
+        reference: "Theme 8: 'DDs are always urgent and at the start of the matter. Until lawyers get over the learning curve, they feel like their old way of doing things is easier' (Luminance user)"
+    falsifiable: true
+
+  # --- Willingness to Pay ---
+
+  - id: W1
+    category: willingness_to_pay
+    statement: "Deal teams spending 2,400+ person-hours (team of 10, 6 weeks) per deal at blended rates of $200-600/hr face $480K-1.4M in labor costs per deal, establishing a willingness-to-pay floor for tools that reduce DD labor by even 20%"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Severity: A team of 10 spends approximately 6 weeks on DD for a single deal (Eton Venture Services, 2025)"
+      - source_file: "thesis.md"
+        reference: "Who Suffers: 3,750 attorney hours at 5-10 hours per contract across 500+ agreements (Spellbook/V7 Labs, 2025)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 1: 'We burn out our best junior talent by forcing them to spend their weekend manually keying numbers from PDFs into Excel' (V7 Labs)"
+    falsifiable: true
+
+  - id: W2
+    category: willingness_to_pay
+    statement: "Post-close claims affecting 30-38% of deals with EBITDA-multiple damages (a $2M error at 10x becomes $20M) establish willingness to pay for better cross-document synthesis that prevents even one material miss per deal"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Consequences: 30-38% of private M&A deals experience post-close indemnification claims (SRS Acquiom, 2020/2022)"
+      - source_file: "evidence.yaml"
+        reference: "Consequences: Claims seeking EBITDA-multiple damages rose from 5% to 32% (2020-2024) (Fasken/Aon)"
+      - source_file: "thesis.md"
+        reference: "How They Suffer: The EBITDA-multiplier effect — every missed cross-reference is exponentially more costly"
+    falsifiable: true
+
+  - id: W3
+    category: willingness_to_pay
+    statement: "Sell-side management teams losing 30 hours/week of CEO/CFO time for 90-120 days face an opportunity cost exceeding $200K per transaction, establishing willingness to pay for tools that cut management DD burden by 50%+"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Severity: CEO/CFO involvement reaches up to 30 hours per week during DD (Sampford Advisors/SilMinds, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Severity: DD becomes 'a second full-time job' for 90-120 days (IEI Advisors, 2025)"
+      - source_file: "jobs.yaml"
+        reference: "J5: Management time on DD measured in hours/week not a second full-time job"
+    falsifiable: true
+
+  - id: W4
+    category: willingness_to_pay
+    statement: "PE funds managing portfolios through Excel and email are already paying for monitoring through operating partner labor ($300K-500K/yr per partner) overseeing 20-50 companies, establishing willingness to pay for automated monitoring that extends deep engagement beyond 3-6 companies"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Severity: Operating partners oversee 20-50+ companies but can deeply engage with only 3-6 (Private Capital Global, 2025)"
+      - source_file: "evidence.yaml"
+        reference: "Current solutions: 46% of fund managers rely exclusively on Excel (Preqin, 2017)"
+      - source_file: "customer-voice.md"
+        reference: "Theme 5: 'a deal team associate may spend an entire workday chasing down updates for a single portfolio company' (Chronograph)"
+    falsifiable: true
+
+  - id: W5
+    category: willingness_to_pay
+    statement: "Q&A coordination consuming up to 70% of deal time with 90% of questions taking 6+ interactions to resolve means deal teams are already spending the majority of their billable time on coordination overhead rather than analysis, establishing willingness to pay for tools that compress Q&A cycles"
+    evidence_from_problem:
+      - source_file: "evidence.yaml"
+        reference: "Severity: 90% of Q&A questions take 6+ interactions to answer (Ansarada, 2025)"
+      - source_file: "thesis.md"
+        reference: "The Q&A coordination collapse: Q&A consumes up to 70% of deal time (Ansarada, 2025)"
+      - source_file: "jobs.yaml"
+        reference: "J6: Q&A coordination happens automatically; questions reach the right SME without manual routing"
+    falsifiable: true
+
+input_provenance:
+  workspace: "problem"
+  files_read:
+    - path: "workspace/problem/thesis.md"
+      exists: true
+    - path: "workspace/problem/jobs.yaml"
+      exists: true
+    - path: "workspace/problem/first-principles.yaml"
+      exists: true
+    - path: "workspace/problem/customer-voice.md"
+      exists: true
+    - path: "workspace/problem/evidence.yaml"
+      exists: true
+  date_accessed: "2026-02-10"

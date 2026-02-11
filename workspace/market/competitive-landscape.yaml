@@ -106,7 +106,7 @@ competitors:
   - id: COMP3
     name: "Deal management platforms (DealCloud/Intapp, 4Degrees, DealRoom, Midaxo)"
     type: "direct"
-    description: "CRM, pipeline management, and deal coordination platforms. DealCloud is CRM + deal management; 4Degrees is relationship intelligence; DealRoom/Midaxo are process management with VDR features."
+    description: "CRM, pipeline management, and deal coordination platforms. DealCloud is CRM + deal management; 4Degrees is relationship intelligence; DealRoom/Midaxo are process management with VDR features. Note: Meridian AI ($7M seed, 645 Ventures) and Altvia AIMe (Marlin Equity Partners) were initially considered in this category but Round 2 research confirmed both are CRM/deal sourcing tools operating in the pre-LOI phase, not DD platforms — Meridian converts CIMs to tear sheets and scores deals; Altvia AIMe operates on CRM metadata, not data room documents. Neither belongs in the DD competitive set."
     market_share: "Moderate adoption among PE firms and corporate development teams; DealCloud dominant in PE CRM category"
     pricing: "DealCloud: enterprise custom pricing (noted as 'high price'); DealRoom: $1,000-$2,000+/month flat rate; 4Degrees: per-seat SaaS pricing"
     job_completion:
@@ -123,7 +123,7 @@ competitors:
         gap: "Tracks tasks and process status across workstreams but does not synthesize analytical findings across workstreams"
       - job_id: J4
         rating: "partially_completes"
-        evidence: "DealCloud provides pipeline and portfolio tracking. Meridian AI adds AI-native deal flow and visibility. Altvia AIMe surfaces insights from firm data."
+        evidence: "DealCloud provides pipeline and portfolio tracking at CRM level. Note: Meridian AI and Altvia AIMe previously listed here are confirmed as CRM/deal sourcing tools, not DD platforms (Round 2)."
         gap: "CRM-level portfolio tracking, not deep operational monitoring with real-time KPI alerts and anomaly detection"
       - job_id: J5
         rating: "na"
@@ -136,7 +136,7 @@ competitors:
       - "DealCloud: strong PE firm adoption as deal CRM; Intapp parent provides stability"
       - "4Degrees: unique relationship intelligence data"
       - "DealRoom: integrated VDR + process management at lower price point"
-      - "Meridian AI: AI-native CRM approach may evolve toward synthesis"
+      - "DealRoom describes cross-workstream integration as future roadmap item, indicating market awareness of the gap"
     weaknesses:
       - "CRM/pipeline tools, not analytical synthesis engines"
       - "DealCloud noted for 'high price, steep learning curve, and limited customization' (G2 review)"
@@ -147,8 +147,11 @@ competitors:
       - claim: "DealCloud/4Degrees confirmed as CRMs; DealRoom/Midaxo confirmed as process management"
         source: "V7 Labs"
         date: "2025"
-      - claim: "Meridian AI described as AI-native CRM; Altvia AIMe as portfolio intelligence"
-        source: "Planr"
+      - claim: "Meridian AI confirmed as PE CRM/deal sourcing, not DD; Altvia AIMe confirmed as Salesforce-based CRM assistant on metadata, not DD platform"
+        source: "645 Ventures / Marlin Equity Partners"
+        date: "2025"
+      - claim: "DealRoom describes cross-workstream integration in future tense, confirming it does not exist today"
+        source: "DealRoom"
         date: "2025"
 
   # --- Indirect Competitors ---
@@ -336,6 +339,100 @@ competitors:
         source: "Planr"
         date: "2025"
 
+  - id: COMP8
+    name: "Hebbia"
+    type: "direct"
+    description: "Horizontal AI document analysis platform. $130M Series B at $700M valuation (led by a16z). Can process any document type — contracts, financial statements, spreadsheets — and answer cross-cutting queries across an entire data room. General-purpose research tool, not DD-specific."
+    market_share: "Growing; used by financial services and legal firms for document analysis. Not yet dominant in M&A DD specifically."
+    pricing: "Enterprise custom pricing"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "Can ingest and search across entire data rooms of any document type. Users can query for risk-relevant documents across the full corpus."
+        gap: "No pre-built DD risk prioritization models; user must structure their own queries and know what to look for"
+      - job_id: J2
+        rating: "partially_completes"
+        evidence: "Cross-document queries can surface related information across contracts, financials, and other documents."
+        gap: "Outputs are not organized into cross-workstream risk frameworks; no automated inconsistency detection between workstreams"
+      - job_id: J3
+        rating: "fails"
+        evidence: "General-purpose document analysis with no concept of DD workstreams. Users can manually query across document types but the tool does not model financial, legal, operational, commercial, or IT/cyber workstreams."
+        gap: "Lacks purpose-built DD workstream models; no automated cross-workstream synthesis or risk correlation"
+      - job_id: J4
+        rating: "na"
+        evidence: "Deal-transaction tool, not portfolio monitoring"
+      - job_id: J5
+        rating: "na"
+        evidence: "Not designed for sell-side preparation"
+      - job_id: J6
+        rating: "na"
+        evidence: "Not designed for Q&A coordination"
+    strengths:
+      - "Multi-document, multi-format analysis (contracts, financials, spreadsheets)"
+      - "Large funding ($130M Series B) and a16z backing"
+      - "Can process any document type without pre-configuration"
+      - "Flexible query interface allows ad-hoc cross-document questions"
+    weaknesses:
+      - "General-purpose, not DD-specific — no workstream framework"
+      - "User must structure queries; no automated risk detection"
+      - "No pre-built DD models for financial, legal, operational analysis"
+      - "Outputs lack the structured risk assessment format DD teams need"
+    user_satisfaction: "Positive among early adopters for document querying flexibility; limited M&A DD-specific adoption data"
+    evidence:
+      - claim: "Hebbia $130M Series B at $700M valuation, led by a16z"
+        source: "Crunchbase / a16z"
+        date: "2025"
+      - claim: "Can process any document type and answer cross-cutting queries but lacks purpose-built DD workstream models"
+        source: "Round 2 competitive analysis"
+        date: "2026"
+
+  - id: COMP9
+    name: "PE-focused DD tools (ToltIQ, Keye, Dili)"
+    type: "direct"
+    description: "AI-powered due diligence tools specifically designed for private equity. ToltIQ ($12M Series A, February 2025, founded by former KKR Partner/CIO Ed Brandman) is the most mature, with a prompt library spanning financial, legal, operations, and technology categories. Keye and Dili are YC-backed startups targeting financial/investment DD."
+    market_share: "Early-stage; ToltIQ is most funded and highest-profile in this category"
+    pricing: "Enterprise custom pricing"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "ToltIQ can query across VDR documents regardless of type, identifying relevant information across financial, legal, and operational documents."
+        gap: "Query-based discovery, not automated risk prioritization"
+      - job_id: J2
+        rating: "partially_completes"
+        evidence: "Can cross-reference information across document types within a data room through user-directed queries."
+        gap: "User must formulate cross-reference queries; no automated inconsistency detection"
+      - job_id: J3
+        rating: "partially_completes"
+        evidence: "ToltIQ's prompt library spans financial, legal, operations, and technology — the closest product-level approximation to cross-workstream querying."
+        gap: "Fundamentally a query-and-extract tool, not an automated synthesis engine; no cross-workstream risk correlation or integrated risk assessment"
+      - job_id: J4
+        rating: "na"
+        evidence: "Transaction DD tools, not portfolio monitoring"
+      - job_id: J5
+        rating: "na"
+        evidence: "Not designed for sell-side preparation"
+      - job_id: J6
+        rating: "na"
+        evidence: "Not designed for Q&A coordination"
+    strengths:
+      - "ToltIQ: founded by former KKR Partner/CIO with deep PE domain expertise"
+      - "Multi-workstream prompt library (financial, legal, operations, technology)"
+      - "Purpose-built for PE DD workflow"
+      - "Can query across document types in VDR"
+    weaknesses:
+      - "Query-and-extract tool, not automated synthesis engine"
+      - "No cross-workstream risk correlation or unified risk assessment"
+      - "Requires user to formulate queries and structure analysis"
+      - "Early-stage products with limited market validation"
+    user_satisfaction: "Limited public data; early PE adopters evaluating"
+    evidence:
+      - claim: "ToltIQ $12M Series A (Feb 2025), founded by former KKR Partner/CIO Ed Brandman"
+        source: "Crunchbase"
+        date: "2025"
+      - claim: "ToltIQ prompt library spans financial, legal, operations, and technology but is query-and-extract, not automated synthesis"
+        source: "Round 2 competitive analysis"
+        date: "2026"
+
 positioning_gaps:
   - gap_id: G1
     description: "Cross-workstream analytical synthesis — no platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams into integrated risk assessment"
@@ -391,7 +488,23 @@ competitive_moat_assessment:
     undefended. The SOC 2 barrier (5.5-17.5 months) protects incumbents against under-
     resourced entrants but is navigable through pre-approval vendor lists and compliance
     roadmaps.
+
+    Round 2 exhaustive review of 25+ platforms (including all Big 4 firms, every major VDR,
+    recent YC batches, and 2024-2026 startup launches) strengthens the finding that the
+    cross-workstream gap is genuine and structurally persistent. Even the most well-funded
+    competitors (Harvey at $8B, Luminance at $165M raised, Hebbia at $700M valuation) remain
+    single-workstream or general-purpose tools. PwC/Harvey uses human consultants to bridge
+    workstreams. DealRoom describes cross-workstream integration in future tense. Four
+    structural factors — organizational silos, data fragmentation, compound domain knowledge
+    requirements, and manual IC memo synthesis — explain why this gap persists despite massive
+    investment in adjacent categories.
   evidence: >
     SOC 2 Type II takes 5.5-17.5 months, costs $50K-$200K (EasyAudit.ai, 2025).
     Pre-approved vendor lists provide workaround for deal-timeline mismatch (WEF, 2025).
     No VDR or deal platform provides cross-workstream analytical synthesis (V7 Labs, 2025).
+    Exhaustive review of 25+ platforms confirms cross-workstream synthesis gap is genuine
+    (Round 2, 2026). Harvey $8B valuation but legal-only; PwC bridge is human consultants
+    (PwC, 2025). Luminance $165M raised, single-workstream legal (Point72, 2025). Hebbia
+    $130M Series B, horizontal but no DD models (a16z, 2025). ToltIQ $12M Series A, query-
+    and-extract not automated synthesis (Crunchbase, 2025). DealRoom describes cross-workstream
+    integration in future tense (DealRoom, 2025).

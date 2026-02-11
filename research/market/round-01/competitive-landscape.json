@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "model": "sonar-deep-research",
+    "response_id": "14c618b1-e97a-4092-b308-54bc1e1a8b32",
+    "usage": {
+      "prompt_tokens": 1628,
+      "completion_tokens": 8211,
+      "total_tokens": 9839,
+      "citation_tokens": 52677,
+      "reasoning_tokens": 339407,
+      "num_search_queries": 30,
+      "cost": {
+        "total_cost": null,
+        "input_tokens_cost": null,
+        "output_tokens_cost": null
+      }
+    },
+    "citation_count": 60
+  },
+  "citations": [
+    {
+      "index": 1,
+      "url": "https://www.fortunebusinessinsights.com/virtual-data-room-market-109254",
+      "title": "Virtual Data Room Market Size, Share, Trends | Growth [2034]",
+      "snippet": "The global virtual data room market size was valued at $3.4 billion in 2025 & is projected to grow from $4.11 billion in 2026 to $17.46 billion by 2034."
+    },
+    {
+      "index": 2,
+      "url": "https://www.v7labs.com/blog/ai-virtual-data-rooms",
+      "title": "How to Analyze Virtual Data Rooms with AI: M&A and Beyond - V7 Go",
+      "snippet": "Now, a new shift is underway: artificial intelligence is being applied to VDR analysis, promising faster insights and fewer missed red flags."
+    },
+    {
+      "index": 3,
+      "url": "https://imanage.com/resources/resource-center/blog/imanage-acquires-ravn-systems/",
+      "title": "iManage acquires RAVN systems",
+      "snippet": "We are revolutionizing the way companies find, extract and act on key information from documents and emails through our acquisition of RAVN Systems."
+    },
+    {
+      "index": 4,
+      "url": "https://www.marketsandmarkets.com/Market-Reports/virtual-data-room-market-74439915.html",
+      "title": "Virtual Data Room Market Size, Trends, Forecast - MarketsandMarkets",
+      "snippet": "The global virtual data room market size was estimated at USD 2.5 billion in 2024 and is projected to reach USD 5.6 billion by 2029, growing at a CAGR of ..."
+    },
+    {
+      "index": 5,
+      "url": "https://www.orangedox.com/blog/8-industry-use-cases-for-vdr",
+      "title": "8 Industry Use Cases for Using Virtual Data Rooms in 2025",
+      "snippet": "In short, a VDR eliminates the chaos of email attachments and file-sharing links, replacing them with a centralized, trackable workspace for ..."
+    },
+    {
+      "index": 6,
+      "url": "https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/",
+      "title": "The End of the Legal AI Pioneers + A New Beginning - Artificial Lawyer",
+      "snippet": "RAVN \u2013 an early pioneer of using ML/NLP in the legal field, sold to iManage in 2017; eBrevia \u2013 a very early contract analysis pioneer, sold to ..."
+    },
+    {
+      "index": 7,
+      "url": "https://ironcladapp.com/resources/articles/best-legal-ai-software",
+      "title": "The 15 Best Legal AI Software Tools for 2025 - Ironclad",
+      "snippet": "Harvey AI uses GPT-based generative AI trained on legal documents to assist law firms and corporate legal teams with contract review, risk ..."
+    },
+    {
+      "index": 8,
+      "url": "https://www.g2.com/compare/dealcloud-vs-midaxo",
+      "title": "Compare DealCloud vs. Midaxo - G2",
+      "snippet": "Users report that both Midaxo and DealCloud have a quality of support score of 9.2, but Midaxo shines in user partnership with a score of 9.8, suggesting that ..."
+    },
+    {
+      "index": 9,
+      "url": "https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance",
+      "title": "How Long Does It Take To Get SOC 2 Compliance in 2025?",
+      "snippet": "The timeline for achieving SOC 2 Type 2 certification is roughly five and a half to 17 and a half months long, consisting of a preparation phase ..."
+    },
+    {
+      "index": 10,
+      "url": "https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html",
+      "title": "The 10 Legal Tech Trends that Defined 2025 | LawSites",
+      "snippet": "The dominant theme of 2025 was the emergence of agentic AI \u2013 autonomous systems capable of multi-step reasoning, self-evaluation and complex ..."
+    },
+    {
+      "index": 11,
+      "url": "https://www.g2.com/compare/dealroom-vs-midaxo",
+      "title": "Compare DealRoom vs. Midaxo - G2",
+      "snippet": "When assessing the two solutions, reviewers found DealRoom easier to use, set up, and administer. However, reviewers preferred doing business with Midaxo ..."
+    },
+    {
+      "index": 12,
+      "url": "https://www.cbh.com/insights/articles/soc-2-report-examination-timeline-tips/",
+      "title": "How Long Does It Take To Get SOC 2 Compliance? - Cherry Bekaert",
+      "snippet": "Fieldwork timing for a SOC 2 Type 1 examination can range from a few weeks to one to two months, depending on factors such as client ..."
+    },
+    {
+      "index": 13,
+      "url": "https://techcrunch.com/2024/06/06/sirion-now-valued-around-1b-acquires-eigen-in-enterprise-ai-tooling-consolidation-play/",
+      "title": "Sirion, now valued around $1B, acquires Eigen as consolidation ...",
+      "snippet": "Sirion, now valued around $1B, acquires Eigen as consolidation comes to enterprise AI tooling. Ingrid Lunden. 7:26 AM PDT \u00b7 June 6, 2024. Image ..."
+    },
+    {
+      "index": 14,
+      "url": "https://legaltechnology.com/2021/08/10/breaking-news-litera-acquires-the-lions-share-of-kira-systems/",
+      "title": "Breaking news: Litera acquires the lion's share of Kira Systems",
+      "snippet": "Litera has acquired the law firm business of contract review leader Kira Systems, which as part of the transaction is spinning off its corporate market ..."
+    },
+    {
+      "index": 15,
+      "url": "https://datarooms.org/vdr-blog/intralinks-vs-datasite-comparison/",
+      "title": "Intralinks vs Datasite: A Detailed Comparison for 2025",
+      "snippet": "Compare Intralinks and Datasite. Discover key differences in security, features, and usability to find your ideal virtual data room."
+    },
+    {
+      "index": 16,
+      "url": "https://www.sirion.ai/library/contract-ai/eigen-acquisition-brings-document-ai-to-contract-intelligence/",
+      "title": "Sirion Acquires Eigen, Adding Document AI to Contracts",
+      "snippet": "Learn why Sirion acquired Eigen Technologies to improve contract intelligence with document AI and automate data extraction across multiple ..."
+    },
+    {
+      "index": 17,
+      "url": "https://www.businesswire.com/news/home/20210810005645/en/Litera-Agrees-to-Acquire-Leading-Machine-Learning-Contract-Analysis-Company-Kira-Systems",
+      "title": "Litera Agrees to Acquire Leading Machine Learning Contract ...",
+      "snippet": "Litera will acquire Kira Systems and its industry-leading machine learning contract analysis technologies to form a new cornerstone for its ..."
+    },
+    {
+      "index": 18,
+      "url": "https://www.intralinks.com/guides/intralinks-vs-datasite",
+      "title": "Intralinks vs Datasite | Comparison Analysis",
+      "snippet": "Its drag-and-drop upload functionality, automated indexing and AI-powered deal preparation tools streamline data room setup and execution. For dealmakers, this ..."
+    },
+    {
+      "index": 19,
+      "url": "https://www.affinity.co/comparison/4degrees-vs-dealcloud",
+      "title": "4Degrees vs DealCloud: CRM Comparison for Deal Teams - Affinity",
+      "snippet": "Easily build reporting dashboards for your most important KPIs and keep your team, clients, and partners informed on the latest deal activity. Check mark. X."
+    },
+    {
+      "index": 20,
+      "url": "https://visible.vc/monitor/",
+      "title": "Portfolio monitoring - Visible.vc",
+      "snippet": "Send customizable requests for updates \u00b7 Automate reminders and track response rates \u00b7 Standardize responses across portfolio companies \u00b7 Create workflows to ..."
+    },
+    {
+      "index": 21,
+      "url": "https://www.thoughtriver.com",
+      "title": "ThoughtRiver | Streamline Contract Review with AI",
+      "snippet": "Review Contracts in Minutes, not Hours. Apply precise, accurate legal AI to identify risks, clause edits, and opportunities unique to your business. Free up ..."
+    },
+    {
+      "index": 22,
+      "url": "https://www.4degrees.ai/blog/affinity-dealcloud-or-4degrees--which-crm-is-right-for-your-firm",
+      "title": "Affinity, DealCloud, or 4Degrees- Which CRM is Right for Your Firm?",
+      "snippet": "This guide examines the specifics and compares 3 CRM providers: Deal Cloud, Affinity, and 4Degrees. We discuss their key features, strengths, and limitations."
+    },
+    {
+      "index": 23,
+      "url": "https://visible.vc/blog/portfolio-monitoring-software/",
+      "title": "Portfolio Monitoring Software - Visible.vc",
+      "snippet": "Key Takeaways \u00b7 Portfolio monitoring software helps venture capital firms track, analyze, and manage investments with real-time data and automated reporting."
+    },
+    {
+      "index": 24,
+      "url": "https://www.ontra.ai",
+      "title": "AI-Powered Contract Automation for Private Markets | Ontra",
+      "snippet": "Ontra's AI-powered platform automates legal workflows for private markets, streamlining contract management, fund compliance, and entity management for 700+ ..."
+    },
+    {
+      "index": 25,
+      "url": "https://www.spotdraft.com/blog/legal-ai-tools-how-are-legal-teams-using-ai-in-2025",
+      "title": "Legal AI tools: How are legal teams using AI in 2025? - SpotDraft",
+      "snippet": "A 2025 survey by Secretariat and ACEDS revealed that 74% of legal professionals expect to use AI-driven tools in their jobs within the next 12 ..."
+    },
+    {
+      "index": 26,
+      "url": "https://www.ansarada.com/article/8-ways-to-scale-acquisitions",
+      "title": "8 ways to streamline & scale acquisition processes with Ansarada",
+      "snippet": "Learn how to get the most out of new enhanced Deal Workflow features - built for the buy-side - across all stages of the deal lifecycle."
+    },
+    {
+      "index": 27,
+      "url": "https://www.smartsheet.com/sites/default/files/IC-M-and-A-Due-Diligence-Data-Collection-Template-10584.xlsx",
+      "title": "[XLS] M&A Due Diligence Data Collect - Smartsheet",
+      "snippet": "Use this data room template to manage the entire M&A process. Attach documents, assign tasks, set alerts for incomplete items, and share the sheet with your ..."
+    },
+    {
+      "index": 28,
+      "url": "https://www.spotdraft.com/blog/using-ai-in-legal-operations",
+      "title": "Common AI Misconceptions Among Legal Teams (And How to Fix It)",
+      "snippet": "Legal teams struggle with AI adoption due to common myths. Learn what AI can and can't do in contract management and how to use it safely."
+    },
+    {
+      "index": 29,
+      "url": "https://www.ansarada.com/data-room/transactions-workflow",
+      "title": "Ansarada Workflow | Deal task automation",
+      "snippet": "Deal Workflow is a project management tool for advisors to digitize all their existing work streams, so you can have clarity and control from the start."
+    },
+    {
+      "index": 30,
+      "url": "https://dealroom.net/resources/templates/pipeline-template",
+      "title": "Free M&A Pipeline Excel Template (2025 Updated) - DealRoom.net",
+      "snippet": "It allows you to gain in-depth insights, track deals efficiently, and manage your M&A process like a pro. Download now for free."
+    },
+    {
+      "index": 31,
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-september-2025-update/",
+      "title": "Euclid Transactional R&W/W&I Insurance September 2025 Update",
+      "snippet": "While aggregate premium rates have been rising in 2025, they remain below the levels most industry experts consider profitable and sustainable."
+    },
+    {
+      "index": 32,
+      "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries",
+      "title": "AI on Trial: Legal Models Hallucinate in 1 out of 6 (or More ...",
+      "snippet": "And our previous study of general-purpose chatbots found that they hallucinated between 58% and 82% of the time on legal queries, highlighting ..."
+    },
+    {
+      "index": 33,
+      "url": "https://slashdot.org/software/comparison/DealRoom-vs-Intapp-DealCloud/",
+      "title": "Compare DealRoom vs. Intapp DealCloud in 2026",
+      "snippet": "What's the difference between DealRoom and Intapp DealCloud? Compare DealRoom vs. Intapp DealCloud in 2026 by cost, reviews, features, integrations, deployment, ..."
+    },
+    {
+      "index": 34,
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-november-2025-update/",
+      "title": "Euclid Transactional R&W/W&I Insurance November 2025 Update",
+      "snippet": "Our 2024 Global RWI Claims Study highlights the increasing severity of loss payments, underscoring the need for meaningful and lasting upward ..."
+    },
+    {
+      "index": 35,
+      "url": "https://www.paxton.ai/post/paxton-ai-achieves-94-accuracy-on-stanford-hallucination-benchmark",
+      "title": "Paxton AI achieves 94%+ accuracy on Stanford Hallucination ...",
+      "snippet": "Paxton AI has achieved 93.82% average accuracy on tasks in the Stanford Legal Hallucination Benchmark."
+    },
+    {
+      "index": 36,
+      "url": "https://dealroom.net/resources/m-a-software-companies-comparison",
+      "title": "9 Best M&A Project Management Software You Need In 2025",
+      "snippet": "The DealRoom M&A Platform unifies deal data, streamlines communication, and synchronizes diligence with integration, ensuring faster and more efficient deal ..."
+    },
+    {
+      "index": 37,
+      "url": "https://www.execo.com/blog/the-hidden-cost-of-manual-contract-review-in-ma",
+      "title": "The Hidden Cost of Manual Contract Review in M&A - Execo",
+      "snippet": "Manual contract review is a silent tax on M&A deals, causing delays & hiding risk. Discover how Generative AI transforms due diligence into ..."
+    },
+    {
+      "index": 38,
+      "url": "https://support.box.com/hc/en-us/articles/38680529755283-New-AI-experiences-available-for-existing-Box-plans-Feb-2025",
+      "title": "New AI experiences available for existing Box plans (Feb 2025)",
+      "snippet": "Box extends AI offerings into lower-tier plans, making certain AI features available to users in Business, Business Plus, and Enterprise tiers."
+    },
+    {
+      "index": 39,
+      "url": "https://www.lawgeex.com/ai-meets-the-efficiency-demanded-of-legal-teams/",
+      "title": "AI Meets the Efficiency Demanded of Legal Teams - Lawgeex",
+      "snippet": "AI contract review can contribute significantly to operational efficiency and raise compliance with risk management policies."
+    },
+    {
+      "index": 40,
+      "url": "https://legalsolutions.thomsonreuters.co.uk/blog/2024/01/25/how-to-modernize-m-a-due-diligence-reviews/",
+      "title": "How to simplify M&A due diligence and smooth out transaction ...",
+      "snippet": "The average time to close an M&A deal is estimated to have increased over 30% during the last decade."
+    },
+    {
+      "index": 41,
+      "url": "https://www.techtarget.com/searchcontentmanagement/news/366637320/Box-releases-Box-Extract-its-AI-metadata-agent",
+      "title": "Box releases Box Extract, its AI metadata agent | TechTarget",
+      "snippet": "Box releases AI metadata agent that enables plain-language instructions to conduct operations on business documents that previously required ..."
+    },
+    {
+      "index": 42,
+      "url": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/ten-ai-predictions-for-2026-what-leading-analysts-say-legal-teams-should-expect.html?id=102lz7f",
+      "title": "Ten AI Predictions for 2026: What Leading Analysts Say Legal ...",
+      "snippet": "Gartner predicts companies using AI in CLM can cut contract review time by 50%. For 2026, analysts predict zero-touch contracting for low ..."
+    },
+    {
+      "index": 43,
+      "url": "https://www.legalontech.com/post/best-ai-contract-review-tools",
+      "title": "Best AI Contract Review Tools 2025 - LegalOn",
+      "snippet": "Harvey is a better fit for Am Law 100 firms handling multi-practice work. Luminance is the specialist for high-stakes M&A due diligence. Spellbook serves solo ..."
+    },
+    {
+      "index": 44,
+      "url": "https://monday.com/blog/crm-and-sales/deal-flow-management-software/",
+      "title": "Deal flow management software:close high value deals faster in 2026",
+      "snippet": "Deal flow management software helps track deals, automate workflows and close faster with real-time collaboration and pipeline visibility."
+    },
+    {
+      "index": 45,
+      "url": "https://dealroom.net/blog/buy-side-financial-due-diligence",
+      "title": "Buy-Side Financial Due Diligence: Process, Analysis & Best Practices",
+      "snippet": "This guide explores the buy-side financial due diligence process, including core components, in-depth financial statement analysis, critical ..."
+    },
+    {
+      "index": 46,
+      "url": "https://livrepository.liverpool.ac.uk/3194056/1/Scripted_Submission_2025_FINAL.pdf",
+      "title": "[PDF] Ready, Willing, and Able? Challenges facing the governance of ...",
+      "snippet": "17 \u201cContract Review Powered by AI\u201d (Litera, 2025) availiable at https://www.litera.com/products/kira (accessed 10 April 2025). 18 \u201cLuminance\u201d (Luminance ..."
+    },
+    {
+      "index": 47,
+      "url": "https://www.ellty.com/blog/dealroom-alternatives",
+      "title": "7 DealRoom Alternatives We Tested for Any Business - 2026 - Ellty",
+      "snippet": "DealRoom alternatives compared: pricing, features & real user reviews. Find the right deal management platform for M&A teams & due diligence ..."
+    },
+    {
+      "index": 48,
+      "url": "https://blog.embarkwithus.com/buy-side-due-diligence",
+      "title": "Buy-Side Due Diligence: Report Checklist and Guide for M&A and ...",
+      "snippet": "A detailed checklist to help you prepare a buy-side due diligence report, along with best practices to use throughout the entire M&A ..."
+    },
+    {
+      "index": 49,
+      "url": "https://longterminvesting.stanford.edu/sites/g/files/sbiybj23856/files/media/file/addepar-investment-memos-and-decision-making.pdf",
+      "title": "[PDF] Investment memos and - decision-making",
+      "snippet": "Investment processes: Memos shed light on decision-making and execution, from risk management and due diligence to portfolio construction and even deal. 2 ..."
+    },
+    {
+      "index": 50,
+      "url": "https://dealroom.net/blog/buy-side-m-a-advisory",
+      "title": "Buy-Side M&A Advisory Explained: Role, Process & Benefits",
+      "snippet": "Buy-side M&A advisory services help acquiring companies identify targets, conduct due diligence, negotiate deals, and close transactions ..."
+    },
+    {
+      "index": 51,
+      "url": "https://www.ncontracts.com/nsight-blog/risk-and-compliance-mergers-aquisitions",
+      "title": "M&A: Getting a Handle on Risk and Compliance During ... - Ncontracts",
+      "snippet": "Compliance risk can slow or halt M&A activity. Unchecked compliance risk can derail a merger or acquisition, and result in a less healthy joint institution than ..."
+    },
+    {
+      "index": 52,
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/investment-memo/",
+      "title": "How to write your investment memo - Carta",
+      "snippet": "The memo also provides an assessment of the deal structure, company valuation, risks, and potential return on investment. Investors rely on the ..."
+    },
+    {
+      "index": 53,
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/buy-side-vs-sell-side-ma",
+      "title": "Buy-Side vs. Sell-Side M&A - Wall Street Oasis",
+      "snippet": "As someone just starting their career, I understand the fundamental difference between a Buy-Side vs Sell-Side M&A transaction."
+    },
+    {
+      "index": 54,
+      "url": "https://www.darkreading.com/cyber-risk/cybersecurity-checklist-that-could-save-your-m-and-a-deal",
+      "title": "The Cybersecurity Checklist That Could Save Your M&A Deal",
+      "snippet": "I've put together this checklist to help organizations safeguard their digital assets before, during, and after a merger and acquisition."
+    },
+    {
+      "index": 55,
+      "url": "https://tamarix.tech/insights/getting-started-with-private-fund-data-management-how-to-track-your-funds-investments-in-excel",
+      "title": "Private Fund Data Management: Tracking Investments in Excel",
+      "snippet": "Optimize private fund management with our free Excel tracker\u2014track NAV, performance, and investments effortlessly."
+    },
+    {
+      "index": 56,
+      "url": "https://ironcladapp.com/journal/sales/common-contract-bottlenecks",
+      "title": "6 Common Contract Bottlenecks Salespeople Face - Ironclad",
+      "snippet": "Common bottlenecks include counterparties taking weeks to return signed agreements and legal reviews that stretch deal timelines."
+    },
+    {
+      "index": 57,
+      "url": "https://www.neotas.com/due-diligence-report/",
+      "title": "Due Diligence Report - How To Write One, Questions ...",
+      "snippet": "Get a professional, audit-ready report format to identify financial, legal, and reputational risks before any deal or partnership."
+    },
+    {
+      "index": 58,
+      "url": "https://eagle-lily-4l8k.squarespace.com/s/UNTAP-final.pdf",
+      "title": "[PDF] Portfolio Monitoring & Value Creation - PE Stack",
+      "snippet": "An integrated platform addressing all the core needs for middle office Private Equity operations by streamlining data acquisition, generating automated reports, ..."
+    },
+    {
+      "index": 59,
+      "url": "https://www.intapp.com/blog/deal-management-pitfalls-and-avoidable-execution-bottlenecks/",
+      "title": "Deal management pitfalls and avoidable execution bottlenecks",
+      "snippet": "Manual Deal Execution\u200b\u200b This bottleneck happens when a private equity house grows \u2014 in assets under management (AUM), employee count, verticals, ..."
+    },
+    {
+      "index": 60,
+      "url": "https://www.sirion.ai/library/contract-ai/ai-due-diligence/",
+      "title": "AI Due Diligence: Overview, Benefits and Checklist",
+      "snippet": "In a transaction involving a target with 10,000+ active contracts, reviewers typically examine 5-10% of the population, missing material obligations and ..."
+    }
+  ],
+  "search_results": [
+    {
+      "title": "Virtual Data Room Market Size, Share, Trends | Growth [2034]",
+      "url": "https://www.fortunebusinessinsights.com/virtual-data-room-market-109254",
+      "snippet": "The global virtual data room market size was valued at $3.4 billion in 2025 & is projected to grow from $4.11 billion in 2026 to $17.46 billion by 2034.",
+      "date": null
+    },
+    {
+      "title": "How to Analyze Virtual Data Rooms with AI: M&A and Beyond - V7 Go",
+      "url": "https://www.v7labs.com/blog/ai-virtual-data-rooms",
+      "snippet": "Now, a new shift is underway: artificial intelligence is being applied to VDR analysis, promising faster insights and fewer missed red flags.",
+      "date": null
+    },
+    {
+      "title": "iManage acquires RAVN systems",
+      "url": "https://imanage.com/resources/resource-center/blog/imanage-acquires-ravn-systems/",
+      "snippet": "We are revolutionizing the way companies find, extract and act on key information from documents and emails through our acquisition of RAVN Systems.",
+      "date": null
+    },
+    {
+      "title": "Virtual Data Room Market Size, Trends, Forecast - MarketsandMarkets",
+      "url": "https://www.marketsandmarkets.com/Market-Reports/virtual-data-room-market-74439915.html",
+      "snippet": "The global virtual data room market size was estimated at USD 2.5 billion in 2024 and is projected to reach USD 5.6 billion by 2029, growing at a CAGR of ...",
+      "date": null
+    },
+    {
+      "title": "8 Industry Use Cases for Using Virtual Data Rooms in 2025",
+      "url": "https://www.orangedox.com/blog/8-industry-use-cases-for-vdr",
+      "snippet": "In short, a VDR eliminates the chaos of email attachments and file-sharing links, replacing them with a centralized, trackable workspace for ...",
+      "date": null
+    },
+    {
+      "title": "The End of the Legal AI Pioneers + A New Beginning - Artificial Lawyer",
+      "url": "https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/",
+      "snippet": "RAVN \u2013 an early pioneer of using ML/NLP in the legal field, sold to iManage in 2017; eBrevia \u2013 a very early contract analysis pioneer, sold to ...",
+      "date": null
+    },
+    {
+      "title": "The 15 Best Legal AI Software Tools for 2025 - Ironclad",
+      "url": "https://ironcladapp.com/resources/articles/best-legal-ai-software",
+      "snippet": "Harvey AI uses GPT-based generative AI trained on legal documents to assist law firms and corporate legal teams with contract review, risk ...",
+      "date": null
+    },
+    {
+      "title": "Compare DealCloud vs. Midaxo - G2",
+      "url": "https://www.g2.com/compare/dealcloud-vs-midaxo",
+      "snippet": "Users report that both Midaxo and DealCloud have a quality of support score of 9.2, but Midaxo shines in user partnership with a score of 9.8, suggesting that ...",
+      "date": null
+    },
+    {
+      "title": "How Long Does It Take To Get SOC 2 Compliance in 2025?",
+      "url": "https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance",
+      "snippet": "The timeline for achieving SOC 2 Type 2 certification is roughly five and a half to 17 and a half months long, consisting of a preparation phase ...",
+      "date": null
+    },
+    {
+      "title": "The 10 Legal Tech Trends that Defined 2025 | LawSites",
+      "url": "https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html",
+      "snippet": "The dominant theme of 2025 was the emergence of agentic AI \u2013 autonomous systems capable of multi-step reasoning, self-evaluation and complex ...",
+      "date": null
+    },
+    {
+      "title": "Compare DealRoom vs. Midaxo - G2",
+      "url": "https://www.g2.com/compare/dealroom-vs-midaxo",
+      "snippet": "When assessing the two solutions, reviewers found DealRoom easier to use, set up, and administer. However, reviewers preferred doing business with Midaxo ...",
+      "date": null
+    },
+    {
+      "title": "How Long Does It Take To Get SOC 2 Compliance? - Cherry Bekaert",
+      "url": "https://www.cbh.com/insights/articles/soc-2-report-examination-timeline-tips/",
+      "snippet": "Fieldwork timing for a SOC 2 Type 1 examination can range from a few weeks to one to two months, depending on factors such as client ...",
+      "date": null
+    },
+    {
+      "title": "Sirion, now valued around $1B, acquires Eigen as consolidation ...",
+      "url": "https://techcrunch.com/2024/06/06/sirion-now-valued-around-1b-acquires-eigen-in-enterprise-ai-tooling-consolidation-play/",
+      "snippet": "Sirion, now valued around $1B, acquires Eigen as consolidation comes to enterprise AI tooling. Ingrid Lunden. 7:26 AM PDT \u00b7 June 6, 2024. Image ...",
+      "date": null
+    },
+    {
+      "title": "Breaking news: Litera acquires the lion's share of Kira Systems",
+      "url": "https://legaltechnology.com/2021/08/10/breaking-news-litera-acquires-the-lions-share-of-kira-systems/",
+      "snippet": "Litera has acquired the law firm business of contract review leader Kira Systems, which as part of the transaction is spinning off its corporate market ...",
+      "date": null
+    },
+    {
+      "title": "Intralinks vs Datasite: A Detailed Comparison for 2025",
+      "url": "https://datarooms.org/vdr-blog/intralinks-vs-datasite-comparison/",
+      "snippet": "Compare Intralinks and Datasite. Discover key differences in security, features, and usability to find your ideal virtual data room.",
+      "date": null
+    },
+    {
+      "title": "Sirion Acquires Eigen, Adding Document AI to Contracts",
+      "url": "https://www.sirion.ai/library/contract-ai/eigen-acquisition-brings-document-ai-to-contract-intelligence/",
+      "snippet": "Learn why Sirion acquired Eigen Technologies to improve contract intelligence with document AI and automate data extraction across multiple ...",
+      "date": null
+    },
+    {
+      "title": "Litera Agrees to Acquire Leading Machine Learning Contract ...",
+      "url": "https://www.businesswire.com/news/home/20210810005645/en/Litera-Agrees-to-Acquire-Leading-Machine-Learning-Contract-Analysis-Company-Kira-Systems",
+      "snippet": "Litera will acquire Kira Systems and its industry-leading machine learning contract analysis technologies to form a new cornerstone for its ...",
+      "date": null
+    },
+    {
+      "title": "Intralinks vs Datasite | Comparison Analysis",
+      "url": "https://www.intralinks.com/guides/intralinks-vs-datasite",
+      "snippet": "Its drag-and-drop upload functionality, automated indexing and AI-powered deal preparation tools streamline data room setup and execution. For dealmakers, this ...",
+      "date": null
+    },
+    {
+      "title": "4Degrees vs DealCloud: CRM Comparison for Deal Teams - Affinity",
+      "url": "https://www.affinity.co/comparison/4degrees-vs-dealcloud",
+      "snippet": "Easily build reporting dashboards for your most important KPIs and keep your team, clients, and partners informed on the latest deal activity. Check mark. X.",
+      "date": null
+    },
+    {
+      "title": "Portfolio monitoring - Visible.vc",
+      "url": "https://visible.vc/monitor/",
+      "snippet": "Send customizable requests for updates \u00b7 Automate reminders and track response rates \u00b7 Standardize responses across portfolio companies \u00b7 Create workflows to ...",
+      "date": null
+    },
+    {
+      "title": "ThoughtRiver | Streamline Contract Review with AI",
+      "url": "https://www.thoughtriver.com",
+      "snippet": "Review Contracts in Minutes, not Hours. Apply precise, accurate legal AI to identify risks, clause edits, and opportunities unique to your business. Free up ...",
+      "date": null
+    },
+    {
+      "title": "Affinity, DealCloud, or 4Degrees- Which CRM is Right for Your Firm?",
+      "url": "https://www.4degrees.ai/blog/affinity-dealcloud-or-4degrees--which-crm-is-right-for-your-firm",
+      "snippet": "This guide examines the specifics and compares 3 CRM providers: Deal Cloud, Affinity, and 4Degrees. We discuss their key features, strengths, and limitations.",
+      "date": null
+    },
+    {
+      "title": "Portfolio Monitoring Software - Visible.vc",
+      "url": "https://visible.vc/blog/portfolio-monitoring-software/",
+      "snippet": "Key Takeaways \u00b7 Portfolio monitoring software helps venture capital firms track, analyze, and manage investments with real-time data and automated reporting.",
+      "date": null
+    },
+    {
+      "title": "AI-Powered Contract Automation for Private Markets | Ontra",
+      "url": "https://www.ontra.ai",
+      "snippet": "Ontra's AI-powered platform automates legal workflows for private markets, streamlining contract management, fund compliance, and entity management for 700+ ...",
+      "date": null
+    },
+    {
+      "title": "Legal AI tools: How are legal teams using AI in 2025? - SpotDraft",
+      "url": "https://www.spotdraft.com/blog/legal-ai-tools-how-are-legal-teams-using-ai-in-2025",
+      "snippet": "A 2025 survey by Secretariat and ACEDS revealed that 74% of legal professionals expect to use AI-driven tools in their jobs within the next 12 ...",
+      "date": null
+    },
+    {
+      "title": "8 ways to streamline & scale acquisition processes with Ansarada",
+      "url": "https://www.ansarada.com/article/8-ways-to-scale-acquisitions",
+      "snippet": "Learn how to get the most out of new enhanced Deal Workflow features - built for the buy-side - across all stages of the deal lifecycle.",
+      "date": null
+    },
+    {
+      "title": "[XLS] M&A Due Diligence Data Collect - Smartsheet",
+      "url": "https://www.smartsheet.com/sites/default/files/IC-M-and-A-Due-Diligence-Data-Collection-Template-10584.xlsx",
+      "snippet": "Use this data room template to manage the entire M&A process. Attach documents, assign tasks, set alerts for incomplete items, and share the sheet with your ...",
+      "date": null
+    },
+    {
+      "title": "Common AI Misconceptions Among Legal Teams (And How to Fix It)",
+      "url": "https://www.spotdraft.com/blog/using-ai-in-legal-operations",
+      "snippet": "Legal teams struggle with AI adoption due to common myths. Learn what AI can and can't do in contract management and how to use it safely.",
+      "date": null
+    },
+    {
+      "title": "Ansarada Workflow | Deal task automation",
+      "url": "https://www.ansarada.com/data-room/transactions-workflow",
+      "snippet": "Deal Workflow is a project management tool for advisors to digitize all their existing work streams, so you can have clarity and control from the start.",
+      "date": null
+    },
+    {
+      "title": "Free M&A Pipeline Excel Template (2025 Updated) - DealRoom.net",
+      "url": "https://dealroom.net/resources/templates/pipeline-template",
+      "snippet": "It allows you to gain in-depth insights, track deals efficiently, and manage your M&A process like a pro. Download now for free.",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional R&W/W&I Insurance September 2025 Update",
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-september-2025-update/",
+      "snippet": "While aggregate premium rates have been rising in 2025, they remain below the levels most industry experts consider profitable and sustainable.",
+      "date": null
+    },
+    {
+      "title": "AI on Trial: Legal Models Hallucinate in 1 out of 6 (or More ...",
+      "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries",
+      "snippet": "And our previous study of general-purpose chatbots found that they hallucinated between 58% and 82% of the time on legal queries, highlighting ...",
+      "date": null
+    },
+    {
+      "title": "Compare DealRoom vs. Intapp DealCloud in 2026",
+      "url": "https://slashdot.org/software/comparison/DealRoom-vs-Intapp-DealCloud/",
+      "snippet": "What's the difference between DealRoom and Intapp DealCloud? Compare DealRoom vs. Intapp DealCloud in 2026 by cost, reviews, features, integrations, deployment, ...",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional R&W/W&I Insurance November 2025 Update",
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-november-2025-update/",
+      "snippet": "Our 2024 Global RWI Claims Study highlights the increasing severity of loss payments, underscoring the need for meaningful and lasting upward ...",
+      "date": null
+    },
+    {
+      "title": "Paxton AI achieves 94%+ accuracy on Stanford Hallucination ...",
+      "url": "https://www.paxton.ai/post/paxton-ai-achieves-94-accuracy-on-stanford-hallucination-benchmark",
+      "snippet": "Paxton AI has achieved 93.82% average accuracy on tasks in the Stanford Legal Hallucination Benchmark.",
+      "date": null
+    },
+    {
+      "title": "9 Best M&A Project Management Software You Need In 2025",
+      "url": "https://dealroom.net/resources/m-a-software-companies-comparison",
+      "snippet": "The DealRoom M&A Platform unifies deal data, streamlines communication, and synchronizes diligence with integration, ensuring faster and more efficient deal ...",
+      "date": null
+    },
+    {
+      "title": "The Hidden Cost of Manual Contract Review in M&A - Execo",
+      "url": "https://www.execo.com/blog/the-hidden-cost-of-manual-contract-review-in-ma",
+      "snippet": "Manual contract review is a silent tax on M&A deals, causing delays & hiding risk. Discover how Generative AI transforms due diligence into ...",
+      "date": null
+    },
+    {
+      "title": "New AI experiences available for existing Box plans (Feb 2025)",
+      "url": "https://support.box.com/hc/en-us/articles/38680529755283-New-AI-experiences-available-for-existing-Box-plans-Feb-2025",
+      "snippet": "Box extends AI offerings into lower-tier plans, making certain AI features available to users in Business, Business Plus, and Enterprise tiers.",
+      "date": null
+    },
+    {
+      "title": "AI Meets the Efficiency Demanded of Legal Teams - Lawgeex",
+      "url": "https://www.lawgeex.com/ai-meets-the-efficiency-demanded-of-legal-teams/",
+      "snippet": "AI contract review can contribute significantly to operational efficiency and raise compliance with risk management policies.",
+      "date": null
+    },
+    {
+      "title": "How to simplify M&A due diligence and smooth out transaction ...",
+      "url": "https://legalsolutions.thomsonreuters.co.uk/blog/2024/01/25/how-to-modernize-m-a-due-diligence-reviews/",
+      "snippet": "The average time to close an M&A deal is estimated to have increased over 30% during the last decade.",
+      "date": null
+    },
+    {
+      "title": "Box releases Box Extract, its AI metadata agent | TechTarget",
+      "url": "https://www.techtarget.com/searchcontentmanagement/news/366637320/Box-releases-Box-Extract-its-AI-metadata-agent",
+      "snippet": "Box releases AI metadata agent that enables plain-language instructions to conduct operations on business documents that previously required ...",
+      "date": null
+    },
+    {
+      "title": "Ten AI Predictions for 2026: What Leading Analysts Say Legal ...",
+      "url": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/ten-ai-predictions-for-2026-what-leading-analysts-say-legal-teams-should-expect.html?id=102lz7f",
+      "snippet": "Gartner predicts companies using AI in CLM can cut contract review time by 50%. For 2026, analysts predict zero-touch contracting for low ...",
+      "date": null
+    },
+    {
+      "title": "Best AI Contract Review Tools 2025 - LegalOn",
+      "url": "https://www.legalontech.com/post/best-ai-contract-review-tools",
+      "snippet": "Harvey is a better fit for Am Law 100 firms handling multi-practice work. Luminance is the specialist for high-stakes M&A due diligence. Spellbook serves solo ...",
+      "date": null
+    },
+    {
+      "title": "Deal flow management software:close high value deals faster in 2026",
+      "url": "https://monday.com/blog/crm-and-sales/deal-flow-management-software/",
+      "snippet": "Deal flow management software helps track deals, automate workflows and close faster with real-time collaboration and pipeline visibility.",
+      "date": null
+    },
+    {
+      "title": "Buy-Side Financial Due Diligence: Process, Analysis & Best Practices",
+      "url": "https://dealroom.net/blog/buy-side-financial-due-diligence",
+      "snippet": "This guide explores the buy-side financial due diligence process, including core components, in-depth financial statement analysis, critical ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] Ready, Willing, and Able? Challenges facing the governance of ...",
+      "url": "https://livrepository.liverpool.ac.uk/3194056/1/Scripted_Submission_2025_FINAL.pdf",
+      "snippet": "17 \u201cContract Review Powered by AI\u201d (Litera, 2025) availiable at https://www.litera.com/products/kira (accessed 10 April 2025). 18 \u201cLuminance\u201d (Luminance ...",
+      "date": null
+    },
+    {
+      "title": "7 DealRoom Alternatives We Tested for Any Business - 2026 - Ellty",
+      "url": "https://www.ellty.com/blog/dealroom-alternatives",
+      "snippet": "DealRoom alternatives compared: pricing, features & real user reviews. Find the right deal management platform for M&A teams & due diligence ...",
+      "date": null
+    },
+    {
+      "title": "Buy-Side Due Diligence: Report Checklist and Guide for M&A and ...",
+      "url": "https://blog.embarkwithus.com/buy-side-due-diligence",
+      "snippet": "A detailed checklist to help you prepare a buy-side due diligence report, along with best practices to use throughout the entire M&A ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] Investment memos and - decision-making",
+      "url": "https://longterminvesting.stanford.edu/sites/g/files/sbiybj23856/files/media/file/addepar-investment-memos-and-decision-making.pdf",
+      "snippet": "Investment processes: Memos shed light on decision-making and execution, from risk management and due diligence to portfolio construction and even deal. 2 ...",
+      "date": null
+    },
+    {
+      "title": "Buy-Side M&A Advisory Explained: Role, Process & Benefits",
+      "url": "https://dealroom.net/blog/buy-side-m-a-advisory",
+      "snippet": "Buy-side M&A advisory services help acquiring companies identify targets, conduct due diligence, negotiate deals, and close transactions ...",
+      "date": null
+    },
+    {
+      "title": "M&A: Getting a Handle on Risk and Compliance During ... - Ncontracts",
+      "url": "https://www.ncontracts.com/nsight-blog/risk-and-compliance-mergers-aquisitions",
+      "snippet": "Compliance risk can slow or halt M&A activity. Unchecked compliance risk can derail a merger or acquisition, and result in a less healthy joint institution than ...",
+      "date": null
+    },
+    {
+      "title": "How to write your investment memo - Carta",
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/investment-memo/",
+      "snippet": "The memo also provides an assessment of the deal structure, company valuation, risks, and potential return on investment. Investors rely on the ...",
+      "date": null
+    },
+    {
+      "title": "Buy-Side vs. Sell-Side M&A - Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/buy-side-vs-sell-side-ma",
+      "snippet": "As someone just starting their career, I understand the fundamental difference between a Buy-Side vs Sell-Side M&A transaction.",
+      "date": null
+    },
+    {
+      "title": "The Cybersecurity Checklist That Could Save Your M&A Deal",
+      "url": "https://www.darkreading.com/cyber-risk/cybersecurity-checklist-that-could-save-your-m-and-a-deal",
+      "snippet": "I've put together this checklist to help organizations safeguard their digital assets before, during, and after a merger and acquisition.",
+      "date": null
+    },
+    {
+      "title": "Private Fund Data Management: Tracking Investments in Excel",
+      "url": "https://tamarix.tech/insights/getting-started-with-private-fund-data-management-how-to-track-your-funds-investments-in-excel",
+      "snippet": "Optimize private fund management with our free Excel tracker\u2014track NAV, performance, and investments effortlessly.",
+      "date": null
+    },
+    {
+      "title": "6 Common Contract Bottlenecks Salespeople Face - Ironclad",
+      "url": "https://ironcladapp.com/journal/sales/common-contract-bottlenecks",
+      "snippet": "Common bottlenecks include counterparties taking weeks to return signed agreements and legal reviews that stretch deal timelines.",
+      "date": null
+    },
+    {
+      "title": "Due Diligence Report - How To Write One, Questions ...",
+      "url": "https://www.neotas.com/due-diligence-report/",
+      "snippet": "Get a professional, audit-ready report format to identify financial, legal, and reputational risks before any deal or partnership.",
+      "date": null
+    },
+    {
+      "title": "[PDF] Portfolio Monitoring & Value Creation - PE Stack",
+      "url": "https://eagle-lily-4l8k.squarespace.com/s/UNTAP-final.pdf",
+      "snippet": "An integrated platform addressing all the core needs for middle office Private Equity operations by streamlining data acquisition, generating automated reports, ...",
+      "date": null
+    },
+    {
+      "title": "Deal management pitfalls and avoidable execution bottlenecks",
+      "url": "https://www.intapp.com/blog/deal-management-pitfalls-and-avoidable-execution-bottlenecks/",
+      "snippet": "Manual Deal Execution\u200b\u200b This bottleneck happens when a private equity house grows \u2014 in assets under management (AUM), employee count, verticals, ...",
+      "date": null
+    },
+    {
+      "title": "AI Due Diligence: Overview, Benefits and Checklist",
+      "url": "https://www.sirion.ai/library/contract-ai/ai-due-diligence/",
+      "snippet": "In a transaction involving a target with 10,000+ active contracts, reviewers typically examine 5-10% of the population, missing material obligations and ...",
+      "date": null
+    }
+  ]
+}

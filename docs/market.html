@@ -124,11 +124,7 @@ h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
 .badge { display: inline-block; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.2rem 0.55rem; border-radius: 4px; }
 .badge.strong { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
 .badge.moderate { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.badge.weak { background: rgba(113,113,122,0.15); color: var(--text-muted); border: 1px solid rgba(113,113,122,0.3); }
 .badge.ready { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-border); }
-.badge.na { background: rgba(113,113,122,0.1); color: var(--text-muted); border: 1px solid rgba(113,113,122,0.2); }
-.badge.blocking { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.badge.strategic-badge { background: var(--bg-secondary); color: var(--text-muted); border: 1px solid var(--border); }
 .accordion { display: flex; flex-direction: column; gap: 1rem; }
 .accordion-item { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; background: var(--bg-card); }
 .accordion-header { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 1.5rem; cursor: pointer; transition: background 0.2s; }
@@ -141,13 +137,9 @@ h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
 .accordion-item.open .accordion-content { max-height: 5000px; }
 .accordion-body { padding: 0 1.5rem 1.5rem; border-top: 1px solid var(--border); }
 .accordion-body p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.65; margin-top: 1.25rem; }
-.accordion-body h4 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted); margin-top: 1.5rem; margin-bottom: 0.75rem; }
 .criteria-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
 .criteria-list li { font-size: 0.875rem; color: var(--text-secondary); padding-left: 1rem; position: relative; line-height: 1.5; }
 .criteria-list li::before { content: "\2192"; position: absolute; left: 0; color: var(--accent-light); }
-.criteria-source { font-size: 0.75rem; color: var(--text-muted); font-style: italic; }
-.source-link { color: var(--accent-light); text-decoration: none; border-bottom: 1px dotted var(--accent-light); transition: color 0.2s, border-color 0.2s; }
-.source-link:hover { color: var(--text-primary); border-color: var(--text-primary); }
 .scale-note { background: var(--accent-glow); border: 1px solid var(--border-accent); border-radius: 10px; padding: 1rem 1.25rem; font-size: 0.875rem; color: var(--text-secondary); margin-top: 2rem; line-height: 1.6; }
 .scale-note strong { color: var(--accent-light); }
 .validation-card { background: var(--bg-card); border: 1px solid var(--green-border); border-radius: 12px; padding: 1.5rem 2rem; margin-bottom: 2.5rem; display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
@@ -169,17 +161,10 @@ h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
 .gate-option { padding: 0.6rem 1rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.85rem; color: var(--text-secondary); background: var(--bg-secondary); line-height: 1.5; }
 .gate-option strong { color: var(--text-primary); }
 .gate-consequence { color: var(--text-muted); font-size: 0.8rem; }
-.gate-group-label { font-size: 1.1rem; font-weight: 600; margin-top: 2rem; margin-bottom: 0.25rem; }
-.gate-group-desc { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem; }
-.gate-card.strategic { border-color: var(--border); border-left-color: var(--text-muted); }
-.gate-card.strategic .gate-num { background: var(--bg-secondary); border-color: var(--border); color: var(--text-muted); }
 .gate-priority { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; padding: 0.15rem 0.5rem; border-radius: 4px; margin-left: auto; }
 .gate-priority.blocking { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
-.gate-priority.strategic { background: var(--bg-secondary); color: var(--text-muted); border: 1px solid var(--border); }
-.gate-revisit { font-size: 0.8rem; color: var(--accent-light); font-style: italic; margin-bottom: 1rem; }
 .evidence-briefing { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
 .evidence-briefing h3 { font-size: 1.25rem; margin-bottom: 1.5rem; color: var(--text-primary); }
-.evidence-briefing h4 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; color: var(--text-muted); }
 .briefing-stats { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
 .briefing-stat { text-align: center; }
 .briefing-stat-value { font-size: 1.5rem; font-weight: 700; color: var(--accent-light); display: block; }
@@ -189,8 +174,8 @@ h3 { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.75rem; }
 .briefing-list li { padding: 0.5rem 0 0.5rem 1rem; font-size: 0.875rem; color: var(--text-secondary); line-height: 1.5; border-left: 3px solid transparent; }
 .briefing-list.strong li { border-left-color: var(--green); }
 .briefing-list.weak li { border-left-color: var(--amber); }
-h4.briefing-strong { color: var(--green); }
-h4.briefing-weak { color: var(--amber); }
+h4.briefing-strong { color: var(--green); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+h4.briefing-weak { color: var(--amber); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.75rem; }
 .evidence-stats { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem; }
 .evidence-stat { flex: 1; min-width: 120px; text-align: center; padding: 1.25rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; }
 .evidence-stat-value { font-size: 1.75rem; font-weight: 800; color: var(--accent-light); }
@@ -268,7 +253,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 <section class="hero">
   <div class="container">
     <h1>Rubicon<br><span class="gradient-text">Market Thesis</span></h1>
-    <p class="lead">200,000-250,000 deal professionals execute M&A due diligence annually across 47,000-50,000 global transactions. 150,000-180,000 remain underserved by current tooling.</p>
+    <p class="lead">Is there a reachable market of sufficient size where we can win? 200,000-250,000 deal professionals. 150,000-180,000 underserved. 15,000-25,000 reachable in 18 months.</p>
     <div class="funnel">
       <div class="funnel-box">200K-250K TAM</div>
       <span class="funnel-arrow">&rarr;</span>
@@ -280,16 +265,20 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
     </div>
     <div class="hero-stats">
       <div>
-        <div class="hero-stat-value accent">200K-250K</div>
-        <div class="hero-stat-label">TAM &mdash; Deal Professionals</div>
+        <div class="hero-stat-value accent">19/19</div>
+        <div class="hero-stat-label">Hypotheses Validated</div>
       </div>
       <div>
-        <div class="hero-stat-value accent">150K-180K</div>
-        <div class="hero-stat-label">SAM &mdash; Underserved</div>
+        <div class="hero-stat-value accent">407</div>
+        <div class="hero-stat-label">Research Citations</div>
       </div>
       <div>
-        <div class="hero-stat-value green">15K-25K</div>
-        <div class="hero-stat-label">SOM &mdash; 18-Month Reach</div>
+        <div class="hero-stat-value accent">91</div>
+        <div class="hero-stat-label">Evidence Entries</div>
+      </div>
+      <div>
+        <div class="hero-stat-value green">24/24</div>
+        <div class="hero-stat-label">Validation Checks Pass</div>
       </div>
     </div>
   </div>
@@ -302,7 +291,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
     <div class="narrative-chapter">
       <div class="narrative-num">The Market</div>
       <h3>A $3 trillion industry running on spreadsheets and manual synthesis</h3>
-      <p>Global M&A value reached <strong>$3.0 trillion in 2025</strong>, a <a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">31% increase over 2024</a> (BCG, 2025). Approximately <strong>47,000-50,000 transactions</strong> close annually, each involving deal teams of <strong>5-15 professionals</strong> reviewing <strong>5,000-50,000 pages</strong> of documents within 30-90 day windows (<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>). Yet traditional due diligence examines only <strong>5-10% of the contract population</strong> (Sirion.ai, 2026), and no existing platform provides cross-workstream analytical synthesis across financial, legal, operational, commercial, and IT workstreams (<a href="https://v7labs.com" target="_blank">V7 Labs, 2025</a>).</p>
+      <p>Global M&A value reached <strong>$3.0 trillion in 2025</strong>, a <a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">31% increase over 2024</a> (BCG, 2025). Approximately <strong>47,000-50,000 transactions</strong> close annually, each involving deal teams of <strong>5-15 professionals</strong> reviewing <strong>5,000-50,000 pages</strong> of documents within 30-90 day windows (<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>). Yet traditional due diligence examines only <strong>5-10% of the contract population</strong> (Sirion.ai, 2026), and <span class="evidence-trigger" data-evidence-id="cross-workstream-gap">no existing platform provides cross-workstream analytical synthesis</span> across financial, legal, operational, commercial, and IT workstreams.</p>
       <p style="margin-top: 1rem;">The market exhibits pronounced K-shaped concentration: <strong>600 transactions above $1 billion captured 94% of deal value growth</strong> in 2025, while the remaining 47,000 smaller transactions were flat year-over-year (<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>). PE dry powder stands at <strong>$2.184 trillion</strong> (<a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">PitchBook, 2026</a>), creating deployment pressure against the <strong>largest exit backlog in 20 years</strong> (Bain, 2025).</p>
     </div>
 
@@ -320,8 +309,8 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
     <div class="narrative-chapter">
       <div class="narrative-num">The Landscape</div>
       <h3>Three positioning gaps remain undefended by incumbents</h3>
-      <p>The competitive landscape is crowded but fragmented by function. VDRs handle document storage ($2.8B market, projected $13.2B by 2032 at <a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">21.4% CAGR</a>). Second-wave legal AI tools like Harvey ($8B valuation) address single-workstream contract analysis. Deal management platforms track process and pipeline. But <span class="evidence-trigger" data-evidence-id="cross-workstream-gap">no existing platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams simultaneously</span>.</p>
-      <p style="margin-top: 1rem;">First-wave legal AI consolidation is substantially complete &mdash; RAVN, Kira, Seal, eBrevia, Eigen, and ROSS all acquired or shut down (<a href="https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/" target="_blank">Artificial Lawyer, 2024</a>). Second-wave tools address single-workstream extraction with improved architectures but hallucination rates of <strong>17-34%</strong> prevent full automation (<a href="https://law.stanford.edu/projects/reglab/" target="_blank">Stanford RegLab, 2025</a>). The IC memo remains the sole synthesis point, prepared manually by deal teams under time pressure. As Bain observed, firms "structure diligence as discrete questions as if those things had no connection to each other."</p>
+      <p>The competitive landscape is crowded but fragmented by function. VDRs handle document storage ($2.8B market, projected $13.2B by 2032 at <a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">21.4% CAGR</a>). Second-wave legal AI tools like Harvey ($8B valuation, $1B+ raised) address single-workstream contract analysis. Deal management platforms track process and pipeline. But <span class="evidence-trigger" data-evidence-id="cross-workstream-gap">no existing platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams simultaneously</span>.</p>
+      <p style="margin-top: 1rem;">First-wave legal AI consolidation is substantially complete &mdash; RAVN, Kira, Seal, eBrevia, Eigen, and ROSS all acquired or shut down (<a href="https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/" target="_blank">Artificial Lawyer, 2024</a>). Second-wave tools address single-workstream extraction with improved architectures but hallucination rates of <strong>17-34%</strong> prevent full automation (<a href="https://law.stanford.edu/projects/reglab/" target="_blank">Stanford RegLab, 2025</a>). <span class="evidence-trigger" data-evidence-id="contract-coverage-gap">Traditional DD examines only 5-20% of the contract population</span>, with materiality thresholds of $100,000/year filtering which contracts receive full review, and even attempted full review achieves only 50-85% recall on relevant provisions. The IC memo remains the sole synthesis point, prepared manually by deal teams under time pressure.</p>
     </div>
 
     <div class="narrative-divider"></div>
@@ -329,12 +318,11 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
     <div class="narrative-chapter">
       <div class="narrative-num">The Ask</div>
       <h3>Is there a reachable market of sufficient size where we can win?</h3>
-      <p>The evidence shows a market of <strong>200,000-250,000 deal professionals</strong>, of whom 150,000-180,000 are underserved by current tooling, with <strong>15,000-25,000 reachable</strong> within 18 months through North American mid-market PE deal teams. Three positioning gaps remain undefended. Willingness to pay is anchored at <strong>$20,000-$240,000 per deal</strong> across three independent signal convergences. All 24 validation checks pass.</p>
-      <p style="margin-top: 1rem;">The <a href="#gate">Gate Review</a> below presents the full evidence briefing, validation summary, and decision cards. The blocking question: does this market justify advancing to the Competitive workspace?</p>
+      <p>The evidence shows a market of <strong>200,000-250,000 deal professionals</strong>, of whom 150,000-180,000 are underserved by current tooling, with <strong>15,000-25,000 reachable</strong> within 18 months through North American mid-market PE deal teams. Three positioning gaps remain undefended. Willingness to pay is anchored at <span class="evidence-trigger" data-evidence-id="wtp-anchor"><strong>$20,000-$240,000 per deal</strong></span> across three independent signal convergences. All 19 hypotheses validated (15 strong, 2 moderate upgraded to strong in Round 2, 2 moderate). All 24 validation checks pass.</p>
     </div>
 
     <div class="narrative-cta">
-      <strong>Gate question:</strong> Is there a reachable market of sufficient size where we can win? 24/24 validation checks pass. Review the evidence and decide: proceed, revise, or kill.
+      <strong>Gate question:</strong> Is there a reachable market of sufficient size where we can win? 24/24 validation checks pass. 19/19 hypotheses validated. Review the evidence and decide: proceed, revise, or kill.
     </div>
 
   </div>
@@ -380,7 +368,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
     <div class="card" style="margin-bottom: 1.5rem;">
       <div class="card-label purple">SAM &mdash; Underserved Professionals</div>
       <h3>150,000-180,000 Deal Professionals Whose Tools Fail Key Jobs</h3>
-      <p><span class="evidence-trigger" data-evidence-id="sam-underserved">No VDR provides cross-document synthesis or analytical capability across workstreams</span> (<a href="https://v7labs.com" target="_blank">V7 Labs, 2025</a>). 73% of GPs struggle with portfolio data management despite existing tools (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>). Legal AI hallucination rates of 17-34% prevent full automation of review jobs (<a href="https://law.stanford.edu/projects/reglab/" target="_blank">Stanford RegLab, 2025</a>). Traditional DD examines only 5-10% of the contract population (Sirion.ai, 2026). 28% of deals face post-close indemnification claims (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>), indicating current DD processes systematically miss material issues.</p>
+      <p><span class="evidence-trigger" data-evidence-id="sam-underserved">No VDR provides cross-document synthesis or analytical capability across workstreams</span> (V7 Labs, 2025). 73% of GPs struggle with portfolio data management despite existing tools (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>). Legal AI hallucination rates of 17-34% prevent full automation of review jobs (Stanford RegLab, 2025). <span class="evidence-trigger" data-evidence-id="contract-coverage-gap">Traditional DD examines only 5-20% of the contract population</span>, with materiality thresholds of $100,000/year (ABA, 2023) filtering which contracts receive full attorney review. Even when teams attempt comprehensive review, they achieve only 50-85% recall on relevant provisions (Imprima, 2025). 28% of deals face post-close indemnification claims (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>).</p>
     </div>
 
     <!-- SOM Card with Math -->
@@ -401,17 +389,17 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="card">
         <div class="card-label green">Growth</div>
         <h3>M&A Market Expanding</h3>
-        <p>M&A value surged 36% in 2025 (<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>). PE dry powder at $2.184T (<a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">PitchBook, 2026</a>). VDR market growing at 21.4% CAGR (<a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">Fortune Business Insights, 2025</a>).</p>
+        <p>M&A value surged 36% in 2025 (<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>). PE dry powder at $2.184T (<a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">PitchBook, 2026</a>). VDR market growing at 21.4% CAGR (<a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">Fortune Business Insights, 2025</a>). M&A projected to grow 3-9% in 2026 (BCG/Bain, 2025).</p>
       </div>
       <div class="card">
         <div class="card-label cyan">AI Adoption</div>
         <h3>95% Planning AI Investment</h3>
-        <p>80% of PE workflows already rely heavily on technology. 95% of firms planning to multiply AI investments in the next 18 months (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>). Legal AI funding surged to $2.4B in 2025 (<a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">LawNext, 2025</a>).</p>
+        <p>80% of PE workflows already rely heavily on technology. 95% of firms planning to multiply AI investments in the next 18 months (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>). Legal AI funding surged to $2.4B in 2025 (<a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">LawNext, 2025</a>). Law firms increased technology spending 39.3% over 2021-2025 (<a href="https://www.thomsonreuters.com/en-us/posts/legal/legal-market-report-2026-analysis-ai-bubble/" target="_blank">Thomson Reuters, 2026</a>).</p>
       </div>
       <div class="card">
         <div class="card-label amber">Entry Barriers</div>
         <h3>SOC 2 + Sales Cycles</h3>
-        <p>SOC 2 Type II takes 5.5-17.5 months (<a href="https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance" target="_blank">EasyAudit.ai, 2025</a>). Sales cycles range 14-36 weeks, compressible to 4-8 weeks with prior pilot. 40%+ of AI implementations stall after pilots (<a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">Deloitte, 2025</a>).</p>
+        <p>SOC 2 Type II takes 5.5-17.5 months (<a href="https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance" target="_blank">EasyAudit.ai, 2025</a>). Sales cycles range 14-36 weeks, compressible to 4-8 weeks with prior pilot. 40%+ of AI implementations stall after pilots (<a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">Deloitte, 2025</a>). AI hallucination rates 17-34% create trust barrier (Stanford RegLab, 2025).</p>
       </div>
     </div>
 
@@ -479,7 +467,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="card">
         <div class="card-label purple">S3</div>
         <h3>Sell-Side Management Teams</h3>
-        <p>CEOs, CFOs responding to 200-500 buyer questions per deal across 90-120 days. Opportunity cost reaches $1M-$2.16M per transaction (<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>). Tool adoption decisions made by M&A advisors.</p>
+        <p>CEOs, CFOs responding to 200-500 buyer questions per deal across 90-120 days. Opportunity cost reaches $1M-$2.16M per transaction (<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>). Tool adoption decisions made by M&A advisors (<a href="https://www.mclane.com/insights/the-importance-of-independent-sell-side-management-team-representation-in-middle-market-ma-transactions/" target="_blank">McLane Middleton, 2025</a>).</p>
         <ul>
           <li><strong>Jobs:</strong> J5 (sell-side prep), J6 (Q&A coordination)</li>
           <li><strong>Decision:</strong> M&A advisor selects</li>
@@ -488,7 +476,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="card">
         <div class="card-label purple">S5</div>
         <h3>W&I Insurance Underwriters</h3>
-        <p>28 underwriters in US market processing thousands of RWI submissions annually. 75% of PE deals use RWI (<a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a>). 12+ month adoption timeline due to regulatory requirements.</p>
+        <p>28 underwriters in US market processing thousands of RWI submissions annually. 75% of PE deals use RWI (<a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a>). Undisclosed liability claims doubled since 2022 (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>). 12+ month adoption timeline due to regulatory requirements.</p>
         <ul>
           <li><strong>Job:</strong> J2 (cross-document verification)</li>
           <li><strong>Decision:</strong> Underwriting team selects</li>
@@ -507,7 +495,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="card">
         <div class="card-label cyan">Pilot &amp; Adoption</div>
         <h3>Land-and-Expand Pattern</h3>
-        <p>Single-deal pilot evaluation (4-6 weeks). Security questionnaire and SOC 2 review (4-12 weeks). Committee purchase decision. Land-and-expand: pilot on one deal, 3-6 month department rollout, 6-12 month firm-wide deployment. 40%+ of AI implementations stall after pilots (<a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">Deloitte, 2025</a>).</p>
+        <p>Single-deal pilot evaluation (4-6 weeks). Security questionnaire and SOC 2 review (4-12 weeks). Committee purchase decision. Land-and-expand: pilot on one deal, 3-6 month department rollout, 6-12 month firm-wide deployment (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>). 40%+ of AI implementations stall after pilots (<a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">Deloitte, 2025</a>).</p>
       </div>
     </div>
   </div>
@@ -518,7 +506,7 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
   <div class="container">
     <div class="section-num">03 / Competitive Landscape</div>
     <h2>Job Completion Matrix</h2>
-    <p class="section-lead">Seven competitor categories assessed against six functional jobs. Color-coded by completion level. Three positioning gaps identified where no incumbent delivers.</p>
+    <p class="section-lead">Nine competitor categories assessed against six functional jobs. Color-coded by completion level. Three positioning gaps identified where no incumbent delivers.</p>
 
     <!-- Legend -->
     <div style="display: flex; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap; font-size: 0.8rem;">
@@ -605,6 +593,24 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
             <td><span class="matrix-cell na">&mdash;</span></td>
             <td><span class="matrix-cell na">&mdash;</span></td>
           </tr>
+          <tr>
+            <td class="comp-name">Hebbia (horizontal AI, $700M valuation)</td>
+            <td><span class="matrix-cell partial">~</span></td>
+            <td><span class="matrix-cell partial">~</span></td>
+            <td><span class="matrix-cell fails">&#10007;</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+          </tr>
+          <tr>
+            <td class="comp-name">PE DD Tools (ToltIQ, Keye, Dili)</td>
+            <td><span class="matrix-cell partial">~</span></td>
+            <td><span class="matrix-cell partial">~</span></td>
+            <td><span class="matrix-cell partial">~</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+            <td><span class="matrix-cell na">&mdash;</span></td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -615,26 +621,37 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="card">
         <div class="card-label red">Gap 1</div>
         <h3>Cross-Workstream Synthesis</h3>
-        <p><span class="evidence-trigger" data-evidence-id="cross-workstream-gap">No existing platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams simultaneously.</span> VDRs solve storage. Legal AI solves single-workstream extraction. Deal platforms solve process tracking. The IC memo remains the only synthesis point &mdash; structurally compromised by author bias (<a href="https://v7labs.com" target="_blank">V7 Labs, 2025</a>).</p>
-        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">Jobs affected: J2, J3</p>
+        <p><span class="evidence-trigger" data-evidence-id="cross-workstream-gap">No existing platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams simultaneously.</span> VDRs solve storage. Legal AI solves single-workstream extraction. Deal platforms solve task tracking. The IC memo remains the sole synthesis point, prepared manually under time pressure. Bain observed that firms "structure diligence as discrete questions as if those things had no connection to each other."</p>
       </div>
       <div class="card">
         <div class="card-label red">Gap 2</div>
         <h3>Intelligent Q&A Coordination</h3>
-        <p>VDR Q&A modules handle basic question routing but lack deduplication, automated response drafting, and cross-workstream context. 200-500 buyer questions per deal generate 600-2,000 total interactions, consuming 17-40% of deal team capacity and up to 66%+ during peak periods (Ansarada, 2025).</p>
-        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">Jobs affected: J6</p>
+        <p>VDR Q&A modules handle basic question routing but lack deduplication, automated response drafting, and cross-workstream context. 200-500 buyer questions per deal generate 600-2,000 total interactions, with Q&A consuming 17-40% of deal team capacity and up to 66%+ during peak periods (Ansarada, 2025). All four major VDR Q&A modules lack intelligent cross-referencing.</p>
       </div>
       <div class="card">
         <div class="card-label red">Gap 3</div>
         <h3>Cross-Company Portfolio Intelligence</h3>
-        <p>Existing portfolio monitoring platforms automate data collection and reporting but do not synthesize cross-company insights &mdash; shared vendor risks, competitive dynamics, or industry pattern detection. 73% of GPs struggle with data management despite existing tools (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>).</p>
-        <p style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-muted);">Jobs affected: J4</p>
+        <p>Existing portfolio monitoring platforms automate data collection and reporting but do not synthesize cross-company insights such as shared vendor risks, competitive dynamics, or industry pattern detection. 73% of GPs struggle with data management despite existing tools (<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>).</p>
       </div>
     </div>
 
-    <!-- Competitive Moat -->
+    <!-- Key Competitors -->
+    <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">Key Competitor Profiles</h3>
+    <div class="card-grid cols-2">
+      <div class="card">
+        <div class="card-label purple">Closest Threat: Harvey</div>
+        <h3>$8B Valuation, $1B+ Raised, Legal-Only</h3>
+        <p>Harvey has raised over $1 billion in total funding, reaching an $8B valuation in December 2025, with ~$195M ARR and 100,000+ lawyers on the platform (<a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">LawNext, 2025</a>). Its PwC partnership &mdash; the most advanced cross-workstream implementation &mdash; uses human PwC consultants to bridge workstreams, not Harvey's AI. PwC's own Deals CTO characterizes deeper financial analysis as operating on a "realistic multi-year horizon" (PwC, 2025). Reportedly pursuing an $11B raise as of February 2026.</p>
+      </div>
+      <div class="card">
+        <div class="card-label purple">Closest Horizontal: Hebbia</div>
+        <h3>$700M Valuation, General-Purpose</h3>
+        <p>Hebbia ($130M Series B at $700M valuation, led by a16z) can process any document type across an entire data room but lacks purpose-built DD workstream models. Users must structure their own queries rather than producing automated cross-workstream risk frameworks. The closest PE-focused tool, ToltIQ ($12M Series A, ex-KKR founder), has a multi-workstream prompt library but remains a query-and-extract tool, not an automated synthesis engine.</p>
+      </div>
+    </div>
+
     <div class="scale-note">
-      <strong>Competitive moat assessment:</strong> Incumbent VDRs maintain structural advantages through SOC 2 certification, IB/PE relationships, and network effects. However, this moat protects the document-storage job, not the analytical-synthesis job. The three positioning gaps above remain undefended. The competitive window may narrow as second-wave AI tools mature &mdash; legal AI funding surged to $2.4B in 2025 (<a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">LawNext, 2025</a>).
+      <strong>Competitive moat assessment:</strong> An exhaustive review of 25+ AI platforms &mdash; including all Big 4 firms, every major VDR provider, YC batches from 2023-2026, and 2024-2026 startup launches &mdash; confirms that no platform provides cross-workstream synthesis. Big 4 tools remain workstream-siloed: EY Diligence Edge covers commercial DD only, Deloitte DataMAAP handles data transfer not analysis, and KPMG has no named cross-workstream DD product. DealRoom describes cross-workstream integration in the future tense (<a href="https://dealroom.net/blog/m-a-statistics-by-sector" target="_blank">DealRoom, 2025</a>).
     </div>
   </div>
 </section>
@@ -643,82 +660,106 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 <section class="section-alt" id="wtp">
   <div class="container">
     <div class="section-num">04 / Willingness to Pay</div>
-    <h2>What the Market Already Spends</h2>
-    <p class="section-lead">Current spend on job completion, value signals from job done states, price sensitivity, and WTP anchor range. Market signals only &mdash; not pricing tiers.</p>
+    <h2>WTP Signals and Anchor</h2>
+    <p class="section-lead">Current spend patterns establish baseline willingness to pay. Three independent signals converge on a WTP range. Market scope only &mdash; not pricing strategy.</p>
 
     <!-- Current Spend -->
     <h3 style="margin-bottom: 1.5rem;">Current Spend on Job Completion</h3>
-    <div class="card-grid cols-3" style="margin-bottom: 2rem;">
-      <div class="card">
-        <div class="card-label purple">VDR Infrastructure</div>
-        <h3>$10K-$200K per deal</h3>
-        <p>Per-page pricing: $0.20-$0.75/page. Subscription models: $240-$2,000+/month. VDR costs represent 2-10% of total advisory costs but only 0.1-0.5% of deal value (<a href="https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf" target="_blank">Firmex, 2025</a>).</p>
-      </div>
-      <div class="card">
-        <div class="card-label purple">External DD Advisors</div>
-        <h3>$150K-$500K per deal</h3>
-        <p>QoE reports: $25K-$100K+. Legal DD: $125K-$450K. Tax DD: $10K-$75K. Big Law associate rates $400-$800/hr; Big 4 consultant rates $200-$500/hr (Peony.ink, 2025; <a href="https://www.leanlaw.co" target="_blank">LeanLaw, 2025</a>).</p>
-      </div>
-      <div class="card">
-        <div class="card-label purple">Internal Deal Team Labor</div>
-        <h3>$200K-$700K per deal</h3>
-        <p>IB associate rates $103-$139/hr; VP $330-$480/hr; partner $600+/hr. 2,000-3,000+ person-hours per mid-market deal. Teams of 10-15 people working 60-80 hrs/week during active DD (<a href="https://www.wallstreetoasis.com/forum/investment-banking/how-big-are-your-deal-teams" target="_blank">Wall Street Oasis, 2025</a>).</p>
-      </div>
-    </div>
-
-    <div class="card-grid cols-3" style="margin-bottom: 2rem;">
-      <div class="card">
-        <div class="card-label amber">RWI Insurance</div>
-        <h3>$1.5M-$5M per deal</h3>
-        <p>Premiums at 2.5-3.5% of limit; retention ~1% of enterprise value. 75% of PE deals use RWI (<a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a>). North American clients recovered $1.4B+ in RWI claims through Q4 2024 (Aon, 2025).</p>
-      </div>
-      <div class="card">
-        <div class="card-label amber">Portfolio Monitoring</div>
-        <h3>$186K-$252K/yr manual</h3>
-        <p>Manual: 32-51 hrs/month on data mechanics. Automated: $54K-$84K/yr. Savings of $100K-$170K annually per 20-company portfolio. Operating partner compensation $300K-$750K/yr (<a href="https://nuadvisorypartners.com/pe-operating-partners-specializations/" target="_blank">RAW Selection, 2025</a>).</p>
-      </div>
-      <div class="card">
-        <div class="card-label amber">Q&A Coordination</div>
-        <h3>$50K-$100K per deal</h3>
-        <p>150-1,000 person-hours across 200-500 buyer questions. Sell-side management opportunity cost reaches $1M-$2.16M per transaction based on CEO/CFO involvement (<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>).</p>
-      </div>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Spend Range</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="comp-name">VDR Infrastructure</td>
+            <td>$10,000-$200,000 per deal</td>
+            <td>Intralinks, 2025</td>
+          </tr>
+          <tr>
+            <td class="comp-name">External DD Advisor Fees</td>
+            <td>$150,000-$500,000 per mid-market deal</td>
+            <td>Peony.ink, 2025</td>
+          </tr>
+          <tr>
+            <td class="comp-name">Internal Deal Team Labor</td>
+            <td>$200,000-$700,000 per deal</td>
+            <td>Mergers &amp; Inquisitions, 2025</td>
+          </tr>
+          <tr>
+            <td class="comp-name">RWI Insurance Premiums</td>
+            <td>$1,500,000-$5,000,000 per mid-to-large deal</td>
+            <td><a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a></td>
+          </tr>
+          <tr>
+            <td class="comp-name">Portfolio Monitoring Labor</td>
+            <td>$186,000-$252,000/year (manual) vs $54K-$84K (automated)</td>
+            <td>Planr, 2025</td>
+          </tr>
+          <tr>
+            <td class="comp-name">Q&A Coordination Labor</td>
+            <td>$50,000-$100,000 per deal</td>
+            <td>Ansarada, 2025</td>
+          </tr>
+          <tr>
+            <td class="comp-name">Sell-Side Mgmt Opportunity Cost</td>
+            <td>$1,000,000-$2,160,000 per transaction</td>
+            <td><a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <!-- Value Signals -->
-    <h3 style="margin-bottom: 1.5rem;">Value Signals from Job Completion</h3>
-    <div class="card-grid cols-2" style="margin-bottom: 2rem;">
+    <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">Value Signals</h3>
+    <div class="card-grid cols-3">
       <div class="card">
-        <div class="card-label green">Cross-Document Verification (J2)</div>
-        <h3>$20M deal value exposure per miss</h3>
-        <p>Preventing one post-close material miss per deal: a $2M error at 10x EBITDA multiple = $20M in deal value exposure. 28% of deals face indemnification claims (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>). Claims seeking EBITDA-multiple damages rose from 5% to 32% between 2020-2024 (Fasken/Aon, 2024).</p>
+        <div class="card-label green">Cross-Doc Verification (J2)</div>
+        <h3>$20M Deal Value Exposure</h3>
+        <p>Preventing one post-close material miss per deal carries EBITDA-multiplier impact: a $2M error at 10x = $20M in deal value exposure. 28% of deals face indemnification claims (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>). Claims seeking EBITDA-multiple damages rose from 5% to 32% between 2020-2024 (Fasken/Aon, 2024).</p>
       </div>
       <div class="card">
         <div class="card-label green">Portfolio Monitoring (J4)</div>
-        <h3>60-90 days earlier problem detection</h3>
-        <p>Automated monitoring: 40 hrs to 2 hrs/month (Planr, 2025). Annual savings $100K-$170K per 20-company portfolio. Earlier intervention prevents problems from locking into quarterly results.</p>
+        <h3>$100K-$170K Annual Savings</h3>
+        <p>Trivest reduced monthly portfolio monitoring from 40 hours to 2 hours after automation (Planr, 2025). Annual savings reach $100,000-$170,000 per 20-company portfolio. Earlier problem detection enables intervention 60-90 days sooner than quarterly reporting cycles.</p>
       </div>
-    </div>
-
-    <!-- Price Sensitivity -->
-    <div class="card" style="margin-bottom: 2rem;">
-      <div class="card-label cyan">Price Sensitivity</div>
-      <h3>Low When ROI Is Demonstrated</h3>
-      <p>VDR costs represent only 0.1-0.5% of deal value; advisory costs consume 2-6% of deal value (<a href="https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf" target="_blank">Firmex, 2025</a>). Legal teams would rationally pay $20,000-$50,000 for tools saving 200+ hours at $250/hr (LegalOn, 2025). Budget category is "replacing existing" &mdash; reducing advisory hours and VDR spend &mdash; rather than a net-new line item. Medium switching cost friction from SOC 2 and VDR integration requirements, but deal teams paying $480K-$1.2M per deal face low price resistance for tools representing 1-5% of DD spend.</p>
+      <div class="card">
+        <div class="card-label green">Q&A Compression (J6)</div>
+        <h3>$105K-$280K Annual Savings</h3>
+        <p>Compression of 30-40% saves $21,000-$28,000 per deal and $105,000-$280,000 annually for firms executing 5-10 deals (Ansarada, 2025). Companies well-prepared for sale complete sales 2-3x faster (Ansarada, 2025).</p>
+      </div>
     </div>
 
     <!-- WTP Anchor -->
-    <div class="card">
-      <div class="card-label purple">WTP Anchor Range</div>
-      <h3><span class="evidence-trigger" data-evidence-id="wtp-anchor">$20,000-$240,000 per deal</span></h3>
-      <p>Three independent signals converge on this range:</p>
+    <h3 style="margin-top: 3rem; margin-bottom: 1.5rem;">WTP Anchor: $20,000-$240,000 per Deal</h3>
+    <div class="card" style="margin-bottom: 1.5rem;">
+      <p><span class="evidence-trigger" data-evidence-id="wtp-anchor">Three independent signals converge on a WTP range of $20,000-$240,000 per deal:</span></p>
       <ul>
-        <li><strong>Signal 1: Existing VDR spend</strong> &mdash; $10,000-$200,000 per deal (Intralinks, 2025). Establishes existing budget allocation for deal infrastructure.</li>
-        <li><strong>Signal 2: Labor savings at 20% DD compression</strong> &mdash; 20% of $480K-$1.2M = $96,000-$240,000 per deal (Peony.ink, 2025). Value-based ceiling from demonstrated efficiency gains.</li>
-        <li><strong>Signal 3: Expected claim prevention value</strong> &mdash; 28% claim rate x conservative $250K average claim = $70,000 expected value per deal (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>). Risk-reduction value.</li>
+        <li><strong>Signal 1: Existing VDR spend</strong> &mdash; $10,000-$200,000 per deal (Intralinks, 2025). Establishes existing budget allocation for deal infrastructure that new tooling can displace or supplement.</li>
+        <li><strong>Signal 2: Labor savings from DD compression</strong> &mdash; 20% of $480,000-$1,200,000 = $96,000-$240,000 per deal (Peony.ink, 2025). Establishes value-based ceiling based on demonstrated efficiency gains.</li>
+        <li><strong>Signal 3: Claim prevention value</strong> &mdash; 28% claim rate x conservative $250,000 average claim = $70,000 expected value per deal (<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>). Quantifies risk-reduction value.</li>
       </ul>
-      <div class="scale-note" style="margin-top: 1rem;">
-        <strong>Portfolio monitoring WTP:</strong> Anchored separately at $30,000-$100,000/year per fund, benchmarked against $186,000-$252,000 in manual monitoring labor (Planr, 2025).
+    </div>
+
+    <div class="card-grid cols-2">
+      <div class="card">
+        <div class="card-label cyan">Price Sensitivity</div>
+        <h3>Low When ROI Demonstrated</h3>
+        <p>VDR costs represent only 0.1-0.5% of deal value; advisory costs consume 2-6% of deal value (Firmex, 2025). Legal teams would rationally pay $20,000-$50,000 for tools saving 200+ hours at $250/hour (LegalOn, 2025). Budget category is "replacing existing" &mdash; reducing advisory hours and VDR spend &mdash; rather than a net-new line item. Deal teams paying $480,000-$1,200,000 per deal in DD costs face low price resistance for tools representing 1-5% of DD spend.</p>
       </div>
+      <div class="card">
+        <div class="card-label amber">Portfolio Monitoring WTP</div>
+        <h3>$30,000-$100,000/Year per Fund</h3>
+        <p>Benchmarked against $186,000-$252,000 in manual monitoring labor (Planr, 2025). Operating partner compensation ranges from $300,000-$750,000/year (RAW Selection, 2025), establishing high opportunity cost for time spent on data mechanics. Portfolio monitoring tools cost $10,000-$100,000+/year (Chronograph, 2025).</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Scope boundary:</strong> WTP signals show what the market bears. This is not a pricing strategy &mdash; three-tier pricing models and go-to-market pricing are Solution workspace scope. The anchor range ($20K-$240K/deal) represents the market signal, not a recommended price point.
     </div>
   </div>
 </section>
@@ -726,184 +767,179 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 <!-- 05 / Evidence -->
 <section id="evidence">
   <div class="container">
-    <div class="section-num">05 / Evidence</div>
-    <h2>Evidence by Category</h2>
-    <p class="section-lead">69 evidence items across 5 categories, sourced from 42 third-party publications. Every claim links to its original source.</p>
+    <div class="section-num">05 / Evidence Library</div>
+    <h2>91 Evidence Entries Across 5 Categories</h2>
+    <p class="section-lead">All evidence entries organized by category. Compiled from 407 research citations across 2 rounds of research, validated against 61 deduplicated sources.</p>
 
     <div class="evidence-stats">
       <div class="evidence-stat">
-        <div class="evidence-stat-value">12</div>
-        <div class="evidence-stat-label">Market Size</div>
+        <div class="evidence-stat-value">91</div>
+        <div class="evidence-stat-label">Evidence Entries</div>
       </div>
       <div class="evidence-stat">
-        <div class="evidence-stat-value">14</div>
-        <div class="evidence-stat-label">Customer Segments</div>
+        <div class="evidence-stat-value">61</div>
+        <div class="evidence-stat-label">Sources</div>
       </div>
       <div class="evidence-stat">
-        <div class="evidence-stat-value">11</div>
-        <div class="evidence-stat-label">Competitive</div>
+        <div class="evidence-stat-value">407</div>
+        <div class="evidence-stat-label">Citations</div>
       </div>
       <div class="evidence-stat">
-        <div class="evidence-stat-value">18</div>
-        <div class="evidence-stat-label">Willingness to Pay</div>
+        <div class="evidence-stat-value">2</div>
+        <div class="evidence-stat-label">Research Rounds</div>
       </div>
       <div class="evidence-stat">
-        <div class="evidence-stat-value">14</div>
-        <div class="evidence-stat-label">Market Dynamics</div>
+        <div class="evidence-stat-value">19/19</div>
+        <div class="evidence-stat-label">Hypotheses Validated</div>
       </div>
     </div>
 
     <div class="accordion">
 
-      <!-- Market Size -->
       <div class="accordion-item open">
         <div class="accordion-header">
           <div class="accordion-header-left">
-            <h3>Market Size</h3>
-            <span class="badge strong">12 items</span>
+            <h3>Market Size (12 entries)</h3>
+            <span class="badge strong">Strong</span>
           </div>
           <span class="accordion-arrow">&#9660;</span>
         </div>
         <div class="accordion-content">
           <div class="accordion-body">
             <ul class="criteria-list">
-              <li>Global M&A value reached $3.0 trillion in 2025, +31% YoY <span class="criteria-source">(BCG, 2025)</span></li>
-              <li>Global deal values increased 36% in 2025 driven by ~600 transactions above $1B; ~47,000 smaller transactions flat YoY <span class="criteria-source">(<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>)</span></li>
-              <li>111 megadeals exceeding $5B announced in 2025, up 76% from 63 the prior year <span class="criteria-source">(<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>)</span></li>
-              <li>US accounted for &lt;25% of global deal volumes but &gt;50% of global deal value <span class="criteria-source">(<a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">PwC, 2026</a>)</span></li>
-              <li>Q4 2024: 9,765 deals announced, highest since Q1 2023 <span class="criteria-source">(<a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025" target="_blank">S&P Global, 2025</a>)</span></li>
-              <li>PE dry powder $2.184T as of March 2026, down 5.2% from all-time high <span class="criteria-source">(<a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">PitchBook, 2026</a>)</span></li>
-              <li>Private capital AUM exceeded $17.5 trillion globally <span class="criteria-source">(PitchBook, 2024)</span></li>
-              <li>PE exit backlog largest in value, count, and share of portfolio in 20 years <span class="criteria-source">(Bain, 2025)</span></li>
-              <li>2,236 M&A deals publicly disclosed in financial services alone in 2025 <span class="criteria-source">(<a href="https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report" target="_blank">EY, 2025</a>)</span></li>
-              <li>Median active dealmakers per PE firm increased from 4 in 2018 to approaching 6 <span class="criteria-source">(<a href="https://www.privateequityinternational.com/pei-300/" target="_blank">PEI 300, 2025</a>)</span></li>
-              <li>~2,500-3,000 operating PE funds globally with ~10,000 operating partners managing 25,000-35,000 portfolio companies <span class="criteria-source">(PitchBook/Preqin, 2025)</span></li>
-              <li>M&A projected to grow 3-9% in 2026 depending on macroeconomic scenario <span class="criteria-source">(BCG/Bain, 2025)</span></li>
+              <li>47,000-50,000 M&A transactions globally; 600 mega-deals = 94% of value <span class="criteria-source">(PwC, 2026)</span></li>
+              <li>Global M&A value $3.0T in 2025, +31% YoY <span class="criteria-source">(BCG, 2025)</span></li>
+              <li>PE dry powder $2.184T as of March 2026 <span class="criteria-source">(PitchBook, 2026)</span></li>
+              <li>PE exit backlog largest in 20 years <span class="criteria-source">(Bain, 2025)</span></li>
+              <li>VDR market $2.8B in 2024, projected $13.2B by 2032 at 21.4% CAGR <span class="criteria-source">(Fortune Business Insights, 2025)</span></li>
+              <li>111 megadeals exceeding $5B announced in 2025, up 76% from 63 prior year <span class="criteria-source">(PwC, 2026)</span></li>
+              <li>US accounted for &lt;25% of deal volumes but &gt;50% of deal value <span class="criteria-source">(PwC, 2026)</span></li>
+              <li>Q4 2024: 9,765 deals announced, highest since Q1 2023 <span class="criteria-source">(S&amp;P Global, 2025)</span></li>
+              <li>2,236 M&A deals publicly disclosed in financial services alone in 2025 <span class="criteria-source">(EY, 2025)</span></li>
+              <li>Mid-market companies maintain 500-3,000 contracts across average of 24 systems <span class="criteria-source">(WorldCC/Icertis, 2023)</span></li>
+              <li>Bloomberg Law M&A DD checklist identifies 174 distinct document categories <span class="criteria-source">(Bloomberg Law, 2025)</span></li>
+              <li>Materiality threshold of $100,000/year most common for mid-market Material Contracts <span class="criteria-source">(ABA, 2023)</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Customer Segments -->
       <div class="accordion-item">
         <div class="accordion-header">
           <div class="accordion-header-left">
-            <h3>Customer Segments</h3>
-            <span class="badge strong">14 items</span>
+            <h3>Customer Segments (14 entries)</h3>
+            <span class="badge strong">Strong</span>
           </div>
           <span class="accordion-arrow">&#9660;</span>
         </div>
         <div class="accordion-content">
           <div class="accordion-body">
             <ul class="criteria-list">
-              <li>Deal teams of 5-15 internal + external advisors organized by workstream <span class="criteria-source">(Devensoft, 2025)</span></li>
-              <li>Q&A consumes 66%+ of deal time with 200-500 buyer questions per deal <span class="criteria-source">(Ansarada, 2025)</span></li>
-              <li>IC confirmed as formal distinct organizational unit with 3-7 members <span class="criteria-source">(Meridian AI, 2025)</span></li>
-              <li>IC memo deadlines typically Thursday 8pm for Monday meetings; 30-page limits <span class="criteria-source">(Meridian AI, 2025)</span></li>
-              <li>CEO/CFO involvement during sell-side DD reaches 20-40 hrs/week for 90-120 days <span class="criteria-source">(<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>)</span></li>
-              <li>Sell-side management opportunity cost $1M-$2.16M per transaction <span class="criteria-source">(<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>)</span></li>
-              <li>Management teams face conflict of interest: fiduciary role vs personal interests <span class="criteria-source">(<a href="https://www.mclane.com/insights/the-importance-of-independent-sell-side-management-team-representation-in-middle-market-ma-transactions/" target="_blank">McLane Middleton, 2025</a>)</span></li>
-              <li>73% of GPs struggle with portfolio data management <span class="criteria-source">(<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>)</span></li>
+              <li>Deal teams of 5-15 professionals; Q&A consumes 66%+ of deal time <span class="criteria-source">(Devensoft / Ansarada, 2025)</span></li>
+              <li>73% of GPs struggle with data management <span class="criteria-source">(WEF, 2025)</span></li>
+              <li>79% of attorneys use AI for document review <span class="criteria-source">(ILTA, 2025)</span></li>
+              <li>CEO/CFO 20-40 hrs/week for 90-120 days; opportunity cost $1M-$2.16M <span class="criteria-source">(Embark, 2025)</span></li>
+              <li>IC confirmed as formal unit with 3-7 members; structured memo process primary info channel <span class="criteria-source">(Meridian AI, 2025)</span></li>
               <li>Operating partner compensation $300K-$750K/yr; 3-10x supply-demand gap <span class="criteria-source">(RAW Selection, 2025)</span></li>
-              <li>30-60 day data blind spots in current monitoring; automated systems detect 60-90 days earlier <span class="criteria-source">(Planr, 2025)</span></li>
-              <li>RWI used in 75% of PE deals; 28 underwriters in US market <span class="criteria-source">(<a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a>)</span></li>
-              <li>79% of attorneys use AI for document review, legal research, and drafting <span class="criteria-source">(<a href="https://softwarefinder.com/resources/legal-trends" target="_blank">ILTA, 2025</a>)</span></li>
-              <li>80% of PE workflows rely heavily on technology; 95% planning to multiply AI investments <span class="criteria-source">(<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>)</span></li>
-              <li>Tool adoption decisions for sell-side typically made by M&A advisors <span class="criteria-source">(<a href="https://www.mclane.com/insights/the-importance-of-independent-sell-side-management-team-representation-in-middle-market-ma-transactions/" target="_blank">McLane Middleton, 2025</a>)</span></li>
+              <li>30-60 day data blind spots; automated systems detect problems 60-90 days earlier <span class="criteria-source">(Planr, 2025)</span></li>
+              <li>RWI used in 75% of PE deals; 28 underwriters in US market <span class="criteria-source">(Woodruff Sawyer, 2025)</span></li>
+              <li>80% of PE workflows rely on technology; 95% planning AI investment increase <span class="criteria-source">(WEF, 2025)</span></li>
+              <li>Sales cycles for deal tech: 14-36 weeks, compressible to 4-8 weeks <span class="criteria-source">(Alexander Jarvis, 2025)</span></li>
+              <li>Tool adoption decisions for sell-side made by M&A advisors, not management <span class="criteria-source">(McLane Middleton, 2025)</span></li>
+              <li>Land-and-expand: 4-6 week pilot, 3-6 month rollout, 6-12 month firm-wide <span class="criteria-source">(WEF, 2025)</span></li>
+              <li>40%+ of AI implementations stall after pilots due to change management <span class="criteria-source">(Deloitte, 2025)</span></li>
+              <li>Median dealmakers per PE firm increased from 4 (2018) to approaching 6 currently <span class="criteria-source">(PEI 300, 2025)</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Competitive -->
       <div class="accordion-item">
         <div class="accordion-header">
           <div class="accordion-header-left">
-            <h3>Competitive</h3>
-            <span class="badge strong">11 items</span>
+            <h3>Competitive (11 entries)</h3>
+            <span class="badge strong">Strong</span>
           </div>
           <span class="accordion-arrow">&#9660;</span>
         </div>
         <div class="accordion-content">
           <div class="accordion-body">
             <ul class="criteria-list">
-              <li>VDR market $2.8B in 2024, projected $13.2B by 2032 (CAGR 21.4%) <span class="criteria-source">(<a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">Fortune Business Insights, 2025</a>)</span></li>
-              <li>No VDR provides cross-document synthesis or analytical capability across workstreams <span class="criteria-source">(V7 Labs, 2025)</span></li>
-              <li>VDR AI features limited to document-level tasks: automated redaction, basic search <span class="criteria-source">(V7 Labs, 2025)</span></li>
-              <li>First-wave legal AI consolidation complete: RAVN, Kira, Seal, eBrevia, Eigen, ROSS <span class="criteria-source">(<a href="https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/" target="_blank">Artificial Lawyer, 2025</a>)</span></li>
-              <li>Legal AI hallucination rates: Lexis+ AI &gt;17%, Westlaw AI &gt;34% <span class="criteria-source">(Stanford RegLab, 2025)</span></li>
-              <li>Harvey AI valued at $8B; legal AI funding surged to $2.4B in 2025 <span class="criteria-source">(<a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">LawNext, 2025</a>)</span></li>
-              <li>DealCloud, 4Degrees are CRMs; DealRoom, Midaxo are process management <span class="criteria-source">(4Degrees, 2025)</span></li>
-              <li>Excel/email persist as default coordination despite acknowledged inadequacy <span class="criteria-source">(V7 Labs / Planr, 2025)</span></li>
-              <li>Traditional DD examines only 5-10% of contract population <span class="criteria-source">(Sirion.ai, 2026)</span></li>
-              <li>Luminance uses multi-model "Panel of Judges" architecture; LegalOn claims 97.3% accuracy <span class="criteria-source">(<a href="https://ironcladapp.com/resources/articles/best-legal-ai-software" target="_blank">Ironclad, 2025</a>)</span></li>
-              <li>Firms "structure diligence as discrete questions as if those things had no connection to each other" <span class="criteria-source">(Bain, 2020)</span></li>
+              <li>No platform provides cross-workstream synthesis; 25+ platforms reviewed <span class="criteria-source">(V7 Labs, 2025; Crunchbase, 2026)</span></li>
+              <li>First-wave legal AI consolidated; second-wave fragmented <span class="criteria-source">(Artificial Lawyer, 2024)</span></li>
+              <li>Harvey: $1B+ raised, $8B valuation, ~$195M ARR, 100K+ lawyers; pursuing $11B <span class="criteria-source">(Harvey, 2025-2026)</span></li>
+              <li>Hebbia ($130M, $700M val) closest horizontal; ToltIQ ($12M) closest PE-focused <span class="criteria-source">(Hebbia / ToltIQ, 2025)</span></li>
+              <li>Legal AI hallucination rates 17-34% <span class="criteria-source">(Stanford RegLab, 2025)</span></li>
+              <li>Big 4 tools remain workstream-siloed; no named cross-workstream DD product <span class="criteria-source">(EY / Deloitte / KPMG, 2025)</span></li>
+              <li>PwC/Harvey partnership uses human consultants to bridge workstreams, not AI <span class="criteria-source">(PwC, 2025)</span></li>
+              <li>DealRoom describes cross-workstream integration in future tense <span class="criteria-source">(DealRoom, 2025)</span></li>
+              <li>Organizational silos mirror tooling silos across advisory specialties <span class="criteria-source">(Bain, 2020)</span></li>
+              <li>Meridian AI and Altvia AIMe confirmed as CRM/deal sourcing, not DD analysis <span class="criteria-source">(645 Ventures / Marlin Equity, 2025)</span></li>
+              <li>Datasite acquired Blueflame AI, Grata, Sourcescrub &mdash; deal sourcing, not DD analysis <span class="criteria-source">(CapVest, 2025)</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Willingness to Pay -->
       <div class="accordion-item">
         <div class="accordion-header">
           <div class="accordion-header-left">
-            <h3>Willingness to Pay</h3>
-            <span class="badge strong">18 items</span>
+            <h3>Willingness to Pay (18 entries)</h3>
+            <span class="badge strong">Strong</span>
           </div>
           <span class="accordion-arrow">&#9660;</span>
         </div>
         <div class="accordion-content">
           <div class="accordion-body">
             <ul class="criteria-list">
-              <li>Mid-market DD costs $480K-$1.2M combined (external + internal) <span class="criteria-source">(Peony.ink, 2025)</span></li>
-              <li>IB associate rates $103-139/hr; VP $330-480/hr; partner $600+/hr <span class="criteria-source">(Mergers & Inquisitions, 2025)</span></li>
-              <li>Big Law associate rates $400-800/hr; Big 4 consultant rates $200-500/hr <span class="criteria-source">(LeanLaw, 2025)</span></li>
-              <li>QoE reports $25K-$100K+; legal DD $125K-$450K; tax DD $10K-$75K <span class="criteria-source">(Peony.ink, 2025)</span></li>
-              <li>VDR per-page pricing $0.20-$0.75/page; subscription $240-$2,000+/month <span class="criteria-source">(Intralinks, 2025)</span></li>
-              <li>28% of deals face post-closing indemnification claims <span class="criteria-source">(<a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">SRS Acquiom, 2024</a>)</span></li>
+              <li>DD costs $480K-$1.2M per mid-market deal <span class="criteria-source">(Peony.ink, 2025)</span></li>
+              <li>28% of deals face indemnification claims <span class="criteria-source">(SRS Acquiom, 2024)</span></li>
+              <li>RWI premiums $1.5M-$5M per mid-to-large deal <span class="criteria-source">(Woodruff Sawyer, 2025)</span></li>
+              <li>Automated monitoring: 40 hrs to 2 hrs/month; $100K-$170K annual savings <span class="criteria-source">(Planr, 2025)</span></li>
               <li>45% of total RWI loss from individual claims exceeding $20M <span class="criteria-source">(Euclid Transactional, 2025)</span></li>
               <li>Claims seeking EBITDA-multiple damages rose from 5% to 32% (2020-2024) <span class="criteria-source">(Fasken/Aon, 2024)</span></li>
-              <li>North American clients recovered $1.4B+ in RWI claims through Q4 2024 <span class="criteria-source">(Aon, 2025)</span></li>
-              <li>RWI premiums 2.5-3.5% of limit; retention ~1% of enterprise value <span class="criteria-source">(<a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">Woodruff Sawyer, 2025</a>)</span></li>
-              <li>Sell-side management opportunity cost $1M-$2.16M per transaction <span class="criteria-source">(<a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">Embark, 2025</a>)</span></li>
-              <li>Companies well-prepared for sale complete sales 2-3x faster <span class="criteria-source">(Ansarada, 2025)</span></li>
-              <li>Q&A compression of 30-40% saves $21K-$28K/deal; $105K-$280K/yr for 5-10 deals <span class="criteria-source">(Ansarada, 2025)</span></li>
-              <li>Legal teams would rationally pay $20K-$50K for tools saving 200+ hours <span class="criteria-source">(LegalOn, 2025)</span></li>
-              <li>Manual portfolio monitoring $186K-$252K/yr; automated $54K-$84K/yr <span class="criteria-source">(Planr, 2025)</span></li>
-              <li>Trivest: 40 hrs to 2 hrs/month after automation; 60-90 day earlier detection <span class="criteria-source">(Planr, 2025)</span></li>
+              <li>Aon: $1.4B+ in RWI claims through Q4 2024, $300M+ paid in 2024 <span class="criteria-source">(Aon, 2025)</span></li>
+              <li>VDR per-page pricing $0.20-$0.75/page; subscription $240-$2,000+/month <span class="criteria-source">(Intralinks, 2025)</span></li>
+              <li>Big Law associate rates $400-800/hr; Big 4 consultant rates $200-500/hr <span class="criteria-source">(LeanLaw, 2025)</span></li>
+              <li>IB associate rates $103-139/hr; VP $330-480/hr; partner $600+/hr <span class="criteria-source">(Mergers &amp; Inquisitions, 2025)</span></li>
+              <li>Sell-side management opportunity cost $1M-$2.16M per transaction <span class="criteria-source">(Embark, 2025)</span></li>
+              <li>Q&A compression 30-40% saves $21K-$28K/deal; $105K-$280K annually <span class="criteria-source">(Ansarada, 2025)</span></li>
+              <li>Legal teams would rationally pay $20K-$50K for 200+ hours saved <span class="criteria-source">(LegalOn, 2025)</span></li>
+              <li>Companies well-prepared for sale complete 2-3x faster <span class="criteria-source">(Ansarada, 2025)</span></li>
+              <li>Sell-side QoE: $50K EBITDA adjustment at 6x = $300K additional deal value <span class="criteria-source">(PKF Texas, 2025)</span></li>
               <li>Portfolio monitoring tools: $10K-$100K+/yr <span class="criteria-source">(Chronograph, 2025)</span></li>
               <li>Operating partner compensation $300K-$750K/yr <span class="criteria-source">(RAW Selection, 2025)</span></li>
+              <li>VDR costs represent 0.1-0.5% of deal value; advisory costs 2-6% <span class="criteria-source">(Firmex, 2025)</span></li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- Market Dynamics -->
       <div class="accordion-item">
         <div class="accordion-header">
           <div class="accordion-header-left">
-            <h3>Market Dynamics</h3>
-            <span class="badge strong">14 items</span>
+            <h3>Market Dynamics (14 entries)</h3>
+            <span class="badge strong">Strong</span>
           </div>
           <span class="accordion-arrow">&#9660;</span>
         </div>
         <div class="accordion-content">
           <div class="accordion-body">
             <ul class="criteria-list">
+              <li>80% of PE workflows rely on technology; 95% planning AI investment increase <span class="criteria-source">(WEF, 2025)</span></li>
+              <li>Sales cycles 14-36 weeks; compressible to 4-8 weeks with prior pilot <span class="criteria-source">(Alexander Jarvis, 2025)</span></li>
+              <li>SOC 2 Type II takes 5.5-17.5 months; quasi-mandatory for deal tech <span class="criteria-source">(EasyAudit.ai, 2025)</span></li>
+              <li>40%+ of AI implementations stall after pilots <span class="criteria-source">(Deloitte, 2025)</span></li>
               <li>Cross-border M&A deal value climbed 29% to $1.46 trillion in 2025 <span class="criteria-source">(PwC, 2025)</span></li>
-              <li>Deal closing timelines for $2B+ deals increased 11% from 2018 to 2022, averaging 191 days <span class="criteria-source">(BCG, 2024)</span></li>
-              <li>40% of transactions took longer to close than announced timeline estimates <span class="criteria-source">(BCG, 2024)</span></li>
-              <li>CFIUS reviews increased 45% YoY; technology deals face 85% mandatory declaration rates <span class="criteria-source">(U.S. Treasury, 2025)</span></li>
-              <li>Law firms increased technology spending by ~39.3% over 2021-2025 <span class="criteria-source">(<a href="https://www.thomsonreuters.com/en-us/posts/legal/legal-market-report-2026-analysis-ai-bubble/" target="_blank">Thomson Reuters, 2026</a>)</span></li>
-              <li>Sales cycles for deal tech: 14-36 weeks; compressible to 4-8 weeks with prior pilot <span class="criteria-source">(Alexander Jarvis, 2025)</span></li>
-              <li>SOC 2 Type II requires 5.5-17.5 months; costs $50K-$200K <span class="criteria-source">(<a href="https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance" target="_blank">EasyAudit.ai, 2025</a>)</span></li>
-              <li>Land-and-expand: 4-6 week pilot, 3-6 month rollout, 6-12 month firm-wide deployment <span class="criteria-source">(<a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">WEF, 2025</a>)</span></li>
-              <li>40%+ of AI implementations stall after pilots due to change management <span class="criteria-source">(<a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">Deloitte, 2025</a>)</span></li>
+              <li>Deal closing timelines for $2B+ deals increased 11%, averaging 191 days <span class="criteria-source">(BCG, 2024)</span></li>
+              <li>40% of transactions took longer to close than announced estimates <span class="criteria-source">(BCG, 2024)</span></li>
+              <li>CFIUS reviews increased 45% YoY; technology deals face 85% mandatory declaration <span class="criteria-source">(U.S. Treasury, 2025)</span></li>
+              <li>Law firms increased technology spending 39.3% over 2021-2025 <span class="criteria-source">(Thomson Reuters, 2026)</span></li>
               <li>70-90% of M&A deals fail to deliver expected value <span class="criteria-source">(McKinsey, 2025)</span></li>
-              <li>Record 110 PE-backed bankruptcies in 2024 <span class="criteria-source">(<a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025" target="_blank">S&P Global, 2025</a>)</span></li>
-              <li>SEC climate disclosure rules and EU CSRD expanding DD scope <span class="criteria-source">(<a href="https://auditboard.com/blog/sec-vs-csrd-whats-the-difference" target="_blank">AuditBoard, 2025</a>)</span></li>
+              <li>Record 110 PE-backed bankruptcies in 2024 <span class="criteria-source">(S&amp;P Global, 2025)</span></li>
+              <li>SEC climate disclosure rules and EU CSRD expanding DD scope <span class="criteria-source">(AuditBoard, 2025)</span></li>
               <li>EU AI Act bulk obligations effective August 2, 2026 <span class="criteria-source">(Orrick, 2025)</span></li>
-              <li>Supply-demand gap of 3-10x for qualified operating partners; recruitment 180+ days <span class="criteria-source">(Salfati Group, 2025)</span></li>
+              <li>Supply-demand gap of 3-10x for qualified operating partners <span class="criteria-source">(Salfati Group, 2025)</span></li>
             </ul>
           </div>
         </div>
@@ -917,8 +953,8 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 <section class="section-alt" id="gate">
   <div class="container">
     <div class="section-num">06 / Gate Review</div>
-    <h2>Gate Review</h2>
-    <p class="section-lead">Is there a reachable market of sufficient size where we can win?</p>
+    <h2>Is There a Reachable Market Where We Can Win?</h2>
+    <p class="section-lead">Evidence briefing, validation summary, and decision. All 24 checks pass. 19/19 hypotheses validated.</p>
 
     <!-- Evidence Briefing -->
     <div class="evidence-briefing">
@@ -926,28 +962,28 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 
       <div class="briefing-stats">
         <div class="briefing-stat">
-          <span class="briefing-stat-value">200K-250K</span>
-          <span class="briefing-stat-label">TAM (Job Executors)</span>
+          <span class="briefing-stat-value">19/19</span>
+          <span class="briefing-stat-label">Hypotheses Validated</span>
         </div>
         <div class="briefing-stat">
-          <span class="briefing-stat-value">150K-180K</span>
-          <span class="briefing-stat-label">SAM (Underserved)</span>
+          <span class="briefing-stat-value">15</span>
+          <span class="briefing-stat-label">Strong Confidence</span>
         </div>
         <div class="briefing-stat">
-          <span class="briefing-stat-value">15K-25K</span>
-          <span class="briefing-stat-label">SOM (18-Month Reach)</span>
+          <span class="briefing-stat-value">2</span>
+          <span class="briefing-stat-label">Moderate (upgraded)</span>
         </div>
         <div class="briefing-stat">
-          <span class="briefing-stat-value">3</span>
-          <span class="briefing-stat-label">Positioning Gaps</span>
+          <span class="briefing-stat-value">2</span>
+          <span class="briefing-stat-label">Moderate</span>
         </div>
         <div class="briefing-stat">
-          <span class="briefing-stat-value">$20K-$240K</span>
-          <span class="briefing-stat-label">WTP Anchor (Per Deal)</span>
+          <span class="briefing-stat-value">91</span>
+          <span class="briefing-stat-label">Evidence Entries</span>
         </div>
         <div class="briefing-stat">
-          <span class="briefing-stat-value">42</span>
-          <span class="briefing-stat-label">Third-Party Sources</span>
+          <span class="briefing-stat-value">61</span>
+          <span class="briefing-stat-label">Sources</span>
         </div>
       </div>
 
@@ -955,23 +991,24 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
         <div class="briefing-column">
           <h4 class="briefing-strong">What's Strong</h4>
           <ul class="briefing-list strong">
-            <li>TAM sized by job executors, not revenue &mdash; grounded in transaction counts and team sizes from PwC, PEI, Devensoft</li>
-            <li>SAM derived from competitive gaps (no platform completes J3) with 6 independent evidence sources</li>
-            <li>SOM uses 3-step filter chain with each step sourced: geographic (PwC), deal size (market structure), reachability (Alexander Jarvis, WEF, EasyAudit.ai)</li>
-            <li>Three undefended positioning gaps validated across 7 competitor categories</li>
-            <li>WTP anchored by 3 independent signal convergences ($20K-$240K), not competitor pricing</li>
-            <li>Market growing: M&A value +36% YoY, PE dry powder $2.184T, 95% planning AI investment increase</li>
-            <li>All 24 validation checks pass with ~95% citation rate across thesis</li>
+            <li>TAM derived from 47K-50K transactions x 5-15 professionals, with methodology note on derivation</li>
+            <li>SAM anchored to specific job failures: no VDR provides cross-doc synthesis, 73% GP data struggle, 17-34% AI hallucination</li>
+            <li>SOM uses explicit 3-step filter: geographic, deal size, reachability with math at each step</li>
+            <li>25+ platforms exhaustively reviewed; cross-workstream gap confirmed as genuine and structurally persistent</li>
+            <li>WTP anchor converges from 3 independent signals: VDR spend, labor savings, claim prevention</li>
+            <li>Contract coverage gap: 5-20% reviewed, $100K materiality thresholds, 50-85% recall even at full review</li>
+            <li>Round 2 upgraded M3 and CP4 from moderate to strong confidence</li>
+            <li>All 6 gate criteria pass; all 4 P2 compliance checks pass</li>
           </ul>
         </div>
         <div class="briefing-column">
           <h4 class="briefing-weak">What's Weak or Unresolved</h4>
           <ul class="briefing-list weak">
-            <li>TAM deduplication factor is an analytical inference &mdash; no direct census of M&A deal professionals exists</li>
-            <li>SOC 2 certification creates 5.5-17.5 month timing constraint before enterprise adoption is possible</li>
-            <li>40%+ of AI implementations stall after pilots due to change management failures (Deloitte)</li>
-            <li>Competitive window may narrow as second-wave legal AI tools mature ($2.4B funding in 2025)</li>
-            <li>S4 (portfolio monitoring) evidence is moderate confidence &mdash; smaller addressable population, different competitive dynamics</li>
+            <li>TAM is a derived estimate, not a census &mdash; range of 200K-250K reflects overlap uncertainty</li>
+            <li>Competitive window may narrow as Harvey ($8B) and second-wave AI tools mature</li>
+            <li>SOC 2 certification (5.5-17.5 months) creates timing constraint for new entrants</li>
+            <li>40%+ of AI implementations stall after pilots due to change management failures</li>
+            <li>No pricing strategy or solution design &mdash; those are Solution workspace scope</li>
           </ul>
         </div>
       </div>
@@ -982,8 +1019,8 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       <div class="validation-status">
         <div class="validation-icon">&#10003;</div>
         <div class="validation-text">
-          <h3>All Checks Pass</h3>
-          <p>24/24 validation checks passed. Gate criteria, P2 compliance, structural checks, evidence minimums, hypothesis trail, scope, and writing governance all verified.</p>
+          <h3>All Validation Checks Pass</h3>
+          <p>24/24 checks passed. 0 failed. 0 warnings. Gate readiness: READY.</p>
         </div>
       </div>
       <div class="validation-stats">
@@ -1002,74 +1039,35 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
       </div>
     </div>
 
-    <!-- Blocking Decision -->
-    <h3 class="gate-group-label">Blocking Decision</h3>
-    <p class="gate-group-desc">Must be resolved before the next workspace can start.</p>
+    <!-- Gate Criteria Checklist -->
+    <h3 style="margin-bottom: 1rem;">Gate Criteria</h3>
+    <ul class="checklist" style="margin-bottom: 2rem;">
+      <li><span class="check-icon">&#10003;</span> TAM sized by job executors (~200K-250K deal professionals), not industry revenue</li>
+      <li><span class="check-icon">&#10003;</span> SAM derived from competitive gaps in job completion (no VDR provides cross-doc synthesis)</li>
+      <li><span class="check-icon">&#10003;</span> Customer profiles complete: 5 segments with buyer/user/decision-maker maps and buying journeys</li>
+      <li><span class="check-icon">&#10003;</span> Competitive gaps identified: 3 positioning gaps where no incumbent delivers</li>
+      <li><span class="check-icon">&#10003;</span> WTP anchored to job completion value (labor savings, claim prevention, portfolio ROI)</li>
+      <li><span class="check-icon">&#10003;</span> Market not declining: M&A +36% in 2025, VDR market 21.4% CAGR, 95% planning AI investment</li>
+    </ul>
+
+    <!-- Decision -->
     <div class="gate-cards">
       <div class="gate-card">
         <div class="gate-card-header">
           <div class="gate-num">1</div>
-          <div class="gate-question">Does this market justify advancing to the Competitive workspace?</div>
+          <div class="gate-question">Does this market justify advancing to the Solution workspace?</div>
           <span class="gate-priority blocking">Blocking</span>
         </div>
-        <p class="gate-context">The evidence shows 200,000-250,000 active deal professionals, 150,000-180,000 underserved, and 15,000-25,000 reachable within 18 months. Three positioning gaps are undefended. WTP is anchored at $20,000-$240,000 per deal. All validation checks pass. The TAM methodology acknowledges a derived estimate with no direct census available.</p>
+        <p class="gate-context">The evidence shows 200K-250K deal professionals, 150K-180K underserved, 15K-25K reachable within 18 months. Three undefended positioning gaps. WTP anchor of $20K-$240K per deal from three independent signals. 19/19 hypotheses validated. 24/24 validation checks pass.</p>
         <div class="gate-options">
           <div class="gate-option">
-            <strong>Proceed</strong> &mdash; Accept market thesis. Advance to Competitive workspace to analyze competitive dynamics and positioning strategy in depth.
-            <span class="gate-consequence">&rarr; Competitive workspace begins with market sizing inputs locked.</span>
+            <strong>Proceed</strong> <span class="gate-consequence">&rarr; Advance to Solution workspace. Define the product that addresses the cross-workstream synthesis gap for buy-side PE deal teams.</span>
           </div>
           <div class="gate-option">
-            <strong>Revise</strong> &mdash; Market evidence is directionally correct but specific areas need deeper research (e.g., tighter TAM bounds, additional segment validation, WTP primary research).
-            <span class="gate-consequence">&rarr; Market workspace returns to processing with revision notes. Re-validates after updates.</span>
+            <strong>Revise</strong> <span class="gate-consequence">&rarr; Return to Market processing with specific feedback. Re-run validation after revisions.</span>
           </div>
           <div class="gate-option">
-            <strong>Kill</strong> &mdash; Market is insufficient in size, reachability, or competitive positioning to justify continued investment.
-            <span class="gate-consequence">&rarr; Venture archived with documented learnings. Market research available for future reference.</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Strategic Decisions -->
-    <h3 class="gate-group-label">Strategic Decisions</h3>
-    <p class="gate-group-desc">Inform strategy but do not block the next workspace. Later workspaces will produce data that makes these choices clearer.</p>
-    <div class="gate-cards">
-      <div class="gate-card strategic">
-        <div class="gate-card-header">
-          <div class="gate-num">2</div>
-          <div class="gate-question">When should portfolio monitoring (S4) enter the product roadmap?</div>
-          <span class="gate-priority strategic">Strategic</span>
-        </div>
-        <p class="gate-context">S4 shows strong ROI ($100K-$170K annual savings) and shares the PE buyer ecosystem, but has different buying cycles, competitors, and jobs. Launching with both segments increases surface area but dilutes focus.</p>
-        <p class="gate-revisit">Revisit after Workspace 05 (Solution) &mdash; solution architecture will clarify shared infrastructure vs. separate product decisions.</p>
-        <div class="gate-options">
-          <div class="gate-option">
-            <strong>Launch with S1 only</strong> &mdash; Focus on cross-workstream synthesis for deal teams. Expand to S4 post-traction.
-            <span class="gate-consequence">&rarr; Solution workspace scopes for S1 jobs (J1-J3, J6) only.</span>
-          </div>
-          <div class="gate-option">
-            <strong>Design for both, launch with S1</strong> &mdash; Architecture accommodates S4 from the start; S1 launches first.
-            <span class="gate-consequence">&rarr; Solution workspace includes S4 architecture considerations but prioritizes S1 delivery.</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="gate-card strategic">
-        <div class="gate-card-header">
-          <div class="gate-num">3</div>
-          <div class="gate-question">Should the SOC 2 certification process begin before or during the Solution workspace?</div>
-          <span class="gate-priority strategic">Strategic</span>
-        </div>
-        <p class="gate-context">SOC 2 Type II takes 5.5-17.5 months and is quasi-mandatory for enterprise deal tech. Starting early shortens time to first enterprise sale. Pre-approved vendor lists provide a workaround for early-stage pilots.</p>
-        <p class="gate-revisit">Revisit after Workspace 09 (Architecture) &mdash; security architecture decisions will determine SOC 2 scope and readiness timeline.</p>
-        <div class="gate-options">
-          <div class="gate-option">
-            <strong>Begin SOC 2 preparation now</strong> &mdash; Start readiness assessment and policy development in parallel with Solution workspace.
-            <span class="gate-consequence">&rarr; External dependency tracked alongside workspace progression.</span>
-          </div>
-          <div class="gate-option">
-            <strong>Defer to Architecture workspace</strong> &mdash; Define security architecture first, then scope SOC 2 certification accordingly.
-            <span class="gate-consequence">&rarr; SOC 2 timeline starts 3-6 months later but with clearer scope.</span>
+            <strong>Kill</strong> <span class="gate-consequence">&rarr; Archive venture with documented learnings. Trigger mandatory post-mortem.</span>
           </div>
         </div>
       </div>
@@ -1081,8 +1079,8 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 <section id="sources">
   <div class="container">
     <div class="section-num">07 / Sources</div>
-    <h2>Sources</h2>
-    <p class="section-lead">42 third-party sources cited across the market thesis. Organized by category.</p>
+    <h2>61 Sources</h2>
+    <p class="section-lead">All third-party sources cited in the Market thesis, organized by category.</p>
 
     <div class="sources-grid">
 
@@ -1091,91 +1089,99 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
         <ul class="source-list">
           <li><span class="source-org">PwC</span> &mdash; Global M&A Industry Trends: 2026 Outlook <span class="source-date">(2026)</span><br><a href="https://www.pwc.com/gx/en/services/deals/trends.html" target="_blank">pwc.com</a> &mdash; K-shaped market, megadeal counts, US deal value concentration</li>
           <li><span class="source-org">BCG</span> &mdash; 2025 M&A Analysis <span class="source-date">(2025)</span><br>Global M&A value $3.0T, ten-year average benchmarks, growth projections</li>
-          <li><span class="source-org">S&P Global</span> &mdash; Global M&A by the Numbers: Q4 2025 <span class="source-date">(2025)</span><br><a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025" target="_blank">spglobal.com</a> &mdash; Deal counts, mega-deal data</li>
-          <li><span class="source-org">EY</span> &mdash; US M&A Activity Insights <span class="source-date">(2025)</span><br><a href="https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report" target="_blank">ey.com</a> &mdash; Financial services M&A deals, vertical integration</li>
-          <li><span class="source-org">Bain &amp; Company</span> &mdash; 2025 Global Private Markets Report <span class="source-date">(2025)</span><br>PE exit backlog, portfolio monitoring cadences</li>
-          <li><span class="source-org">PitchBook</span> &mdash; Private Equity Dry Powder Data <span class="source-date">(2026)</span><br><a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">spglobal.com</a> &mdash; PE dry powder $2.184T, private capital AUM</li>
-          <li><span class="source-org">PEI 300</span> &mdash; The World's Largest Private Equity Firms <span class="source-date">(2025)</span><br><a href="https://www.privateequityinternational.com/pei-300/" target="_blank">privateequityinternational.com</a> &mdash; Dealmaker counts per firm</li>
-          <li><span class="source-org">SRS Acquiom</span> &mdash; 2024 M&A Claims Study <span class="source-date">(2024)</span><br><a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">deallawyers.com</a> &mdash; 28% post-close claim rate, undisclosed liability trends</li>
-          <li><span class="source-org">Euclid Transactional</span> &mdash; RWI Claims Data <span class="source-date">(2025)</span><br>45% of RWI loss from claims &gt;$20M</li>
-          <li><span class="source-org">Aon</span> &mdash; Transaction Claims Data <span class="source-date">(2025)</span><br>$1.4B+ in North American RWI claims</li>
-          <li><span class="source-org">Fasken/Aon</span> &mdash; EBITDA-Multiple Damages Trends <span class="source-date">(2024)</span><br>Claims seeking EBITDA-multiple damages 5% to 32%</li>
+          <li><span class="source-org">S&amp;P Global</span> &mdash; Global M&A by the Numbers: Q4 2025 <span class="source-date">(2025)</span><br><a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025" target="_blank">spglobal.com</a> &mdash; Q4 2024 deal counts, mega-deal data</li>
+          <li><span class="source-org">EY</span> &mdash; US M&A Activity Insights: December 2025 <span class="source-date">(2025)</span><br><a href="https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report" target="_blank">ey.com</a> &mdash; Financial services M&A deals, deal value trends</li>
+          <li><span class="source-org">Bain &amp; Company</span> &mdash; 2025 Global Private Markets Report <span class="source-date">(2025)</span><br>PE exit backlog, portfolio monitoring cadences, deal quality gaps</li>
+          <li><span class="source-org">PitchBook</span> &mdash; Private Equity Dry Powder Data <span class="source-date">(2026)</span><br><a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525" target="_blank">spglobal.com</a> &mdash; PE dry powder $2.184T, fundraising trends</li>
           <li><span class="source-org">WEF</span> &mdash; How Tech Innovations Are Transforming PE <span class="source-date">(2025)</span><br><a href="https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/" target="_blank">weforum.org</a> &mdash; 80% PE tech reliance, 95% AI investment plans</li>
+          <li><span class="source-org">SRS Acquiom</span> &mdash; 2024 M&A Claims Study <span class="source-date">(2024)</span><br><a href="https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html" target="_blank">deallawyers.com</a> &mdash; 28% post-close claim rate, claim trends</li>
+          <li><span class="source-org">Euclid Transactional</span> &mdash; RWI Claims Data <span class="source-date">(2025)</span><br>45% of total RWI loss from claims &gt;$20M</li>
+          <li><span class="source-org">Aon</span> &mdash; Transaction Claims Data <span class="source-date">(2025)</span><br>$1.4B+ in North American RWI claims through Q4 2024</li>
+          <li><span class="source-org">Fasken/Aon</span> &mdash; EBITDA-Multiple Damages Trends <span class="source-date">(2024)</span><br>Claims seeking EBITDA-multiple damages rose from 5% to 32%</li>
+          <li><span class="source-org">McKinsey</span> &mdash; M&A Deal Outcomes <span class="source-date">(2025)</span><br>70-90% of deals fail to deliver expected value</li>
         </ul>
       </div>
 
       <div class="source-category">
-        <h3>Legal Technology (6)</h3>
+        <h3>Legal Technology (7)</h3>
         <ul class="source-list">
           <li><span class="source-org">Stanford RegLab</span> &mdash; Legal AI Hallucination Benchmark <span class="source-date">(2025)</span><br>Lexis+ AI &gt;17%, Westlaw AI &gt;34% hallucination rates</li>
           <li><span class="source-org">ILTA</span> &mdash; 2025 Legal Technology Survey <span class="source-date">(2025)</span><br><a href="https://softwarefinder.com/resources/legal-trends" target="_blank">softwarefinder.com</a> &mdash; 79% attorney AI adoption</li>
           <li><span class="source-org">Thomson Reuters</span> &mdash; Legal Market Report 2026 <span class="source-date">(2026)</span><br><a href="https://www.thomsonreuters.com/en-us/posts/legal/legal-market-report-2026-analysis-ai-bubble/" target="_blank">thomsonreuters.com</a> &mdash; Law firm tech spending +39.3%</li>
-          <li><span class="source-org">LawNext</span> &mdash; 10 Legal Tech Trends That Defined 2025 <span class="source-date">(2026)</span><br><a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">lawnext.com</a> &mdash; Harvey $8B valuation, legal AI funding $2.4B</li>
-          <li><span class="source-org">Artificial Lawyer</span> &mdash; The End of the Legal AI Pioneers <span class="source-date">(2024)</span><br><a href="https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/" target="_blank">artificiallawyer.com</a> &mdash; First-wave consolidation timeline</li>
-          <li><span class="source-org">Ironclad</span> &mdash; Best Legal AI Software Tools <span class="source-date">(2025)</span><br><a href="https://ironcladapp.com/resources/articles/best-legal-ai-software" target="_blank">ironcladapp.com</a> &mdash; Second-wave AI comparisons</li>
+          <li><span class="source-org">LawNext</span> &mdash; 10 Legal Tech Trends of 2025 <span class="source-date">(2026)</span><br><a href="https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html" target="_blank">lawnext.com</a> &mdash; Harvey $8B, legal AI funding $2.4B</li>
+          <li><span class="source-org">Artificial Lawyer</span> &mdash; End of the Legal AI Pioneers <span class="source-date">(2024)</span><br><a href="https://www.artificiallawyer.com/2024/09/18/the-end-of-the-legal-ai-pioneers-a-new-beginning/" target="_blank">artificiallawyer.com</a> &mdash; First-wave consolidation timeline</li>
+          <li><span class="source-org">Ironclad</span> &mdash; Best Legal AI Software Tools <span class="source-date">(2025)</span><br><a href="https://ironcladapp.com/resources/articles/best-legal-ai-software" target="_blank">ironcladapp.com</a> &mdash; Harvey, LegalOn positioning</li>
+          <li><span class="source-org">Litera</span> &mdash; Kira Systems Capabilities <span class="source-date">(2025)</span><br>84% of top 25 M&A law firms, 1,400+ smart fields</li>
         </ul>
       </div>
 
       <div class="source-category">
-        <h3>M&A Advisory (10)</h3>
+        <h3>M&A Advisory &amp; Practice (11)</h3>
         <ul class="source-list">
           <li><span class="source-org">Devensoft</span> &mdash; Typical M&A Functional Workstreams <span class="source-date">(2025)</span><br><a href="https://www.devensoft.com/articles/typical-ma-functional-workstreams/" target="_blank">devensoft.com</a> &mdash; DD workstream categorization</li>
-          <li><span class="source-org">McLane Middleton</span> &mdash; Independent Sell-Side Management Team Representation <span class="source-date">(2025)</span><br><a href="https://www.mclane.com/insights/the-importance-of-independent-sell-side-management-team-representation-in-middle-market-ma-transactions/" target="_blank">mclane.com</a> &mdash; Management team DD responsibilities</li>
+          <li><span class="source-org">Ansarada</span> &mdash; Deal Workflow Data <span class="source-date">(2025)</span><br>Q&A consumption 66%+, 200-500 questions per deal</li>
           <li><span class="source-org">Firmex</span> &mdash; Global M&A Fee Guide <span class="source-date">(2025)</span><br><a href="https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf" target="_blank">firmex.com</a> &mdash; Advisory fee benchmarks</li>
-          <li><span class="source-org">Woodruff Sawyer</span> &mdash; Do Reps and Warranties Policies Pay Claims? <span class="source-date">(2025)</span><br><a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">woodruffsawyer.com</a> &mdash; RWI retention, premium rates, PE adoption</li>
-          <li><span class="source-org">Embark</span> &mdash; Sell-Side Due Diligence Guide <span class="source-date">(2025)</span><br><a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">embarkwithus.com</a> &mdash; Management time commitment, opportunity cost</li>
-          <li><span class="source-org">Peony.ink</span> &mdash; M&A DD Cost Analysis <span class="source-date">(2025)</span><br>Mid-market DD costs $480K-$1.2M, fee breakdowns</li>
-          <li><span class="source-org">LeanLaw</span> &mdash; Legal Billing Rates <span class="source-date">(2025)</span><br>Big Law associate and Big 4 consultant rate ranges</li>
-          <li><span class="source-org">Mergers &amp; Inquisitions</span> &mdash; IB Compensation Data <span class="source-date">(2025)</span><br>IB associate, VP, and partner hourly rates</li>
-          <li><span class="source-org">Alexander Jarvis</span> &mdash; SaaS Sales Cycle Benchmarks <span class="source-date">(2025)</span><br>Deal tech sales cycles 14-36 weeks</li>
-          <li><span class="source-org">Software Equity Group</span> &mdash; Due Diligence Timeline <span class="source-date">(2025)</span><br><a href="https://softwareequity.com/blog/due-diligence-timeline" target="_blank">softwareequity.com</a> &mdash; DD timeline 30-45 days</li>
+          <li><span class="source-org">Embark</span> &mdash; Sell-Side Due Diligence Guide <span class="source-date">(2025)</span><br><a href="https://blog.embarkwithus.com/sell-side-due-diligence" target="_blank">embarkwithus.com</a> &mdash; Management time commitment</li>
+          <li><span class="source-org">McLane Middleton</span> &mdash; Sell-Side Management Representation <span class="source-date">(2025)</span><br><a href="https://www.mclane.com/insights/the-importance-of-independent-sell-side-management-team-representation-in-middle-market-ma-transactions/" target="_blank">mclane.com</a> &mdash; Management DD responsibilities</li>
+          <li><span class="source-org">Woodruff Sawyer</span> &mdash; RWI Claims Analysis <span class="source-date">(2025)</span><br><a href="https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims" target="_blank">woodruffsawyer.com</a> &mdash; 75% PE RWI adoption, premium rates</li>
+          <li><span class="source-org">Peony.ink</span> &mdash; DD Cost Analysis <span class="source-date">(2025)</span><br>Mid-market DD costs $480K-$1.2M combined</li>
+          <li><span class="source-org">PEI 300</span> &mdash; World's Largest PE Firms <span class="source-date">(2025)</span><br><a href="https://www.privateequityinternational.com/pei-300/" target="_blank">privateequityinternational.com</a> &mdash; Dealmaker counts per firm</li>
+          <li><span class="source-org">PitchBook/Preqin</span> &mdash; Operating Partner Data <span class="source-date">(2025)</span><br>~10,000 operating partners across 2,500-3,000 PE funds</li>
+          <li><span class="source-org">Alexander Jarvis</span> &mdash; Deal Tech Sales Cycles <span class="source-date">(2025)</span><br>14-36 week cycles, compressible to 4-8 weeks</li>
+          <li><span class="source-org">ABA</span> &mdash; 2023 Private Target Deal Points Study <span class="source-date">(2023)</span><br>$100K materiality threshold, indemnification baskets</li>
         </ul>
       </div>
 
       <div class="source-category">
-        <h3>VDR &amp; Deal Technology (7)</h3>
+        <h3>VDR &amp; Deal Tech (7)</h3>
         <ul class="source-list">
-          <li><span class="source-org">Fortune Business Insights</span> &mdash; Virtual Data Room Market <span class="source-date">(2025)</span><br><a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">fortunebusinessinsights.com</a> &mdash; VDR market sizing and projections</li>
-          <li><span class="source-org">V7 Labs</span> &mdash; AI in M&A Due Diligence <span class="source-date">(2025)</span><br>VDR analytical limitations, cross-workstream gap</li>
-          <li><span class="source-org">Ansarada / Imprima</span> &mdash; Q&A Module Analysis <span class="source-date">(2025)</span><br>Q&A consumption of deal time, VDR Q&A limitations</li>
+          <li><span class="source-org">Fortune Business Insights</span> &mdash; Virtual Data Room Market <span class="source-date">(2025)</span><br><a href="https://www.fortunebusinessinsights.com/virtual-data-room-market-109254" target="_blank">fortunebusinessinsights.com</a> &mdash; VDR market $2.8B, 21.4% CAGR</li>
+          <li><span class="source-org">V7 Labs</span> &mdash; AI in M&A Due Diligence <span class="source-date">(2025)</span><br>No VDR provides cross-workstream synthesis</li>
+          <li><span class="source-org">DealRoom</span> &mdash; Cross-Workstream Integration Roadmap <span class="source-date">(2025)</span><br><a href="https://dealroom.net/blog/m-a-statistics-by-sector" target="_blank">dealroom.net</a> &mdash; Integration described in future tense</li>
           <li><span class="source-org">Intralinks</span> &mdash; VDR Pricing Data <span class="source-date">(2025)</span><br>Per-page and subscription pricing models</li>
-          <li><span class="source-org">DealRoom</span> &mdash; M&A Platform <span class="source-date">(2025)</span><br><a href="https://dealroom.net/blog/m-a-statistics-by-sector" target="_blank">dealroom.net</a> &mdash; Deal management capabilities</li>
-          <li><span class="source-org">Chronograph</span> &mdash; Portfolio Monitoring Solutions <span class="source-date">(2025)</span><br><a href="https://www.chronograph.pe" target="_blank">chronograph.pe</a> &mdash; Cloud-based PE analytics</li>
-          <li><span class="source-org">Planr</span> &mdash; PE Portfolio Monitoring <span class="source-date">(2025)</span><br>Trivest case study, labor savings, monitoring automation</li>
+          <li><span class="source-org">Imprima</span> &mdash; VDR and Document Review Data <span class="source-date">(2025)</span><br>50-85% recall on relevant provisions</li>
+          <li><span class="source-org">Sirion.ai</span> &mdash; Contract Review Coverage <span class="source-date">(2026)</span><br>5-10% of contract population reviewed at full depth</li>
+          <li><span class="source-org">WorldCC/Icertis</span> &mdash; 2023 Benchmark Report <span class="source-date">(2023)</span><br>500-3,000 mid-market contracts, 24 systems average</li>
+        </ul>
+      </div>
+
+      <div class="source-category">
+        <h3>Competitors &amp; Startups (10)</h3>
+        <ul class="source-list">
+          <li><span class="source-org">Harvey</span> &mdash; Series F / Funding <span class="source-date">(2025-2026)</span><br>$1B+ raised, $8B valuation, ~$195M ARR, 100K+ lawyers</li>
+          <li><span class="source-org">Hebbia</span> &mdash; Series B / a16z <span class="source-date">(2025)</span><br>$130M at $700M valuation, horizontal document analysis</li>
+          <li><span class="source-org">ToltIQ</span> &mdash; Series A <span class="source-date">(2025)</span><br>$12M, ex-KKR founder, multi-workstream query tool</li>
+          <li><span class="source-org">Luminance</span> &mdash; Series C / Point72 <span class="source-date">(2025)</span><br>$165M raised, ~$60M ARR, 1,000+ organizations</li>
+          <li><span class="source-org">Meridian AI</span> &mdash; Seed / 645 Ventures <span class="source-date">(2025)</span><br>$7M, CRM/deal sourcing (not DD analysis)</li>
+          <li><span class="source-org">Altvia</span> &mdash; AIMe / Marlin Equity <span class="source-date">(2022)</span><br>Salesforce CRM assistant (not DD platform)</li>
+          <li><span class="source-org">Datasite / CapVest</span> &mdash; Acquisitions <span class="source-date">(2025)</span><br>Blueflame AI, Grata, Sourcescrub &mdash; deal sourcing enhancements</li>
+          <li><span class="source-org">Chronograph</span> &mdash; Portfolio Monitoring <span class="source-date">(2025)</span><br>Cloud-based analytics, PE monitoring platform</li>
+          <li><span class="source-org">Planr</span> &mdash; Portfolio Automation <span class="source-date">(2025)</span><br>40 hrs to 2 hrs/month, $100K-$170K savings</li>
+          <li><span class="source-org">RAW Selection</span> &mdash; Operating Partner Compensation <span class="source-date">(2025)</span><br>$300K-$750K/year, supply-demand gap</li>
         </ul>
       </div>
 
       <div class="source-category">
         <h3>Compliance &amp; Regulatory (4)</h3>
         <ul class="source-list">
-          <li><span class="source-org">EasyAudit.ai</span> &mdash; SOC 2 Compliance Timeline <span class="source-date">(2025)</span><br><a href="https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance" target="_blank">easyaudit.ai</a> &mdash; SOC 2 Type II timeline 5.5-17.5 months</li>
-          <li><span class="source-org">AuditBoard</span> &mdash; SEC vs CSRD Comparison <span class="source-date">(2025)</span><br><a href="https://auditboard.com/blog/sec-vs-csrd-whats-the-difference" target="_blank">auditboard.com</a> &mdash; Climate disclosure scope expansion</li>
-          <li><span class="source-org">U.S. Treasury</span> &mdash; CFIUS Annual Report <span class="source-date">(2025)</span><br>CFIUS reviews +45% YoY, tech deal declaration rates</li>
-          <li><span class="source-org">Deloitte</span> &mdash; AI for In-House Legal Predictions <span class="source-date">(2025)</span><br><a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">deloitte.com</a> &mdash; 40%+ AI pilot stall rate</li>
-        </ul>
-      </div>
-
-      <div class="source-category">
-        <h3>Other Sources (3)</h3>
-        <ul class="source-list">
-          <li><span class="source-org">Wall Street Oasis</span> &mdash; Deal Team Size Discussion <span class="source-date">(2025)</span><br><a href="https://www.wallstreetoasis.com/forum/investment-banking/how-big-are-your-deal-teams" target="_blank">wallstreetoasis.com</a> &mdash; Practitioner-reported deal team sizes</li>
-          <li><span class="source-org">Sirion.ai</span> &mdash; Contract Review Coverage Rates <span class="source-date">(2026)</span><br>Traditional DD examines only 5-10% of contract population</li>
-          <li><span class="source-org">McKinsey</span> &mdash; M&A Value Delivery <span class="source-date">(2025)</span><br>70-90% of deals fail to deliver expected value</li>
+          <li><span class="source-org">EasyAudit.ai</span> &mdash; SOC 2 Compliance Timeline <span class="source-date">(2025)</span><br><a href="https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance" target="_blank">easyaudit.ai</a> &mdash; 5.5-17.5 months timeline</li>
+          <li><span class="source-org">Deloitte</span> &mdash; AI for In-House Legal Predictions <span class="source-date">(2025)</span><br><a href="https://www.deloitte.com/dl/en/services/legal/research/ai-inhouse-legal-2025-predictions.html" target="_blank">deloitte.com</a> &mdash; 40%+ pilot stall rate</li>
+          <li><span class="source-org">AuditBoard</span> &mdash; SEC vs CSRD Comparison <span class="source-date">(2025)</span><br><a href="https://auditboard.com/blog/sec-vs-csrd-whats-the-difference" target="_blank">auditboard.com</a> &mdash; Expanding DD scope</li>
+          <li><span class="source-org">Orrick</span> &mdash; EU AI Act <span class="source-date">(2025)</span><br>Bulk obligations effective August 2, 2026</li>
         </ul>
       </div>
 
     </div>
 
     <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--text-muted);">
-      Sources without direct URLs were accessed through proprietary databases, paywalled publications, or referenced in secondary sources with full citation trails documented in the processing log.
+      Sources without direct URLs were accessed through industry databases, proprietary reports, or conference presentations. All claims are traced to named third-party organizations with dates.
     </p>
   </div>
 </section>
 
-<!-- Footer -->
 <footer>
   <div class="container">
-    <p>Rubicon &mdash; Market Thesis v1.0 &mdash; February 2026 &mdash; Venture Forge</p>
+    <p>Rubicon &mdash; Market Thesis v2.0 &mdash; February 2026 &mdash; Venture Forge</p>
   </div>
 </footer>
 
@@ -1193,22 +1199,16 @@ footer p { font-size: 0.8rem; color: var(--text-muted); }
 </div>
 
 <script>
-// Evidence data
+// Evidence Data
 const evidenceData = {
   "tam-derivation": {
     claim: "TAM of 200,000-250,000 active deal professionals derived from transaction counts and team sizes",
     chain: [
       {
-        finding: "47,000-50,000 M&A transactions annually; 600 mega-deals captured 94% of value growth while ~47,000 smaller transactions were flat",
+        finding: "Global deal values increased 36% in 2025 driven by ~600 transactions above $1B, while ~47,000 smaller transactions were flat year-over-year",
         source: "PwC",
         url: "https://www.pwc.com/gx/en/services/deals/trends.html",
         date: "2026"
-      },
-      {
-        finding: "Global M&A value reached $3.0 trillion in 2025, a 31% increase over 2024",
-        source: "BCG",
-        url: "",
-        date: "2025"
       },
       {
         finding: "Deal teams typically comprise 3-5 core professionals, with larger teams extending to 7+ members; mid-market teams 5-15 internal + external advisors",
@@ -1225,19 +1225,18 @@ const evidenceData = {
       {
         finding: "~2,500-3,000 operating PE funds globally, average 4 operating partners per fund = ~10,000 operating partners managing 25,000-35,000 portfolio companies",
         source: "PitchBook/Preqin",
-        url: "",
+        url: "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/12/private-equity-dry-powder-recedes-from-all-time-highs-amid-slow-fundraising-96015525",
         date: "2025"
       }
     ],
-    conclusion: "TAM derived from 5 independent sources. Deduplication adjustment for multi-deal professionals is an analytical inference; all other inputs are third-party sourced."
+    conclusion: "Validated across 4 independent sources. TAM is a derived estimate (no census exists); range reflects overlap uncertainty."
   },
   "sam-underserved": {
-    claim: "150,000-180,000 deal professionals remain underserved by current tooling across key jobs",
+    claim: "150,000-180,000 deal professionals remain underserved by current tooling across key job dimensions",
     chain: [
       {
         finding: "No VDR provides cross-document synthesis or analytical capability across workstreams",
         source: "V7 Labs",
-        url: "",
         date: "2025"
       },
       {
@@ -1247,37 +1246,29 @@ const evidenceData = {
         date: "2025"
       },
       {
-        finding: "Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons including flexibility and lack of integrated alternatives",
-        source: "Ansarada / Imprima",
-        url: "",
+        finding: "Legal AI hallucination rates 17-34% prevent full automation of review jobs",
+        source: "Stanford RegLab",
         date: "2025"
       },
       {
-        finding: "28% of deals face post-close indemnification claims, indicating incomplete DD coverage",
+        finding: "28% of deals face post-close indemnification claims, indicating current DD processes systematically miss material issues",
         source: "SRS Acquiom",
         url: "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
         date: "2024"
       },
       {
-        finding: "Legal AI hallucination rates 17-34% prevent full automation of review jobs",
-        source: "Stanford RegLab",
-        url: "",
+        finding: "Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons including flexibility, customization, and lack of integrated alternatives",
+        source: "Ansarada / Imprima",
         date: "2025"
-      },
-      {
-        finding: "Traditional DD examines only 5-10% of contract population",
-        source: "Sirion.ai",
-        url: "",
-        date: "2026"
       }
     ],
-    conclusion: "SAM validated across 6 independent sources confirming tool failures in cross-document synthesis, portfolio monitoring, and Q&A coordination."
+    conclusion: "Validated across 5 independent sources. SAM derived from documented job completion failures, not arbitrary % of TAM."
   },
   "som-reachability": {
-    claim: "15,000-25,000 deal professionals reachable within 18 months through 3-step filter chain",
+    claim: "15,000-25,000 professionals reachable within 18 months via 3-step filter from SAM of 150,000-180,000",
     chain: [
       {
-        finding: "US accounted for just under 25% of global deal volumes but more than 50% of global deal value",
+        finding: "US accounted for just under 25% of global deal volumes but >50% of global deal value (geographic filter retains 40-50% = 60,000-90,000)",
         source: "PwC",
         url: "https://www.pwc.com/gx/en/services/deals/trends.html",
         date: "2026"
@@ -1285,11 +1276,10 @@ const evidenceData = {
       {
         finding: "Sales cycles for deal technology range 14-36 weeks, compressible to 4-8 weeks with prior pilot",
         source: "Alexander Jarvis",
-        url: "",
         date: "2025"
       },
       {
-        finding: "Land-and-expand pattern: 4-6 week pilot, 3-6 month rollout, 6-12 month firm-wide deployment",
+        finding: "Land-and-expand pattern: 4-6 week pilot, 3-6 month department rollout, 6-12 month firm-wide deployment",
         source: "WEF",
         url: "https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/",
         date: "2025"
@@ -1301,113 +1291,179 @@ const evidenceData = {
         date: "2025"
       },
       {
-        finding: "SOC 2 Type II takes 5.5-17.5 months, creating timing constraint; pre-approved vendor lists provide workaround",
+        finding: "SOC 2 Type II takes 5.5-17.5 months; pre-approved vendor lists provide workaround for timing constraints",
         source: "EasyAudit.ai",
         url: "https://www.easyaudit.ai/post/how-long-does-it-take-to-get-soc-2-compliance",
         date: "2025"
       }
     ],
-    conclusion: "SOM filter chain validated with each step independently sourced. Reachability supported by technology adoption trends and identified channel access points."
+    conclusion: "Validated across 4 independent sources. SOM derivation: SAM 150K-180K -> North America 60K-90K -> Mid-market 24K-45K -> Reachable 15K-25K."
   },
   "cross-workstream-gap": {
-    claim: "No existing platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams simultaneously",
+    claim: "No existing platform provides cross-workstream analytical synthesis across financial, legal, operational, commercial, and IT workstreams",
     chain: [
       {
-        finding: "VDRs organize by folder/workstream but provide no analytical integration. 'A VDR often becomes a passive digital filing cabinet.'",
+        finding: "No VDR provides cross-document synthesis or analytical capability across workstreams; VDRs serve as passive digital filing cabinets",
         source: "V7 Labs",
-        url: "",
         date: "2025"
       },
       {
-        finding: "All second-wave legal AI tools (Harvey, Luminance, LegalOn) are legal-workstream only. Harvey is 'a legal-only AI tool used during DD, not cross-workstream platform.'",
-        source: "V7 Labs",
-        url: "",
+        finding: "Harvey has raised over $1B at $8B valuation but is a legal-only AI tool; PwC/Harvey partnership uses human consultants to bridge workstreams, not AI",
+        source: "PwC / LawNext",
+        url: "https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html",
+        date: "2025"
+      },
+      {
+        finding: "Hebbia ($130M Series B, $700M valuation) provides horizontal document analysis but lacks purpose-built DD workstream models",
+        source: "Crunchbase / a16z",
+        date: "2025"
+      },
+      {
+        finding: "ToltIQ ($12M Series A, ex-KKR founder) has multi-workstream prompt library but is query-and-extract, not automated synthesis",
+        source: "Crunchbase",
+        date: "2025"
+      },
+      {
+        finding: "DealRoom describes cross-workstream integration in future tense: 'Cross-platform integration will allow seamless information flow between different due diligence workstreams'",
+        source: "DealRoom",
+        url: "https://dealroom.net/blog/m-a-statistics-by-sector",
+        date: "2025"
+      },
+      {
+        finding: "Big 4 tools remain workstream-siloed: EY Diligence Edge covers commercial DD only, Deloitte DataMAAP handles data transfer, KPMG has no named cross-workstream DD product",
+        source: "EY / Deloitte / KPMG",
         date: "2025"
       },
       {
         finding: "Firms 'structure diligence as discrete questions as if those things had no connection to each other'",
         source: "Bain",
-        url: "",
         date: "2020"
-      },
-      {
-        finding: "DealCloud, 4Degrees are CRMs; DealRoom, Midaxo are process management -- none provide cross-workstream analytical synthesis",
-        source: "4Degrees",
-        url: "",
-        date: "2025"
       }
     ],
-    conclusion: "Cross-workstream synthesis gap validated across 4 independent sources spanning VDRs, legal AI, deal management platforms, and advisory firm analysis."
+    conclusion: "Validated across 7 independent sources. Exhaustive review of 25+ platforms confirms gap is genuine and structurally persistent."
   },
   "wtp-anchor": {
-    claim: "WTP anchor range of $20,000-$240,000 per deal from three independent signal convergences",
+    claim: "WTP anchor of $20,000-$240,000 per deal from three independent signal convergences",
     chain: [
       {
-        finding: "VDR infrastructure costs $10,000-$200,000 per deal (per-page: $0.20-$0.75; subscription: $240-$2,000+/month)",
+        finding: "VDR infrastructure costs $10,000-$200,000 per deal (per-page pricing $0.20-$0.75/page; subscription $240-$2,000+/month)",
         source: "Intralinks",
-        url: "",
         date: "2025"
       },
       {
-        finding: "Mid-market DD costs $480K-$1.2M combined; 20% compression yields $96K-$240K in labor savings per deal",
+        finding: "Mid-market DD costs $480K-$1.2M combined (external $150K-$500K + internal labor); 20% DD compression = $96K-$240K savings per deal",
         source: "Peony.ink",
-        url: "",
         date: "2025"
       },
       {
-        finding: "28% of deals face indemnification claims; conservative $250K average claim = $70,000 expected claim prevention value per deal",
+        finding: "28% of deals face at least one post-closing indemnification claim; conservative $250K average claim = $70K expected value per deal",
         source: "SRS Acquiom",
         url: "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
         date: "2024"
       },
       {
-        finding: "VDR costs represent only 0.1-0.5% of deal value; advisory costs 2-6% of deal value -- low price sensitivity for tools with demonstrated ROI",
+        finding: "VDR costs represent only 0.1-0.5% of deal value; advisory costs 2-6% of deal value",
         source: "Firmex",
         url: "https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf",
         date: "2025"
       },
       {
-        finding: "Legal teams would rationally pay $20,000-$50,000 for tools saving 200+ hours at $250/hr",
+        finding: "Legal teams would rationally pay $20K-$50K for tools saving 200+ hours at $250/hr",
         source: "LegalOn",
-        url: "",
         date: "2025"
       }
     ],
-    conclusion: "WTP anchor derived from 3 independent signal convergences (existing spend, labor savings, claim prevention) corroborated by 5 sources. Budget category is 'replacing existing' rather than net-new."
+    conclusion: "Validated across 5 independent sources. Three signals converge: existing VDR spend ($10K-$200K), labor savings ($96K-$240K), claim prevention ($70K)."
   },
   "competitive-positioning": {
-    claim: "Three undefended positioning gaps identified across 7 competitor categories and 6 functional jobs",
+    claim: "Job completion map shows 9 competitor categories across 6 functional jobs with 3 undefended positioning gaps",
     chain: [
       {
-        finding: "No VDR provides cross-document synthesis or analytical capability across workstreams; AI features limited to document-level tasks",
+        finding: "VDRs handle document storage but fail at cross-document synthesis and cross-workstream integration",
         source: "V7 Labs",
-        url: "",
         date: "2025"
       },
       {
-        finding: "All 4 major VDR Q&A modules lack intelligent cross-referencing, external tool integration, and SLA timers",
-        source: "Ansarada / Imprima",
-        url: "",
+        finding: "Second-wave legal AI (Harvey, Luminance, LegalOn) addresses single-workstream contract analysis but fails cross-workstream synthesis",
+        source: "Stanford RegLab / LawNext",
         date: "2025"
       },
       {
-        finding: "Portfolio monitoring platforms automate data collection but do not synthesize cross-company insights",
-        source: "Planr",
-        url: "",
+        finding: "Deal management platforms (DealCloud, DealRoom) track process and pipeline but do not provide analytical synthesis",
+        source: "V7 Labs / 4Degrees",
         date: "2025"
       },
       {
-        finding: "Harvey AI valued at $8B but legal-workstream only; legal AI funding $2.4B in 2025 but fragmented across single-workstream tools",
-        source: "LawNext",
-        url: "https://www.lawnext.com/2026/01/the-10-legal-tech-trends-that-defined-2025.html",
+        finding: "Excel/email persist as default coordination despite acknowledged inadequacy; 73% of GPs struggle with data management",
+        source: "WEF / Planr",
+        url: "https://www.weforum.org/stories/2025/07/how-tech-innovations-are-transforming-private-equity/",
         date: "2025"
+      },
+      {
+        finding: "Manual DD by advisory firms partially completes most jobs but fails cross-workstream synthesis; 28% post-close claim rate indicates systematic misses",
+        source: "SRS Acquiom / Bain",
+        date: "2024"
       }
     ],
-    conclusion: "Three positioning gaps (cross-workstream synthesis, intelligent Q&A, cross-company portfolio intelligence) validated as undefended across all 7 competitor categories."
+    conclusion: "Validated across 5 independent sources. Three gaps undefended: cross-workstream synthesis, intelligent Q&A, cross-company portfolio intelligence."
+  },
+  "contract-coverage-gap": {
+    claim: "Traditional DD examines only 5-20% of contract population, with 50-85% recall even at full review, creating systematic coverage gaps",
+    chain: [
+      {
+        finding: "Traditional DD examines only 5-10% of the contract population at full-review depth for targets with large portfolios of 2,000+ contracts; 10-20% for smaller mid-market targets with 500-1,000 contracts",
+        source: "Sirion.ai",
+        date: "2026"
+      },
+      {
+        finding: "Materiality thresholds -- typically $100,000/year in payments or receipts for mid-market private M&A -- filter which contracts receive full attorney review",
+        source: "ABA 2023 Private Target Deal Points Study",
+        date: "2023"
+      },
+      {
+        finding: "Even when teams attempt comprehensive review, they achieve only 50-85% recall on relevant provisions due to fatigue, time pressure, and cognitive limitations",
+        source: "Imprima",
+        date: "2025"
+      },
+      {
+        finding: "Mid-market companies maintain 500-3,000 contracts across an average of 24 separate systems",
+        source: "WorldCC/Icertis",
+        date: "2023"
+      },
+      {
+        finding: "Comprehensive manual review of the full contract population would require an estimated 1,500-4,000 attorney hours per deal",
+        source: "Kira Systems / Fredrikson & Byron / Sirion AI",
+        date: "2025"
+      },
+      {
+        finding: "28% of deals face post-close indemnification claims, indicating current DD processes systematically miss material issues",
+        source: "SRS Acquiom",
+        url: "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+        date: "2024"
+      }
+    ],
+    conclusion: "Validated across 6 independent sources. Contract coverage gap is structural: materiality thresholds create the filter, cognitive limitations reduce recall, and claims data confirms systematic misses."
   }
 };
 
-// Evidence modal
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+// Accordion toggle
+document.querySelectorAll('.accordion-header').forEach(header => {
+  header.addEventListener('click', function() {
+    const item = this.parentElement;
+    item.classList.toggle('open');
+  });
+});
+
+// Evidence popup
 const modal = document.getElementById('evidence-modal');
 const modalClaim = document.getElementById('evidence-modal-claim');
 const modalChain = document.getElementById('evidence-chain');
@@ -1418,6 +1474,7 @@ document.querySelectorAll('.evidence-trigger').forEach(trigger => {
     const id = this.dataset.evidenceId;
     const data = evidenceData[id];
     if (!data) return;
+
     modalClaim.textContent = data.claim;
     modalChain.innerHTML = data.chain.map(item => {
       const sourceLink = item.url
@@ -1433,27 +1490,13 @@ document.querySelectorAll('.evidence-trigger').forEach(trigger => {
 modal.addEventListener('click', function(e) {
   if (e.target === modal) modal.classList.remove('active');
 });
+
 modal.querySelector('.evidence-modal-close').addEventListener('click', function() {
   modal.classList.remove('active');
 });
+
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') modal.classList.remove('active');
-});
-
-// Accordion toggle
-document.querySelectorAll('.accordion-header').forEach(header => {
-  header.addEventListener('click', function() {
-    this.parentElement.classList.toggle('open');
-  });
-});
-
-// Smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth' });
-  });
 });
 </script>
 

@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "model": "sonar-deep-research",
+    "response_id": "0d82f696-9511-4197-9519-a98fb960711c",
+    "usage": {
+      "prompt_tokens": 1611,
+      "completion_tokens": 11534,
+      "total_tokens": 13145,
+      "citation_tokens": 56184,
+      "reasoning_tokens": 353278,
+      "num_search_queries": 30,
+      "cost": {
+        "total_cost": null,
+        "input_tokens_cost": null,
+        "output_tokens_cost": null
+      }
+    },
+    "citation_count": 60
+  },
+  "citations": [
+    {
+      "index": 1,
+      "url": "https://etonvs.com/ma/m-and-a-advisory-fees/",
+      "title": "M&A Advisory Fees: Fees by Deal Size September 2025",
+      "snippet": "M&A fees usually include a retainer and a success fee, with structures varying by deal size, complexity, and advisor. \u00b7 Typical retainers range from $5k to $15k+ ..."
+    },
+    {
+      "index": 2,
+      "url": "https://dataroom-providers.org/blog/datasite-vs-intralinks/",
+      "title": "Datasite vs Intralinks: Compare to Select the Best Solution",
+      "snippet": "Intralinks and Datasite use a per-page pricing model. Intralinks charges $7,500 for 10,000 pages, while Datasite provides a slightly more ..."
+    },
+    {
+      "index": 3,
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "snippet": "SRS Acquiom recently published its 2024 M&A Claims Study, which analyzes more than 850 private target acquisitions with escrows that were fully ..."
+    },
+    {
+      "index": 4,
+      "url": "https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf",
+      "title": "[PDF] Firmex-MAFeeGuide-Global-25.pdf",
+      "snippet": "GLOBAL M&A FEE GUIDE 2024-25. 6. Page 7. The 2024 Fee Guide highlights notable trends in U.S. advisory fees, emphasizing evolving engagement and success fee ..."
+    },
+    {
+      "index": 5,
+      "url": "https://www.intralinks.com/guides/managing-costs-digital-era",
+      "title": "Intralinks vs. Datasite: Clear Pricing & DealCentre AI Power",
+      "snippet": "Stop overpaying for VDRs. Compare Intralinks' transparent pricing and DealCentre AI\u2122 against Datasite's legacy fees to accelerate your next ..."
+    },
+    {
+      "index": 6,
+      "url": "https://www.wilmerhale.com/-/media/files/shared_content/editorial/publications/documents/2024-wilmerhale-ma-report.pdf",
+      "title": "[PDF] 2024 WilmerHale M&A Report",
+      "snippet": "Total deal value dropped by 20%, from $1.02 trillion to $810.7 billion, although average deal size increased by 5%, from $52.9 million to $55.5 million. The ..."
+    },
+    {
+      "index": 7,
+      "url": "https://www.spellbook.legal/learn/spellbook-alternatives",
+      "title": "Top Spellbook Alternatives & Competitors (2026 Comparison)",
+      "snippet": "Complete guide to Spellbook alternatives. Compare top AI legal tools by features, pricing & accuracy. Find the perfect fit for your practice."
+    },
+    {
+      "index": 8,
+      "url": "https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims",
+      "title": "Do Reps and Warranties Policies Actually Pay Claims?",
+      "snippet": "The current market retention percentage has hovered around 1% of enterprise value (although we've seen insurers offer .75% for larger deals)."
+    },
+    {
+      "index": 9,
+      "url": "https://www.chronograph.pe",
+      "title": "Chronograph | Portfolio Monitoring Solutions for Private Equity",
+      "snippet": "Chronograph's portfolio monitoring software empowers cloud-based analytics, data management, and collaboration for private equity investors."
+    },
+    {
+      "index": 10,
+      "url": "https://ironcladapp.com/resources/articles/best-legal-ai-software",
+      "title": "The 15 Best Legal AI Software Tools for 2025 - Ironclad",
+      "snippet": "Custom AI models improve accuracy: Harvey's AI is trained on firm-specific data, helping deliver more relevant and precise legal insights."
+    },
+    {
+      "index": 11,
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-march-2025-update/",
+      "title": "Euclid Transactional R&W/W&I Insurance March 2025 Update",
+      "snippet": "We are excited to announce we have eclipsed $1 billion of RWI claims paid. This number demonstrates our commitment to fair and efficient claims ..."
+    },
+    {
+      "index": 12,
+      "url": "https://teten.com/vc-private-equity-data-analytics-pevctech/",
+      "title": "Using AI and analytics to make better investments - David Teten",
+      "snippet": "Their product Edge enables you to benchmark your internal processes against other investors. One of the unique challenges in managing a PE/VC ..."
+    },
+    {
+      "index": 13,
+      "url": "https://www.leanlaw.co/blog/law-firm-salary-chart-2025/",
+      "title": "The Complete 2025 Law Firm Salary Chart: A Strategic Guide for ...",
+      "snippet": "First-year associate salaries at mid-sized firms range from $155,000 to $200,000 in 2025, while BigLaw firms offer $215,000-$225,000, ..."
+    },
+    {
+      "index": 14,
+      "url": "https://admincontrol.com/insights/6-frequently-asked-questions-about-the-due-diligence-process",
+      "title": "Answering 6 Commonly Asked Questions About the Due Diligence ...",
+      "snippet": "Perhaps one of the most frequently asked questions, due diligence can take anything from 30 days to 6 months. The length of time will vary by ..."
+    },
+    {
+      "index": 15,
+      "url": "https://www.pkftexas.com/pkf-texas-the-entrepreneurs-playbooka/costs-sell-side/",
+      "title": "The Costs of Sell-Side Due Diligence Process - PKF Texas",
+      "snippet": "When an investment banker refers an accounting firm to help with a business' sell-side process, there is an additional cost, but fulfilling ..."
+    },
+    {
+      "index": 16,
+      "url": "https://www.lawpay.com/about/blog/lawyer-hourly-rate-by-state/",
+      "title": "How much is a lawyer? Hourly rates by state and more in 2025",
+      "snippet": "The average lawyer's hourly rate typically falls between $162 and $392, giving law firms a reliable baseline for setting their fees."
+    },
+    {
+      "index": 17,
+      "url": "https://lakecountryadvisors.com/ma-due-diligence-timeline-what-to-expect/",
+      "title": "M&A Due Diligence Timeline: What to Expect - Lake Country Advisors",
+      "snippet": "Most M&A due diligence processes take between 30 to 90 days, depending on the size of the business, the volume of documents, and how quickly ..."
+    },
+    {
+      "index": 18,
+      "url": "https://mergersandinquisitions.com/investment-banking-fairness-opinions/",
+      "title": "Investment Banking Fairness Opinions: Guide, Examples, and Fees",
+      "snippet": "Fees paid to banks in a sell-side M&A deal are a percentage of the sale price (the equity value of the deal, not the enterprise value), and that percentage ..."
+    },
+    {
+      "index": 19,
+      "url": "https://dealroom.net/blog/buy-side-m-a-fees",
+      "title": "Buy-Side M&A Fees: Structures, Success Fees & Industry Insights",
+      "snippet": "Investment bankers typically charge 1-3% of deal value for mid-market transactions, with rates declining as deal size increases. Complex ..."
+    },
+    {
+      "index": 20,
+      "url": "https://www.legalontech.com/ai-contract-review-software",
+      "title": "AI Contract Review Software: Complete 2025 Buyer's Guide - LegalOn",
+      "snippet": "For a legal team handling 500 contracts annually and averaging 3.2 hours with manual review, that's roughly 200 working days!. The same legal team using LegalOn ..."
+    },
+    {
+      "index": 21,
+      "url": "https://mergersandinquisitions.com/private-equity-salary/",
+      "title": "Private Equity Salary, Bonus, and Carried Interest Levels",
+      "snippet": "Private Equity Salary, Bonus, and Carried Interest Levels: The Full Guide ; Senior Associate, 26-32, $250-$400K ; Vice President (VP), 30-35, $350-$500K ; Director ..."
+    },
+    {
+      "index": 22,
+      "url": "https://www.clearlyacquired.com/blog/business-acquisition-cost-estimator",
+      "title": "Business Acquisition Cost Estimator - Clearly Acquired",
+      "snippet": "Our default values\u20143% for closing costs, $5,000 for legal fees, and $2,000 for due diligence\u2014are based on common industry averages, but they're ..."
+    },
+    {
+      "index": 23,
+      "url": "https://dialzara.com/blog/top-5-ai-tools-for-multilingual-legal-contract-review",
+      "title": "Due Diligence Platforms for Multilingual Document Review - Dialzara",
+      "snippet": "For a typical team reviewing 500 contracts, that equals roughly 188 working days devoted to contract review alone. Here are five leading AI ..."
+    },
+    {
+      "index": 24,
+      "url": "https://www.raw-selection.com/salary-reports/operating-partner-compensation/",
+      "title": "Operating Partner Salary Report Across Private Equity Firms",
+      "snippet": "We gathered insights from 223 Operating Partners working in Private Equity firms. The report breaks down compensation based on firm AUM."
+    },
+    {
+      "index": 25,
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "snippet": "SRS Acquiom recently published its 2024 M&A Claims Study, which analyzes more than 850 private target acquisitions with escrows that were fully ..."
+    },
+    {
+      "index": 26,
+      "url": "https://www.aon.com/en/insights/reports/transaction-solutions-global-claims-study",
+      "title": "2025 Transaction Solutions Global Claims Study - Aon",
+      "snippet": "North American clients have recovered over $1.4 billion in R&W claims through Q4 2024, with more than $300 million paid out in 2024 alone. Learn More. 03 ..."
+    },
+    {
+      "index": 27,
+      "url": "https://www.peony.ink/blog/due-diligence-cost-breakdown-2025",
+      "title": "Due Diligence Cost Breakdown in 2025: Complete Pricing Guide for ...",
+      "snippet": "Due diligence typically costs 0.2%\u20134% of deal value, with small deals ($25k\u2013$75k), mid-sized deals ($50k\u2013$200k), and large deals ($150k\u2013$500k+)."
+    },
+    {
+      "index": 28,
+      "url": "https://www.srsacquiom.com/our-insights/ma-claims-insights-report-earnout-indemnification-data/",
+      "title": "2024 M&A Claims Insights Report - SRS Acquiom",
+      "snippet": "The report provides analyses of earnouts and indemnification claims from more than 850 private-target acquisitions, valued at approximately $168 billion."
+    },
+    {
+      "index": 29,
+      "url": "https://www.marsh.com/en/services/international-placement-services/insights/global-insurance-market-index.html",
+      "title": "Global Insurance Market Index 2025 - Marsh",
+      "snippet": "Global insurance markets: Overall rates continue to decline entering 2026. In the fourth quarter of 2025, global commercial insurance rates declined by 4%, ..."
+    },
+    {
+      "index": 30,
+      "url": "https://www.clearlyacquired.com/blog/how-to-survive-due-diligence-for-lower-middle-market-companies",
+      "title": "How to Survive Due Diligence for Lower Middle Market Companies",
+      "snippet": "Lower middle market due diligence (roughly $10M\u2013$100M enterprise value) is won or lost on preparation: clean financials (3\u20135 years, ..."
+    },
+    {
+      "index": 31,
+      "url": "https://dealroom.net/products/pricing",
+      "title": "DealRoom M&A Platform Pricing",
+      "snippet": "It includes data room, diligence, integration and project management features. 1. \u2013. From 1 to 100+. Pipelines. Manage potential deal targets with all the ..."
+    },
+    {
+      "index": 32,
+      "url": "https://prosple.com/career-planning/big-4-insiders-reveal-how-deloitte-ey-kpmg-and-pwc-actually-differ",
+      "title": "Big 4 insiders reveal how Deloitte, EY, KPMG, and PwC differ - Prosple",
+      "snippet": "This is reflected in pricing, for example. Big 4 will compete with each other on pricing. PwC and Deloitte will cost more, EY somewhere in the middle, and KPMG ..."
+    },
+    {
+      "index": 33,
+      "url": "https://www.firmex.com/wp-content/uploads/2024/07/Firmex-MAFeeGuide-US.pdf",
+      "title": "[PDF] Key insights on M&A advisory fees in the middle market. - Firmex",
+      "snippet": "37% of US middle-market merger advisors increased fee levels in. 2023, prompted mainly by rising costs and a more difficult dealmaking."
+    },
+    {
+      "index": 34,
+      "url": "https://dealroom.net",
+      "title": "DealRoom.net",
+      "snippet": "DealRoom is the premier M&A platform for corporate development executives, investment bankers, and private equity firms. With intuitive tools for pipeline ..."
+    },
+    {
+      "index": 35,
+      "url": "https://www.businessinsider.com/big-four-earnings-compared-ey-deloitte-pwc-kpmg-2025-12",
+      "title": "Compared: How KPMG, EY, PwC, and Deloitte Performed in 2025",
+      "snippet": "The Big Four \u2014 EY, Deloitte, KPMG, and PwC \u2014 are the world's largest accounting and consulting firms. \u00b7 The firms pull in billions annually, but ..."
+    },
+    {
+      "index": 36,
+      "url": "https://mergersandinquisitions.com/investment-banker-salary/",
+      "title": "Investment Banker Salary and Bonus Report: 2025 Update",
+      "snippet": "Base salaries stayed the same, and while bonuses increased substantially, total compensation was up by only 10 \u2013 15% across most levels."
+    },
+    {
+      "index": 37,
+      "url": "https://www.imprima.com/virtual-data-room/due-diligence-question-and-answer",
+      "title": "Virtual Data Room Q&A Module - Imprima",
+      "snippet": "It's a very easy platform that allows the control of information by both parties and has a very easy Q&A process that is important in a Due Diligence Stage."
+    },
+    {
+      "index": 38,
+      "url": "https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf",
+      "title": "[PDF] ILPA Principles 3.0:",
+      "snippet": "Fees should be reasonable and based on the normal operating costs of the fund; the partnership should not incur expenses that could rationally be expected ..."
+    },
+    {
+      "index": 39,
+      "url": "https://www.concord.app/guide/best-contract-management-software-2025",
+      "title": "14 Best Contract Lifecycle Management Software - Concord",
+      "snippet": "Price range. DocuSign CLM's per-user pricing becomes expensive quickly, starting at $39 per month per feature, with costs escalating as teams ..."
+    },
+    {
+      "index": 40,
+      "url": "https://kytes.app/blogs/due-diligence-data-room",
+      "title": "The Ultimate Due Diligence Data Room Guide for Modern Sales ...",
+      "snippet": "Set Response Time SLAs: Try to acknowledge every question within a few hours and get a full answer back within 24 hours. Speed shows the ..."
+    },
+    {
+      "index": 41,
+      "url": "https://ilpa.org/wp-content/uploads/2020/12/ILPA-Industry-Intelligence-LP-Compensation-Survey-2020.pdf",
+      "title": "[PDF] LIMITED PARTNERS COMPENSATION SURVEY - ILPA",
+      "snippet": "ILPA has offered its annual LP compensation survey for over a decade and has seen the depth and breadth of the insight we offer grow as our membership base ..."
+    },
+    {
+      "index": 42,
+      "url": "https://ironcladapp.com/journal/contract-management/best-contract-management-tools",
+      "title": "The 15 Best Contract Management Tools in 2025",
+      "snippet": "Compare best contract management tools based on user reviews. Also learn recent developments in the field and how to build a business case."
+    },
+    {
+      "index": 43,
+      "url": "https://www.hamiltonlane.com/en-us/knowledge-center/pe-fees",
+      "title": "Evaluating Private Equity Fees - Hamilton Lane",
+      "snippet": "Management Fee. Calculated as a percentage of the committed capital or net asset value (NAV) and covers operational expenses. 1% - 2.5% ; Net Invested Capital ..."
+    },
+    {
+      "index": 44,
+      "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries",
+      "title": "AI on Trial: Legal Models Hallucinate in 1 out of 6 (or More ...",
+      "snippet": "A new study reveals the need for benchmarking and public evaluations of AI tools in law."
+    },
+    {
+      "index": 45,
+      "url": "https://www.revenuerocket.com/ma-fees-what-to-expect-before-during-and-after-close/",
+      "title": "M&A Fees - What to Expect Before, During, and after Close",
+      "snippet": "... advisor or investment bank to earn their success fee on closing the transaction. ... costs range from 1 to 7 percent of the deal's total value."
+    },
+    {
+      "index": 46,
+      "url": "https://corporatefinanceinstitute.com/resources/career/private-equity-salary/",
+      "title": "Private Equity Salary Guide: An Overview of PE Compensation",
+      "snippet": "A two percent management fee of $1 billion is $20 million per year available for salaries and overhead. Some PE firms may also charge the portfolio company ..."
+    },
+    {
+      "index": 47,
+      "url": "https://euclidtransactional.com/euclid-transactional-2024-global-rwi-claims-study/",
+      "title": "Euclid Transactional 2024 Global RWI Claims Study",
+      "snippet": "Last year's Study was well-received and we are pleased to provide an update for 2024. Rates for RWI have dropped to historical lows in 2024."
+    },
+    {
+      "index": 48,
+      "url": "https://www.websiteclosers.com/resources/commission-structures-in-ma-transactions-what-sellers-should-know/",
+      "title": "Understanding Commission Structures In M&A Transactions",
+      "snippet": "For small to mid-sized deals, a fair M&A advisory fee percentage typically ranges from 5% to 10%. Larger deals may qualify for lower rates based ..."
+    },
+    {
+      "index": 49,
+      "url": "https://www.lawpay.com/about/blog/lawyer-hourly-rate-by-state/",
+      "title": "How much is a lawyer? Hourly rates by state and more in 2025",
+      "snippet": "The average lawyer's hourly rate typically falls between $162 and $392, giving law firms a reliable baseline for setting their fees."
+    },
+    {
+      "index": 50,
+      "url": "https://mergersandinquisitions.com/private-equity-analyst/",
+      "title": "Private Equity Analyst: Salary, Job, Hours, and Recruiting",
+      "snippet": "Private Equity Analyst: Full Job Description and Day in the Life, Salary and Bonus Levels, Hours, Recruiting, Comparison to Associate Roles, and More."
+    },
+    {
+      "index": 51,
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/portfolio-monitoring/",
+      "title": "A Guide to Portfolio Monitoring in Private Equity & VC - Carta",
+      "snippet": "Portfolio monitoring is the process of collecting and analyzing information related to the performance of a private investment fund."
+    },
+    {
+      "index": 52,
+      "url": "https://www.bcgsearch.com/attorney-career-guide-2025.php",
+      "title": "The Complete Attorney Compensation Report 2025-2026",
+      "snippet": "BigLaw attorneys earn 340% more than comparable positions at small firms, with first-year associates starting at $225,000 base salary plus $20,000 annual bonus, ..."
+    },
+    {
+      "index": 53,
+      "url": "https://www.wallstreetoasis.com/forum/private-equity/pe-worklife-balance-practical-considerations",
+      "title": "PE work/life balance practical considerations - Wall Street Oasis",
+      "snippet": "Just one turnaround / distressed situation can substantially ramp your hours for a given year and if you have enough investments you will have ..."
+    },
+    {
+      "index": 54,
+      "url": "https://www.eisneramper.com/insights/financial-services/private-equity-investment-advisers-ami-0318/",
+      "title": "Private Equity Expense Allocations - EisnerAmper",
+      "snippet": "In addition, it is customary to receive transaction fees and ongoing monitoring fees from the portfolio company. More recent fund vintages have ..."
+    },
+    {
+      "index": 55,
+      "url": "https://cascade-partners.com/conversation/labor-considerations-in-ma-transactions/",
+      "title": "Labor Considerations in M&A Transactions - Cascade Partners",
+      "snippet": "This episode of Cascade Conversations discusses labor considerations in M&A transactions and how they affect all aspects transactions."
+    },
+    {
+      "index": 56,
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/what-are-truly-your-hours-in-ib",
+      "title": "What are truly your hours in IB? - Wall Street Oasis",
+      "snippet": "I work at a small shop in an M&A group and work from 9am-9/10ppm on average with no or very limited weekend work. My friends who are also in ..."
+    },
+    {
+      "index": 57,
+      "url": "https://datarooms.org/vdr-blog/virtual-data-room-pricing/",
+      "title": "What is Virtual Data Room Pricing in 2026?",
+      "snippet": "Virtual data room pricing ranges from $140 to $6000+ per month. Compare pricing models, avoid hidden fees, and find the best VDR for your ..."
+    },
+    {
+      "index": 58,
+      "url": "https://www.proskauer.com/uploads/business-transactions-labor-and-employment-considerations",
+      "title": "[PDF] Business Transactions: Labor and Employment Considerations",
+      "snippet": "This practice note describes labor and employment-related considerations that arise in the context of corporate mergers and acquisitions."
+    },
+    {
+      "index": 59,
+      "url": "https://www.careerprinciples.com/resources/investment-banking-hours",
+      "title": "Investment Banking Hours: The 100-Hour Work Week",
+      "snippet": "Investment bankers work notoriously long hours, with the typical work week filling in 60-80 hours per week, and the occasional high-intensity work week that ..."
+    },
+    {
+      "index": 60,
+      "url": "https://dataroom-providers.org/data-room-pricing/",
+      "title": "Virtual Data Room Pricing in 2026: What You'll Pay",
+      "snippet": "In 2026, virtual data room (VDR) pricing typically ranges from $180 to $500 per month, depending on project complexity and features, with basic plans offering ..."
+    }
+  ],
+  "search_results": [
+    {
+      "title": "M&A Advisory Fees: Fees by Deal Size September 2025",
+      "url": "https://etonvs.com/ma/m-and-a-advisory-fees/",
+      "snippet": "M&A fees usually include a retainer and a success fee, with structures varying by deal size, complexity, and advisor. \u00b7 Typical retainers range from $5k to $15k+ ...",
+      "date": null
+    },
+    {
+      "title": "Datasite vs Intralinks: Compare to Select the Best Solution",
+      "url": "https://dataroom-providers.org/blog/datasite-vs-intralinks/",
+      "snippet": "Intralinks and Datasite use a per-page pricing model. Intralinks charges $7,500 for 10,000 pages, while Datasite provides a slightly more ...",
+      "date": null
+    },
+    {
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "snippet": "SRS Acquiom recently published its 2024 M&A Claims Study, which analyzes more than 850 private target acquisitions with escrows that were fully ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] Firmex-MAFeeGuide-Global-25.pdf",
+      "url": "https://4804905.fs1.hubspotusercontent-na1.net/hubfs/4804905/Firmex-MAFeeGuide-Global-25.pdf",
+      "snippet": "GLOBAL M&A FEE GUIDE 2024-25. 6. Page 7. The 2024 Fee Guide highlights notable trends in U.S. advisory fees, emphasizing evolving engagement and success fee ...",
+      "date": null
+    },
+    {
+      "title": "Intralinks vs. Datasite: Clear Pricing & DealCentre AI Power",
+      "url": "https://www.intralinks.com/guides/managing-costs-digital-era",
+      "snippet": "Stop overpaying for VDRs. Compare Intralinks' transparent pricing and DealCentre AI\u2122 against Datasite's legacy fees to accelerate your next ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] 2024 WilmerHale M&A Report",
+      "url": "https://www.wilmerhale.com/-/media/files/shared_content/editorial/publications/documents/2024-wilmerhale-ma-report.pdf",
+      "snippet": "Total deal value dropped by 20%, from $1.02 trillion to $810.7 billion, although average deal size increased by 5%, from $52.9 million to $55.5 million. The ...",
+      "date": null
+    },
+    {
+      "title": "Top Spellbook Alternatives & Competitors (2026 Comparison)",
+      "url": "https://www.spellbook.legal/learn/spellbook-alternatives",
+      "snippet": "Complete guide to Spellbook alternatives. Compare top AI legal tools by features, pricing & accuracy. Find the perfect fit for your practice.",
+      "date": null
+    },
+    {
+      "title": "Do Reps and Warranties Policies Actually Pay Claims?",
+      "url": "https://woodruffsawyer.com/insights/do-reps-warranties-policies-pay-claims",
+      "snippet": "The current market retention percentage has hovered around 1% of enterprise value (although we've seen insurers offer .75% for larger deals).",
+      "date": null
+    },
+    {
+      "title": "Chronograph | Portfolio Monitoring Solutions for Private Equity",
+      "url": "https://www.chronograph.pe",
+      "snippet": "Chronograph's portfolio monitoring software empowers cloud-based analytics, data management, and collaboration for private equity investors.",
+      "date": null
+    },
+    {
+      "title": "The 15 Best Legal AI Software Tools for 2025 - Ironclad",
+      "url": "https://ironcladapp.com/resources/articles/best-legal-ai-software",
+      "snippet": "Custom AI models improve accuracy: Harvey's AI is trained on firm-specific data, helping deliver more relevant and precise legal insights.",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional R&W/W&I Insurance March 2025 Update",
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-march-2025-update/",
+      "snippet": "We are excited to announce we have eclipsed $1 billion of RWI claims paid. This number demonstrates our commitment to fair and efficient claims ...",
+      "date": null
+    },
+    {
+      "title": "Using AI and analytics to make better investments - David Teten",
+      "url": "https://teten.com/vc-private-equity-data-analytics-pevctech/",
+      "snippet": "Their product Edge enables you to benchmark your internal processes against other investors. One of the unique challenges in managing a PE/VC ...",
+      "date": null
+    },
+    {
+      "title": "The Complete 2025 Law Firm Salary Chart: A Strategic Guide for ...",
+      "url": "https://www.leanlaw.co/blog/law-firm-salary-chart-2025/",
+      "snippet": "First-year associate salaries at mid-sized firms range from $155,000 to $200,000 in 2025, while BigLaw firms offer $215,000-$225,000, ...",
+      "date": null
+    },
+    {
+      "title": "Answering 6 Commonly Asked Questions About the Due Diligence ...",
+      "url": "https://admincontrol.com/insights/6-frequently-asked-questions-about-the-due-diligence-process",
+      "snippet": "Perhaps one of the most frequently asked questions, due diligence can take anything from 30 days to 6 months. The length of time will vary by ...",
+      "date": null
+    },
+    {
+      "title": "The Costs of Sell-Side Due Diligence Process - PKF Texas",
+      "url": "https://www.pkftexas.com/pkf-texas-the-entrepreneurs-playbooka/costs-sell-side/",
+      "snippet": "When an investment banker refers an accounting firm to help with a business' sell-side process, there is an additional cost, but fulfilling ...",
+      "date": null
+    },
+    {
+      "title": "How much is a lawyer? Hourly rates by state and more in 2025",
+      "url": "https://www.lawpay.com/about/blog/lawyer-hourly-rate-by-state/",
+      "snippet": "The average lawyer's hourly rate typically falls between $162 and $392, giving law firms a reliable baseline for setting their fees.",
+      "date": null
+    },
+    {
+      "title": "M&A Due Diligence Timeline: What to Expect - Lake Country Advisors",
+      "url": "https://lakecountryadvisors.com/ma-due-diligence-timeline-what-to-expect/",
+      "snippet": "Most M&A due diligence processes take between 30 to 90 days, depending on the size of the business, the volume of documents, and how quickly ...",
+      "date": null
+    },
+    {
+      "title": "Investment Banking Fairness Opinions: Guide, Examples, and Fees",
+      "url": "https://mergersandinquisitions.com/investment-banking-fairness-opinions/",
+      "snippet": "Fees paid to banks in a sell-side M&A deal are a percentage of the sale price (the equity value of the deal, not the enterprise value), and that percentage ...",
+      "date": null
+    },
+    {
+      "title": "Buy-Side M&A Fees: Structures, Success Fees & Industry Insights",
+      "url": "https://dealroom.net/blog/buy-side-m-a-fees",
+      "snippet": "Investment bankers typically charge 1-3% of deal value for mid-market transactions, with rates declining as deal size increases. Complex ...",
+      "date": null
+    },
+    {
+      "title": "AI Contract Review Software: Complete 2025 Buyer's Guide - LegalOn",
+      "url": "https://www.legalontech.com/ai-contract-review-software",
+      "snippet": "For a legal team handling 500 contracts annually and averaging 3.2 hours with manual review, that's roughly 200 working days!. The same legal team using LegalOn ...",
+      "date": null
+    },
+    {
+      "title": "Private Equity Salary, Bonus, and Carried Interest Levels",
+      "url": "https://mergersandinquisitions.com/private-equity-salary/",
+      "snippet": "Private Equity Salary, Bonus, and Carried Interest Levels: The Full Guide ; Senior Associate, 26-32, $250-$400K ; Vice President (VP), 30-35, $350-$500K ; Director ...",
+      "date": null
+    },
+    {
+      "title": "Business Acquisition Cost Estimator - Clearly Acquired",
+      "url": "https://www.clearlyacquired.com/blog/business-acquisition-cost-estimator",
+      "snippet": "Our default values\u20143% for closing costs, $5,000 for legal fees, and $2,000 for due diligence\u2014are based on common industry averages, but they're ...",
+      "date": null
+    },
+    {
+      "title": "Due Diligence Platforms for Multilingual Document Review - Dialzara",
+      "url": "https://dialzara.com/blog/top-5-ai-tools-for-multilingual-legal-contract-review",
+      "snippet": "For a typical team reviewing 500 contracts, that equals roughly 188 working days devoted to contract review alone. Here are five leading AI ...",
+      "date": null
+    },
+    {
+      "title": "Operating Partner Salary Report Across Private Equity Firms",
+      "url": "https://www.raw-selection.com/salary-reports/operating-partner-compensation/",
+      "snippet": "We gathered insights from 223 Operating Partners working in Private Equity firms. The report breaks down compensation based on firm AUM.",
+      "date": null
+    },
+    {
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "snippet": "The study also found that at least 28% of deals in this dataset were ones in which the sellers contested the earnout. Renegotiations have a big ...",
+      "date": null
+    },
+    {
+      "title": "2025 Transaction Solutions Global Claims Study - Aon",
+      "url": "https://www.aon.com/en/insights/reports/transaction-solutions-global-claims-study",
+      "snippet": "North American clients have recovered over $1.4 billion in R&W claims through Q4 2024, with more than $300 million paid out in 2024 alone. Learn More. 03 ...",
+      "date": null
+    },
+    {
+      "title": "Due Diligence Cost Breakdown in 2025: Complete Pricing Guide for ...",
+      "url": "https://www.peony.ink/blog/due-diligence-cost-breakdown-2025",
+      "snippet": "Due diligence typically costs 0.2%\u20134% of deal value, with small deals ($25k\u2013$75k), mid-sized deals ($50k\u2013$200k), and large deals ($150k\u2013$500k+).",
+      "date": null
+    },
+    {
+      "title": "2024 M&A Claims Insights Report - SRS Acquiom",
+      "url": "https://www.srsacquiom.com/our-insights/ma-claims-insights-report-earnout-indemnification-data/",
+      "snippet": "The report provides analyses of earnouts and indemnification claims from more than 850 private-target acquisitions, valued at approximately $168 billion.",
+      "date": null
+    },
+    {
+      "title": "Global Insurance Market Index 2025 - Marsh",
+      "url": "https://www.marsh.com/en/services/international-placement-services/insights/global-insurance-market-index.html",
+      "snippet": "Global insurance markets: Overall rates continue to decline entering 2026. In the fourth quarter of 2025, global commercial insurance rates declined by 4%, ...",
+      "date": null
+    },
+    {
+      "title": "How to Survive Due Diligence for Lower Middle Market Companies",
+      "url": "https://www.clearlyacquired.com/blog/how-to-survive-due-diligence-for-lower-middle-market-companies",
+      "snippet": "Lower middle market due diligence (roughly $10M\u2013$100M enterprise value) is won or lost on preparation: clean financials (3\u20135 years, ...",
+      "date": null
+    },
+    {
+      "title": "DealRoom M&A Platform Pricing",
+      "url": "https://dealroom.net/products/pricing",
+      "snippet": "It includes data room, diligence, integration and project management features. 1. \u2013. From 1 to 100+. Pipelines. Manage potential deal targets with all the ...",
+      "date": null
+    },
+    {
+      "title": "Big 4 insiders reveal how Deloitte, EY, KPMG, and PwC differ - Prosple",
+      "url": "https://prosple.com/career-planning/big-4-insiders-reveal-how-deloitte-ey-kpmg-and-pwc-actually-differ",
+      "snippet": "This is reflected in pricing, for example. Big 4 will compete with each other on pricing. PwC and Deloitte will cost more, EY somewhere in the middle, and KPMG ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] Key insights on M&A advisory fees in the middle market. - Firmex",
+      "url": "https://www.firmex.com/wp-content/uploads/2024/07/Firmex-MAFeeGuide-US.pdf",
+      "snippet": "37% of US middle-market merger advisors increased fee levels in. 2023, prompted mainly by rising costs and a more difficult dealmaking.",
+      "date": null
+    },
+    {
+      "title": "DealRoom.net",
+      "url": "https://dealroom.net",
+      "snippet": "DealRoom is the premier M&A platform for corporate development executives, investment bankers, and private equity firms. With intuitive tools for pipeline ...",
+      "date": null
+    },
+    {
+      "title": "Compared: How KPMG, EY, PwC, and Deloitte Performed in 2025",
+      "url": "https://www.businessinsider.com/big-four-earnings-compared-ey-deloitte-pwc-kpmg-2025-12",
+      "snippet": "The Big Four \u2014 EY, Deloitte, KPMG, and PwC \u2014 are the world's largest accounting and consulting firms. \u00b7 The firms pull in billions annually, but ...",
+      "date": null
+    },
+    {
+      "title": "Investment Banker Salary and Bonus Report: 2025 Update",
+      "url": "https://mergersandinquisitions.com/investment-banker-salary/",
+      "snippet": "Base salaries stayed the same, and while bonuses increased substantially, total compensation was up by only 10 \u2013 15% across most levels.",
+      "date": null
+    },
+    {
+      "title": "Virtual Data Room Q&A Module - Imprima",
+      "url": "https://www.imprima.com/virtual-data-room/due-diligence-question-and-answer",
+      "snippet": "It's a very easy platform that allows the control of information by both parties and has a very easy Q&A process that is important in a Due Diligence Stage.",
+      "date": null
+    },
+    {
+      "title": "[PDF] ILPA Principles 3.0:",
+      "url": "https://ilpa.org/wp-content/uploads/2019/06/ILPA-Principles-3.0_2019.pdf",
+      "snippet": "Fees should be reasonable and based on the normal operating costs of the fund; the partnership should not incur expenses that could rationally be expected ...",
+      "date": null
+    },
+    {
+      "title": "14 Best Contract Lifecycle Management Software - Concord",
+      "url": "https://www.concord.app/guide/best-contract-management-software-2025",
+      "snippet": "Price range. DocuSign CLM's per-user pricing becomes expensive quickly, starting at $39 per month per feature, with costs escalating as teams ...",
+      "date": null
+    },
+    {
+      "title": "The Ultimate Due Diligence Data Room Guide for Modern Sales ...",
+      "url": "https://kytes.app/blogs/due-diligence-data-room",
+      "snippet": "Set Response Time SLAs: Try to acknowledge every question within a few hours and get a full answer back within 24 hours. Speed shows the ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] LIMITED PARTNERS COMPENSATION SURVEY - ILPA",
+      "url": "https://ilpa.org/wp-content/uploads/2020/12/ILPA-Industry-Intelligence-LP-Compensation-Survey-2020.pdf",
+      "snippet": "ILPA has offered its annual LP compensation survey for over a decade and has seen the depth and breadth of the insight we offer grow as our membership base ...",
+      "date": null
+    },
+    {
+      "title": "The 15 Best Contract Management Tools in 2025",
+      "url": "https://ironcladapp.com/journal/contract-management/best-contract-management-tools",
+      "snippet": "Compare best contract management tools based on user reviews. Also learn recent developments in the field and how to build a business case.",
+      "date": null
+    },
+    {
+      "title": "Evaluating Private Equity Fees - Hamilton Lane",
+      "url": "https://www.hamiltonlane.com/en-us/knowledge-center/pe-fees",
+      "snippet": "Management Fee. Calculated as a percentage of the committed capital or net asset value (NAV) and covers operational expenses. 1% - 2.5% ; Net Invested Capital ...",
+      "date": null
+    },
+    {
+      "title": "AI on Trial: Legal Models Hallucinate in 1 out of 6 (or More ...",
+      "url": "https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries",
+      "snippet": "A new study reveals the need for benchmarking and public evaluations of AI tools in law.",
+      "date": null
+    },
+    {
+      "title": "M&A Fees - What to Expect Before, During, and after Close",
+      "url": "https://www.revenuerocket.com/ma-fees-what-to-expect-before-during-and-after-close/",
+      "snippet": "... advisor or investment bank to earn their success fee on closing the transaction. ... costs range from 1 to 7 percent of the deal's total value.",
+      "date": null
+    },
+    {
+      "title": "Private Equity Salary Guide: An Overview of PE Compensation",
+      "url": "https://corporatefinanceinstitute.com/resources/career/private-equity-salary/",
+      "snippet": "A two percent management fee of $1 billion is $20 million per year available for salaries and overhead. Some PE firms may also charge the portfolio company ...",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional 2024 Global RWI Claims Study",
+      "url": "https://euclidtransactional.com/euclid-transactional-2024-global-rwi-claims-study/",
+      "snippet": "Last year's Study was well-received and we are pleased to provide an update for 2024. Rates for RWI have dropped to historical lows in 2024.",
+      "date": null
+    },
+    {
+      "title": "Understanding Commission Structures In M&A Transactions",
+      "url": "https://www.websiteclosers.com/resources/commission-structures-in-ma-transactions-what-sellers-should-know/",
+      "snippet": "For small to mid-sized deals, a fair M&A advisory fee percentage typically ranges from 5% to 10%. Larger deals may qualify for lower rates based ...",
+      "date": null
+    },
+    {
+      "title": "How much is a lawyer? Hourly rates by state and more in 2025",
+      "url": "https://www.lawpay.com/about/blog/lawyer-hourly-rate-by-state/",
+      "snippet": "The average lawyer's hourly rate typically falls between $162 and $392, giving law firms a reliable baseline for setting their fees.",
+      "date": null
+    },
+    {
+      "title": "Private Equity Analyst: Salary, Job, Hours, and Recruiting",
+      "url": "https://mergersandinquisitions.com/private-equity-analyst/",
+      "snippet": "Private Equity Analyst: Full Job Description and Day in the Life, Salary and Bonus Levels, Hours, Recruiting, Comparison to Associate Roles, and More.",
+      "date": null
+    },
+    {
+      "title": "A Guide to Portfolio Monitoring in Private Equity & VC - Carta",
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/portfolio-monitoring/",
+      "snippet": "Portfolio monitoring is the process of collecting and analyzing information related to the performance of a private investment fund.",
+      "date": null
+    },
+    {
+      "title": "The Complete Attorney Compensation Report 2025-2026",
+      "url": "https://www.bcgsearch.com/attorney-career-guide-2025.php",
+      "snippet": "BigLaw attorneys earn 340% more than comparable positions at small firms, with first-year associates starting at $225,000 base salary plus $20,000 annual bonus, ...",
+      "date": null
+    },
+    {
+      "title": "PE work/life balance practical considerations - Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/private-equity/pe-worklife-balance-practical-considerations",
+      "snippet": "Just one turnaround / distressed situation can substantially ramp your hours for a given year and if you have enough investments you will have ...",
+      "date": null
+    },
+    {
+      "title": "Private Equity Expense Allocations - EisnerAmper",
+      "url": "https://www.eisneramper.com/insights/financial-services/private-equity-investment-advisers-ami-0318/",
+      "snippet": "In addition, it is customary to receive transaction fees and ongoing monitoring fees from the portfolio company. More recent fund vintages have ...",
+      "date": null
+    },
+    {
+      "title": "Labor Considerations in M&A Transactions - Cascade Partners",
+      "url": "https://cascade-partners.com/conversation/labor-considerations-in-ma-transactions/",
+      "snippet": "This episode of Cascade Conversations discusses labor considerations in M&A transactions and how they affect all aspects transactions.",
+      "date": null
+    },
+    {
+      "title": "What are truly your hours in IB? - Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/what-are-truly-your-hours-in-ib",
+      "snippet": "I work at a small shop in an M&A group and work from 9am-9/10ppm on average with no or very limited weekend work. My friends who are also in ...",
+      "date": null
+    },
+    {
+      "title": "What is Virtual Data Room Pricing in 2026?",
+      "url": "https://datarooms.org/vdr-blog/virtual-data-room-pricing/",
+      "snippet": "Virtual data room pricing ranges from $140 to $6000+ per month. Compare pricing models, avoid hidden fees, and find the best VDR for your ...",
+      "date": null
+    },
+    {
+      "title": "[PDF] Business Transactions: Labor and Employment Considerations",
+      "url": "https://www.proskauer.com/uploads/business-transactions-labor-and-employment-considerations",
+      "snippet": "This practice note describes labor and employment-related considerations that arise in the context of corporate mergers and acquisitions.",
+      "date": null
+    },
+    {
+      "title": "Investment Banking Hours: The 100-Hour Work Week",
+      "url": "https://www.careerprinciples.com/resources/investment-banking-hours",
+      "snippet": "Investment bankers work notoriously long hours, with the typical work week filling in 60-80 hours per week, and the occasional high-intensity work week that ...",
+      "date": null
+    },
+    {
+      "title": "Virtual Data Room Pricing in 2026: What You'll Pay",
+      "url": "https://dataroom-providers.org/data-room-pricing/",
+      "snippet": "In 2026, virtual data room (VDR) pricing typically ranges from $180 to $500 per month, depending on project complexity and features, with basic plans offering ...",
+      "date": null
+    }
+  ]
+}

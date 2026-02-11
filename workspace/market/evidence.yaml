@@ -59,6 +59,51 @@ market_size:
     date: "2025"
     url: ""
 
+  - claim: "Mid-market companies ($50M-$500M EV) maintain 500-3,000 contracts; Fortune 1000/2000 companies manage 20,000-40,000 active contracts"
+    source: "WorldCC/Icertis"
+    date: "2023"
+    url: ""
+
+  - claim: "Contract data resides in average of 24 different systems across medium-to-large businesses"
+    source: "WorldCC/Icertis"
+    date: "2023"
+    url: ""
+
+  - claim: "Bloomberg Law M&A DD checklist identifies 174 distinct document categories"
+    source: "Bloomberg Law"
+    date: "2025"
+    url: ""
+
+  - claim: "550 standardized documents estimated at 100 hours manual review (11 min/doc)"
+    source: "Kira Systems / Fredrikson & Byron"
+    date: "2025"
+    url: ""
+
+  - claim: "Average external legal spend of $353,000 per M&A transaction across 47 US PE firms"
+    source: "Apperio"
+    date: "2020"
+    url: ""
+
+  - claim: "Materiality threshold of $100,000/year is most common for mid-market Material Contracts"
+    source: "ABA 2023 Private Target Deal Points Study"
+    date: "2023"
+    url: ""
+
+  - claim: "Even when teams attempt 100% review, they achieve only 50-85% recall on relevant provisions due to fatigue and cognitive limitations"
+    source: "Imprima"
+    date: "2025"
+    url: ""
+
+  - claim: "Nearly 60% of executives cite poor due diligence as root cause of deal failure"
+    source: "Bain"
+    date: "2020"
+    url: ""
+
+  - claim: "42% of pre-merger DD fails to provide adequate roadmap; DD overlooks up to 50% of potential merger value"
+    source: "McKinsey"
+    date: "2025"
+    url: ""
+
 customer_segments:
   - claim: "Deal teams of 5-15 internal plus external advisors organized by workstream: financial, legal, operational, commercial, IT"
     source: "Devensoft"
@@ -182,6 +227,61 @@ competitive:
     url: ""
 
   - claim: "Firms 'structure diligence as discrete questions as if those things had no connection to each other'"
+    source: "Bain"
+    date: "2020"
+    url: ""
+
+  - claim: "Hebbia ($130M Series B, $700M valuation) provides horizontal document analysis but lacks purpose-built DD workstream models"
+    source: "Crunchbase / a16z"
+    date: "2025"
+    url: ""
+
+  - claim: "ToltIQ ($12M Series A, founded by former KKR Partner/CIO) provides PE-focused query tool spanning financial/legal/operations/technology but is query-and-extract, not automated synthesis"
+    source: "Crunchbase"
+    date: "2025"
+    url: ""
+
+  - claim: "Meridian AI ($7M seed) confirmed as PE CRM/deal sourcing platform, not DD analysis tool; should be removed from competitive set"
+    source: "645 Ventures"
+    date: "2025"
+    url: ""
+
+  - claim: "Altvia AIMe confirmed as Salesforce-based CRM assistant, not DD platform; operates on CRM metadata not data room documents"
+    source: "Marlin Equity Partners"
+    date: "2022"
+    url: ""
+
+  - claim: "Harvey AI has raised over $1B, reaching $8B valuation (Dec 2025), pursuing $11B raise (Feb 2026); ~$195M ARR, 100K+ lawyers"
+    source: "a16z / LawNext"
+    date: "2026"
+    url: ""
+
+  - claim: "PwC/Harvey partnership uses human PwC consultants to bridge workstreams, not Harvey's AI; deeper financial analysis on 'realistic multi-year horizon'"
+    source: "PwC"
+    date: "2025"
+    url: ""
+
+  - claim: "DealRoom describes cross-workstream integration in future tense: 'Cross-platform integration will allow seamless information flow between different due diligence workstreams'"
+    source: "DealRoom"
+    date: "2025"
+    url: ""
+
+  - claim: "Kira Systems (acquired by Litera 2021) used by 84% of top 25 M&A law firms; 1,400+ smart fields, 90%+ extraction accuracy — but exclusively legal contract analysis"
+    source: "Litera"
+    date: "2025"
+    url: ""
+
+  - claim: "Luminance raised $165M, ~$60M ARR doubled in 2025, 1,000+ organizations; Legal Pre-Trained Transformer on 150M+ legal documents — but single-workstream only"
+    source: "Point72"
+    date: "2025"
+    url: ""
+
+  - claim: "Datasite acquired Blueflame AI (July 2025), Grata, Sourcescrub — all enhance deal sourcing and VDR operations, not DD substance analysis"
+    source: "CapVest"
+    date: "2025"
+    url: ""
+
+  - claim: "Organizational silos mirror tooling silos: financial DD by accounting firms, legal DD by law firms, commercial DD by strategy consultants — each has built workstream-specific AI tools with no cross-workstream integration"
     source: "Bain"
     date: "2020"
     url: ""

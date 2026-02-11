@@ -1,0 +1,20 @@
+name: "Rubicon"
+description: "AI-powered due diligence and M&A intelligence platform for deal teams"
+created: "2025-09-22"
+source: "own-company"
+website: "https://www.rubiconai.com/"
+
+current_workspace: "market"
+workspace_status: "gate-review"
+
+workspaces:
+  problem:
+    status: "complete"
+    started: "2026-02-08"
+    completed: "2026-02-08"
+    gate_decision: null
+    gate_notes: "Problem workspace run during factory validation"
+  market:
+    status: "gate-review"
+    started: "2026-02-10"
+    gate_decision: null

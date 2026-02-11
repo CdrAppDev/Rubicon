@@ -8,13 +8,13 @@ extraction:
 
 research:
   rounds_attempted: 2
-  rounds_completed: 1
-  round_2_status: "failed (API key expired, 401 error)"
+  rounds_completed: 2
+  round_2_status: "completed (manual via Claude Deep Research)"
   total_prompts: 6
-  total_citations_found: 362
+  total_citations_found: 407
   hypotheses_validated: 19
-  hypotheses_validated_strong: 13
-  hypotheses_validated_moderate: 4
+  hypotheses_validated_strong: 15
+  hypotheses_validated_moderate: 2
   hypotheses_invalidated: 0
   hypotheses_redirected: 0
   hypotheses_insufficient: 0
@@ -27,12 +27,12 @@ processing:
   som_population: "15,000-25,000"
   customer_segments: 5
   primary_segment: "S1 (Buy-side PE deal teams)"
-  competitor_categories: 7
+  competitor_categories: 9
   positioning_gaps: 3
   wtp_anchor_tiers: 3
-  evidence_entries: 69
+  evidence_entries: 91
   evidence_categories: 5
-  sources_deduplicated: 42
+  sources_deduplicated: 61
   thesis_citation_rate: 0.95
   scope_violations: 0
   word_boundary_violations: 0

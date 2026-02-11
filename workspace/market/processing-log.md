@@ -17,8 +17,8 @@
 - `research/market/round-01/*.json` — 6 JSON files with source citations and URLs
 
 ### Research Round 2
-- `research/market/round-02/contract-volume-dd.md` — Failed (API key expired, 401 error)
-- `research/market/round-02/emerging-synthesis-platforms.md` — Failed (API key expired, 401 error)
+- `research/market/round-02/contract-volume-dd.md` — Completed (manually via Claude Deep Research)
+- `research/market/round-02/emerging-synthesis-platforms.md` — Completed (manually via Claude Deep Research)
 
 ### State Files
 - `research/market/research-state.yaml` — Hypothesis resolution map (all 19 resolved)
@@ -36,9 +36,9 @@
 - **Notes:** Evidence strength: moderate. Exact 30K+ figure strongly implied but not directly quantified. Deep engagement ratio of 3-6 companies directionally supported.
 
 ### M3: Each mid-market deal generates 500+ contracts requiring review
-- **Outcome:** Validated (moderate confidence)
-- **Evidence:** Data rooms of 5,000-50,000 pages imply hundreds to thousands of contractual documents. DD costs of $480K-$1.2M at attorney rates of $400-800/hr imply thousands of attorney hours. Selective review (sampling) confirmed by time constraints. Legal AI vendors reference enabling full population review vs. traditional sampling.
-- **Notes:** Evidence strength: moderate. Specific 500+, 3,750 hrs, and 5-10% figures are reasonable inferences from multiple converging data points but not individually sourced with precision. Round 2 targeted research failed due to API key expiration.
+- **Outcome:** Validated (strong confidence)
+- **Evidence:** Mid-market companies ($50M-$500M EV) maintain 500-3,000 contracts; Fortune 1000/2000 manage 20,000-40,000 active contracts (WorldCC/Icertis 2023 Benchmark). Contract data resides in average of 24 different systems (WorldCC/Icertis). Bloomberg Law M&A DD checklist identifies 174 distinct document categories. Kira Systems/Fredrikson & Byron case study: 550 standardized documents estimated at 100 hours manual review (11 min/doc). Tiered review model confirmed: Tier 1 (full line-by-line, 5-15% of count, 80-90% of value), Tier 2 (summary/checklist, 10-20%), Tier 3 (scheduled but unread). Materiality threshold of $100,000/year is most common mid-market default (ABA 2023 Private Target Deal Points Study). Even when teams attempt 100% review, they achieve only 50-85% recall on relevant provisions due to fatigue (Imprima). Average external legal spend of $353,000 per M&A transaction across 47 US PE firms (Apperio 2020). Nearly 60% of executives cite poor DD as root cause of deal failure (Bain 2020). 42% of pre-merger DD fails to provide adequate roadmap; DD overlooks up to 50% of potential merger value (McKinsey).
+- **Notes:** Evidence strength: strong. Round 2 research (completed manually via Claude Deep Research) provided direct contract volume benchmarks, per-document review time data, and materiality threshold analysis that elevated confidence from moderate to strong. The 500+ floor is conservative and well-supported for companies above $75M EV.
 
 ### M4: Sell-side DD market with CEO/CFO 30 hrs/week for 90-120 days
 - **Outcome:** Validated
@@ -86,9 +86,9 @@
 - **Notes:** Evidence strength: strong. The gap between document storage (VDRs) and analytical synthesis remains unfilled.
 
 ### CP4: No current platform provides cross-workstream analytical synthesis
-- **Outcome:** Validated (moderate confidence)
-- **Evidence:** DealCloud/4Degrees are CRMs, DealRoom/Midaxo are process management, VDRs are document security -- all confirmed. Emerging platforms (Meridian AI, Altvia AIMe) appear to be single-workstream tools adding AI, not cross-workstream synthesis platforms. Harvey ($8B) and Luminance are legal-only AI tools used during DD, not cross-workstream platforms.
-- **Notes:** Evidence strength: moderate. The competitive window may be narrowing as second-wave AI tools gain adoption within individual workstreams. Market dynamics research suggests partial invalidation may be emerging as integrated deal platforms add AI synthesis capabilities, but no platform yet synthesizes across financial, legal, operational, commercial, and IT workstreams simultaneously. Round 2 targeted research failed due to API key expiration.
+- **Outcome:** Validated (strong confidence)
+- **Evidence:** Exhaustive review of 25+ platforms confirms no existing AI platform provides automated cross-workstream analytical synthesis for M&A DD. Meridian AI ($7M seed, 645 Ventures) confirmed as PE CRM/deal sourcing platform, not DD analysis tool — should be removed from competitive set (645 Ventures, 2025). Altvia AIMe confirmed as Salesforce-based CRM assistant operating on CRM metadata, not data room documents (Marlin Equity Partners, 2022). Harvey AI ($8B valuation, ~$195M ARR, 100K+ lawyers) has eight M&A capabilities all within legal DD; PwC partnership uses human PwC consultants to bridge workstreams, not Harvey's AI (PwC, 2025). Luminance ($165M raised, ~$60M ARR, 1,000+ organizations) operates Legal Pre-Trained Transformer on 150M+ legal documents — single-workstream only (Point72, 2025). Hebbia ($130M Series B, $700M valuation, a16z) provides horizontal document querying but lacks purpose-built DD workstream models (Crunchbase, 2025). ToltIQ ($12M Series A, ex-KKR founder) provides PE-focused query tool spanning financial/legal/operations/technology but is query-and-extract, not automated synthesis (Crunchbase, 2025). DealRoom describes cross-workstream integration in future tense: "Cross-platform integration will allow seamless information flow between different due diligence workstreams" (DealRoom, 2025). Kira Systems (acquired by Litera 2021) used by 84% of top 25 M&A law firms but exclusively legal contract analysis (Litera, 2025). Datasite acquired Blueflame AI, Grata, Sourcescrub — all enhance deal sourcing and VDR operations, not DD substance analysis (CapVest, 2025). Four structural factors explain persistent gap: organizational silos mirror tooling silos, data fragmentation across incompatible formats, compound domain knowledge required, buy-side manually synthesizes via IC memos.
+- **Notes:** Evidence strength: strong. Round 2 research (completed manually via Claude Deep Research) exhaustively reviewed 25+ platforms including all Big 4 firms, every major VDR, recent YC batches, and 2024-2026 startup launches. The cross-workstream synthesis gap is genuine and structurally persistent. Competitive window concern from Round 1 is resolved: individual workstreams are maturing rapidly but the integration layer remains entirely unbuilt.
 
 ### CP5: SOC 2 certification creates structural adoption barriers
 - **Outcome:** Validated
@@ -168,16 +168,16 @@ The market is K-shaped with two addressable tiers: mega-deal teams with sophisti
 
 | Evidence | Reason |
 |----------|--------|
-| Market dynamics research suggestion that CP4 is "partially invalidated" | The research described emerging platforms adding AI features but acknowledged none yet provide genuine cross-workstream synthesis. Retained as "validated with moderate confidence" rather than invalidated. |
+| Market dynamics research suggestion that CP4 is "partially invalidated" | Round 1 research described emerging platforms adding AI features. Round 2 exhaustive review of 25+ platforms confirmed none provide genuine cross-workstream synthesis. Elevated to "validated with strong confidence." |
 | VDR market forecast of $13.2B by 2032 | Cited in competitive landscape but excluded from TAM because it measures VDR revenue, not job executor population (P2 violation). |
 | Industry revenue figures for "legal tech market" or "M&A advisory market" | Excluded per P2 -- market sized by job executors, not industry revenue. |
-| Round 2 targeted research results | Both Round 2 prompts failed due to API key expiration (401 error). No data to include or exclude. |
+| AI/CLM vendor review-coverage claims (Sirion, Luminance, Kira marketing materials) | Directionally consistent with independent data but carry vendor marketing bias. Used for triangulation only, not as primary evidence. |
 
 ## Conflicts Found
 
-1. **M3 contract counts: direct vs. inferred evidence.** No source directly counts contracts per mid-market deal. The 500+ figure is inferred from data room sizes, DD cost structures, and legal AI vendor claims about "full population review." Resolution: retained as validated with moderate confidence, noting the inference chain.
+1. **M3 contract counts: direct vs. inferred evidence.** Round 1 had no direct source counting contracts per mid-market deal. Round 2 resolved this: WorldCC/Icertis 2023 Benchmark provides direct benchmarks (500-3,000 mid-market, 20,000-40,000 Fortune 1000/2000). Resolution: elevated to validated with strong confidence based on direct benchmark data.
 
-2. **CP4 synthesis gap: closing or persistent?** Market dynamics research suggested cross-workstream synthesis is "beginning to emerge as integrated platform functionality." Competitive landscape research found no platform providing genuine synthesis across financial, legal, operational, commercial, and IT workstreams. Resolution: retained CP4 as validated noting competitive window may narrow, with AI-augmented deal platforms adding surface features but not deep cross-workstream synthesis.
+2. **CP4 synthesis gap: closing or persistent?** Round 1 market dynamics research suggested cross-workstream synthesis might be "beginning to emerge." Round 2 exhaustive review of 25+ platforms resolved this conflict definitively: no platform provides genuine synthesis across financial, legal, operational, commercial, and IT workstreams. The gap is structural (organizational silos, data fragmentation, compound domain knowledge, manual IC memo synthesis) and persistent despite massive investment in adjacent categories. Resolution: elevated CP4 to validated with strong confidence.
 
 3. **Deal volume: 47,000 or 50,000+?** PwC data shows ~47,000 smaller transactions plus ~600 large transactions. Multiple sources reference "approximately 50,000" global deals. Resolution: used "47,000-50,000" as the range, noting the figure includes all deals with formal DD processes.
 
@@ -187,9 +187,9 @@ The market is K-shaped with two addressable tiers: mega-deal teams with sophisti
 
 1. **Exact global PE portfolio company count.** Implied to exceed 30,000 from fund count and average portfolio size data but not directly quantified in any research source.
 
-2. **Contract count per mid-market deal.** No source directly counts individual contracts. The 500+ figure is an inference from converging data points.
+2. **Contract count per mid-market deal.** Resolved in Round 2. WorldCC/Icertis 2023 Benchmark confirms 500-3,000 contracts for mid-market companies ($50M-$500M EV); Fortune 1000/2000 manage 20,000-40,000. Bottom-up analysis by contract type corroborates the range.
 
-3. **Emerging platform capabilities.** Meridian AI, Altvia AIMe, and Harvey/Luminance DD capabilities not deeply assessed due to Round 2 API failure. Cross-workstream synthesis capabilities of these platforms remain uncertain.
+3. **Emerging platform capabilities.** Resolved in Round 2. Exhaustive review of 25+ platforms confirms no cross-workstream synthesis capability exists. Meridian AI and Altvia AIMe confirmed as CRM/deal sourcing tools (not DD platforms). Harvey, Luminance, Hebbia, ToltIQ, and all other named competitors assessed in depth — all remain single-workstream or query-and-extract tools.
 
 4. **W&I underwriter DD quality assessment workflow.** How underwriters internally assess DD quality for pricing decisions is not documented in the research.
 

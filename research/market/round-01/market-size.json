@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "model": "sonar-deep-research",
+    "response_id": "85ac6b84-4317-422f-8c52-3d3d2d4d899e",
+    "usage": {
+      "prompt_tokens": 1521,
+      "completion_tokens": 8821,
+      "total_tokens": 10342,
+      "citation_tokens": 54922,
+      "reasoning_tokens": 349173,
+      "num_search_queries": 30,
+      "cost": {
+        "total_cost": null,
+        "input_tokens_cost": null,
+        "output_tokens_cost": null
+      }
+    },
+    "citation_count": 60
+  },
+  "citations": [
+    {
+      "index": 1,
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025",
+      "title": "Global M&A by the Numbers: Q4 2025",
+      "snippet": "2025 saw the most $10B+ since 2021, with $1.1T in total transaction value across 51 deals."
+    },
+    {
+      "index": 2,
+      "url": "https://www.privateequityinternational.com/pei-300/",
+      "title": "PEI 300: The World's Largest Private Equity Firms",
+      "snippet": "The 300 firms on this year's list raised a collective $3.29 trillion during the counting period, marking a 0.37 percent rise on last year."
+    },
+    {
+      "index": 3,
+      "url": "https://dealroom.net/blog/m-a-statistics-by-sector",
+      "title": "M&A Statistics by Sector 2026: Deal Volume, Value & Trends",
+      "snippet": "This sector-by-sector breakdown highlights the latest 2026 M&A statistics, trends, and insights across key industries shaping today's global ..."
+    },
+    {
+      "index": 4,
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report",
+      "title": "US M&A activity insights: December 2025 - EY",
+      "snippet": "Compared to Q4 2024, total deal value rose by 127.6%, and M&A activity increased by 19.1% for transactions exceeding US$100m. The stabilizing ..."
+    },
+    {
+      "index": 5,
+      "url": "https://growthcapadvisory.com/the-top-private-equity-firms-of-2024/",
+      "title": "The Top Private Equity Firms of 2024 - GrowthCap",
+      "snippet": "GrowthCap is pleased to announce The Top Private Equity Firms of 2024. Since 2013, we have been gathering information on growth investment ..."
+    },
+    {
+      "index": 6,
+      "url": "https://www.pwc.com/gx/en/services/deals/trends.html",
+      "title": "Global M&A industry trends: 2026 outlook - PwC",
+      "snippet": "The rebound in deal value was primarily driven by an increase in megadeals, which rose from 12 in 2024 to 20 in 2025. These megadeals spanned a ..."
+    },
+    {
+      "index": 7,
+      "url": "https://datarooms.org/vdr-blog/how-long-is-the-due-diligence-period/",
+      "title": "How Long is the Due Diligence Period in Dealmaking?",
+      "snippet": "Typical M&A due diligence time may range from thirty to forty-five days ... The due diligence timeline is essential for every significant deal."
+    },
+    {
+      "index": 8,
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/how-big-are-your-deal-teams",
+      "title": "How big are your deal teams? - Wall Street Oasis",
+      "snippet": "Top EB in Paris: typically 1 partner, 1 D/MD, 1 vp/ass, 1 analyst. boutique in london: top heavy, as many as 3 partners, 1 vp/ass, 1 or 2 ..."
+    },
+    {
+      "index": 9,
+      "url": "https://www.orangedox.com/blog/best-m-and-a-virtual-data-rooms",
+      "title": "Top 10 M&A Data Rooms in 2026 - Orangedox Blog",
+      "snippet": "Compare top 10 M&A data rooms: Orangedox, Ansarada, iDeals, Datasite & more. Find pricing, features, security & best VDR for your deal."
+    },
+    {
+      "index": 10,
+      "url": "https://softwareequity.com/blog/due-diligence-timeline",
+      "title": "What Is A Successful Due Diligence Timeline? - Software Equity Group",
+      "snippet": "With SEG's process and preparation, diligence usually takes 30\u201345 days. These phases often overlap as buyers dig deeper and bring in additional ..."
+    },
+    {
+      "index": 11,
+      "url": "https://privateequityinfo.com/blog/dealmaking-teams-are-getting-larger-as-private-equity-matures",
+      "title": "Dealmaking teams are getting larger as private equity matures",
+      "snippet": "The smallest firm has a single dealmaker while the largest firm has 231. The largest private equity firms tend to dominate M&A industry news, ..."
+    },
+    {
+      "index": 12,
+      "url": "https://www.v7labs.com/blog/best-virtual-data-room-providers",
+      "title": "10 Best Virtual Data Room Providers for M&A & Private Equity ...",
+      "snippet": "Cut through the VDR hype. Our review reveals the 10 best virtual data room providers for M&A, private equity, and legal due diligence."
+    },
+    {
+      "index": 13,
+      "url": "https://www.moonfare.com/pe-masterclass/optimising-pe-porftolio",
+      "title": "Monitoring and Optimising Private Equity Portfolio - Moonfare",
+      "snippet": "PE fund managers will typically communicate with the fund's investors regarding updates and performance on a quarterly basis."
+    },
+    {
+      "index": 14,
+      "url": "https://www.execo.com/blog/the-hidden-cost-of-manual-contract-review-in-ma",
+      "title": "The Hidden Cost of Manual Contract Review in M&A - Execo",
+      "snippet": "Even with a conservative estimate \u2013 say, reviewing 500 contracts at 15 minutes each \u2013 that's over 125 hours of skilled review. Add ..."
+    },
+    {
+      "index": 15,
+      "url": "https://legal.thomsonreuters.com/blog/due-diligence/",
+      "title": "Due diligence meaning and how to conduct in various sectors",
+      "snippet": "Hard due diligence is a study of the facts about a potential purchase: analyzing numbers and data. It means delving into financial records, ..."
+    },
+    {
+      "index": 16,
+      "url": "https://www.bain.com/insights/strategic-imperative-in-private-equity-global-private-equity-report-2025/",
+      "title": "This Time It's Different: The Strategic Imperative in Private Equity",
+      "snippet": "Although the \u201c2 and 20\u201d fee structure (2% management fee, 20% carry) is still the typical \u201crack rate\u201d for PE funds, private markets are ..."
+    },
+    {
+      "index": 17,
+      "url": "https://contractcrab.com/lawyer-contract-review-cost/",
+      "title": "Lawyer Contract Review Cost: What to Expect - ContractCrab",
+      "snippet": "The average attorney contract review cost per hour in the U.S. ranges from $125 to over $500, depending on various factors such as the lawyer's experience, ..."
+    },
+    {
+      "index": 18,
+      "url": "https://www.harvey.ai/blog/harvey-in-practice-speed-up-diligence-review",
+      "title": "Harvey In Practice: How to Speed up Diligence Review",
+      "snippet": "In this episode of Harvey In Practice, see how to extract and analyze key data points across an entire agreement set in minutes."
+    },
+    {
+      "index": 19,
+      "url": "https://chiefexecutive.net/the-outlook-for-ma-in-2025/",
+      "title": "The Outlook For M&A In 2025 - Chief Executive Magazine",
+      "snippet": "For 2025, the consulting giant predicts another 20 percent increase in deal volume and a 9 to 10 percent further gain in private-equity deals."
+    },
+    {
+      "index": 20,
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "snippet": "The study also found that at least 28% of deals in this dataset were ones in which the sellers contested the earnout. Renegotiations have a big ..."
+    },
+    {
+      "index": 21,
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-march-2025-update/",
+      "title": "Euclid Transactional R&W/W&I Insurance March 2025 Update",
+      "snippet": "We bound a record 97 RWI policies globally in February, up 20% from last February's results and up 26% from January, making it the most active ..."
+    },
+    {
+      "index": 22,
+      "url": "https://www.capstonepartners.com/insights/capital-markets-update/",
+      "title": "Capital Markets Update - Q3 2025 - Capstone Partners",
+      "snippet": "M&A activity in the middle market accelerated quarter-over-quarter (QoQ) in Q3 2025 for the first time since Q4 2024, gaining 4.2% and ..."
+    },
+    {
+      "index": 23,
+      "url": "https://www.srsacquiom.com/our-insights/indemnification-2024-trends/",
+      "title": "2024 Trends in M&A Indemnification Claims and Earnouts",
+      "snippet": "Our 2024 M&A Claims Insights Report investigates post-closing claims and earnouts achievement rates from over 850 M&A transactions valued at over $168 billion."
+    },
+    {
+      "index": 24,
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/euclid-transactional-flags-rising-rwi-claims-severity-in-latest-report-563370.aspx",
+      "title": "Euclid Transactional flags rising RWI claims severity in latest report",
+      "snippet": "The fact that a growing share of claims is being paid at 40% or more of policy limits has also reignited debate over whether buyers should ..."
+    },
+    {
+      "index": 25,
+      "url": "https://www.capstonepartners.com/insights/report-capstone-partners-middle-market-mergers-and-acquisitions-valuations-index/",
+      "title": "Middle Market M&A Valuations Index - Capstone Partners",
+      "snippet": "As a result, average middle market M&A valuations declined to 9.4x EV/EBITDA in 2024, compared to 9.6x in 2023 and 9.9x in 2022. The median ..."
+    },
+    {
+      "index": 26,
+      "url": "https://slidebean.com/tools/what-is-a-data-room-for-investors",
+      "title": "What is a Data Room for Investors? Examples and Checklist",
+      "snippet": "An investor data room is a storage space, digital or physical, where companies store information relevant to due diligence."
+    },
+    {
+      "index": 27,
+      "url": "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2024/01/State-of-US-Legal-Market-2024.pdf",
+      "title": "[PDF] 2024 Report on the State of the US Legal Market - Thomson Reuters",
+      "snippet": "Midsize law firms, in particular, stand out as leading the way in headcount growth, adding in excess of 7% more lawyer full-time equivalents (FTEs). At the same ..."
+    },
+    {
+      "index": 28,
+      "url": "https://www.forvismazars.us/forsights/2024/12/q3-2024-middle-market-m-a-insights",
+      "title": "Q3 2024 Middle-Market M&A Insights | Forvis Mazars US",
+      "snippet": "The average deal size is over $1 billion in 2024, while it was less than $700 million in 2023. This size differentiation is a critical factor in ..."
+    },
+    {
+      "index": 29,
+      "url": "https://www.sharefile.com/resource/blogs/data-room-for-investors-guide",
+      "title": "Guide to data room for investors: checklist and best practices - Blog",
+      "snippet": "Data rooms are used during financial transactions and due diligence processes, providing a secure and efficient way to exchange information."
+    },
+    {
+      "index": 30,
+      "url": "https://www.leanlaw.co/blog/law-firm-salary-chart-2025/",
+      "title": "The Complete 2025 Law Firm Salary Chart: A Strategic Guide for ...",
+      "snippet": "Base salary range: $250,000-$325,000; Bonus potential: 20-40% of base; Partnership track considerations: Reduced salary for increased equity ..."
+    },
+    {
+      "index": 31,
+      "url": "https://www.caplinked.com/blog/streamline-qa-period-ma-deals/",
+      "title": "M&A Process: Streamlining the Q&A Period of M&A | CapLinked",
+      "snippet": "The Q&A period in an M&A process, also referred to as \u201cdue diligence,\u201d is an evaluation process that is standard in any business deal to fully understand the ..."
+    },
+    {
+      "index": 32,
+      "url": "https://contractcrab.com/lawyer-contract-review-cost/",
+      "title": "Lawyer Contract Review Cost: What to Expect - ContractCrab",
+      "snippet": "The average attorney contract review cost per hour in the U.S. ranges from $125 to over $500, depending on various factors such as the lawyer's experience, ..."
+    },
+    {
+      "index": 33,
+      "url": "https://aspenhr.com/private-equity-hr-due-diligence-tips/",
+      "title": "How To Conduct HR Due Diligence In Private Equity",
+      "snippet": "HR due diligence in private equity involves a thorough investigation into the HR practices, policies, and frameworks of a target company."
+    },
+    {
+      "index": 34,
+      "url": "https://www.inventive.ai/blog-posts/due-diligence-questionnaire-complete-guide",
+      "title": "Due Diligence Questionnaire (DDQ): A Complete Guide with ...",
+      "snippet": "Responding to a standard 100-question DDQ takes an average of 4 to 5 hours for the first draft, with more time needed for tailored answers. This workload can ..."
+    },
+    {
+      "index": 35,
+      "url": "https://www.lawclerk.legal/blog/contract-attorney-rates/",
+      "title": "Contract Attorney Rates: A Guide Based on Real Examples - lawclerk",
+      "snippet": "You determine that a reasonable market rate is $200. So 8.5 hours x $200 = $1,700 billed to the client for that work. Since you paid the ..."
+    },
+    {
+      "index": 36,
+      "url": "https://carta.com/learn/private-funds/management/deal-flow/due-diligence/",
+      "title": "Private Equity Due Diligence: How to Evaluate Deals - Carta",
+      "snippet": "The primary goal of PE due diligence is to uncover potential liabilities, validate the investment thesis, and confirm that the information ..."
+    },
+    {
+      "index": 37,
+      "url": "https://www.abfjournal.com/operational-value-creation-the-collaboration-between-pe-operating-partners-and-lender-monitoring-teams/",
+      "title": "Operational Value Creation: The Collaboration Between PE ...",
+      "snippet": "When portfolio companies face challenges, the collaboration between operating partners and lender monitoring teams becomes even more critical."
+    },
+    {
+      "index": 38,
+      "url": "https://www.peony.ink/blog/virtual-data-room-cost-guide-2025",
+      "title": "Virtual Data Room Costs in 2025: Complete Pricing Guide - Peony",
+      "snippet": "Mid-Market Deal ($10-50M, 9 months). Traditional VDR: Setup/training: $2,500; Base monthly: $1,500 \u00d7 9 = $13,500; User overages (inevitable): ..."
+    },
+    {
+      "index": 39,
+      "url": "https://www.knowcraftanalytics.com/merger-and-acquisitions-in-investment-banking/",
+      "title": "Merger and Acquisitions (\u201cM&A\u201d) in Investment Banking (\u201cIB\u201d)",
+      "snippet": "For the targeted deal sizes of <$10 million, $10 million-$24.9 million, and $25 million \u2013 $49.9 million, the aggregated transaction values are ..."
+    },
+    {
+      "index": 40,
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/portfolio-monitoring/",
+      "title": "A Guide to Portfolio Monitoring in Private Equity & VC - Carta",
+      "snippet": "Portfolio monitoring is the process of collecting and analyzing information related to the performance of a private investment fund."
+    },
+    {
+      "index": 41,
+      "url": "https://dataroom-providers.org/data-room-pricing/",
+      "title": "Virtual Data Room Pricing in 2026: What You'll Pay",
+      "snippet": "What are the most popular VDR pricing structures? 1. Per-page pricing. Price range: $0.35\u2013$0.70 per page. This model charges based on the number of pages ..."
+    },
+    {
+      "index": 42,
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/deal-count-vs-deal-size",
+      "title": "Deal Count vs Deal Size - Wall Street Oasis",
+      "snippet": "People are generally more impressed by bigger deals than smaller ones. For example, saying you were an analyst on the team that sold $14 billion ..."
+    },
+    {
+      "index": 43,
+      "url": "https://www.ey.com/en_gl/newsroom/2026/01/global-financial-services-m-and-a-activity-rose-in-2025-with-93-deals-over-1b-in-value-announced",
+      "title": "Global financial services M&A activity rose in 2025, with 93 deals ...",
+      "snippet": "Total disclosed deal value also increased across the region, rising from $49.5b in 2024 to $141.2b in 2025, due to 30 deals above $1b and two ..."
+    },
+    {
+      "index": 44,
+      "url": "https://www.privateequityinternational.com/global-investor-ranking/",
+      "title": "Global Investor Ranking",
+      "snippet": "Top 10 biggest PE allocations as of 2025 GI 150 \u00b7 Temasek Holdings \u00b7 GIC Private Limited \u00b7 CPP Investments \u00b7 Mubadala Investment Company \u00b7 Abu Dhabi Investment ..."
+    },
+    {
+      "index": 45,
+      "url": "https://www.growcfo.net/2025/03/04/cfos-guide-to-strategic-fundraising-success/",
+      "title": "CFOs Guide to Strategic Fundraising Success - GrowCFO",
+      "snippet": "Discover key CFO responsibilities in fundraising, including market research, investor relations, and evaluating offers. Join the Future CFO ..."
+    },
+    {
+      "index": 46,
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/08/global-m-and-a-by-the-numbers-q2-2025",
+      "title": "Global M&A by the Numbers: Q2 2025 - S&P Global",
+      "snippet": "Information Technology deal values increased 27% against Q2 2024 to $97b, but year-to-date multiples continued to contract to 18.9x, down from 27.2x in 2022."
+    },
+    {
+      "index": 47,
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+      "title": "Global Private Markets Report 2025",
+      "snippet": "In McKinsey's latest annual Global Private Markets Report we look at some of the biggest trends shaping private equity in 2025 and beyond."
+    },
+    {
+      "index": 48,
+      "url": "https://windes.com/leveraging-part-time-cfo/",
+      "title": "Leveraging a Part-time CFO for Fundraising and M&A - Windes",
+      "snippet": "This arrangement provides access to specialized transaction experience, an expertise typically lacking in full-time CFOs at the startup stage."
+    },
+    {
+      "index": 49,
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/global-ma-by-the-numbers-2024-in-review",
+      "title": "Global M&A by the Numbers: 2024 in Review - S&P Global",
+      "snippet": "Global M&A demonstrated signs of recovery in the fourth quarter, with 9,765 deals announced\u2014the highest number since Q1 2023. The second half of 2024 also ..."
+    },
+    {
+      "index": 50,
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-outlook",
+      "title": "M&A outlook: stronger US deal market in 2026 despite mixed ... - EY",
+      "snippet": "Our M&A outlook predicts US deal volumes over $100m to grow 9% in 2025 and 3% in 2026. We predict corporate M&A deals will rise 10% in 2025 and 3% in 2026, and ..."
+    },
+    {
+      "index": 51,
+      "url": "https://blogs.cfainstitute.org/investor/2024/11/11/book-review-the-ma-failure-trap/",
+      "title": "Book Review: The M&A Failure Trap - CFA Institute Blogs",
+      "snippet": "Based on a sample of 40,000 transactions over 40 years, they find that 70% to 75% of M&A deals fail. That is twice the 36% failure rate for ..."
+    },
+    {
+      "index": 52,
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report",
+      "title": "US M&A activity insights: December 2025 - EY",
+      "snippet": "Compared to Q4 2024, total deal value rose by 127.6%, and M&A activity increased by 19.1% for transactions exceeding US$100m. The stabilizing ..."
+    },
+    {
+      "index": 53,
+      "url": "https://www.imaa-institute.org/mergers-and-acquisitions-statistics/",
+      "title": "M&A Statistics: Transactions and Activity by year. M&A Trends | IMAA",
+      "snippet": "In 2018, the number of deals has decreased by 8% to about 49'000 transactions, while their value has increased by 4% to 3.8 trillion USD. Login or Become a ..."
+    },
+    {
+      "index": 54,
+      "url": "https://www.ahlawatassociates.com/blog/post-merger-integration-risks-in-ma-due-diligence",
+      "title": "Post-Merger Integration Risks in M&A Due Diligence",
+      "snippet": "... M&A deals, report success in their integration efforts. ... Studies suggest that atleast 10 percent of big deals fail due to legal or compliance ..."
+    },
+    {
+      "index": 55,
+      "url": "https://imaa-institute.org/mergers-and-acquisitions-statistics/ma-statistics-by-countries/",
+      "title": "M&A Statistics by Countries - Imaa-institute.org",
+      "snippet": "In the year 2022, there were 689 M&A deals announced, representing a 22% decrease compared to the previous year's 878 deals. Moreover, the combined value of ..."
+    },
+    {
+      "index": 56,
+      "url": "https://corporatefinanceinstitute.com/resources/finpod/corporate-finance-explained-financial-due-diligence/",
+      "title": "Corporate Finance Explained: Financial Due Diligence",
+      "snippet": "In this episode, learn about financial due diligence, the 5 pillars of FDD, and how FP&A assesses risk, QoE, cash flow, and deal value ..."
+    },
+    {
+      "index": 57,
+      "url": "https://www.keeneadvisors.com/news-and-insights/ma-deal-team-for-business-owners",
+      "title": "Assembling the Right M&A Deal Team - Keene Advisors",
+      "snippet": "The M&A Deal Team Supports Your Goals: An M&A deal team comprises specialists across multiple disciplines responsible for managing the transaction."
+    },
+    {
+      "index": 58,
+      "url": "https://www.bcg.com/publications/2026/m-and-a-outlook-expectations-are-high-again",
+      "title": "M&A Outlook 2026: Expectations Are High\u2014Again | BCG",
+      "snippet": "For the full year, global M&A value reached $3.0 trillion in 2025, an increase of 31% compared with the previous year and slightly above the ten ..."
+    },
+    {
+      "index": 59,
+      "url": "https://www.grantthornton.ch/en/insights/financial-due-diligence/",
+      "title": "Financial Due Diligence: An essential step in the M&A process",
+      "snippet": "Financial due diligence is a fundamental step in the M&A process. It provides an in-depth assessment of a company's financial stability, its growth potential."
+    },
+    {
+      "index": 60,
+      "url": "https://www.mclane.com/insights/sell-side-management-teams-should-have-independent-representation-in-middle-market-ma-transactions/",
+      "title": "Sell-Side Management Teams Should Have Independent ...",
+      "snippet": "The management team plays a critically important role in the transaction for the target in private middle market M&A transactions."
+    }
+  ],
+  "search_results": [
+    {
+      "title": "Global M&A by the Numbers: Q4 2025",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/global-m-and-a-by-the-numbers-q4-2025",
+      "snippet": "2025 saw the most $10B+ since 2021, with $1.1T in total transaction value across 51 deals.",
+      "date": null
+    },
+    {
+      "title": "PEI 300: The World's Largest Private Equity Firms",
+      "url": "https://www.privateequityinternational.com/pei-300/",
+      "snippet": "The 300 firms on this year's list raised a collective $3.29 trillion during the counting period, marking a 0.37 percent rise on last year.",
+      "date": null
+    },
+    {
+      "title": "M&A Statistics by Sector 2026: Deal Volume, Value & Trends",
+      "url": "https://dealroom.net/blog/m-a-statistics-by-sector",
+      "snippet": "This sector-by-sector breakdown highlights the latest 2026 M&A statistics, trends, and insights across key industries shaping today's global ...",
+      "date": null
+    },
+    {
+      "title": "US M&A activity insights: December 2025 - EY",
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report",
+      "snippet": "Compared to Q4 2024, total deal value rose by 127.6%, and M&A activity increased by 19.1% for transactions exceeding US$100m. The stabilizing ...",
+      "date": null
+    },
+    {
+      "title": "The Top Private Equity Firms of 2024 - GrowthCap",
+      "url": "https://growthcapadvisory.com/the-top-private-equity-firms-of-2024/",
+      "snippet": "GrowthCap is pleased to announce The Top Private Equity Firms of 2024. Since 2013, we have been gathering information on growth investment ...",
+      "date": null
+    },
+    {
+      "title": "Global M&A industry trends: 2026 outlook - PwC",
+      "url": "https://www.pwc.com/gx/en/services/deals/trends.html",
+      "snippet": "The rebound in deal value was primarily driven by an increase in megadeals, which rose from 12 in 2024 to 20 in 2025. These megadeals spanned a ...",
+      "date": null
+    },
+    {
+      "title": "How Long is the Due Diligence Period in Dealmaking?",
+      "url": "https://datarooms.org/vdr-blog/how-long-is-the-due-diligence-period/",
+      "snippet": "Typical M&A due diligence time may range from thirty to forty-five days ... The due diligence timeline is essential for every significant deal.",
+      "date": null
+    },
+    {
+      "title": "How big are your deal teams? - Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/how-big-are-your-deal-teams",
+      "snippet": "Top EB in Paris: typically 1 partner, 1 D/MD, 1 vp/ass, 1 analyst. boutique in london: top heavy, as many as 3 partners, 1 vp/ass, 1 or 2 ...",
+      "date": null
+    },
+    {
+      "title": "Top 10 M&A Data Rooms in 2026 - Orangedox Blog",
+      "url": "https://www.orangedox.com/blog/best-m-and-a-virtual-data-rooms",
+      "snippet": "Compare top 10 M&A data rooms: Orangedox, Ansarada, iDeals, Datasite & more. Find pricing, features, security & best VDR for your deal.",
+      "date": null
+    },
+    {
+      "title": "What Is A Successful Due Diligence Timeline? - Software Equity Group",
+      "url": "https://softwareequity.com/blog/due-diligence-timeline",
+      "snippet": "With SEG's process and preparation, diligence usually takes 30\u201345 days. These phases often overlap as buyers dig deeper and bring in additional ...",
+      "date": null
+    },
+    {
+      "title": "Dealmaking teams are getting larger as private equity matures",
+      "url": "https://privateequityinfo.com/blog/dealmaking-teams-are-getting-larger-as-private-equity-matures",
+      "snippet": "The smallest firm has a single dealmaker while the largest firm has 231. The largest private equity firms tend to dominate M&A industry news, ...",
+      "date": null
+    },
+    {
+      "title": "10 Best Virtual Data Room Providers for M&A & Private Equity ...",
+      "url": "https://www.v7labs.com/blog/best-virtual-data-room-providers",
+      "snippet": "Cut through the VDR hype. Our review reveals the 10 best virtual data room providers for M&A, private equity, and legal due diligence.",
+      "date": null
+    },
+    {
+      "title": "Monitoring and Optimising Private Equity Portfolio - Moonfare",
+      "url": "https://www.moonfare.com/pe-masterclass/optimising-pe-porftolio",
+      "snippet": "PE fund managers will typically communicate with the fund's investors regarding updates and performance on a quarterly basis.",
+      "date": null
+    },
+    {
+      "title": "The Hidden Cost of Manual Contract Review in M&A - Execo",
+      "url": "https://www.execo.com/blog/the-hidden-cost-of-manual-contract-review-in-ma",
+      "snippet": "Even with a conservative estimate \u2013 say, reviewing 500 contracts at 15 minutes each \u2013 that's over 125 hours of skilled review. Add ...",
+      "date": null
+    },
+    {
+      "title": "Due diligence meaning and how to conduct in various sectors",
+      "url": "https://legal.thomsonreuters.com/blog/due-diligence/",
+      "snippet": "Hard due diligence is a study of the facts about a potential purchase: analyzing numbers and data. It means delving into financial records, ...",
+      "date": null
+    },
+    {
+      "title": "This Time It's Different: The Strategic Imperative in Private Equity",
+      "url": "https://www.bain.com/insights/strategic-imperative-in-private-equity-global-private-equity-report-2025/",
+      "snippet": "Although the \u201c2 and 20\u201d fee structure (2% management fee, 20% carry) is still the typical \u201crack rate\u201d for PE funds, private markets are ...",
+      "date": null
+    },
+    {
+      "title": "Lawyer Contract Review Cost: What to Expect - ContractCrab",
+      "url": "https://contractcrab.com/lawyer-contract-review-cost/",
+      "snippet": "The average attorney contract review cost per hour in the U.S. ranges from $125 to over $500, depending on various factors such as the lawyer's experience, ...",
+      "date": null
+    },
+    {
+      "title": "Harvey In Practice: How to Speed up Diligence Review",
+      "url": "https://www.harvey.ai/blog/harvey-in-practice-speed-up-diligence-review",
+      "snippet": "In this episode of Harvey In Practice, see how to extract and analyze key data points across an entire agreement set in minutes.",
+      "date": null
+    },
+    {
+      "title": "The Outlook For M&A In 2025 - Chief Executive Magazine",
+      "url": "https://chiefexecutive.net/the-outlook-for-ma-in-2025/",
+      "snippet": "For 2025, the consulting giant predicts another 20 percent increase in deal volume and a 9 to 10 percent further gain in private-equity deals.",
+      "date": null
+    },
+    {
+      "title": "Post-Closing Disputes: 2024 M&A Claims Study - DealLawyers.com",
+      "url": "https://www.deallawyers.com/blog/2024/09/post-closing-disputes-2024-ma-claims-study.html",
+      "snippet": "The study also found that at least 28% of deals in this dataset were ones in which the sellers contested the earnout. Renegotiations have a big ...",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional R&W/W&I Insurance March 2025 Update",
+      "url": "https://euclidtransactional.com/euclid-transactional-rw-wi-insurance-march-2025-update/",
+      "snippet": "We bound a record 97 RWI policies globally in February, up 20% from last February's results and up 26% from January, making it the most active ...",
+      "date": null
+    },
+    {
+      "title": "Capital Markets Update - Q3 2025 - Capstone Partners",
+      "url": "https://www.capstonepartners.com/insights/capital-markets-update/",
+      "snippet": "M&A activity in the middle market accelerated quarter-over-quarter (QoQ) in Q3 2025 for the first time since Q4 2024, gaining 4.2% and ...",
+      "date": null
+    },
+    {
+      "title": "2024 Trends in M&A Indemnification Claims and Earnouts",
+      "url": "https://www.srsacquiom.com/our-insights/indemnification-2024-trends/",
+      "snippet": "Our 2024 M&A Claims Insights Report investigates post-closing claims and earnouts achievement rates from over 850 M&A transactions valued at over $168 billion.",
+      "date": null
+    },
+    {
+      "title": "Euclid Transactional flags rising RWI claims severity in latest report",
+      "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/euclid-transactional-flags-rising-rwi-claims-severity-in-latest-report-563370.aspx",
+      "snippet": "The fact that a growing share of claims is being paid at 40% or more of policy limits has also reignited debate over whether buyers should ...",
+      "date": null
+    },
+    {
+      "title": "Middle Market M&A Valuations Index - Capstone Partners",
+      "url": "https://www.capstonepartners.com/insights/report-capstone-partners-middle-market-mergers-and-acquisitions-valuations-index/",
+      "snippet": "As a result, average middle market M&A valuations declined to 9.4x EV/EBITDA in 2024, compared to 9.6x in 2023 and 9.9x in 2022. The median ...",
+      "date": null
+    },
+    {
+      "title": "What is a Data Room for Investors? Examples and Checklist",
+      "url": "https://slidebean.com/tools/what-is-a-data-room-for-investors",
+      "snippet": "An investor data room is a storage space, digital or physical, where companies store information relevant to due diligence.",
+      "date": null
+    },
+    {
+      "title": "[PDF] 2024 Report on the State of the US Legal Market - Thomson Reuters",
+      "url": "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2024/01/State-of-US-Legal-Market-2024.pdf",
+      "snippet": "Midsize law firms, in particular, stand out as leading the way in headcount growth, adding in excess of 7% more lawyer full-time equivalents (FTEs). At the same ...",
+      "date": null
+    },
+    {
+      "title": "Q3 2024 Middle-Market M&A Insights | Forvis Mazars US",
+      "url": "https://www.forvismazars.us/forsights/2024/12/q3-2024-middle-market-m-a-insights",
+      "snippet": "The average deal size is over $1 billion in 2024, while it was less than $700 million in 2023. This size differentiation is a critical factor in ...",
+      "date": null
+    },
+    {
+      "title": "Guide to data room for investors: checklist and best practices - Blog",
+      "url": "https://www.sharefile.com/resource/blogs/data-room-for-investors-guide",
+      "snippet": "Data rooms are used during financial transactions and due diligence processes, providing a secure and efficient way to exchange information.",
+      "date": null
+    },
+    {
+      "title": "The Complete 2025 Law Firm Salary Chart: A Strategic Guide for ...",
+      "url": "https://www.leanlaw.co/blog/law-firm-salary-chart-2025/",
+      "snippet": "Base salary range: $250,000-$325,000; Bonus potential: 20-40% of base; Partnership track considerations: Reduced salary for increased equity ...",
+      "date": null
+    },
+    {
+      "title": "M&A Process: Streamlining the Q&A Period of M&A | CapLinked",
+      "url": "https://www.caplinked.com/blog/streamline-qa-period-ma-deals/",
+      "snippet": "The Q&A period in an M&A process, also referred to as \u201cdue diligence,\u201d is an evaluation process that is standard in any business deal to fully understand the ...",
+      "date": null
+    },
+    {
+      "title": "Lawyer Contract Review Cost: What to Expect - ContractCrab",
+      "url": "https://contractcrab.com/lawyer-contract-review-cost/",
+      "snippet": "The average attorney contract review cost per hour in the U.S. ranges from $125 to over $500, depending on various factors such as the lawyer's experience, ...",
+      "date": null
+    },
+    {
+      "title": "How To Conduct HR Due Diligence In Private Equity",
+      "url": "https://aspenhr.com/private-equity-hr-due-diligence-tips/",
+      "snippet": "HR due diligence in private equity involves a thorough investigation into the HR practices, policies, and frameworks of a target company.",
+      "date": null
+    },
+    {
+      "title": "Due Diligence Questionnaire (DDQ): A Complete Guide with ...",
+      "url": "https://www.inventive.ai/blog-posts/due-diligence-questionnaire-complete-guide",
+      "snippet": "Responding to a standard 100-question DDQ takes an average of 4 to 5 hours for the first draft, with more time needed for tailored answers. This workload can ...",
+      "date": null
+    },
+    {
+      "title": "Contract Attorney Rates: A Guide Based on Real Examples - lawclerk",
+      "url": "https://www.lawclerk.legal/blog/contract-attorney-rates/",
+      "snippet": "You determine that a reasonable market rate is $200. So 8.5 hours x $200 = $1,700 billed to the client for that work. Since you paid the ...",
+      "date": null
+    },
+    {
+      "title": "Private Equity Due Diligence: How to Evaluate Deals - Carta",
+      "url": "https://carta.com/learn/private-funds/management/deal-flow/due-diligence/",
+      "snippet": "The primary goal of PE due diligence is to uncover potential liabilities, validate the investment thesis, and confirm that the information ...",
+      "date": null
+    },
+    {
+      "title": "Operational Value Creation: The Collaboration Between PE ...",
+      "url": "https://www.abfjournal.com/operational-value-creation-the-collaboration-between-pe-operating-partners-and-lender-monitoring-teams/",
+      "snippet": "When portfolio companies face challenges, the collaboration between operating partners and lender monitoring teams becomes even more critical.",
+      "date": null
+    },
+    {
+      "title": "Virtual Data Room Costs in 2025: Complete Pricing Guide - Peony",
+      "url": "https://www.peony.ink/blog/virtual-data-room-cost-guide-2025",
+      "snippet": "Mid-Market Deal ($10-50M, 9 months). Traditional VDR: Setup/training: $2,500; Base monthly: $1,500 \u00d7 9 = $13,500; User overages (inevitable): ...",
+      "date": null
+    },
+    {
+      "title": "Merger and Acquisitions (\u201cM&A\u201d) in Investment Banking (\u201cIB\u201d)",
+      "url": "https://www.knowcraftanalytics.com/merger-and-acquisitions-in-investment-banking/",
+      "snippet": "For the targeted deal sizes of <$10 million, $10 million-$24.9 million, and $25 million \u2013 $49.9 million, the aggregated transaction values are ...",
+      "date": null
+    },
+    {
+      "title": "A Guide to Portfolio Monitoring in Private Equity & VC - Carta",
+      "url": "https://carta.com/learn/private-funds/management/portfolio-management/portfolio-monitoring/",
+      "snippet": "Portfolio monitoring is the process of collecting and analyzing information related to the performance of a private investment fund.",
+      "date": null
+    },
+    {
+      "title": "Virtual Data Room Pricing in 2026: What You'll Pay",
+      "url": "https://dataroom-providers.org/data-room-pricing/",
+      "snippet": "What are the most popular VDR pricing structures? 1. Per-page pricing. Price range: $0.35\u2013$0.70 per page. This model charges based on the number of pages ...",
+      "date": null
+    },
+    {
+      "title": "Deal Count vs Deal Size - Wall Street Oasis",
+      "url": "https://www.wallstreetoasis.com/forum/investment-banking/deal-count-vs-deal-size",
+      "snippet": "People are generally more impressed by bigger deals than smaller ones. For example, saying you were an analyst on the team that sold $14 billion ...",
+      "date": null
+    },
+    {
+      "title": "Global financial services M&A activity rose in 2025, with 93 deals ...",
+      "url": "https://www.ey.com/en_gl/newsroom/2026/01/global-financial-services-m-and-a-activity-rose-in-2025-with-93-deals-over-1b-in-value-announced",
+      "snippet": "Total disclosed deal value also increased across the region, rising from $49.5b in 2024 to $141.2b in 2025, due to 30 deals above $1b and two ...",
+      "date": null
+    },
+    {
+      "title": "Global Investor Ranking",
+      "url": "https://www.privateequityinternational.com/global-investor-ranking/",
+      "snippet": "Top 10 biggest PE allocations as of 2025 GI 150 \u00b7 Temasek Holdings \u00b7 GIC Private Limited \u00b7 CPP Investments \u00b7 Mubadala Investment Company \u00b7 Abu Dhabi Investment ...",
+      "date": null
+    },
+    {
+      "title": "CFOs Guide to Strategic Fundraising Success - GrowCFO",
+      "url": "https://www.growcfo.net/2025/03/04/cfos-guide-to-strategic-fundraising-success/",
+      "snippet": "Discover key CFO responsibilities in fundraising, including market research, investor relations, and evaluating offers. Join the Future CFO ...",
+      "date": null
+    },
+    {
+      "title": "Global M&A by the Numbers: Q2 2025 - S&P Global",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2025/08/global-m-and-a-by-the-numbers-q2-2025",
+      "snippet": "Information Technology deal values increased 27% against Q2 2024 to $97b, but year-to-date multiples continued to contract to 18.9x, down from 27.2x in 2022.",
+      "date": null
+    },
+    {
+      "title": "Global Private Markets Report 2025",
+      "url": "https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report",
+      "snippet": "In McKinsey's latest annual Global Private Markets Report we look at some of the biggest trends shaping private equity in 2025 and beyond.",
+      "date": null
+    },
+    {
+      "title": "Leveraging a Part-time CFO for Fundraising and M&A - Windes",
+      "url": "https://windes.com/leveraging-part-time-cfo/",
+      "snippet": "This arrangement provides access to specialized transaction experience, an expertise typically lacking in full-time CFOs at the startup stage.",
+      "date": null
+    },
+    {
+      "title": "Global M&A by the Numbers: 2024 in Review - S&P Global",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/global-ma-by-the-numbers-2024-in-review",
+      "snippet": "Global M&A demonstrated signs of recovery in the fourth quarter, with 9,765 deals announced\u2014the highest number since Q1 2023. The second half of 2024 also ...",
+      "date": null
+    },
+    {
+      "title": "M&A outlook: stronger US deal market in 2026 despite mixed ... - EY",
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-outlook",
+      "snippet": "Our M&A outlook predicts US deal volumes over $100m to grow 9% in 2025 and 3% in 2026. We predict corporate M&A deals will rise 10% in 2025 and 3% in 2026, and ...",
+      "date": null
+    },
+    {
+      "title": "Book Review: The M&A Failure Trap - CFA Institute Blogs",
+      "url": "https://blogs.cfainstitute.org/investor/2024/11/11/book-review-the-ma-failure-trap/",
+      "snippet": "Based on a sample of 40,000 transactions over 40 years, they find that 70% to 75% of M&A deals fail. That is twice the 36% failure rate for ...",
+      "date": null
+    },
+    {
+      "title": "US M&A activity insights: December 2025 - EY",
+      "url": "https://www.ey.com/en_us/insights/mergers-acquisitions/m-and-a-activity-report",
+      "snippet": "Compared to Q4 2024, total deal value rose by 127.6%, and M&A activity increased by 19.1% for transactions exceeding US$100m. The stabilizing ...",
+      "date": null
+    },
+    {
+      "title": "M&A Statistics: Transactions and Activity by year. M&A Trends | IMAA",
+      "url": "https://www.imaa-institute.org/mergers-and-acquisitions-statistics/",
+      "snippet": "In 2018, the number of deals has decreased by 8% to about 49'000 transactions, while their value has increased by 4% to 3.8 trillion USD. Login or Become a ...",
+      "date": null
+    },
+    {
+      "title": "Post-Merger Integration Risks in M&A Due Diligence",
+      "url": "https://www.ahlawatassociates.com/blog/post-merger-integration-risks-in-ma-due-diligence",
+      "snippet": "... M&A deals, report success in their integration efforts. ... Studies suggest that atleast 10 percent of big deals fail due to legal or compliance ...",
+      "date": null
+    },
+    {
+      "title": "M&A Statistics by Countries - Imaa-institute.org",
+      "url": "https://imaa-institute.org/mergers-and-acquisitions-statistics/ma-statistics-by-countries/",
+      "snippet": "In the year 2022, there were 689 M&A deals announced, representing a 22% decrease compared to the previous year's 878 deals. Moreover, the combined value of ...",
+      "date": null
+    },
+    {
+      "title": "Corporate Finance Explained: Financial Due Diligence",
+      "url": "https://corporatefinanceinstitute.com/resources/finpod/corporate-finance-explained-financial-due-diligence/",
+      "snippet": "In this episode, learn about financial due diligence, the 5 pillars of FDD, and how FP&A assesses risk, QoE, cash flow, and deal value ...",
+      "date": null
+    },
+    {
+      "title": "Assembling the Right M&A Deal Team - Keene Advisors",
+      "url": "https://www.keeneadvisors.com/news-and-insights/ma-deal-team-for-business-owners",
+      "snippet": "The M&A Deal Team Supports Your Goals: An M&A deal team comprises specialists across multiple disciplines responsible for managing the transaction.",
+      "date": null
+    },
+    {
+      "title": "M&A Outlook 2026: Expectations Are High\u2014Again | BCG",
+      "url": "https://www.bcg.com/publications/2026/m-and-a-outlook-expectations-are-high-again",
+      "snippet": "For the full year, global M&A value reached $3.0 trillion in 2025, an increase of 31% compared with the previous year and slightly above the ten ...",
+      "date": null
+    },
+    {
+      "title": "Financial Due Diligence: An essential step in the M&A process",
+      "url": "https://www.grantthornton.ch/en/insights/financial-due-diligence/",
+      "snippet": "Financial due diligence is a fundamental step in the M&A process. It provides an in-depth assessment of a company's financial stability, its growth potential.",
+      "date": null
+    },
+    {
+      "title": "Sell-Side Management Teams Should Have Independent ...",
+      "url": "https://www.mclane.com/insights/sell-side-management-teams-should-have-independent-representation-in-middle-market-ma-transactions/",
+      "snippet": "The management team plays a critically important role in the transaction for the target in private middle market M&A transactions.",
+      "date": null
+    }
+  ]
+}

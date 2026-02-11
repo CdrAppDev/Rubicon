@@ -1,0 +1,105 @@
+prompts:
+  - id: contract-volume-dd
+    text: |
+      # Targeted Market Research: M&A Contract Volume and Due Diligence Coverage
+
+      ## Context
+
+      We are researching the M&A due diligence market for Rubicon, an AI-powered DD intelligence platform. Round 1 research confirmed the general pattern that deal teams review only a fraction of available contracts, but we need specific data points.
+
+      ## Hypothesis Under Investigation
+
+      **M3:** Each mid-market deal generates 500+ contracts requiring review, with complete manual review consuming 3,750+ attorney hours -- and traditional DD examines only 5-10% of the contract population.
+
+      ## What We Found in Round 1
+
+      - Mid-market data rooms contain 5,000-50,000 pages
+      - DD timelines are 30-90 days
+      - Deal teams are 5-15 professionals
+      - Total DD costs $480K-$1.2M per deal
+      - But NO source directly counted contracts per deal or stated the review percentage
+
+      ## What We Still Need
+
+      1. **Contract count per deal:** How many contracts (not pages -- individual contractual documents) does a typical mid-market company ($50M-$500M enterprise value) have? Consider: customer contracts, supplier agreements, employment agreements, leases, IP licenses, partnership agreements, regulatory filings, insurance policies, loan agreements. What is the range?
+
+      2. **Attorney hours for contract review:** How many attorney hours does a comprehensive contract review require for a mid-market deal? What is the typical staffing (how many attorneys, what levels, for how long)? What do law firms estimate for full-population contract review?
+
+      3. **Review coverage percentage:** What percentage of the contract population is actually reviewed during typical buy-side legal DD? Is there published data on sampling rates? Do law firms or legal AI vendors cite coverage statistics? What does "complete" legal DD mean in practice -- reviewing every contract, or reviewing all "material" contracts above a threshold?
+
+      4. **Materiality thresholds:** What dollar thresholds do deal teams use to determine which contracts to review? How does this vary by deal size? What contracts are always reviewed vs. sampled vs. skipped?
+
+      **Sources to prioritize:**
+      - ABA M&A Deal Points Studies (contract-level data)
+      - Big Law due diligence practice guides (DLA Piper, Kirkland & Ellis, Latham, Simpson Thacher)
+      - Legal AI vendor white papers citing review coverage (Luminance, Kira, eBrevia historical data)
+      - Law firm innovation reports on DD efficiency
+      - Contract lifecycle management (CLM) vendor data on enterprise contract volumes
+      - Legal operations surveys (CLOC, ACC) on contract management
+
+      **Citation format:**
+      - Claim: [finding]
+      - Relevant hypothesis: M3
+      - Source: [org name]
+      - Date: [date]
+      - URL: [url]
+      - Quote: [verbatim excerpt if available]
+
+      **IMPORTANT:** We need actual data, not estimates. If no source directly quantifies these, say so -- don't extrapolate.
+
+  - id: emerging-synthesis-platforms
+    text: |
+      # Targeted Market Research: Emerging Cross-Workstream Synthesis Platforms
+
+      ## Context
+
+      We are researching the competitive landscape for Rubicon, an AI-powered M&A DD intelligence platform. Round 1 research confirmed that VDRs, CRMs, and process management tools don't provide cross-workstream analytical synthesis. However, several emerging platforms were mentioned that may be narrowing this gap.
+
+      ## Hypothesis Under Investigation
+
+      **CP4:** No current platform provides cross-workstream analytical synthesis -- DealCloud and 4Degrees are CRMs, VDRs focus on document security, DealRoom/Midaxo track process efficiency -- leaving the highest-value DD job completely unserved.
+
+      ## What We Found in Round 1
+
+      - DealCloud (Intapp) confirmed as CRM + deal management, adding some AI features
+      - 4Degrees confirmed as relationship intelligence CRM
+      - DealRoom/Midaxo confirmed as process/task management
+      - VDRs confirmed as document security with surface-level AI (search, redaction)
+      - BUT several emerging platforms were mentioned:
+        - **Meridian AI** — described as having cross-document analysis capabilities
+        - **Altvia AIMe** — described as portfolio intelligence with AI
+        - **Harvey** ($8B valuation) — multi-document legal analysis
+        - **Luminance** — multi-model legal AI with DD capabilities
+        - **DealCloud** — adding AI features to its platform
+
+      ## What We Still Need
+
+      1. **Meridian AI:** What exactly does this platform do? Does it provide genuine cross-workstream synthesis across financial, legal, operational, and commercial DD? Or is it limited to one workstream? Who uses it? What is their funding/maturity?
+
+      2. **Altvia AIMe:** What does this AI capability actually do? Is it cross-workstream analytical synthesis or single-dimension portfolio analytics? What specific DD jobs does it complete?
+
+      3. **Harvey in DD context:** Harvey is primarily a legal AI assistant. Does it have specific M&A DD capabilities? Can it synthesize across workstreams (not just legal documents)? Or is it a legal-only tool being used during DD?
+
+      4. **Luminance DD capabilities:** Luminance has a DD-specific product. What does it actually do? Single-document extraction? Multi-document comparison? Cross-workstream synthesis? What are its limitations?
+
+      5. **Any other new entrants (2024-2026):** Are there startups specifically targeting cross-workstream DD synthesis that we haven't identified? Check recent YC batches, recent seed/Series A raises in DD tech, recent product launches.
+
+      6. **Key question:** Does ANY existing platform take data from multiple DD workstreams (financial, legal, operational, commercial, IT/cyber) and synthesize findings across them into integrated risk assessments? Or does every tool still operate within a single workstream?
+
+      **Sources to prioritize:**
+      - Product pages and documentation for each platform named above
+      - G2/Capterra/TrustRadius reviews with feature descriptions
+      - Crunchbase/PitchBook for funding and product stage
+      - Industry analyst coverage (Gartner, Forrester, ALM Intelligence)
+      - Recent deal tech conference presentations and demos
+      - Press releases and product announcements (2024-2026)
+
+      **Citation format:**
+      - Claim: [finding]
+      - Relevant hypothesis: CP4
+      - Source: [org name]
+      - Date: [date]
+      - URL: [url]
+      - Quote: [verbatim excerpt if available]
+
+      **IMPORTANT:** We need to determine whether CP4 is still accurate or whether the competitive gap is closing. Be specific about what each platform actually does vs. what it claims to do.

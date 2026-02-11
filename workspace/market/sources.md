@@ -152,6 +152,65 @@
 - **Simmons & Simmons**: Private Equity Year Ahead (2025) - https://www.simmons-simmons.com/en/publications/cmkgp396x00hcvle4ujitiohh/private-equity-the-year-ahead
   - Cited for: PE dry powder deployment pressure, regulatory outlook
 
+## Round 2 Research Sources
+
+- **WorldCC/Icertis**: 2023 Benchmark Report (2023)
+  - Cited for: Contract volume benchmarks (20,000-40,000 for Fortune 1000/2000; 500-3,000 mid-market), system fragmentation (average 24 systems)
+
+- **Kira Systems / Fredrikson & Byron**: Case Study (2025)
+  - Cited for: Per-document review time benchmarks (550 docs at 100 hours, 11 min/doc)
+
+- **Zuva AI**: Contract Review Benchmarks (2025)
+  - Cited for: 3 min/page lawyer review speed for key data extraction
+
+- **Sirion AI**: Contract Review Data (2026)
+  - Cited for: 92 min/contract average for general business contracts, 5-10% review coverage for large portfolios
+
+- **Apperio**: PE Legal Spend Survey (2020)
+  - Cited for: Average $353K external legal spend per M&A transaction across 47 US PE firms
+
+- **ABA**: 2023 Private Target Deal Points Study (2023)
+  - Cited for: Materiality thresholds ($100K/year most common mid-market default), MAE qualifiers (99% of deals), indemnification baskets (0.5-1.0% of purchase price)
+
+- **Bloomberg Law**: M&A Due Diligence Checklist (2025)
+  - Cited for: 174 distinct document categories in standard DD request
+
+- **Imprima**: VDR and Document Review Data (2025)
+  - Cited for: 50-85% recall on relevant provisions even when teams attempt 100% review
+
+- **Hebbia**: AI Document Analysis Platform (2025)
+  - Cited for: $130M Series B at $700M valuation (a16z), horizontal document querying across any document type
+
+- **ToltIQ**: PE DD Automation (2025)
+  - Cited for: $12M Series A, ex-KKR founder Ed Brandman, multi-workstream query tool (query-and-extract, not automated synthesis)
+
+- **645 Ventures**: Meridian AI Seed Round (2025)
+  - Cited for: $7M seed, CRM/deal sourcing platform (not DD analysis tool)
+
+- **Marlin Equity Partners**: Altvia Acquisition (2022)
+  - Cited for: Fund lifecycle management platform, AIMe as CRM assistant on metadata (not DD platform)
+
+- **Wokelo**: DD Research Automation (2025)
+  - Cited for: $5.5M raised, KPMG venture arm investment, public-source DD research reports
+
+- **Auquan**: Gartner 2025 Cool Vendor (2025)
+  - Cited for: Public-source DD intelligence platform
+
+- **Midaxo**: IDC MarketScape 2024 Leader (2024)
+  - Cited for: Deal lifecycle management, workflow tracking (not analytical synthesis)
+
+- **Point72**: Luminance Series C (2025)
+  - Cited for: $75M Series C leading Luminance to $165M total raised, ~$60M ARR, 1,000+ organizations
+
+- **CapVest**: Datasite Acquisitions (2025)
+  - Cited for: Datasite acquired Blueflame AI (July 2025), Grata, Sourcescrub — deal sourcing and VDR operations enhancements
+
+- **Litera**: Kira Systems Acquisition (2021)
+  - Cited for: Kira used by 84% of top 25 M&A law firms, 1,400+ smart fields, 90%+ extraction accuracy
+
+- **DealRoom**: Cross-Workstream Integration Roadmap (2025)
+  - Cited for: Cross-workstream integration described in future tense, confirming it does not exist today
+
 ## Other Sources
 
 - **Datarooms.org**: Due Diligence Period Length (2025) - https://datarooms.org/vdr-blog/how-long-is-the-due-diligence-period/

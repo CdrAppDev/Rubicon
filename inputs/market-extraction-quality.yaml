@@ -1,0 +1,87 @@
+version: "1.0.0"
+workspace: market
+date: "2026-02-10"
+
+input_completeness:
+  status: "pass"
+  detail: "All 5 required Problem workspace files exist and were read"
+  files:
+    - file: "thesis.md"
+      exists: true
+      notes: "Rich who-suffers section with 4 distinct populations; detailed how-they-suffer with cognitive science, cross-document, organizational, Q&A, portfolio, and sell-side sections"
+    - file: "jobs.yaml"
+      exists: true
+      notes: "6 functional jobs (J1-J6), 3 emotional jobs (E1-E3), 2 social jobs (S1-S2); all with done states and evidence"
+    - file: "first-principles.yaml"
+      exists: true
+      notes: "6 principles (P1-P6) with denial tests and derivations; strong evidence base"
+    - file: "customer-voice.md"
+      exists: true
+      notes: "10 themes with 60+ quotes spanning deal teams, sell-side, portfolio monitoring, tools, AI trust, Q&A, cross-workstream"
+    - file: "evidence.yaml"
+      exists: true
+      notes: "4 categories (prevalence, severity, consequences, current_solutions) with 40+ data points, all with sources"
+
+category_coverage:
+  status: "pass"
+  detail: "All 4 categories represented"
+  counts:
+    market_size: 4
+    customer_segments: 5
+    competitive_position: 5
+    willingness_to_pay: 5
+  total: 19
+
+independence_check:
+  status: "pass"
+  detail: "All hypothesis pairs checked; no pair where H_a false implies H_b false"
+  notes:
+    - "M1 (deal team count) and M3 (contracts per deal) are independent — the number of deals does not determine the number of contracts per deal"
+    - "M2 (portfolio companies) and M4 (sell-side burden) are independent — portfolio monitoring and sell-side DD are different workflows"
+    - "C1 (buy-side deal teams) and C2 (IC members) are independent — deal teams could be a valid segment even if IC members buy the same tools, and vice versa"
+    - "C3 (sell-side) and C1/C2 (buy-side) are independent — sell-side could be a valid segment regardless of buy-side segment structure"
+    - "C4 (portfolio monitoring) is independent of C1-C3 — monitoring is a different workflow from deal-based DD"
+    - "C5 (W&I underwriters) is independent of all other segments — underwriter needs exist regardless of how other segments are structured"
+    - "CP1 (VDRs passive) and CP4 (no cross-workstream synthesis) are related but independent — VDRs could add analytics without solving cross-workstream synthesis, and cross-workstream synthesis could exist outside VDRs"
+    - "W1 (labor cost anchor) and W2 (post-close claims anchor) are independent value propositions — labor savings and risk reduction are separately testable"
+
+p2_compliance:
+  status: "pass"
+  detail: "All 19 hypotheses framed around job executors and job context, not demographics"
+  notes:
+    - "All market size hypotheses count job executors (deal teams, portfolio companies, management teams) not industry revenue"
+    - "All segment hypotheses defined by job execution patterns (which jobs they execute, in what context) not by firm size, geography, or demographics"
+    - "All WTP hypotheses anchored to severity data (labor hours, post-close claims, opportunity cost) not to industry pricing benchmarks"
+
+falsifiability:
+  status: "pass"
+  detail: "All 19 hypotheses have falsifiable: true and contain specific thresholds or testable claims"
+  examples:
+    - id: M1
+      disproof: "Research finds fewer than 50,000 deal teams execute DD annually, or typical data rooms are under 5,000 pages"
+    - id: C5
+      disproof: "Research finds W&I underwriters do not independently evaluate DD quality or that claim rates are unrelated to DD thoroughness"
+    - id: CP2
+      disproof: "Research finds first-wave legal AI companies survived independently or that current hallucination rates are below 5%"
+    - id: W2
+      disproof: "Research finds post-close claim rates are below 10% or that EBITDA-multiple damages are not actually sought"
+
+traceability:
+  status: "pass"
+  detail: "All 19 hypotheses trace to specific Problem outputs with named references"
+  coverage:
+    thesis_md: 12
+    jobs_yaml: 11
+    first_principles_yaml: 4
+    customer_voice_md: 14
+    evidence_yaml: 19
+
+overall_assessment:
+  status: "pass"
+  hypothesis_count: 19
+  warnings: []
+  notes:
+    - "Problem evidence is exceptionally rich — thesis, JTBD, and evidence all support multi-segment, multi-job market with strong severity data"
+    - "The 4 customer segments (C1-C4) represent genuinely distinct job execution contexts with different done states, plus a downstream buyer (C5) that emerged from W&I claims evidence"
+    - "WTP hypotheses are well-anchored to quantitative severity data (labor hours, claim rates, opportunity costs) rather than qualitative willingness signals"
+    - "Competitive position hypotheses cover the full landscape: VDRs, first-wave AI tools, manual workarounds, platform gaps, and structural adoption barriers"
