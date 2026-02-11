@@ -1,0 +1,397 @@
+competitors:
+  # --- Direct Competitors ---
+
+  - id: COMP1
+    name: "Virtual Data Rooms (Datasite, Intralinks, Ansarada, iDeals)"
+    type: "direct"
+    description: "Secure document storage and access control platforms that serve as core infrastructure for M&A data rooms. Market valued at $2.8B in 2024, projected $13.2B by 2032."
+    market_share: "Dominant in M&A document management; M&A segment holds 50.72% of VDR market; Datasite and Intralinks lead with major IB/PE relationships"
+    pricing: "Per-page: $0.20-$0.75/page ($30K-$200K/deal for large transactions); per-user: ~$32/user/month; flat plans: $240-$2,000+/month"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "VDRs enable document storage, search, and access control. AI redaction and SmartSearch added. But no prioritization of risk-relevant documents across the data room."
+        gap: "User must manually identify which of 5,000-50,000 pages contain key risks; VDR surfaces documents by folder structure, not by analytical importance"
+      - job_id: J2
+        rating: "fails"
+        evidence: "No VDR provides cross-document synthesis. Datasite and Intralinks offer single-document AI features (redaction, search) but no cross-document analysis."
+        gap: "Cannot verify claims across documents; cannot detect inconsistencies between financial statements, contracts, and operational data"
+      - job_id: J3
+        rating: "fails"
+        evidence: "VDRs organize by folder/workstream but provide no analytical integration across workstreams. 'A VDR often becomes a passive digital filing cabinet' (V7 Labs)"
+        gap: "No cross-workstream synthesis; each workstream's findings remain siloed within its folder structure"
+      - job_id: J4
+        rating: "na"
+        evidence: "VDRs are deal-transaction tools, not continuous portfolio monitoring platforms"
+      - job_id: J5
+        rating: "partially_completes"
+        evidence: "VDRs provide secure document hosting for sell-side data rooms. Ansarada adds workflow templates and closing checklists."
+        gap: "No intelligent preparation support; management must still organize documents manually; no automated response to common DD questions"
+      - job_id: J6
+        rating: "partially_completes"
+        evidence: "VDR Q&A modules exist but lack intelligent cross-referencing, SLA timers, and deduplication. 'All 4 major VDR Q&A modules lack intelligent cross-referencing' (Ansarada / Imprima)"
+        gap: "Questions routed manually; no deduplication of repeated questions; no integration with verbal findings from management presentations"
+    strengths:
+      - "Dominant market position with established IB/PE relationships"
+      - "SOC 2 Type II certified — meets enterprise security requirements"
+      - "Network effects (sell-side advisor chooses VDR, buy-side must use it)"
+      - "Granular access controls and complete audit trails"
+    weaknesses:
+      - "Architecturally passive — document storage, not analytical synthesis"
+      - "AI features limited to single-document operations (redaction, search)"
+      - "Per-page pricing under competitive pressure from subscription models"
+      - "No cross-document or cross-workstream synthesis capability"
+    user_satisfaction: "Datasite 4.7/5 (Capterra, 104 reviews); Intralinks 4.1/5 (20 reviews). Users praise security and document management; criticize limited analytical capability."
+    evidence:
+      - claim: "VDR market $2.8B in 2024, projected $13.2B by 2032 (CAGR 21.4%)"
+        source: "Fortune Business Insights"
+        date: "2025"
+      - claim: "Datasite and Intralinks adding AI features (redaction, search) but not cross-document synthesis"
+        source: "V7 Labs"
+        date: "2025"
+      - claim: "Ansarada Deal Workflow adds project management but remains task-oriented, not analytical"
+        source: "V7 Labs"
+        date: "2025"
+
+  - id: COMP2
+    name: "Second-wave legal AI (Harvey, Luminance, LegalOn)"
+    type: "direct"
+    description: "AI-powered legal analysis tools addressing contract review and legal research within DD workflows. Harvey valued at $8B; Luminance uses multi-model 'Panel of Judges' architecture; LegalOn offers pre-built attorney expertise."
+    market_share: "Growing rapidly but fragmented; no single platform dominates. Legal AI funding $2.4B in 2025."
+    pricing: "Enterprise licensing with custom quotes; estimated $50K-$200K+/year for large firm deployments"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "Luminance and Harvey can identify relevant documents within legal DD workstream. LegalOn claims 97.3% accuracy with 4,150+ pre-trained concepts."
+        gap: "Limited to legal documents; cannot prioritize across financial, operational, commercial, and IT workstreams simultaneously"
+      - job_id: J2
+        rating: "partially_completes"
+        evidence: "Luminance's multi-document comparison can cross-reference within legal contracts. Harvey provides legal reasoning across documents."
+        gap: "Cross-referencing limited to legal documents; cannot reconcile financial statements against contracts against operational data"
+      - job_id: J3
+        rating: "fails"
+        evidence: "All second-wave legal AI tools are legal-workstream-only. Harvey is 'a legal-only AI tool used during DD, not cross-workstream platform.'"
+        gap: "No synthesis across financial, legal, operational, commercial, and IT/cyber workstreams"
+      - job_id: J4
+        rating: "na"
+        evidence: "Legal AI tools are deal-transaction tools, not portfolio monitoring"
+      - job_id: J5
+        rating: "na"
+        evidence: "Not designed for sell-side preparation"
+      - job_id: J6
+        rating: "na"
+        evidence: "Not designed for Q&A coordination"
+    strengths:
+      - "Harvey: $8B valuation, partnerships with elite law firms (A&O Shearman, Paul Weiss, PwC), LexisNexis integration"
+      - "Luminance: multi-model consensus architecture addresses hallucination concerns"
+      - "LegalOn: pre-built expertise reduces training time; 97.3% claimed accuracy"
+      - "Strong VC backing and rapid user growth (Harvey: 81% increase in daily active usage since 2023)"
+    weaknesses:
+      - "Legal-workstream only — no cross-workstream synthesis"
+      - "Hallucination rates remain 17-34% for leading legal AI tools (Stanford RegLab)"
+      - "Require extensive human oversight, limiting labor savings"
+      - "Fragmented market — no dominant second-wave platform"
+    user_satisfaction: "Early adopters positive but cautious; 40%+ of AI implementations stall after pilots (Deloitte, 2025)"
+    evidence:
+      - claim: "Harvey raised $750M+ in 2025, valued at $8B; 81% increase in daily active usage since 2023"
+        source: "LawNext"
+        date: "2025"
+      - claim: "Stanford RegLab: leading legal AI tools hallucinate 17-34% of the time"
+        source: "Stanford RegLab"
+        date: "2025"
+      - claim: "Legal AI funding surged to $2.4B in 2025"
+        source: "LawNext"
+        date: "2025"
+
+  - id: COMP3
+    name: "Deal management platforms (DealCloud/Intapp, 4Degrees, DealRoom, Midaxo)"
+    type: "direct"
+    description: "CRM, pipeline management, and deal coordination platforms. DealCloud is CRM + deal management; 4Degrees is relationship intelligence; DealRoom/Midaxo are process management with VDR features."
+    market_share: "Moderate adoption among PE firms and corporate development teams; DealCloud dominant in PE CRM category"
+    pricing: "DealCloud: enterprise custom pricing (noted as 'high price'); DealRoom: $1,000-$2,000+/month flat rate; 4Degrees: per-seat SaaS pricing"
+    job_completion:
+      - job_id: J1
+        rating: "na"
+        evidence: "CRMs and deal management platforms are not designed for document review within data rooms"
+      - job_id: J2
+        rating: "fails"
+        evidence: "DealCloud is a CRM, not an analytical tool. 4Degrees is relationship intelligence. Neither provides cross-document analysis."
+        gap: "No document-level analytical capability"
+      - job_id: J3
+        rating: "partially_completes"
+        evidence: "DealRoom combines VDR with process management, enabling some cross-workstream task tracking. Ansarada Deal Workflow adds integration management templates."
+        gap: "Tracks tasks and process status across workstreams but does not synthesize analytical findings across workstreams"
+      - job_id: J4
+        rating: "partially_completes"
+        evidence: "DealCloud provides pipeline and portfolio tracking. Meridian AI adds AI-native deal flow and visibility. Altvia AIMe surfaces insights from firm data."
+        gap: "CRM-level portfolio tracking, not deep operational monitoring with real-time KPI alerts and anomaly detection"
+      - job_id: J5
+        rating: "na"
+        evidence: "Not designed for sell-side DD preparation"
+      - job_id: J6
+        rating: "partially_completes"
+        evidence: "DealRoom connects diligence requests to documents and offers AI-powered document summaries. Some Q&A workflow support."
+        gap: "Limited intelligent routing and deduplication; no cross-workstream Q&A synthesis"
+    strengths:
+      - "DealCloud: strong PE firm adoption as deal CRM; Intapp parent provides stability"
+      - "4Degrees: unique relationship intelligence data"
+      - "DealRoom: integrated VDR + process management at lower price point"
+      - "Meridian AI: AI-native CRM approach may evolve toward synthesis"
+    weaknesses:
+      - "CRM/pipeline tools, not analytical synthesis engines"
+      - "DealCloud noted for 'high price, steep learning curve, and limited customization' (G2 review)"
+      - "No genuine cross-document analytical capability"
+      - "Deal management and portfolio tracking, not DD intelligence"
+    user_satisfaction: "Mixed; DealCloud users criticize learning curve and customization limitations; DealRoom users praise flat-rate pricing and deal stage tracking"
+    evidence:
+      - claim: "DealCloud/4Degrees confirmed as CRMs; DealRoom/Midaxo confirmed as process management"
+        source: "V7 Labs"
+        date: "2025"
+      - claim: "Meridian AI described as AI-native CRM; Altvia AIMe as portfolio intelligence"
+        source: "Planr"
+        date: "2025"
+
+  # --- Indirect Competitors ---
+
+  - id: COMP4
+    name: "Excel trackers and email chains"
+    type: "indirect"
+    description: "Default cross-workstream coordination tools used by deal teams despite acknowledged inadequacy. Universal compatibility and flexibility drive persistence."
+    market_share: "Dominant default — 73% of GPs struggle with data management; 46% of fund managers rely exclusively on Excel for portfolio monitoring"
+    pricing: "Included in existing Microsoft/Google subscriptions; effectively zero marginal cost"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "Analysts create manual document indexes and tracking spreadsheets. Functional but labor-intensive."
+        gap: "No automated prioritization; relies entirely on human judgment about which documents matter"
+      - job_id: J2
+        rating: "partially_completes"
+        evidence: "Manual cross-referencing via spreadsheet formulas and human review. Possible but extremely slow."
+        gap: "Human speed limits cross-document verification; high error rate due to fatigue and volume"
+      - job_id: J3
+        rating: "fails"
+        evidence: "Excel trackers can track workstream status but cannot synthesize analytical findings across workstreams. 'No tool bridges VDR storage and analytical synthesis.'"
+        gap: "Workstream findings remain in separate tabs/files; integration requires manual synthesis"
+      - job_id: J4
+        rating: "partially_completes"
+        evidence: "Excel is the dominant portfolio monitoring tool (46% exclusive reliance). Manual data entry, consolidation, and reporting."
+        gap: "30-60 day data blind spots; no version control, audit trails, or real-time alerts; lacks cybersecurity measures"
+      - job_id: J5
+        rating: "partially_completes"
+        evidence: "Management teams use Excel to track DD requests and organize responses"
+        gap: "No intelligent routing; manual tracking of hundreds of questions across multiple buyers"
+      - job_id: J6
+        rating: "fails"
+        evidence: "Q&A coordination via email creates 50+ separate threads per deal; manual consolidation required; no deduplication"
+        gap: "No centralized Q&A tracking, deduplication, or SLA monitoring"
+    strengths:
+      - "Universal compatibility — every professional has Excel/email"
+      - "Maximum flexibility — custom tracking for any workflow"
+      - "Zero switching costs — already in use"
+      - "Familiar to all seniority levels"
+    weaknesses:
+      - "No version control, audit trails, or real-time collaboration"
+      - "Error-prone manual data entry and consolidation"
+      - "Cannot scale beyond simple tracking to analytical synthesis"
+      - "30-60 day data blind spots for portfolio monitoring"
+    user_satisfaction: "Universally acknowledged as inadequate but deeply entrenched. 'How does your firm manage diligence request lists? It seems to be common place for all workstreams to just pass excel sheets back and forth' (WSO analyst)"
+    evidence:
+      - claim: "73% of GPs struggle with data management despite existing tools"
+        source: "WEF / Planr"
+        date: "2025"
+      - claim: "46% of fund managers rely exclusively on Excel for portfolio monitoring"
+        source: "Preqin"
+        date: "2017"
+
+  # --- Behavioral Competitors ---
+
+  - id: COMP5
+    name: "Manual DD by external advisors (Big Law, Big 4, boutique consultants)"
+    type: "behavioral"
+    description: "The human solution: hiring teams of attorneys, accountants, and consultants at $200-800/hr to manually execute DD jobs. The default approach for all deal sizes."
+    market_share: "Near-universal — every deal with formal DD uses external advisors"
+    pricing: "Per-deal: $150K-$500K external advisor fees for mid-market; $1M-$3M+ for large transactions"
+    job_completion:
+      - job_id: J1
+        rating: "completes"
+        evidence: "Human experts can identify key risk documents through professional judgment and experience"
+        gap: "Limited by human attention spans and time constraints; satisfaction of search reduces detection after initial finds; only 5-10% of contract population typically reviewed"
+      - job_id: J2
+        rating: "partially_completes"
+        evidence: "Experienced attorneys can cross-reference documents but limited by time constraints and cognitive capacity"
+        gap: "Two independent review teams agreed only 28% of the time on document relevance (Roitblat et al.); manual cross-referencing across 5,000-50,000 pages is cognitively impossible"
+      - job_id: J3
+        rating: "fails"
+        evidence: "Advisory firms are organized by specialty (legal, financial, operational); 'advisers do not compare notes or share intelligence' (Bain, 2020)"
+        gap: "IC memo is sole forced synthesis point — structurally compromised by author bias"
+      - job_id: J4
+        rating: "partially_completes"
+        evidence: "Operating partners conduct quarterly reviews and board-level conversations"
+        gap: "Limited deep engagement to 3-6 companies out of 20-50+; 30-60 day data blind spots"
+      - job_id: J5
+        rating: "partially_completes"
+        evidence: "M&A advisors help prepare companies for sale; sell-side QoE reports ($10K-$50K) identify speed bumps"
+        gap: "CEO/CFO still bears 20-40 hrs/week burden; preparation remains largely manual"
+      - job_id: J6
+        rating: "partially_completes"
+        evidence: "M&A advisors route questions and manage Q&A process"
+        gap: "Still requires 6+ interactions per question; 200-500 questions per deal; manual email/phone coordination"
+    strengths:
+      - "Deep domain expertise and professional judgment"
+      - "Trusted by all market participants"
+      - "Flexible to any deal structure or complexity"
+      - "Human accountability for advice quality"
+    weaknesses:
+      - "Extremely expensive ($200-800/hr)"
+      - "Limited by human speed and cognitive capacity"
+      - "Subject to satisfaction of search and fatigue effects"
+      - "Siloed by specialty with no cross-workstream synthesis"
+    user_satisfaction: "Trusted but acknowledged as insufficient — 28% post-close claim rate despite professional DD; '83% of PE leaders say their approach has substantial room for improvement' (Accenture, 2024)"
+    evidence:
+      - claim: "Mid-market DD costs $480K-$1.2M combined; external fees $150K-$500K"
+        source: "Firmex"
+        date: "2025"
+      - claim: "28% of deals face indemnification claims despite professional DD"
+        source: "SRS Acquiom"
+        date: "2024"
+
+  # --- First-wave (consolidated) ---
+
+  - id: COMP6
+    name: "First-wave legal AI (acquired/shut down: RAVN, Kira, Seal, eBrevia, Eigen, ROSS, Evisort)"
+    type: "direct"
+    description: "First generation of AI-powered contract analysis tools. All acquired by larger platforms or shut down. Addressed single-document extraction without cross-document synthesis."
+    market_share: "Near-zero as standalone products; capabilities absorbed into parent platforms (iManage, Litera, DocuSign, DFIN, Sirion, Workday)"
+    pricing: "N/A — no longer available as standalone products"
+    job_completion:
+      - job_id: J1
+        rating: "partially_completes"
+        evidence: "Could extract key terms from individual contracts (single-document extraction)"
+        gap: "Limited to individual document analysis; no cross-document prioritization"
+      - job_id: J2
+        rating: "fails"
+        evidence: "Single-document extraction focus; no cross-document synthesis"
+        gap: "Could not verify claims across documents or detect cross-document inconsistencies"
+      - job_id: J3
+        rating: "fails"
+        evidence: "All operated within legal workstream only"
+        gap: "No cross-workstream capability"
+      - job_id: J4
+        rating: "na"
+      - job_id: J5
+        rating: "na"
+      - job_id: J6
+        rating: "na"
+    strengths:
+      - "Pioneered ML/NLP application to legal document analysis"
+      - "Capabilities now embedded in larger platforms"
+    weaknesses:
+      - "Single-document focus insufficient for standalone viability"
+      - "17-34% hallucination rates destroyed user trust"
+      - "Required extensive training and customization per deployment"
+      - "All acquired or shut down — market has moved on"
+    user_satisfaction: "'It only requires a couple of inaccurate results for legal teams to lose faith in a new tool entirely' (SpotDraft/Artificial Lawyer)"
+    evidence:
+      - claim: "Full consolidation wave: RAVN->iManage, Kira->Litera, Seal->DocuSign, eBrevia->DFIN, Eigen->Sirion, ROSS shut down, Evisort->Workday"
+        source: "V7 Labs"
+        date: "2025"
+
+  # --- Portfolio monitoring tools ---
+
+  - id: COMP7
+    name: "Portfolio monitoring platforms (Chronograph, Cobalt LP, eFront, Visible)"
+    type: "direct"
+    description: "Specialized portfolio monitoring tools providing automated data collection, dashboard visualization, and LP reporting. Address J4 specifically."
+    market_share: "Growing but fragmented; Chronograph leads in LP adoption; 30% of PE funds use specialized monitoring tools"
+    pricing: "$10K-$100K+/year depending on portfolio size and complexity"
+    job_completion:
+      - job_id: J1
+        rating: "na"
+      - job_id: J2
+        rating: "na"
+      - job_id: J3
+        rating: "na"
+      - job_id: J4
+        rating: "partially_completes"
+        evidence: "Automate data collection and provide dashboards for KPI tracking. Visible emphasizes metric collection, compliance, and investor reporting."
+        gap: "Consolidate company-provided data into fund-level reports but do not synthesize cross-company insights (industry risks, shared vendor/customer relationships, competitive dynamics across portfolio)"
+      - job_id: J5
+        rating: "na"
+      - job_id: J6
+        rating: "na"
+    strengths:
+      - "Purpose-built for portfolio monitoring workflow"
+      - "Automated data collection reduces manual labor"
+      - "LP reporting templates and compliance features"
+    weaknesses:
+      - "Data ingestion and reporting, not analytical synthesis"
+      - "No cross-company pattern detection"
+      - "Require 6-12 months for full organizational adoption"
+    user_satisfaction: "Positive among adopters for labor reduction; Stanford research notes Excel remains starting point for most funds"
+    evidence:
+      - claim: "PE portfolio monitoring tools cost $10K-$100K+/yr; ~30% of PE funds use specialized tools"
+        source: "Firmex"
+        date: "2025"
+      - claim: "Trivest reduced monitoring from 40 hrs to 2 hrs/month after automation"
+        source: "Planr"
+        date: "2025"
+
+positioning_gaps:
+  - gap_id: G1
+    description: "Cross-workstream analytical synthesis — no platform synthesizes findings across financial, legal, operational, commercial, and IT workstreams into integrated risk assessment"
+    jobs_affected: [J2, J3]
+    current_best: "COMP5 (manual DD by external advisors — partially completes J2 via human cross-referencing but fails J3 due to siloed specialty structure)"
+    opportunity: "The defining unsolved problem in M&A technology. VDRs solve storage, legal AI solves single-workstream extraction, deal platforms solve process tracking — but no tool connects findings across workstreams. IC memo remains the only synthesis point, and it is structurally compromised."
+    evidence:
+      - claim: "No current platform provides cross-workstream analytical synthesis"
+        source: "V7 Labs"
+        date: "2025"
+      - claim: "IC memo is sole forced synthesis point — structurally compromised by author bias"
+        source: "Problem workspace / Stanford/Addepar study"
+        date: "2025"
+      - claim: "Bain: 'Firms tend to structure diligence as discrete questions as if those things had no connection to each other'"
+        source: "Bain"
+        date: "2020"
+
+  - gap_id: G2
+    description: "Intelligent Q&A coordination with cross-workstream context — no tool provides intelligent routing, deduplication, and synthesis of Q&A interactions across workstreams"
+    jobs_affected: [J6]
+    current_best: "COMP1 (VDR Q&A modules — partially complete but lack cross-referencing, SLA timers, deduplication)"
+    opportunity: "Q&A consumes 66%+ of deal time with 200-500 questions per deal and 6+ interactions per question. Current tools route questions but do not deduplicate, cross-reference against already-provided information, or integrate verbal findings."
+    evidence:
+      - claim: "200-500 buyer questions per deal, 600-2,000 total interactions, 150-1,000 person-hours on Q&A"
+        source: "Firmex"
+        date: "2025"
+      - claim: "All 4 major VDR Q&A modules lack intelligent cross-referencing, external tool integration, and SLA timers"
+        source: "Ansarada / Imprima"
+        date: "2025"
+
+  - gap_id: G3
+    description: "Portfolio monitoring with cross-company analytical synthesis — no tool detects patterns, risks, or opportunities across portfolio companies"
+    jobs_affected: [J4]
+    current_best: "COMP7 (portfolio monitoring platforms — automate data collection but do not synthesize cross-company insights)"
+    opportunity: "30,000+ portfolio companies monitored via Excel or basic dashboards with 30-60 day data blind spots. Automated monitoring shows 90%+ labor reduction and 60-90 day earlier problem detection. No tool provides cross-company pattern detection."
+    evidence:
+      - claim: "73% of GPs struggle with data management; 30-60 day operational blind spots"
+        source: "WEF / Planr"
+        date: "2025"
+      - claim: "Automated monitoring: 40 hrs -> 2 hrs/month; $100K-$170K annual savings"
+        source: "Planr"
+        date: "2025"
+
+competitive_moat_assessment:
+  moat_exists: true
+  description: >
+    Incumbent VDRs have a structural moat consisting of (1) SOC 2 certification and security
+    reputation, (2) IB/PE relationship lock-in and pre-approved vendor lists, (3) network
+    effects from sell-side advisor VDR selection, and (4) switching costs during active
+    transactions. However, this moat protects the document-storage job, not the analytical-
+    synthesis job. The moat does not extend to cross-workstream synthesis (G1), intelligent
+    Q&A coordination (G2), or cross-company portfolio monitoring (G3) — these gaps remain
+    undefended. The SOC 2 barrier (5.5-17.5 months) protects incumbents against under-
+    resourced entrants but is navigable through pre-approval vendor lists and compliance
+    roadmaps.
+  evidence: >
+    SOC 2 Type II takes 5.5-17.5 months, costs $50K-$200K (EasyAudit.ai, 2025).
+    Pre-approved vendor lists provide workaround for deal-timeline mismatch (WEF, 2025).
+    No VDR or deal platform provides cross-workstream analytical synthesis (V7 Labs, 2025).

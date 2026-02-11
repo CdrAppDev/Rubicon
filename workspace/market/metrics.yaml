@@ -1,0 +1,48 @@
+run_date: "2026-02-10"
+
+extraction:
+  source_count: 1
+  hypotheses_count: 19
+  hypothesis_categories: 4
+  signal_density: "high"
+
+research:
+  rounds_attempted: 2
+  rounds_completed: 1
+  round_2_status: "failed (API key expired, 401 error)"
+  total_prompts: 6
+  total_citations_found: 362
+  hypotheses_validated: 19
+  hypotheses_validated_strong: 13
+  hypotheses_validated_moderate: 4
+  hypotheses_invalidated: 0
+  hypotheses_redirected: 0
+  hypotheses_insufficient: 0
+  emergent_findings: 10
+
+processing:
+  market_sizing_method: "P2 (job executors)"
+  tam_population: "200,000-250,000"
+  sam_population: "150,000-180,000"
+  som_population: "15,000-25,000"
+  customer_segments: 5
+  primary_segment: "S1 (Buy-side PE deal teams)"
+  competitor_categories: 7
+  positioning_gaps: 3
+  wtp_anchor_tiers: 3
+  evidence_entries: 69
+  evidence_categories: 5
+  sources_deduplicated: 42
+  thesis_citation_rate: 0.95
+  scope_violations: 0
+  word_boundary_violations: 0
+
+validation:
+  checks_run: 24
+  checks_passed: 24
+  checks_failed: 0
+  p2_compliance: "full"
+  gate_criteria_met: 6
+  gate_criteria_total: 6
+  attempts: 1
+  status: "PASS"

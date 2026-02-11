@@ -1,0 +1,185 @@
+wtp_signals:
+  current_spend:
+    - category: "VDR infrastructure"
+      estimate: "$10,000-$200,000 per deal"
+      evidence:
+        - claim: "Per-page pricing: $0.20-$0.75/page ($30K-$200K for large deals); subscription models: $240-$2,000+/month"
+          source: "Intralinks"
+          date: "2025"
+        - claim: "VDR costs represent 2-10% of total advisory costs but only 0.1-0.5% of deal value"
+          source: "Firmex"
+          date: "2025"
+
+    - category: "External DD advisor fees"
+      estimate: "$150,000-$500,000 per mid-market deal"
+      evidence:
+        - claim: "Mid-market DD costs $480K-$1.2M combined (external $150K-$500K + internal labor)"
+          source: "Peony.ink"
+          date: "2025"
+        - claim: "QoE reports: $25K-$100K+; legal DD: $125K-$450K; tax DD: $10K-$75K"
+          source: "Peony.ink"
+          date: "2025"
+        - claim: "Big Law associate rates $400-800/hr; Big 4 consultant rates $200-500/hr"
+          source: "LeanLaw"
+          date: "2025"
+
+    - category: "Internal deal team labor"
+      estimate: "$200,000-$700,000 per deal"
+      evidence:
+        - claim: "IB associate rates $103-139/hr; VP $330-480/hr; partner $600+/hr. 2,000-3,000+ person-hours per mid-market deal."
+          source: "Mergers & Inquisitions"
+          date: "2025"
+        - claim: "Deal teams of 10-15 people working 60-80 hrs/week during active DD"
+          source: "Wall Street Oasis / Firmex"
+          date: "2025"
+
+    - category: "RWI insurance premiums"
+      estimate: "$1,500,000-$5,000,000 per mid-to-large deal"
+      evidence:
+        - claim: "RWI premiums 2.5-3.5% of limit; 75% of PE deals use RWI"
+          source: "Woodruff Sawyer"
+          date: "2025"
+        - claim: "Retention ~1% of enterprise value (e.g., $5M on a $500M deal)"
+          source: "Woodruff Sawyer"
+          date: "2025"
+        - claim: "Aon: North American clients recovered $1.4B+ in RWI claims through Q4 2024, $300M+ paid in 2024 alone"
+          source: "Aon"
+          date: "2025"
+
+    - category: "Portfolio monitoring labor"
+      estimate: "$186,000-$252,000 per year (manual) vs $54,000-$84,000 (automated) per 20-company portfolio"
+      evidence:
+        - claim: "Manual monitoring: 32-51 hrs/month on data mechanics; chasing data (8-12 hrs), consolidation (10-15 hrs), error checking (4-6 hrs), report building (6-10 hrs)"
+          source: "Planr"
+          date: "2025"
+        - claim: "Operating partner compensation $300K-$750K/yr"
+          source: "RAW Selection"
+          date: "2025"
+        - claim: "Portfolio monitoring tools: $10K-$100K+/yr"
+          source: "Chronograph"
+          date: "2025"
+
+    - category: "Q&A coordination labor"
+      estimate: "$50,000-$100,000 per deal"
+      evidence:
+        - claim: "200-500 buyer questions per deal; 600-2,000 total interactions; 150-1,000 person-hours on Q&A"
+          source: "Ansarada"
+          date: "2025"
+        - claim: "Q&A coordination consumes 17-40% of deal team capacity; up to 66%+ during peak periods"
+          source: "Ansarada"
+          date: "2025"
+
+    - category: "Sell-side management opportunity cost"
+      estimate: "$1,000,000-$2,160,000 per transaction"
+      evidence:
+        - claim: "CEO/CFO 20-40 hrs/week over 90-120 days at $600/hr blended rates"
+          source: "Embark"
+          date: "2025"
+        - claim: "Hypothesis of $200K was conservative by 5-10x; actual opportunity cost $1M-$2.16M"
+          source: "Embark"
+          date: "2025"
+
+  value_of_completion:
+    - job_id: J1
+      done_state_value: "Focus analysis time on what matters rather than searching through 5,000-50,000 pages"
+      severity_anchor: "Traditional DD examines only 5-10% of contract population; satisfaction of search reduces detection after initial finds (Drew et al., 2013)"
+      evidence:
+        - claim: "95% of relevant information in just 10% of total documentation — but which 10% is unknown without reviewing all"
+          source: "Imprima/Kumo"
+          date: "2025"
+
+    - job_id: J2
+      done_state_value: "Preventing one post-close material miss per deal; EBITDA-multiplier: $2M error at 10x = $20M"
+      severity_anchor: "28% of deals face indemnification claims; undisclosed liability claims doubled since 2022; 84% of financial statement breach claims involve audited companies"
+      evidence:
+        - claim: "28% of deals face at least one post-closing indemnification claim"
+          source: "SRS Acquiom"
+          date: "2024"
+        - claim: "45% of total RWI loss paid from individual claims exceeding $20M"
+          source: "Euclid Transactional"
+          date: "2025"
+        - claim: "Claims seeking EBITDA-multiple damages rose from 5% to 32% (2020-2024)"
+          source: "Fasken/Aon"
+          date: "2024"
+
+    - job_id: J3
+      done_state_value: "Integrated view of findings across all workstreams; no one team's blind spot becomes the deal's blind spot"
+      severity_anchor: "No current platform provides cross-workstream synthesis; IC memo is sole synthesis point, structurally compromised"
+      evidence:
+        - claim: "70-90% of M&A deals fail to deliver expected value; 70% of companies lack clear synergy understanding"
+          source: "McKinsey"
+          date: "2025"
+        - claim: "Bain: 'Firms structure diligence as discrete questions as if those things had no connection to each other'"
+          source: "Bain"
+          date: "2020"
+
+    - job_id: J4
+      done_state_value: "Real-time awareness of material changes; 60-90 day earlier problem detection; $100K-$170K annual savings per 20-company portfolio"
+      severity_anchor: "30-60 day operational blind spots; 73% of GPs struggle with data management; record 110 PE-backed bankruptcies in 2024"
+      evidence:
+        - claim: "Trivest: 40 hrs -> 2 hrs/month after automation; $100K-$170K annual savings"
+          source: "Planr"
+          date: "2025"
+        - claim: "Earlier problem detection enables intervention weeks before issues lock into quarterly results"
+          source: "Planr"
+          date: "2025"
+
+    - job_id: J5
+      done_state_value: "Management time on DD measured in hours/week, not a second full-time job; responses to standard DD requests in minutes, not days"
+      severity_anchor: "CEO/CFO 20-40 hrs/week for 90-120 days; opportunity cost $1M-$2.16M per transaction"
+      evidence:
+        - claim: "Companies well-prepared for sale complete sales 2-3x faster"
+          source: "Ansarada"
+          date: "2025"
+        - claim: "Sell-side QoE review identifying $50K in EBITDA adjustments at 6x multiple = $300K additional deal value"
+          source: "PKF Texas"
+          date: "2025"
+
+    - job_id: J6
+      done_state_value: "Q&A coordination happens automatically; questions reach right SME without manual routing; duplicate questions detected"
+      severity_anchor: "200-500 questions per deal, 6+ interactions per question, 66%+ of deal time consumed"
+      evidence:
+        - claim: "Q&A compression of 30-40% saves $21K-$28K per deal; $105K-$280K annually for firms executing 5-10 deals"
+          source: "Ansarada"
+          date: "2025"
+
+  price_sensitivity:
+    segment_sensitivity: "low"
+    budget_category: "replacing_existing"
+    switching_cost_factor: "Medium — SOC 2 and VDR integration create switching friction, but deal teams pay $480K-$1.2M per deal in DD costs; tools representing 1-5% of DD spend face low price resistance if ROI is demonstrated"
+    evidence:
+      - claim: "VDR costs represent only 0.1-0.5% of deal value; advisory costs 2-6% of deal value"
+        source: "Firmex"
+        date: "2025"
+      - claim: "Legal teams would rationally pay $20K-$50K for tools saving 200+ hours at $250/hr"
+        source: "LegalOn"
+        date: "2025"
+      - claim: "Deal teams and organizations face substantial financial incentive to compress deal timelines and improve labor efficiency"
+        source: "Firmex"
+        date: "2025"
+
+  wtp_anchor:
+    range: "$20,000-$240,000 per deal"
+    signals:
+      - signal: "Existing VDR spend per deal"
+        range: "$10,000-$200,000"
+        source: "Intralinks"
+        interpretation: "Establishes existing budget allocation for deal infrastructure; new tooling can displace or supplement this spend"
+      - signal: "Labor savings at 20% DD compression"
+        range: "$96,000-$240,000 per deal"
+        source: "Peony.ink"
+        interpretation: "20% of $480K-$1.2M total DD costs; establishes value-based ceiling for deal-phase tools"
+      - signal: "Expected claim prevention value"
+        range: "$70,000 per deal"
+        source: "SRS Acquiom"
+        interpretation: "28% claim rate x conservative $250K average claim; quantifies risk-reduction value"
+    portfolio_monitoring_anchor:
+      range: "$30,000-$100,000 per year per fund"
+      benchmark: "$186,000-$252,000 in manual monitoring labor replaced"
+      source: "Planr"
+    rationale: >
+      Three independent WTP signals converge on $20K-$240K per deal: existing infrastructure
+      spend ($10K-$200K), labor savings from DD compression ($96K-$240K), and claim prevention
+      value ($70K expected value). Price sensitivity is low for demonstrated ROI. Budget category
+      is "replacing existing" (reducing advisory hours and VDR spend) rather than net-new line item.
+      Portfolio monitoring WTP anchored separately to labor replacement economics.

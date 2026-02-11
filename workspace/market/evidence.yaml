@@ -1,0 +1,349 @@
+market_size:
+  - claim: "Global M&A value reached $3.0 trillion in 2025, representing a 31% increase over 2024"
+    source: "BCG"
+    date: "2025"
+    url: ""
+
+  - claim: "Global deal values increased 36% in 2025 driven by roughly 600 transactions above $1B, while value across the remaining approximately 47,000 transactions was flat year-over-year"
+    source: "PwC"
+    date: "2026"
+    url: ""
+
+  - claim: "In 2025, 111 megadeals exceeding $5B were announced, up 76% from 63 the prior year"
+    source: "PwC"
+    date: "2026"
+    url: ""
+
+  - claim: "The US accounted for just under 25% of global deal volumes but more than 50% of global deal value"
+    source: "PwC"
+    date: "2026"
+    url: ""
+
+  - claim: "Q4 2024: 9,765 deals announced, highest since Q1 2023"
+    source: "S&P Global"
+    date: "2025"
+    url: ""
+
+  - claim: "PE dry powder stood at $2.184 trillion as of March 2026, down 5.2% from its all-time high of $2.305 trillion in December 2023"
+    source: "PitchBook"
+    date: "2026"
+    url: ""
+
+  - claim: "Private capital AUM more than doubled between December 2018 and December 2024, exceeding $17.5 trillion globally"
+    source: "PitchBook"
+    date: "2024"
+    url: ""
+
+  - claim: "PE exit backlog is bigger in value, count, and as a share of total portfolio companies than at any point in the past two decades"
+    source: "Bain"
+    date: "2025"
+    url: ""
+
+  - claim: "2,236 M&A deals publicly disclosed in financial services alone in 2025"
+    source: "EY"
+    date: "2025"
+    url: ""
+
+  - claim: "Across 3,244 PE firms, median number of active dealmakers per firm increased from 4 in 2018 to approaching 6 currently"
+    source: "PEI 300"
+    date: "2025"
+    url: ""
+
+  - claim: "Approximately 2,500-3,000 operating PE funds globally, average 4 operating partners per fund = approximately 10,000 operating partners managing 25,000-35,000 portfolio companies"
+    source: "PitchBook/Preqin"
+    date: "2025"
+    url: ""
+
+  - claim: "M&A projected to grow 3-9% in 2026 depending on macroeconomic scenario"
+    source: "BCG/Bain"
+    date: "2025"
+    url: ""
+
+customer_segments:
+  - claim: "Deal teams of 5-15 internal plus external advisors organized by workstream: financial, legal, operational, commercial, IT"
+    source: "Devensoft"
+    date: "2025"
+    url: ""
+
+  - claim: "Q&A consumes 66%+ of deal time with 200-500 buyer questions per deal"
+    source: "Ansarada"
+    date: "2025"
+    url: ""
+
+  - claim: "Investment committee confirmed as formal distinct organizational unit with 3-7 members; structured memo process is primary information channel"
+    source: "Meridian AI"
+    date: "2025"
+    url: ""
+
+  - claim: "IC memo deadlines typically Thursday 8pm for Monday meetings; 30-page limits recommended"
+    source: "Meridian AI"
+    date: "2025"
+    url: ""
+
+  - claim: "CEO/CFO involvement during sell-side DD reaches 20-40 hrs/week for 90-120 days"
+    source: "Embark"
+    date: "2025"
+    url: ""
+
+  - claim: "Sell-side management opportunity cost $1M-$2.16M per transaction, 5-10x higher than $200K hypothesis"
+    source: "Embark"
+    date: "2025"
+    url: ""
+
+  - claim: "Management teams face conflict of interest: fiduciary role vs personal interests (transaction bonuses, equity rollover)"
+    source: "McLane Middleton"
+    date: "2025"
+    url: ""
+
+  - claim: "73% of GPs struggle with portfolio data management; Excel is dominant tool despite inadequacy"
+    source: "WEF"
+    date: "2025"
+    url: ""
+
+  - claim: "Operating partner compensation $300K-$750K/yr; 3-10x supply-demand gap for qualified operating partners"
+    source: "RAW Selection"
+    date: "2025"
+    url: ""
+
+  - claim: "30-60 day data blind spots in current monitoring; automated systems detect problems 60-90 days earlier"
+    source: "Planr"
+    date: "2025"
+    url: ""
+
+  - claim: "RWI used in 75% of PE deals and 64% of larger strategic acquisitions; 28 underwriters in US market"
+    source: "Woodruff Sawyer"
+    date: "2025"
+    url: ""
+
+  - claim: "79% of attorneys use AI for document review, legal research, and drafting"
+    source: "ILTA"
+    date: "2025"
+    url: ""
+
+  - claim: "80% of PE workflows rely heavily on technology; 95% planning to multiply AI investments in next 18 months"
+    source: "WEF"
+    date: "2025"
+    url: ""
+
+  - claim: "Tool adoption decisions for sell-side typically made by M&A advisors, not management directly"
+    source: "McLane Middleton"
+    date: "2025"
+    url: ""
+
+competitive:
+  - claim: "VDR market valued at $2.8 billion in 2024, projected to reach $13.2 billion by 2032 at CAGR of 21.4%"
+    source: "Fortune Business Insights"
+    date: "2025"
+    url: ""
+
+  - claim: "No VDR provides cross-document synthesis or analytical capability across workstreams"
+    source: "V7 Labs"
+    date: "2025"
+    url: ""
+
+  - claim: "VDR AI features limited to document-level tasks: automated redaction, basic search, access control"
+    source: "V7 Labs"
+    date: "2025"
+    url: ""
+
+  - claim: "First-wave legal AI consolidation: RAVN->iManage, Kira->Litera, Seal->DocuSign, eBrevia->DFIN, Eigen->Sirion, ROSS shut down, Evisort->Workday"
+    source: "Artificial Lawyer"
+    date: "2025"
+    url: ""
+
+  - claim: "Legal AI hallucination rates: Lexis+ AI >17%, Westlaw AI >34%"
+    source: "Stanford RegLab"
+    date: "2025"
+    url: ""
+
+  - claim: "Harvey AI valued at $8 billion by end of 2025; legal AI funding surged to $2.4B in 2025"
+    source: "LawNext"
+    date: "2025"
+    url: ""
+
+  - claim: "DealCloud, 4Degrees are CRMs; DealRoom, Midaxo are process management -- none provide cross-workstream analytical synthesis"
+    source: "4Degrees"
+    date: "2025"
+    url: ""
+
+  - claim: "Excel/email persist as default coordination despite acknowledged inadequacy due to flexibility, customization, lack of integrated alternatives"
+    source: "V7 Labs / Planr"
+    date: "2025"
+    url: ""
+
+  - claim: "Traditional DD examines only 5-10% of contract population"
+    source: "Sirion.ai"
+    date: "2026"
+    url: ""
+
+  - claim: "Luminance uses 'Panel of Judges' multi-model architecture for consensus-based legal reasoning; LegalOn claims 97.3% accuracy with 4,150+ pre-trained concepts"
+    source: "Ironclad"
+    date: "2025"
+    url: ""
+
+  - claim: "Firms 'structure diligence as discrete questions as if those things had no connection to each other'"
+    source: "Bain"
+    date: "2020"
+    url: ""
+
+willingness_to_pay:
+  - claim: "Mid-market DD costs $480K-$1.2M combined: external $150K-$500K + internal labor"
+    source: "Peony.ink"
+    date: "2025"
+    url: ""
+
+  - claim: "IB associate rates $103-139/hr; VP $330-480/hr; partner $600+/hr; 2,000-3,000+ person-hours per mid-market deal"
+    source: "Mergers & Inquisitions"
+    date: "2025"
+    url: ""
+
+  - claim: "Big Law associate rates $400-800/hr; Big 4 consultant rates $200-500/hr"
+    source: "LeanLaw"
+    date: "2025"
+    url: ""
+
+  - claim: "QoE reports $25K-$100K+; legal DD $125K-$450K; tax DD $10K-$75K"
+    source: "Peony.ink"
+    date: "2025"
+    url: ""
+
+  - claim: "VDR per-page pricing $0.20-$0.75/page ($30K-$200K for large deals); subscription models $240-$2,000+/month"
+    source: "Intralinks"
+    date: "2025"
+    url: ""
+
+  - claim: "28% of deals face at least one post-closing indemnification claim"
+    source: "SRS Acquiom"
+    date: "2024"
+    url: ""
+
+  - claim: "45% of total RWI loss paid from individual claims exceeding $20M"
+    source: "Euclid Transactional"
+    date: "2025"
+    url: ""
+
+  - claim: "Claims seeking EBITDA-multiple damages rose from 5% to 32% (2020-2024)"
+    source: "Fasken/Aon"
+    date: "2024"
+    url: ""
+
+  - claim: "Aon: North American clients recovered $1.4B+ in RWI claims through Q4 2024, $300M+ paid in 2024 alone"
+    source: "Aon"
+    date: "2025"
+    url: ""
+
+  - claim: "RWI premiums 2.5-3.5% of limit; retention approximately 1% of enterprise value"
+    source: "Woodruff Sawyer"
+    date: "2025"
+    url: ""
+
+  - claim: "Sell-side management opportunity cost $1M-$2.16M per transaction; CEO/CFO 20-40 hrs/week over 90-120 days at $600/hr blended rates"
+    source: "Embark"
+    date: "2025"
+    url: ""
+
+  - claim: "Companies well-prepared for sale complete sales 2-3x faster"
+    source: "Ansarada"
+    date: "2025"
+    url: ""
+
+  - claim: "Q&A compression of 30-40% saves $21K-$28K per deal; $105K-$280K annually for firms executing 5-10 deals"
+    source: "Ansarada"
+    date: "2025"
+    url: ""
+
+  - claim: "Legal teams would rationally pay $20K-$50K for tools saving 200+ hours at $250/hr"
+    source: "LegalOn"
+    date: "2025"
+    url: ""
+
+  - claim: "Manual portfolio monitoring $186K-$252K/yr; automated $54K-$84K/yr per 20-company portfolio; savings $100K-$170K annually"
+    source: "Planr"
+    date: "2025"
+    url: ""
+
+  - claim: "Trivest: 40 hrs to 2 hrs/month after automation; 60-90 day earlier problem detection"
+    source: "Planr"
+    date: "2025"
+    url: ""
+
+  - claim: "Portfolio monitoring tools: $10K-$100K+/yr"
+    source: "Chronograph"
+    date: "2025"
+    url: ""
+
+  - claim: "Operating partner compensation $300K-$750K/yr"
+    source: "RAW Selection"
+    date: "2025"
+    url: ""
+
+market_dynamics:
+  - claim: "Cross-border M&A deal value climbed 29% to $1.46 trillion in 2025"
+    source: "PwC"
+    date: "2025"
+    url: ""
+
+  - claim: "Deal closing timelines for $2B+ deals increased 11% from 2018 to 2022, averaging 191 days"
+    source: "BCG"
+    date: "2024"
+    url: ""
+
+  - claim: "40% of transactions took longer to close than announced timeline estimates"
+    source: "BCG"
+    date: "2024"
+    url: ""
+
+  - claim: "CFIUS reviews increased 45% YoY; technology deals face 85% mandatory declaration rates"
+    source: "U.S. Treasury"
+    date: "2025"
+    url: ""
+
+  - claim: "Law firms increased technology spending by approximately 39.3% over 2021-2025"
+    source: "Thomson Reuters"
+    date: "2026"
+    url: ""
+
+  - claim: "Sales cycles for deal technology range 14-36 weeks; compressible to 4-8 weeks with prior pilot"
+    source: "Alexander Jarvis"
+    date: "2025"
+    url: ""
+
+  - claim: "SOC 2 Type II requires 5.5-17.5 months total; costs $50K-$200K"
+    source: "EasyAudit.ai"
+    date: "2025"
+    url: ""
+
+  - claim: "Land-and-expand: 4-6 week pilot, 3-6 month department rollout, 6-12 month firm-wide deployment"
+    source: "WEF"
+    date: "2025"
+    url: ""
+
+  - claim: "40%+ of AI implementations stall after pilots due to change management failures"
+    source: "Deloitte"
+    date: "2025"
+    url: ""
+
+  - claim: "70-90% of M&A deals fail to deliver expected value; 70% of companies lack clear synergy understanding"
+    source: "McKinsey"
+    date: "2025"
+    url: ""
+
+  - claim: "Record 110 PE-backed bankruptcies in 2024"
+    source: "S&P Global"
+    date: "2025"
+    url: ""
+
+  - claim: "SEC climate disclosure rules and EU CSRD expanding DD scope; CSRD triples number of covered companies"
+    source: "AuditBoard"
+    date: "2025"
+    url: ""
+
+  - claim: "EU AI Act bulk obligations effective August 2, 2026"
+    source: "Orrick"
+    date: "2025"
+    url: ""
+
+  - claim: "Supply-demand gap of 3-10x for qualified operating partners; recruitment requires 180+ days"
+    source: "Salfati Group"
+    date: "2025"
+    url: ""

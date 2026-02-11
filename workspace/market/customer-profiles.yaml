@@ -1,0 +1,268 @@
+segments:
+  - id: S1
+    segment_type: "core"
+    name: "Buy-side PE deal teams"
+    description: "PE associates, principals, and their external advisors (Big Law attorneys, Big 4 consultants) executing buy-side M&A due diligence under deal-driven time pressure"
+    jobs_executed: [J1, J2, J3, J6]
+    job_frequency: "3-8 deals per year per professional; each deal 30-90 days of intensive DD"
+    organization_type: "Enterprise (PE firms with $500M+ AUM, investment banks, law firms)"
+
+    buyer_profile:
+      role: "Deal lead (VP/Principal at PE firm) or Head of Corporate Development"
+      budget_authority: "Committee — deal lead advocates, CTO/CIO approves, CFO manages budget"
+      key_concerns:
+        - "Deal execution speed (30-90 day windows are non-negotiable)"
+        - "Security and MNPI handling (SOC 2 Type II required)"
+        - "Integration with existing VDR and workflow tools"
+        - "Demonstrable ROI within a single deal cycle"
+
+    user_profile:
+      role: "PE associate, IB analyst, Big Law associate, Big 4 consultant"
+      daily_context: "Reviewing 5,000-50,000 pages across 6+ workstreams within compressed timelines; synthesizing findings into IC memos; coordinating Q&A across 200-500 buyer questions"
+      current_workaround: "VDRs for document storage, Excel trackers for cross-workstream coordination, email for Q&A routing, manual synthesis for IC memos"
+
+    decision_makers:
+      - role: "Deal lead (VP/Principal)"
+        type: "evaluator"
+        concerns: ["Deal execution speed", "Quality of cross-document synthesis", "Integration with deal workflow"]
+      - role: "CTO/CIO/Head of Technology"
+        type: "gatekeeper"
+        concerns: ["SOC 2 certification", "Data security", "Integration with existing systems"]
+      - role: "Managing Partner"
+        type: "budget_holder"
+        concerns: ["ROI justification", "Vendor stability", "Competitive differentiation"]
+      - role: "PE associate / IB analyst"
+        type: "user"
+        concerns: ["Ease of use under time pressure", "Accuracy of AI-assisted analysis", "Learning curve during active deals"]
+
+    buying_journey:
+      awareness: "Peer referral from other deal professionals; industry conferences (SuperReturn, PEI Operating Partners Forum); M&A advisor recommendations; visible frustration with manual synthesis during active deals"
+      research: "Analyst reports (Gartner, Forrester); peer firm case studies; vendor demos at conferences; law firm technology partner recommendations"
+      evaluation: "Pilot on a single active deal (4-6 weeks); security questionnaire and SOC 2 review (4-12 weeks); integration assessment with existing VDR"
+      purchase: "Committee decision involving deal lead, CTO, and CFO; firm-level procurement; multi-year licensing preferred"
+      adoption: "Land-and-expand: 4-6 week pilot on one deal, 3-6 month rollout to deal team, 6-12 month firm-wide deployment; 40%+ of AI implementations stall after pilots due to change management failures"
+
+    evidence:
+      - claim: "Deal teams of 5-15 internal + external advisors organized by workstream (financial, legal, operational, commercial, IT)"
+        source: "Devensoft"
+        date: "2025"
+      - claim: "Q&A consumes 66%+ of deal time with 200-500 buyer questions per deal"
+        source: "Ansarada"
+        date: "2025"
+      - claim: "79% of attorneys use AI for document review, legal research, and drafting"
+        source: "ILTA"
+        date: "2025"
+      - claim: "Sales cycles for deal tech: 14-36 weeks, compressible to 4-8 weeks with prior pilot"
+        source: "Alexander Jarvis"
+        date: "2025"
+
+  - id: S2
+    name: "Investment committee members"
+    description: "Senior partners and principals (3-7 per firm) who make final investment decisions based on synthesized information delivered through IC memos"
+    jobs_executed: [J3]
+    job_frequency: "Weekly/monthly IC meetings reviewing 2-5 deals per meeting"
+    organization_type: "Enterprise (PE firms)"
+
+    buyer_profile:
+      role: "Managing Partner or IC Chair"
+      budget_authority: "Self — managing partner controls IC process and firm infrastructure"
+      key_concerns:
+        - "Quality and completeness of information reaching IC"
+        - "Risk identification before capital deployment"
+        - "Decision speed without sacrificing rigor"
+
+    user_profile:
+      role: "Investment committee member (Partner/Principal)"
+      daily_context: "Reviewing 30-page IC memos prepared by deal teams; challenging assumptions in IC meetings; relying on curated summaries rather than direct data room access"
+      current_workaround: "IC memos prepared by deal teams with email-based Q&A before meetings"
+
+    decision_makers:
+      - role: "Managing Partner"
+        type: "budget_holder"
+        concerns: ["Improved deal selection quality", "Reduced information asymmetry between deal team and IC"]
+      - role: "IC member"
+        type: "user"
+        concerns: ["Time to prepare for IC meetings", "Ability to pressure-test deal team assumptions"]
+
+    buying_journey:
+      awareness: "Awareness of IC information gaps often triggered by post-close discovery of material issues that should have been flagged during DD"
+      research: "Managing partner-driven evaluation of tools that improve IC memo quality and deal intelligence"
+      evaluation: "Review of outputs from deal team pilots; assessment of whether IC receives better-quality synthesis"
+      purchase: "Managing partner decision, often bundled with deal team tooling"
+      adoption: "Adoption follows deal team adoption; IC members consume outputs rather than directly operating the tool"
+
+    evidence:
+      - claim: "IC confirmed as formal distinct organizational unit with 3-7 members; structured memo process is primary information channel"
+        source: "Meridian AI"
+        date: "2025"
+      - claim: "IC memo deadlines typically Thursday 8pm for Monday meetings; 30-page limits recommended"
+        source: "Meridian AI"
+        date: "2025"
+      - claim: "70-90% of M&A deals fail to deliver expected value, suggesting IC information quality is insufficient"
+        source: "McKinsey"
+        date: "2025"
+
+  - id: S3
+    name: "Sell-side management teams"
+    description: "CEOs, CFOs, and C-suite executives of companies undergoing sale or capital events, executing preparation and response jobs reactively"
+    jobs_executed: [J5, J6]
+    job_frequency: "1 transaction per management team, typically 90-120 days of intensive involvement"
+    organization_type: "Mid-market companies ($25M-$500M revenue)"
+
+    buyer_profile:
+      role: "M&A advisor (investment banker) or company board — NOT management team directly"
+      budget_authority: "Company board and M&A advisors select tools; management advocates based on time burden"
+      key_concerns:
+        - "Reducing management time burden during DD"
+        - "Speed of response to buyer information requests"
+        - "Maintaining business operations while managing DD"
+
+    user_profile:
+      role: "CEO, CFO, COO, and direct reports"
+      daily_context: "Responding to 200-500 buyer questions across multiple workstreams; coordinating internal SMEs; managing management presentations; handling 20-40 hrs/week of DD-related work for 90-120 days"
+      current_workaround: "Email-based coordination with M&A advisor; VDR for document access; Excel for tracking DD requests; manual routing of questions to internal SMEs"
+
+    decision_makers:
+      - role: "M&A advisor / Investment banker"
+        type: "influencer"
+        concerns: ["Deal velocity", "Management team professionalism", "Tooling that reduces deal risk"]
+      - role: "Board of directors"
+        type: "budget_holder"
+        concerns: ["Deal completion certainty", "Management team availability for operations"]
+      - role: "CEO/CFO"
+        type: "user"
+        concerns: ["Time burden reduction", "Professional appearance to buyers", "Simplicity of use"]
+
+    buying_journey:
+      awareness: "M&A advisor recommendation at transaction engagement; visibility of time burden during active DD process"
+      research: "Advisor-driven tool selection; limited independent research by management teams due to time pressure"
+      evaluation: "Advisor-facilitated pilot during active transaction; management team provides feedback on time savings"
+      purchase: "Company or advisor selects tool; cost included in transaction advisory budget"
+      adoption: "Adoption occurs within a single transaction; no long-term rollout pattern (each transaction is independent)"
+
+    evidence:
+      - claim: "CEO/CFO involvement reaches 20-40 hrs/week during DD; 30 hrs/week is mid-range"
+        source: "Embark"
+        date: "2025"
+      - claim: "Opportunity cost $1M-$2.16M per transaction (5-10x higher than $200K hypothesis)"
+        source: "Embark"
+        date: "2025"
+      - claim: "Tool adoption decisions typically made by M&A advisors, not management directly"
+        source: "McLane Middleton"
+        date: "2025"
+      - claim: "Management teams face conflict of interest: fiduciary role vs personal interests (transaction bonuses, equity rollover)"
+        source: "McLane Middleton"
+        date: "2025"
+
+  - id: S4
+    segment_type: "adjacent_expansion"
+    name: "PE portfolio monitoring teams"
+    description: "Operating partners, fund analysts, and portfolio operations professionals executing continuous monitoring across 20-50+ portfolio companies with Excel-based tools and 30-60 day data blind spots"
+    jobs_executed: [J4]
+    job_frequency: "Continuous (monthly KPI reviews, quarterly board packs, real-time exception monitoring)"
+    organization_type: "Enterprise (PE funds with $500M+ AUM)"
+
+    buyer_profile:
+      role: "CFO/COO of PE fund or Head of Portfolio Operations"
+      budget_authority: "Committee — operating partner advocates, CFO approves based on ROI"
+      key_concerns:
+        - "Data integration across portfolio companies with different reporting formats"
+        - "Earlier problem detection (reducing 30-60 day blind spots)"
+        - "LP reporting quality and timeliness"
+        - "Cost savings vs. manual monitoring labor"
+
+    user_profile:
+      role: "Operating partner, portfolio analyst, fund accountant"
+      daily_context: "Chasing data from portfolio companies (8-12 hrs/month), consolidating in Excel (10-15 hrs/month), error checking (4-6 hrs/month), building reports (6-10 hrs/month); overseeing 20-50+ companies but deeply engaging with only 3-6"
+      current_workaround: "Excel spreadsheets for KPI tracking; email for data collection from portfolio companies; manual consolidation; quarterly board packs assembled from fragmented data"
+
+    decision_makers:
+      - role: "Operating partner"
+        type: "user"
+        concerns: ["Data quality and timeliness", "Earlier problem detection", "Time freed for value creation vs data mechanics"]
+      - role: "CFO/COO of fund"
+        type: "budget_holder"
+        concerns: ["ROI vs manual monitoring labor", "Integration with existing reporting systems", "Vendor stability"]
+      - role: "Head of IT/Technology"
+        type: "gatekeeper"
+        concerns: ["Data security", "Integration complexity", "SOC 2 compliance"]
+
+    buying_journey:
+      awareness: "Pain of manual data collection and portfolio monitoring; LP requests for better reporting; post-investment value destruction from late problem detection"
+      research: "Peer fund referrals; industry conferences (PEI Operating Partners Forum); evaluation of existing portfolio monitoring tools (Chronograph, Cobalt LP, eFront)"
+      evaluation: "Pilot with subset of portfolio companies (3-6 months); ROI assessment based on labor savings and earlier detection"
+      purchase: "Fund-level procurement; annual subscription; typically $10K-$100K+/year depending on portfolio size"
+      adoption: "Extended timeline: 6-12 months for full organizational adoption; requires redesigning monthly KPI review processes and training across operating partners, finance, and IR teams"
+
+    evidence:
+      - claim: "73% of GPs struggle with data management; Excel is dominant tool despite inadequacy"
+        source: "WEF"
+        date: "2025"
+      - claim: "Automated monitoring: 40 hrs -> 2 hrs/month (Trivest case study); $100K-$170K annual savings per 20-company portfolio"
+        source: "Planr"
+        date: "2025"
+      - claim: "Operating partner compensation $300K-$750K/yr; 3-10x supply-demand gap for qualified operating partners"
+        source: "RAW Selection"
+        date: "2025"
+      - claim: "30-60 day data blind spots in current monitoring; automated systems detect problems 60-90 days earlier"
+        source: "Planr"
+        date: "2025"
+
+  - id: S5
+    name: "W&I insurance underwriters"
+    description: "RWI underwriters who assess DD quality to price risk, operating as downstream buyers with growing concern about diligence thoroughness"
+    jobs_executed: [J2]
+    job_frequency: "Per-deal basis; 28 underwriters in US market processing thousands of submissions annually"
+    organization_type: "Specialty insurance carriers"
+
+    buyer_profile:
+      role: "Head of M&A/Transaction Risk Insurance"
+      budget_authority: "Self — underwriting team selects tools for risk assessment"
+      key_concerns:
+        - "Independent verification of DD quality"
+        - "Accuracy of risk pricing"
+        - "Claims frequency reduction"
+
+    user_profile:
+      role: "RWI underwriter / claims analyst"
+      daily_context: "Reviewing DD packages to assess risk and price RWI policies; 1-2 week underwriting process per deal; written Q&A with deal teams"
+      current_workaround: "Manual review of DD summaries provided by deal teams; reliance on deal team representations about DD quality"
+
+    decision_makers:
+      - role: "Head of Transaction Risk"
+        type: "budget_holder"
+        concerns: ["Claims reduction", "Underwriting accuracy", "Competitive pricing"]
+      - role: "Underwriter"
+        type: "user"
+        concerns: ["DD quality signal extraction", "Speed of risk assessment", "Evidence of diligence thoroughness"]
+
+    buying_journey:
+      awareness: "Rising claim rates (28% of deals face claims, doubling of undisclosed liability claims since 2022); pressure to differentiate through better risk assessment"
+      research: "Limited — underwriting tools are typically built in-house or procured through insurance technology channels"
+      evaluation: "12+ month regulatory review process for any new tool in underwriting workflow"
+      purchase: "Enterprise procurement through insurance carrier technology budget"
+      adoption: "Slow adoption due to regulatory requirements for model risk review in insurance; 12+ months typical"
+
+    evidence:
+      - claim: "75% of PE deals use RWI; 28 underwriters in US market"
+        source: "Woodruff Sawyer"
+        date: "2025"
+      - claim: "28% of deals face indemnification claims; undisclosed liability claims doubled since 2022"
+        source: "SRS Acquiom"
+        date: "2024"
+      - claim: "45% of total RWI loss paid from individual claims exceeding $20M"
+        source: "Euclid Transactional"
+        date: "2025"
+      - claim: "RWI premiums 2.5-3.5% of limit; retention ~1% of enterprise value"
+        source: "Woodruff Sawyer"
+        date: "2025"
+
+primary_segment: "S1"
+rationale: >
+  Buy-side PE deal teams (S1) selected as primary segment because:
+  (a) Largest population of active job executors (~150,000+ underserved professionals)
+  (b) Strongest evidence of current pain (66%+ of deal time on Q&A, 28% post-close claim rate, manual Excel coordination despite VDR adoption)
+  (c) Most direct alignment with cross-document synthesis job (J2) and cross-workstream integration job (J3) — the defining unsolved gap in the competitive landscape
+  (d) Deal-driven purchase urgency — 30-90 day windows create immediate need rather than discretionary evaluation
+  (e) Land-and-expand pattern enables pilot-to-firm-wide growth within 6-12 months
+  S4 (portfolio monitoring) identified as strong secondary segment with different buying cycle (continuous vs deal-driven) and quantified ROI ($100K-$170K annual savings).

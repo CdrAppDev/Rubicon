@@ -1,0 +1,134 @@
+tam:
+  population: "~200,000-250,000 active deal professionals annually"
+  frequency: "3-8 deals per professional per year (varying by role and deal size)"
+  unit_of_analysis: "job_executors"
+  methodology_note: >
+    No direct census of active M&A deal professionals exists. This estimate is derived from
+    transaction counts (PwC, 2026) multiplied by observed team sizes (PEI, 2025; Devensoft, 2025),
+    with a deduplication adjustment for professionals working multiple deals concurrently.
+    The range (200K-250K) reflects uncertainty in the overlap factor. The deal count inputs
+    (47,000-50,000 transactions) and team size inputs (5-15 professionals) are sourced from
+    third-party data; the deduplication adjustment is an analytical inference.
+  description: >
+    Total population of professionals executing M&A due diligence jobs (J1-J6) globally.
+    Includes PE associates, IB analysts, Big Law attorneys, Big 4 consultants, corporate
+    development professionals, and operating partners engaged in deal-based DD or portfolio
+    monitoring. Sized by job executor count, not industry revenue.
+  calculation: >
+    47,000-50,000 M&A transactions annually (PwC, 2026) x 5-15 professionals per deal team
+    = 235,000-750,000 deal team positions annually. Adjusted for overlap (same professionals
+    working multiple deals): ~200,000-250,000 unique active deal professionals at any given time.
+    Additionally, ~10,000 operating partners executing portfolio monitoring (J4) across
+    25,000-35,000 portfolio companies.
+  evidence:
+    - claim: "Global deal values increased 36% in 2025 driven by ~600 transactions above $1B, while ~47,000 smaller transactions were flat year-over-year"
+      source: "PwC"
+      date: "2026"
+    - claim: "Global M&A value reached $3.0T in 2025, +31% YoY, slightly above 10-year average of ~$2.9T"
+      source: "BCG"
+      date: "2025"
+    - claim: "2,236 M&A deals publicly disclosed in financial services alone in 2025"
+      source: "EY"
+      date: "2025"
+    - claim: "Q4 2024: 9,765 deals announced, highest since Q1 2023"
+      source: "S&P Global"
+      date: "2025"
+    - claim: "Deal teams typically comprise 3-5 core professionals, with larger teams extending to 7+ members; mid-market teams 5-15 internal + external advisors"
+      source: "PEI / Private Equity Info"
+      date: "2025"
+    - claim: "Across 3,244 PE firms, median number of active dealmakers per firm increased from 4 in 2018 to approaching 6 currently"
+      source: "PEI 300"
+      date: "2025"
+    - claim: "~2,500-3,000 operating PE funds globally, average 4 operating partners per fund = ~10,000 operating partners managing 25,000-35,000 portfolio companies"
+      source: "PitchBook/Preqin"
+      date: "2025"
+
+sam:
+  population: "~150,000-180,000 underserved deal professionals"
+  rationale: >
+    From TAM, the subset whose current solutions fail to reach JTBD done states for
+    cross-document synthesis (J2), cross-workstream integration (J3), portfolio monitoring (J4),
+    sell-side preparation (J5), and Q&A coordination (J6). VDRs complete J1 partially but fail
+    J2 and J3 entirely. Excel/email fails J4 and J6. No platform completes J3.
+  evidence:
+    - claim: "No VDR provides cross-document synthesis or analytical capability across workstreams"
+      source: "V7 Labs"
+      date: "2025"
+    - claim: "73% of GPs struggle with portfolio data management despite existing tools"
+      source: "WEF"
+      date: "2025"
+    - claim: "Excel diligence tracker persists despite VDR Q&A modules for 6 documented reasons"
+      source: "Ansarada / Imprima"
+      date: "2025"
+    - claim: "28% of deals face post-close indemnification claims, indicating incomplete DD coverage"
+      source: "SRS Acquiom"
+      date: "2024"
+    - claim: "Legal AI hallucination rates 17-34% prevent full automation of review jobs"
+      source: "Stanford RegLab"
+      date: "2025"
+    - claim: "Traditional DD examines only 5-10% of contract population"
+      source: "Sirion.ai"
+      date: "2026"
+
+som:
+  population: "~15,000-25,000 reachable deal professionals"
+  rationale: >
+    From SAM of 150,000-180,000, three sequential filters narrow to the reachable subset:
+    (1) Geographic filter — North America represents ~40-50% of SAM (US accounts for <25% of deal
+    volumes but >50% of deal value per PwC, 2026), yielding 60,000-90,000 professionals.
+    (2) Deal size filter — mid-market ($50M-$1B) transactions represent ~40-50% of North American
+    subset, yielding 24,000-45,000 professionals. Mid-market is the highest-density segment for
+    cross-workstream synthesis needs.
+    (3) Reachability filter — accounting for 14-36 week sales cycles per firm (Alexander Jarvis, 2025),
+    land-and-expand adoption timelines (WEF, 2025), and SOC 2 timing constraints (EasyAudit.ai, 2025),
+    ~50-60% of filtered population is reachable within 18 months, yielding 15,000-25,000 professionals.
+    Channels: industry conferences (SuperReturn, PEI Operating Partners Forum, ILTACON),
+    M&A advisor referral networks, pilot-to-rollout land-and-expand pattern.
+  evidence:
+    - claim: "US accounted for just under 25% of global deal volumes but >50% of global deal value"
+      source: "PwC"
+      date: "2026"
+    - claim: "Sales cycles for deal technology range 14-36 weeks, compressible to 4-8 weeks with prior pilot"
+      source: "Alexander Jarvis"
+      date: "2025"
+    - claim: "Land-and-expand pattern: 4-6 week pilot, 3-6 month rollout, 6-12 month firm-wide deployment"
+      source: "WEF"
+      date: "2025"
+    - claim: "80% of PE workflows rely heavily on technology; 95% planning to multiply AI investments in next 18 months"
+      source: "WEF"
+      date: "2025"
+    - claim: "SOC 2 Type II takes 5.5-17.5 months, creating timing constraint for new entrants; pre-approved vendor lists provide workaround"
+      source: "EasyAudit.ai"
+      date: "2025"
+
+market_dynamics:
+  growth_trend: "growing"
+  evidence:
+    - claim: "Global M&A value surged 36% in 2025 to ~$5.7T"
+      source: "PwC"
+      date: "2026"
+    - claim: "PE dry powder $2.184T as of March 2026, creating deployment pressure"
+      source: "PitchBook"
+      date: "2026"
+    - claim: "VDR market $2.8B in 2024, projected $13.2B by 2032 (CAGR 21.4%)"
+      source: "Fortune Business Insights"
+      date: "2025"
+    - claim: "Legal AI funding surged to $2.4B in 2025"
+      source: "LawNext"
+      date: "2025"
+    - claim: "M&A projected to grow 3-9% in 2026 depending on macroeconomic scenario"
+      source: "BCG/Bain"
+      date: "2025"
+  entry_barriers:
+    - barrier: "SOC 2 Type II certification"
+      severity: "high"
+      evidence: "Takes 5.5-17.5 months, costs $50K-$200K; quasi-mandatory for enterprise deal tech (EasyAudit.ai, 2025)"
+    - barrier: "Incumbent VDR relationships"
+      severity: "medium"
+      evidence: "Investment banks recommend preferred VDR vendors; pre-approved vendor lists create switching costs (WEF, 2025)"
+    - barrier: "Deal-timeline adoption mismatch"
+      severity: "medium"
+      evidence: "Deals close in 30-90 days; full sales cycle 14-36 weeks; must be pre-positioned before active deals (Alexander Jarvis, 2025)"
+    - barrier: "AI hallucination risk perception"
+      severity: "medium"
+      evidence: "17-34% hallucination rates in leading legal AI tools create trust barrier for mission-critical DD work (Stanford RegLab, 2025)"
